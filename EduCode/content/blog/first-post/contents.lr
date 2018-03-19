@@ -1,9 +1,13 @@
-title: Hello Website
+title: Un premier message
 ---
-pub_date: 2018-02-10
+pub_date: 2018-03-19
 ---
 author: Nicolas Pettiaux
 ---
 body:
 
-This is an example blog post.  Not much here but that's not the point :)
+Bonjour et bienvenue sur educode.be Nous posterons ici toutes les informations sur la conférence que nous relayerons sur twitter et sur facebook à l'adresse https://facebook.com/educode.be que nous vous invitons à aimer et à partager largement aussi.
+
+Au plaisir de vous rencontrer
+---
+twitter_handle: @npettiaux
