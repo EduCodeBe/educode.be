@@ -2,8 +2,6 @@ title: Bienvenue sur EduCode
 ---
 body:
 
-Une conférence internationale pour informer, former et susciter l'intérêt de tous les acteurs de l'enseignement aux défis du numérique.
-
 Les  27, 28 et 29 août 2018 à Bruxelles
 
 EduCode est la première édition d’un colloque annuel international dédié à l’éducation, aux pratiques et à la recherche dans les domaines liés au numérique. Il est le résultat d’une collaboration entre différents acteurs-clé du numérique en Belgique.
@@ -18,7 +16,14 @@ Ceci passe par une éducation spécifique, des entraînements, une ouverture au 
 
 Le colloque Educode.be se déroulera du 27 au 29 août 2018 sur différents sites localisés à Bruxelles.
 
-* Lundi 27 août 2018 à Bozar, rue Ravenstein, les enseignants, directions et le grand public  pourront suivre des conférences, une table-ronde, des ateliers de réflexion et des posters durant les pauses pour appréhender ce nouveau monde, ses défis et ses opportunités. Les conférences sont ouvertes au grand public. La journée se termine par un concert symphonique avec des choeurs.
-* Mardi 28 août à l’ESI, École supérieure d’informatique et à l’ISIB, École supérieure d’ingénieurs de Bruxelles, rue Royale 67 et 150 à coté de la colonne du Congrès, les enseignants seront invités à 60 à 100 ateliers pratiques durant lesquels ils seront les apprenants, de manière à retrouver leurs alter-egos, développer avec eux des contenus et des expériences pour pouvoir réutiliser en classe ce qu'ils ont appris. Ces ateliers d’échanges pratiques concerneront des sujets très variés autour de l’éducation et de l’usage du numérique et de la pensée informatique.
-* Mercredi 28 août à l'Académie royale, rue Ducale, ceux qui réfléchissent aux usages et cherchent à les généraliser autant que les particulariser, les chercheurs en éducation sur les usages du numérique, se retrouveront dans une conférence pour des échanges d'expériences et des présentations de recherches.
 
+---
+monday: Lundi 27 août 2018 à Bozar, rue Ravenstein, les enseignants, directions et le grand public  pourront suivre des conférences, une table-ronde, des ateliers de réflexion et des posters durant les pauses pour appréhender ce nouveau monde, ses défis et ses opportunités. Les conférences sont ouvertes au grand public. La journée se termine par un concert symphonique avec des choeurs.
+---
+baseline: Une conférence internationale pour informer, former et susciter l'intérêt de tous les acteurs de l'enseignement aux défis du numérique.
+---
+thuesday: Mardi 28 août à l’ESI, École supérieure d’informatique et à l’ISIB, École supérieure d’ingénieurs de Bruxelles, rue Royale 67 et 150 à coté de la colonne du Congrès, les enseignants seront invités à 60 à 100 ateliers pratiques durant lesquels ils seront les apprenants, de manière à retrouver leurs alter-egos, développer avec eux des contenus et des expériences pour pouvoir réutiliser en classe ce qu'ils ont appris. Ces ateliers d’échanges pratiques concerneront des sujets très variés autour de l’éducation et de l’usage du numérique et de la pensée informatique.
+---
+wednesday: Mercredi 29 août à l'Académie royale, rue Ducale, ceux qui réfléchissent aux usages et cherchent à les généraliser autant que les particulariser, les chercheurs en éducation sur les usages du numérique, se retrouveront dans une conférence pour des échanges d'expériences et des présentations de recherches.
+---
+_template: page.html

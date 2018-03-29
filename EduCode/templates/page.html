@@ -1,6 +1,77 @@
 {% extends "layout.html" %}
-{% block title %}{{ this.title }}{% endblock %}
-{% block body %}
-  <h2>{{ this.title }}</h2>
-  {{ this.body }}
+
+{% block carousel %}
+<div class="overlay">
+    <div class="darker-background baseline">
+        <h1 class="animated zoomIn">{{ this.title }}</h1>
+        <p class="animated fadeInDown">{{ this.baseline }}</p>
+    </div>
+</div>
 {% endblock %}
+
+{% block content %}
+    <div id="landing-page-content" class="container-fluid description">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="title">< À propos d'EduCode /></h4>
+                    <div class="about">
+                        {{ this.body }}
+                    </div>
+                </div>
+                <div class="col-12">
+                    <hr>
+                </div>
+                <div class="col-12">
+                    <h4 class="title title-left"><i class="fa fa-calendar-o" aria-hidden="true"></i> Aperçu du programme</h4>
+                </div>
+
+
+                <div class="col-12 col-sm-4 wow fadeInDown">
+                    <h3 class="text-center">Lundi <span style="color: #e0a800; font-weight: 600;font-size: 1.3em;">27</span></h3>
+                    {{ this.monday }}
+                    <div class="text-center">
+                        <a href="{{ '/lundi-27-aout' | url }}" class="btn btn-warning">Plus d'infos</a>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-sm-4 wow fadeInDown">
+                    <h3 class="text-center">Mardi <span style="color: #e0a800; font-weight: 600;font-size: 1.3em;">28</span></h3>
+                    {{ this.thuesday }}
+                    <div class="text-center">
+                        <a href="{{ '/mardi-28-aout' | url }}" class="btn btn-warning">Plus d'infos</a>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-sm-4 wow fadeInDown">
+                    <h3 class="text-center">Mercredi <span style="color: #e0a800; font-weight: 600;font-size: 1.3em;">29</span></h3>
+                    {{ this.wednesday }}
+                    <div class="text-center">
+                        <a href="{{ '/mercredi-29-aout' | url }}" class="btn btn-warning">Plus d'infos</a>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <hr>
+                </div>
+            
+                <div class="col-12">
+                    <h4 class="title text-center"><i class="fa fa-users" aria-hidden="true"></i> Intervenants</h4>
+                </div>
+
+                {% set speakers = site.query('/intervenants').include_hidden(false).all() %}
+                {% if speakers %}
+                  <ul>
+                  {% for speaker in speakers %}
+                    <li>{{ speaker.title }}</li>
+                  {% endfor %}
+                  </ul>
+                {% endif %}
+
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+

@@ -1,8 +1,8 @@
-_model: page
+_model: details-program
 ---
-title: Mardi 28 - former
+name: Mardi 28 août
 ---
-body:
+description:
 
 #Se former 
 
@@ -11,6 +11,5 @@ Le mardi  28 août sera consacré à l’organisation d’ateliers pratiques, de
 Les participants  seront invités à 60 ateliers pratiques durant lesquels ils seront les apprenants, de manière à retrouver leurs alter-egos, développer avec eux des contenus et des expériences pour pouvoir réutiliser en classe ce qu'ils ont appris. 
 
 Tout le matériel pédagogique fourni sera librement et immédiatement réutilisable, adaptable et redistribuable. Pour proposer des ateliers, il faut aller sur https://educode2018.sciencesconf.org/
-
-
-
+---
+date: Mardi 28 août

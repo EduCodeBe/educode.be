@@ -1,8 +1,8 @@
-_model: page
+_model: details-program
 ---
-title: Mercredi 29 - réfléchir
+name: Mercredi 29 août
 ---
-body:
+description:
 
 #Réfléchir
 
@@ -25,4 +25,5 @@ Les propositions seront au format « articles » (en français ou en anglais. Le
 Les contributions, sous la forme d’un article court (jusqu’à 5 pages), respecteront le format disponible.
 
 Elles doivent être anonymisées et seront révisées par au moins trois membres du comité scientifique. Lors de la journée du 29 août, les articles seront présentés en 30 minutes. Les actes du colloque seront publiés librement.
-
+---
+date: Mercredi 29 août

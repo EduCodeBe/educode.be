@@ -1,29 +1,71 @@
 <!doctype html>
-<meta charset="utf-8">
-<link rel="stylesheet" href="{{ '/static/style.css'|url }}">
-<title>{% block title %}Welcome{% endblock %} — EduCode</title>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="{{ '/static/style.css' | url }}">
+    <link rel="stylesheet" href="{{ '/plugins/bootstrap/bootstrap.min.css' | url }}">
+    <link rel="icon" type="image/png" href="{{ '/imgs/logo.png' | url }}" />
+    <link rel="stylesheet" href="{{ '/plugins/font-awesome-4.7.0/css/font-awesome.min.css' | url }}">
+
+    <title>{% block title %}Welcome{% endblock %} — EduCode</title>
+</head>
 <body>
-  <header>
-    <h1>EduCode</h1>
-    <nav>
-      <ul class="nav navbar-nav">
-        <li{% if this._path == '/' %} class="active"{% endif
-          %}><a href="{{ '/'|url }}">Welcome</a></li>
-        {% for href, title in [
-          ['/blog', 'Blog'],
-          ['/projects', 'Projects'],
-          ['/about', 'About']
-        ] %}
-          <li{% if this.is_child_of(href) %} class="active"{% endif
-            %}><a href="{{ href|url }}">{{ title }}</a></li>
-        {% endfor %}
-      </ul>
-    </nav>
-  </header>
-  <div class="page">
-    {% block body %}{% endblock %}
-  </div>
-  <footer>
-    &copy; Copyright 2018 by Nicolas Pettiaux.
-  </footer>
+
+<div class="container-fluid">
+    <div class="row d-flex d-md-block flex-nowrap wrapper">
+        <div id="sidebar" class="col-md-2 float-left col-1 pl-0 pr-0 collapse width show" >
+
+            <div class="text-center brand">
+                <img src="{{ '/imgs/logo.svg' | url }}" alt="">
+            </div>
+
+            <div class="list-group border-0 card text-center">
+
+                <a href="#program"
+                   class="list-group-item d-inline-block collapsed"
+                   data-toggle="collapse"
+                   aria-expanded="false">Programme</a>
+                <div class="collapse" id="program">
+                    <a href="#" class="list-group-item">Overview</a>
+                    <a href="#" class="list-group-item">Dimanche 26</a>
+                    <a href="#" class="list-group-item">Lundi 27</a>
+                    <a href="#" class="list-group-item">Mardi 28</a>
+                    <a href="#" class="list-group-item">Mercredi 29</a>
+                </div>
+
+                <a href="#" class="list-group-item d-inline-block collapsed">Intervenants</a>
+                <a href="#" class="list-group-item d-inline-block collapsed">Expo</a>
+                <a href="#" class="list-group-item d-inline-block collapsed">Partenaires</a>
+                <a href="#" class="list-group-item d-inline-block collapsed">Inscription</a>
+                <a href="#" class="list-group-item d-inline-block collapsed">Infos pratiques</a>
+                <a href="#" class="list-group-item d-inline-block collapsed">Presse</a>
+                <a href="#" class="list-group-item d-inline-block collapsed">Contact</a>
+                <div style="color: black;">
+                    <a style="color: black" href="#">FR</a> |
+                    <a style="color: black" href="#">NL</a> |
+                    <a style="color: black" href="#">EN</a>
+                </div>
+            </div>
+        </div>
+        <main class="col-md-10 float-left col p-0 main">
+
+            <a id="menu-icon" href="#" data-target="#sidebar" data-toggle="collapse"><i class="fa fa-navicon d-md-none"></i></a>
+
+            {% block carousel %}{% endblock %}
+
+            {% block content %}{% endblock %}
+
+            <footer class="height-300">
+                &copy; Copyright 2018 by Nicolas Pettiaux.
+            </footer>
+        </main>
+    </div>
+</div>
+<script src="{{ '/plugins/jquery.min.js' | url }}"></script>
+<script src="{{ '/plugins/bootstrap/bootstrap.min.js' | url }}"></script>
 </body>
+</html>
+

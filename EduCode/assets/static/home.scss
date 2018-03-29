@@ -1,0 +1,69 @@
+@import "helpers";
+
+.main {
+  height: 100vh;
+  overflow-y: scroll;
+  font-family:"Unica One", "Roboto Slab", serif;
+  .overlay {
+    text-align: center;
+    font-size:1.7rem;
+    overflow: hidden;
+
+    .darker-background {
+      width: 100%;
+      height: 100%;
+      background-color: $blue;
+    }
+
+    .baseline {
+      margin-top: 250px;
+      padding: 50px 30px;
+      color: $yellow;
+
+      h1 {
+        color: white;
+        font-size: 3rem;
+      }
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .description {
+    background-color: #fff;
+
+    .title {
+      margin-top: 15px;
+      font-size: 3rem;
+      color: $blue;
+      border-right: solid $yellow 15px;
+      text-align: right;
+      padding: 10px;
+    }
+
+    .title-left {
+      text-align: left;
+      border-left: solid $yellow 15px;
+      border-right: none;
+    }
+
+    .about {
+      font-family: Lato, "Roboto Slab", Serif, serif;
+    }
+  }
+
+}
+
+#landing-page-content {
+  font-family: Lato, "Roboto Slab", Roboto, serif;
+}
+
+.title {
+  font-family:"Unica One", "Roboto Slab", serif;
+  &.text-center {
+    border-right: solid $yellow 15px;
+    border-left: solid $yellow 15px;
+  }
+}

@@ -1,12 +1,10 @@
-_model: page
+_model: details-program
 ---
-title: Lundi 27 - informer
+name: Lundi 27 août
 ---
-_discoverable: yes
----
-body:
+description:
 
-#Informer 
+# Informer 
 
 Le 27 août sera consacré à l’organisation d’expositions, de tables-rondes et de conférences ouvertes au grand public. 
 
@@ -18,7 +16,7 @@ Les pauses-cafés et la pause repas sont assez longues pour que le public puisse
 
 Les conférences, comme la table-ronde seront dans la langue de l'orateur, et des interprétations simultanées en anglais et néerlandais seront fournies si le le public compte assez de non francophones et que les budgets sont disponibles.
 
-##Orateurs
+## Orateurs
    1. **François Élie**, professeur de philosophie, adjoint au maire d'Angoulême, président de Adullact 
    1. **Mathieu Hirtzig**  coordinateur de l'initiative *123codez* de _La main à la pâte_ 
    1. **Marie Duflot-Kremer , **[maître de conférences en informatique à l'Université de Lorraine](https://members.loria.fr/MDuflot/), collaboratrice à Class'Code
@@ -33,7 +31,7 @@ Les conférences, comme la table-ronde seront dans la langue de l'orateur, et de
 - C conférence 
 - TR table ronde 
 
-##Programme
+## Programme
 - 8h00 Petit déjeuner et réception 
 - 9h00 Accueil par les autorités - début 
 - 9h15 Présentation du programme - 
@@ -58,3 +56,5 @@ Les conférences, comme la table-ronde seront dans la langue de l'orateur, et de
 - 18h00 pause repas
 - **20h00 Concert** pour la paix (orchestre symphonique de la H2EB et choeurs, directions Laurent Beeckmans et Romain Verberen)
 
+---
+date: Lundi 27 août
