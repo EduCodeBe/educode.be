@@ -1,11 +1,11 @@
 {% extends "layout.html" %}
 
-{% block carousel %}
-<div class="overlay">
-    <div class="darker-background baseline">
-        <h1 class="animated zoomIn">{{ this.title }}</h1>
-        <p class="animated fadeInDown">{{ this.baseline }}</p>
-    </div>
+{% block baseline %}
+<div class="container overlay">
+    <img src="{{ '/imgs/educode-logo-transparent.png' | url }}" alt="">
+    <h1 class="animated zoomIn color-dark">{{ this.title }}</h1>
+    <p class="animated fadeInDown baseline color-darker-yellow"><strong>{{ this.baseline }}</strong></p>
+    <hr>
 </div>
 {% endblock %}
 
@@ -16,18 +16,18 @@
                 <div class="col-12">
                     <h4 class="title">< À propos d'EduCode /></h4>
                     <div class="about">
-                        {{ this.body }}
+                        {{ this.about }}
                     </div>
                 </div>
                 <div class="col-12">
                     <hr>
                 </div>
-                <div class="col-12">
+                <div id="anchor-overview" class="col-12">
                     <h4 class="title title-left"><i class="fa fa-calendar-o" aria-hidden="true"></i> Aperçu du programme</h4>
                 </div>
 
 
-                <div class="col-12 col-sm-4 wow fadeInDown">
+                <div class="col-12 col-sm-4" data-aos="fade-down-right" data-aos-delay="100">
                     <h3 class="text-center">Lundi <span style="color: #e0a800; font-weight: 600;font-size: 1.3em;">27</span></h3>
                     {{ this.monday }}
                     <div class="text-center">
@@ -36,7 +36,7 @@
                 </div>
 
 
-                <div class="col-12 col-sm-4 wow fadeInDown">
+                <div class="col-12 col-sm-4" data-aos="fade-down" data-aos-delay="400">
                     <h3 class="text-center">Mardi <span style="color: #e0a800; font-weight: 600;font-size: 1.3em;">28</span></h3>
                     {{ this.thuesday }}
                     <div class="text-center">
@@ -45,7 +45,7 @@
                 </div>
 
 
-                <div class="col-12 col-sm-4 wow fadeInDown">
+                <div class="col-12 col-sm-4" data-aos="fade-down-left" data-aos-delay="200">
                     <h3 class="text-center">Mercredi <span style="color: #e0a800; font-weight: 600;font-size: 1.3em;">29</span></h3>
                     {{ this.wednesday }}
                     <div class="text-center">
@@ -55,23 +55,127 @@
                 <div class="col-12">
                     <hr>
                 </div>
-            
-                <div class="col-12">
-                    <h4 class="title text-center"><i class="fa fa-users" aria-hidden="true"></i> Intervenants</h4>
+
+                <div id="anchor-speakers" class="col-12">
+                    <h4 class="title text-center">{ <i class="fa fa-users" aria-hidden="true"></i>  Intervenants  }</h4>
                 </div>
 
+                <!-- On récupère tous les intervenants -->
                 {% set speakers = site.query('/intervenants').include_hidden(false).all() %}
                 {% if speakers %}
-                  <ul>
                   {% for speaker in speakers %}
-                    <li>{{ speaker.title }}</li>
+                    <div class="col-6 col-sm-4 col-md-3 speaker" data-aos="fade-down-right" data-aos-delay="300">
+                        {% set pictures = speaker.attachments %}
+                        {% if pictures %}
+                            {% set profile_picture = pictures | first %}
+                            <div class="speaker-picture">
+                                <a href="{{ speaker.url_path }}">
+                                    <img src="{{ profile_picture | url }}" alt="">
+                                </a>
+                            </div>
+                        {% else %}
+                            <div class="speaker-picture">
+                                <a href="{{ speaker.url_path }}">
+                                    <img src="{{ '/imgs/user.png' }}" alt="">
+                                </a>
+                            </div>
+                        {% endif %}
+                        <h4 class="speaker-name text-center">
+                            <a href="{{ speaker.url_path }}">
+                                {{ speaker.title }}
+                            </a>
+                        </h4>
+                    </div>
                   {% endfor %}
-                  </ul>
                 {% endif %}
+            </div>
+        </div>
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div id="anchor-expo" class="col-12 background-color-yellow">
+                    <h4 class="title text-center"> ___ Expositions ___ </h4>
+                    <p>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto atque beatae culpa,
+                            cum eum expedita hic in modi necessitatibus optio quo quos! Consequuntur eligendi iusto
+                            quidem rem, sequi ullam velit.</span><span>A, aperiam blanditiis commodi, cupiditate ea
+                        eius explicabo fugit illum ipsam ipsum iste magni molestiae nihil pariatur perferendis quia
+                        quidem rem repellendus temporibus voluptatum? Consequuntur ducimus et molestias nostrum quid
+                        em?</span><span>Aspernatur at, corporis delectus dicta et excepturi, perferendis porro quisquam repell
+                        endus soluta temporibus totam ullam veniam vero voluptatum! A beatae consequuntur eos expedita
+                        laboriosam non odit placeat porro, quidem recusandae.</span><span>Corporis deserunt, dicta dolo
+                        remque ea nihil repudiandae tempore. Amet aspernatur beatae blanditiis, dolorum fugiat illo ipsa
+                        libero maiores nemo neque, nostrum perferendis possimus quaerat reprehenderit repudiandae tempora
+                        tenetur totam vero!</span><span>Asperiores autem debitis eaque eum ex facere, id impedit itaque of
+                        ficia, quae quia sequi sint suscipit ut voluptate! Amet cumque deleniti dolores dolorum non, offici
+                        a porro praesentium sunt totam voluptatem!</span><span>Architecto aspernatur at beatae commodi co
+                        nsectetur cum dolorem ea eligendi ex incidunt iure laborum magni minima molestiae odit quae, quas
+                        quasi qui, quia quos repudiandae similique temporibus totam voluptate voluptates!</span><span>Assum
+                        enda autem, cum est fugit ipsam maxime rem voluptas! Accusamus architecto commodi earum eum id mag
+                        ni maxime omnis pariatur quis quos ratione similique sunt tempore, tenetur veniam. Assumenda, magna
+                        m, similique.</span><span>Ab accusantium ad deserunt distinctio doloremque explicabo inventore is
+                        te, itaque laborum libero minima necessitatibus nobis numquam obcaecati odit officia optio possim
+                        us quae quasi quibusdam quis sint tempore unde voluptates voluptatum?</span><span>Aliquid aut, do
 
+                        lores iure magni minima qui velit. Asperiores, eaque in nisi provident qui veniam! Adipisci aut n
+                        am nulla omnis placeat praesentium qui tenetur veritatis vero? Accusantium dolore dolorem e
+                        x!</span><span>Accusantium ad aliquid architecto assumenda at, blanditiis consectetur culpa dolorem
+                        doloremque eligendi illum ipsa ipsam laborum laudantium molestias nisi nobis nulla officia, omni
+                        s repellendus sit soluta tempora ullam vel, veniam.</span>
+                    </p>
+                </div>
+
+                <div id="anchor-partners" class="col-12">
+                    <h4 class="title text-center">{ <i class="fa fa-users" aria-hidden="true"></i>  Partenaires  }</h4>
+                </div>
+
+                <div id="anchor-inscription" class="col-12">
+                    <h4 class="title text-center">{ <i class="fa fa-users" aria-hidden="true"></i>  Inscription  }</h4>
+                </div>
+
+                <div id="anchor-practical-infos" class="col-12">
+                    <h4 class="title text-center">{ <i class="fa fa-users" aria-hidden="true"></i>  Infos pratiques  }</h4>
+                </div>
+
+                <div id="anchor-press" class="col-12">
+                    <h4 class="title text-center">{ <i class="fa fa-users" aria-hidden="true"></i>  Presse  }</h4>
+                </div>
+
+                <div id="anchor-contact" class="col-12">
+                    <h4 class="title title-left"><i class="fa fa-users" aria-hidden="true"></i>  Contact {</h4>
+                    <div id="contacts">
+                        <div class="container">
+                            <div class="row">
+                                <!-- On récupère tous les contacts -->
+                                {% set contacts = site.query('/contacts').include_hidden(false).all() %}
+                                {% if contacts %}
+                                  {% for contact in contacts %}
+                                    <div class="col-12 col-sm-4 contact" data-aos="fade-up">
+                                        <h4 class="speaker-name text-center"><strong>{{ contact.name }}</strong></h4>
+                                        <p class="color-dark">{{ contact.role }}</p>
+                                        <ul>
+                                            <li><i class="fa fa-phone"></i> {{ contact.tel }}</li>
+                                            <li><i class="fa fa-envelope"></i> {{ contact.mail }}</li>
+                                        </ul>
+                                    </div>
+                                  {% endfor %}
+                                {% endif %}
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="title title-left">}</h4>
+                </div>
             </div>
         </div>
     </div>
 {% endblock %}
 
+
+
+{% block javascript %}
+    <script>
+        AOS.init();
+    </script>
+{% endblock %}
 

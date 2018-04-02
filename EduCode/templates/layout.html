@@ -7,8 +7,10 @@
 
     <link rel="stylesheet" href="{{ '/static/style.css' | url }}">
     <link rel="stylesheet" href="{{ '/plugins/bootstrap/bootstrap.min.css' | url }}">
-    <link rel="icon" type="image/png" href="{{ '/imgs/logo.png' | url }}" />
     <link rel="stylesheet" href="{{ '/plugins/font-awesome-4.7.0/css/font-awesome.min.css' | url }}">
+    <link rel="stylesheet" href="{{ '/plugins/aos/dist/aos.css' | url }}">
+
+    <link rel="icon" type="image/png" href="{{ '/imgs/educode-logo-transparent-cropped.png' | url }}" />
 
     <title>{% block title %}Welcome{% endblock %} — EduCode</title>
 </head>
@@ -16,56 +18,84 @@
 
 <div class="container-fluid">
     <div class="row d-flex d-md-block flex-nowrap wrapper">
-        <div id="sidebar" class="col-md-2 float-left col-1 pl-0 pr-0 collapse width show" >
-
-            <div class="text-center brand">
-                <img src="{{ '/imgs/logo.svg' | url }}" alt="">
-            </div>
-
-            <div class="list-group border-0 card text-center">
-
-                <a href="#program"
-                   class="list-group-item d-inline-block collapsed"
-                   data-toggle="collapse"
-                   aria-expanded="false">Programme</a>
-                <div class="collapse" id="program">
-                    <a href="#" class="list-group-item">Overview</a>
-                    <a href="#" class="list-group-item">Dimanche 26</a>
-                    <a href="#" class="list-group-item">Lundi 27</a>
-                    <a href="#" class="list-group-item">Mardi 28</a>
-                    <a href="#" class="list-group-item">Mercredi 29</a>
+        <div id="sidebar" class="col-md-2 float-left col-1 pl-0 pr-0 collapse width show">
+            <div class="position-fixed col-md-2">
+                <div class="text-center brand">
+                    <img src="{{ '/imgs/educode-logo-transparent.png' | url }}" alt="">
                 </div>
 
-                <a href="#" class="list-group-item d-inline-block collapsed">Intervenants</a>
-                <a href="#" class="list-group-item d-inline-block collapsed">Expo</a>
-                <a href="#" class="list-group-item d-inline-block collapsed">Partenaires</a>
-                <a href="#" class="list-group-item d-inline-block collapsed">Inscription</a>
-                <a href="#" class="list-group-item d-inline-block collapsed">Infos pratiques</a>
-                <a href="#" class="list-group-item d-inline-block collapsed">Presse</a>
-                <a href="#" class="list-group-item d-inline-block collapsed">Contact</a>
-                <div style="color: black;">
-                    <a style="color: black" href="#">FR</a> |
-                    <a style="color: black" href="#">NL</a> |
-                    <a style="color: black" href="#">EN</a>
+                <div class="list-group border-0 card text-center ">
+                    <a href="#program"
+                       class="list-group-item d-inline-block collapsed"
+                       data-toggle="collapse"
+                       aria-expanded="false">Programme</a>
+                    <div class="collapse" id="program">
+                        <a href="#anchor-overview" class="list-group-item">Overview</a>
+                        <a href="{{ '/dimanche-26-aout' | url }}" class="list-group-item">Dimanche 26</a>
+                        <a href="{{ '/lundi-27-aout' | url }}"    class="list-group-item">Lundi 27</a>
+                        <a href="{{ '/mardi-28-aout' | url }}"    class="list-group-item">Mardi 28</a>
+                        <a href="{{ '/mercredi-29-aout' | url }}" class="list-group-item">Mercredi 29</a>
+                    </div>
+                    <a href="#anchor-speakers" class="list-group-item d-inline-block collapsed">Intervenants</a>
+                    <a href="#anchor-expo" class="list-group-item d-inline-block collapsed">Expo</a>
+                    <a href="#anchor-partners" class="list-group-item d-inline-block collapsed">Partenaires</a>
+                    <a href="#anchor-inscription" class="list-group-item d-inline-block collapsed">Inscription</a>
+                    <a href="#anchor-practical-infos" class="list-group-item d-inline-block collapsed">Infos pratiques</a>
+                    <a href="#anchor-press" class="list-group-item d-inline-block collapsed">Presse</a>
+                    <a href="#anchor-contact" class="list-group-item d-inline-block collapsed">Contact</a>
+                    <hr>
+                    <div style="color: black;">
+                        <a style="color: black" href="#">FR</a> |
+                        <a style="color: black" href="#">NL</a> |
+                        <a style="color: black" href="#">EN</a>
+                    </div>
                 </div>
             </div>
         </div>
         <main class="col-md-10 float-left col p-0 main">
-
             <a id="menu-icon" href="#" data-target="#sidebar" data-toggle="collapse"><i class="fa fa-navicon d-md-none"></i></a>
-
-            {% block carousel %}{% endblock %}
-
+            {% block baseline %}{% endblock %}
             {% block content %}{% endblock %}
-
             <footer class="height-300">
                 &copy; Copyright 2018 by Nicolas Pettiaux.
             </footer>
         </main>
     </div>
 </div>
+
 <script src="{{ '/plugins/jquery.min.js' | url }}"></script>
 <script src="{{ '/plugins/bootstrap/bootstrap.min.js' | url }}"></script>
+<script src="{{ '/plugins/aos/dist/aos.js' | url }}"></script>
+
+<script>
+    $(function (e) {
+        var $root = $('html, body');
+
+        $(document).on('click', 'a[href^="#anchor"]', function () {
+            $root.animate({
+                scrollTop: $( $.attr(this, 'href') ).offset().top
+            }, 500);
+            return false;
+        });
+
+        $(window).on('resize', function (e) {
+            if (getBootstrapBreakpoint() !== 'xs') {
+                $('#sidebar').addClass('show');
+            } else {
+                $('#sidebar').removeClass('show');
+            }
+        });
+
+        var getBootstrapBreakpoint = function(){
+            var w = $(document).innerWidth();
+            return (w < 768) ? 'xs' : ((w < 992) ? 'sm' : ((w < 1200) ? 'md' : 'lg'));
+        }
+    });
+
+</script>
+
+{% block javascript %}{% endblock %}
+
 </body>
 </html>
 

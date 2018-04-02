@@ -218,3 +218,6 @@ TSWLatexianTemp*
 
 # expex forward references with \gathertags
 *-tags.tex
+
+# pycharm's config files (the IDE I use)
+EduCode/.idea/*

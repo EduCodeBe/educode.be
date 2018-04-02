@@ -9,20 +9,36 @@ body {
 }
 
 #sidebar {
-  height: 100vh;
+  min-height: 100vh;
   overflow: hidden;
   z-index: 3;
   font-family: 'Unica One', cursive !important;
 
+  &>.position-fixed {
+    background-color: #ffbd33;
+
+  }
+
+  .list-group-item, .list-group {
+    background-color: #ffbd33;
+    color: $dark !important;
+  }
 
 
   .brand {
-    padding-top: 30px;
+    margin-top: 100px;
     padding-bottom: 30px;
+
+    @include responsive(xs) {
+      margin-top: 20px;
+    }
+
+
     img {
       max-width:80%;
     }
   }
+
   .list-group {
     min-height: 100vh;
 
@@ -72,6 +88,7 @@ body {
       background-color: #cca228;
       color: white;
     }
+
   }
 }
 
