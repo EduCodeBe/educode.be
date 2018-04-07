@@ -2,9 +2,9 @@
 
 {% block baseline %}
 <div class="container overlay">
-    <img src="{{ '/imgs/educode-logo-transparent.png' | url }}" alt="">
-    <h1 class="animated zoomIn color-dark">{{ this.title }}</h1>
-    <p class="animated fadeInDown baseline color-darker-yellow"><strong>{{ this.baseline }}</strong></p>
+    <img data-aos="zoom-in" data-aos-delay="500" src="{{ '/imgs/educode-logo-transparent.png' | url }}" alt="">
+    <h1 data-aos="fade-down" data-aos-delay="100" class="color-dark">{{ this.title }}</h1>
+    <p data-aos="zoom-in" data-aos-delay="300" class="baseline color-darker-yellow"><strong>{{ this.baseline }}</strong></p>
     <hr>
 </div>
 {% endblock %}
@@ -92,38 +92,17 @@
         </div>
         <div class="container-fluid p-0">
             <div class="row">
-                <div id="anchor-expo" class="col-12 background-color-yellow">
+                <div id="anchor-expo" class="col-12">
                     <h4 class="title text-center"> ___ Expositions ___ </h4>
-                    <p>
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto atque beatae culpa,
-                            cum eum expedita hic in modi necessitatibus optio quo quos! Consequuntur eligendi iusto
-                            quidem rem, sequi ullam velit.</span><span>A, aperiam blanditiis commodi, cupiditate ea
-                        eius explicabo fugit illum ipsam ipsum iste magni molestiae nihil pariatur perferendis quia
-                        quidem rem repellendus temporibus voluptatum? Consequuntur ducimus et molestias nostrum quid
-                        em?</span><span>Aspernatur at, corporis delectus dicta et excepturi, perferendis porro quisquam repell
-                        endus soluta temporibus totam ullam veniam vero voluptatum! A beatae consequuntur eos expedita
-                        laboriosam non odit placeat porro, quidem recusandae.</span><span>Corporis deserunt, dicta dolo
-                        remque ea nihil repudiandae tempore. Amet aspernatur beatae blanditiis, dolorum fugiat illo ipsa
-                        libero maiores nemo neque, nostrum perferendis possimus quaerat reprehenderit repudiandae tempora
-                        tenetur totam vero!</span><span>Asperiores autem debitis eaque eum ex facere, id impedit itaque of
-                        ficia, quae quia sequi sint suscipit ut voluptate! Amet cumque deleniti dolores dolorum non, offici
-                        a porro praesentium sunt totam voluptatem!</span><span>Architecto aspernatur at beatae commodi co
-                        nsectetur cum dolorem ea eligendi ex incidunt iure laborum magni minima molestiae odit quae, quas
-                        quasi qui, quia quos repudiandae similique temporibus totam voluptate voluptates!</span><span>Assum
-                        enda autem, cum est fugit ipsam maxime rem voluptas! Accusamus architecto commodi earum eum id mag
-                        ni maxime omnis pariatur quis quos ratione similique sunt tempore, tenetur veniam. Assumenda, magna
-                        m, similique.</span><span>Ab accusantium ad deserunt distinctio doloremque explicabo inventore is
-                        te, itaque laborum libero minima necessitatibus nobis numquam obcaecati odit officia optio possim
-                        us quae quasi quibusdam quis sint tempore unde voluptates voluptatum?</span><span>Aliquid aut, do
-
-                        lores iure magni minima qui velit. Asperiores, eaque in nisi provident qui veniam! Adipisci aut n
-                        am nulla omnis placeat praesentium qui tenetur veritatis vero? Accusantium dolore dolorem e
-                        x!</span><span>Accusantium ad aliquid architecto assumenda at, blanditiis consectetur culpa dolorem
-                        doloremque eligendi illum ipsa ipsam laborum laudantium molestias nisi nobis nulla officia, omni
-                        s repellendus sit soluta tempora ullam vel, veniam.</span>
-                    </p>
+                    <div id="expo-about">
+                        {{ this.expo_about }}
+                    </div>
+                    <a href="#">{{ this.text_button }}</a>
                 </div>
-
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
                 <div id="anchor-partners" class="col-12">
                     <h4 class="title text-center">{ <i class="fa fa-users" aria-hidden="true"></i>  Partenaires  }</h4>
                 </div>
@@ -133,7 +112,13 @@
                 </div>
 
                 <div id="anchor-practical-infos" class="col-12">
-                    <h4 class="title text-center">{ <i class="fa fa-users" aria-hidden="true"></i>  Infos pratiques  }</h4>
+                    <h4 class="title text-center background-color-yellow color-blue border-blue">
+                        /*  Infos pratiques  */
+                    </h4>
+                    <div class="container practical-info-markdown">
+                        {{ this.practical_infos }}
+                    </div>
+
                 </div>
 
                 <div id="anchor-press" class="col-12">

@@ -34,6 +34,18 @@
 .background-color-blue {
   background-color: #233980; }
 
+.border-yellow {
+  border-color: #e1b12c !important; }
+
+.border-darker-yellow {
+  border-color: #b18528 !important; }
+
+.border-dark {
+  border-color: #2d3436 !important; }
+
+.border-blue {
+  border-color: #233980 !important; }
+
 @font-face {
   font-family: 'Unica One';
   src: url("../fonts/UnicaOne-Regular.ttf") format("truetype"); }
@@ -70,11 +82,23 @@
 .background-color-blue {
   background-color: #233980; }
 
+.border-yellow {
+  border-color: #e1b12c !important; }
+
+.border-darker-yellow {
+  border-color: #b18528 !important; }
+
+.border-dark {
+  border-color: #2d3436 !important; }
+
+.border-blue {
+  border-color: #233980 !important; }
+
 .main {
   height: 100vh;
   font-family: "Unica One", "Roboto Slab", serif; }
   .main .overlay {
-    margin-top: 150px;
+    padding-top: 150px;
     text-align: center;
     font-size: 1.7rem; }
     .main .overlay .baseline {
@@ -122,6 +146,10 @@
         text-align: center;
         border-top: solid #b18528 2px; }
 
+#anchor-expo {
+  background-color: #eadbb1;
+  margin-bottom: 50px; }
+
 #landing-page-content {
   font-family: Lato, "Roboto Slab", Roboto, serif; }
 
@@ -159,7 +187,7 @@
         transform: scale(1.2, 1.2); }
 
 body {
-  background: url("../imgs/bg.jpg") repeat-x top left; }
+  background: url("../imgs/bg.jpg") repeat-x top left fixed; }
 
 #sidebar {
   min-height: 100vh;

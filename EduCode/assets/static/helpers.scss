@@ -65,3 +65,10 @@ $darker-yellow: #b18528;
 .background-color-darker-yellow { background-color: $darker-yellow; }
 .background-color-dark   { background-color: $dark; }
 .background-color-blue   { background-color: $blue; }
+
+.border-yellow        { border-color: $yellow !important; }
+.border-darker-yellow { border-color: $darker-yellow !important; }
+.border-dark          { border-color: $dark !important; }
+.border-blue          { border-color: $blue !important; }
+
+

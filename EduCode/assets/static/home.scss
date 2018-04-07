@@ -5,13 +5,11 @@
   font-family:"Unica One", "Roboto Slab", serif;
 
   .overlay {
-    margin-top: 150px;
+    padding-top: 150px;
     text-align: center;
     font-size:1.7rem;
-
     .baseline {
       font-size: 2.7rem;
-
       @include responsive(xs) {
         font-size:1.8rem;
       }
@@ -76,6 +74,11 @@
   }
 }
 
+
+#anchor-expo {
+  background-color: #eadbb1;
+  margin-bottom: 50px;
+}
 #landing-page-content {
   font-family: Lato, "Roboto Slab", Roboto, serif;
 }
