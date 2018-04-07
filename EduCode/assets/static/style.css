@@ -146,9 +146,25 @@
         text-align: center;
         border-top: solid #b18528 2px; }
 
+.location .location-picture {
+  min-height: 200px; }
+
 #anchor-expo {
   background-color: #eadbb1;
   margin-bottom: 50px; }
+
+#anchor-practical-infos {
+  border-left: solid #e1b12c 3px;
+  border-right: solid #e1b12c 3px; }
+
+#anchor-partners .partner .partner-picture {
+  opacity: .33;
+  -webkit-transition: opacity ease .4s;
+  -moz-transition: opacity ease .4s;
+  -o-transition: opacity ease .4s;
+  transition: opacity ease .4s; }
+  #anchor-partners .partner .partner-picture:hover {
+    opacity: 1; }
 
 #landing-page-content {
   font-family: Lato, "Roboto Slab", Roboto, serif; }

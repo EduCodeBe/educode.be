@@ -75,10 +75,36 @@
 }
 
 
+
+.location {
+  .location-picture {
+    min-height: 200px;
+  }
+}
+
+
 #anchor-expo {
   background-color: #eadbb1;
   margin-bottom: 50px;
 }
+
+#anchor-practical-infos {
+  border-left:solid  $yellow 3px;
+  border-right:solid $yellow 3px;
+}
+
+#anchor-partners {
+  .partner {
+    .partner-picture {
+      opacity: .33;
+      @include transition("opacity ease .4s");
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+
 #landing-page-content {
   font-family: Lato, "Roboto Slab", Roboto, serif;
 }

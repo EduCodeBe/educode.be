@@ -1,69 +1,74 @@
 {% extends "layout.html" %}
 
 {% block baseline %}
-<div class="container overlay">
-    <img data-aos="zoom-in" data-aos-delay="500" src="{{ '/imgs/educode-logo-transparent.png' | url }}" alt="">
-    <h1 data-aos="fade-down" data-aos-delay="100" class="color-dark">{{ this.title }}</h1>
-    <p data-aos="zoom-in" data-aos-delay="300" class="baseline color-darker-yellow"><strong>{{ this.baseline }}</strong></p>
-    <hr>
-</div>
+    <div class="container overlay">
+        <img data-aos="zoom-in" data-aos-delay="500" src="{{ '/imgs/educode-logo-transparent.png' | url }}" alt="">
+        <h1 data-aos="fade-down" data-aos-delay="100" class="color-dark">{{ this.title }}</h1>
+        <p data-aos="zoom-in" data-aos-delay="300" class="baseline color-darker-yellow">
+            <strong>{{ this.baseline }}</strong></p>
+        <hr>
+    </div>
 {% endblock %}
 
 {% block content %}
-    <div id="landing-page-content" class="container-fluid description">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h4 class="title">< À propos d'EduCode /></h4>
-                    <div class="about">
-                        {{ this.about }}
-                    </div>
+<div id="landing-page-content" class="container-fluid description">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h4 class="title">< À propos d'EduCode /></h4>
+                <div class="about">
+                    {{ this.about }}
                 </div>
-                <div class="col-12">
-                    <hr>
-                </div>
-                <div id="anchor-overview" class="col-12">
-                    <h4 class="title title-left"><i class="fa fa-calendar-o" aria-hidden="true"></i> Aperçu du programme</h4>
-                </div>
+            </div>
+            <div class="col-12">
+                <hr>
+            </div>
+            <div id="anchor-overview" class="col-12">
+                <h4 class="title title-left"><i class="fa fa-calendar-o" aria-hidden="true"></i> Aperçu du programme
+                </h4>
+            </div>
 
 
-                <div class="col-12 col-sm-4" data-aos="fade-down-right" data-aos-delay="100">
-                    <h3 class="text-center">Lundi <span style="color: #e0a800; font-weight: 600;font-size: 1.3em;">27</span></h3>
-                    {{ this.monday }}
-                    <div class="text-center">
-                        <a href="{{ '/lundi-27-aout' | url }}" class="btn btn-warning">Plus d'infos</a>
-                    </div>
+            <div class="col-12 col-sm-4" data-aos="fade-down-right" data-aos-delay="100">
+                <h3 class="text-center">Lundi <span style="color: #e0a800; font-weight: 600;font-size: 1.3em;">27</span>
+                </h3>
+                {{ this.monday }}
+                <div class="text-center">
+                    <a href="{{ '/lundi-27-aout' | url }}" class="btn btn-warning">Plus d'infos</a>
                 </div>
+            </div>
 
 
-                <div class="col-12 col-sm-4" data-aos="fade-down" data-aos-delay="400">
-                    <h3 class="text-center">Mardi <span style="color: #e0a800; font-weight: 600;font-size: 1.3em;">28</span></h3>
-                    {{ this.thuesday }}
-                    <div class="text-center">
-                        <a href="{{ '/mardi-28-aout' | url }}" class="btn btn-warning">Plus d'infos</a>
-                    </div>
+            <div class="col-12 col-sm-4" data-aos="fade-down" data-aos-delay="400">
+                <h3 class="text-center">Mardi <span style="color: #e0a800; font-weight: 600;font-size: 1.3em;">28</span>
+                </h3>
+                {{ this.thuesday }}
+                <div class="text-center">
+                    <a href="{{ '/mardi-28-aout' | url }}" class="btn btn-warning">Plus d'infos</a>
                 </div>
+            </div>
 
 
-                <div class="col-12 col-sm-4" data-aos="fade-down-left" data-aos-delay="200">
-                    <h3 class="text-center">Mercredi <span style="color: #e0a800; font-weight: 600;font-size: 1.3em;">29</span></h3>
-                    {{ this.wednesday }}
-                    <div class="text-center">
-                        <a href="{{ '/mercredi-29-aout' | url }}" class="btn btn-warning">Plus d'infos</a>
-                    </div>
+            <div class="col-12 col-sm-4" data-aos="fade-down-left" data-aos-delay="200">
+                <h3 class="text-center">Mercredi <span
+                        style="color: #e0a800; font-weight: 600;font-size: 1.3em;">29</span></h3>
+                {{ this.wednesday }}
+                <div class="text-center">
+                    <a href="{{ '/mercredi-29-aout' | url }}" class="btn btn-warning">Plus d'infos</a>
                 </div>
-                <div class="col-12">
-                    <hr>
-                </div>
+            </div>
+            <div class="col-12">
+                <hr>
+            </div>
 
-                <div id="anchor-speakers" class="col-12">
-                    <h4 class="title text-center">{ <i class="fa fa-users" aria-hidden="true"></i>  Intervenants  }</h4>
-                </div>
+            <div id="anchor-speakers" class="col-12">
+                <h4 class="title text-center">{ <i class="fa fa-users" aria-hidden="true"></i> Intervenants }</h4>
+            </div>
 
-                <!-- On récupère tous les intervenants -->
-                {% set speakers = site.query('/intervenants').include_hidden(false).all() %}
-                {% if speakers %}
-                  {% for speaker in speakers %}
+            <!-- On récupère tous les intervenants -->
+            {% set speakers = site.query('/intervenants').include_hidden(false).all() %}
+            {% if speakers %}
+                {% for speaker in speakers %}
                     <div class="col-6 col-sm-4 col-md-3 speaker" data-aos="fade-down-right" data-aos-delay="300">
                         {% set pictures = speaker.attachments %}
                         {% if pictures %}
@@ -86,66 +91,218 @@
                             </a>
                         </h4>
                     </div>
-                  {% endfor %}
-                {% endif %}
+                {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+    <div class="container-fluid p-0">
+        <div class="row">
+            <div id="anchor-expo" class="col-12">
+                <h4 class="title text-center"> ___ Expositions ___ </h4>
+                <div id="expo-about" class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            {{ this.expo_about }}
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <p class="text-center">
+                    <a class="btn btn-lg btn-primary text-uppercase" href="#">{{ this.text_button }}</a>
+                </p>
+                <hr>
             </div>
         </div>
-        <div class="container-fluid p-0">
-            <div class="row">
-                <div id="anchor-expo" class="col-12">
-                    <h4 class="title text-center"> ___ Expositions ___ </h4>
-                    <div id="expo-about">
-                        {{ this.expo_about }}
-                    </div>
-                    <a href="#">{{ this.text_button }}</a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div id="anchor-partners" class="col-12">
+                <h4 class="title text-center">{ <i class="fa fa-users" aria-hidden="true"></i> Partenaires }</h4>
+
+                <div>
+                    {{ this.partners_about }}
+                </div>
+                <div class="col-12"><hr></div>
+
+                <div class="col-12 text-center">
+                    <a href="#" class="btn btn-lg btn-warning text-uppercase">Devenir partenaire</a>
+                </div>
+
+                <div class="col-12">
+                    <hr>
+                </div>
+                <h4 class="col-12 text-center">
+                    Nos partenaires
+                </h4>
+                <div id="slideshow-partners" class="col-12">
+                    <!-- On récupère tous les partenaires -->
+                    {% set partners = site.query('/partenaires').include_hidden(false).all() %}
+                    {% if partners %}
+                        {% for partner in partners %}
+                            <div class="partner text-center ml-2 mr-2">
+                                <!-- picture -->
+                                {% set pictures = partner.attachments %}
+                                {% if pictures %}
+                                    {% set partner_picture = pictures | first %}
+                                    <div class="partner-picture">
+                                        <a href="{{ partner.url }}" target="_blank">
+                                            <img src="{{ partner_picture | url }}" alt="" width="100%">
+                                        </a>
+                                    </div>
+                                {% else %}
+                                    <div class="partner-picture">
+                                        <a href="{{ partner.url }}" target="_blank">
+                                            <img src="{{ '#' }}" alt="[icon brand]">
+                                        </a>
+                                    </div>
+                                {% endif %}
+                                <!-- url -->
+                                <h4 class="p-1 mt-1 text-center">
+                                    <a href="{{ partner.url }}" target="_blank" class="btn color-dark">
+                                        {{ partner.name }}
+                                    </a>
+                                </h4>
+                            </div>
+                        {% endfor %}
+                    {% endif %}
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div id="anchor-partners" class="col-12">
-                    <h4 class="title text-center">{ <i class="fa fa-users" aria-hidden="true"></i>  Partenaires  }</h4>
-                </div>
 
-                <div id="anchor-inscription" class="col-12">
-                    <h4 class="title text-center">{ <i class="fa fa-users" aria-hidden="true"></i>  Inscription  }</h4>
-                </div>
 
-                <div id="anchor-practical-infos" class="col-12">
-                    <h4 class="title text-center background-color-yellow color-blue border-blue">
-                        /*  Infos pratiques  */
-                    </h4>
-                    <div class="container practical-info-markdown">
-                        {{ this.practical_infos }}
+
+
+
+            <div id="anchor-inscription" class="col-12">
+                <h4 class="title text-center">{ <i class="fa fa-users" aria-hidden="true"></i> Inscription }</h4>
+            </div>
+
+            <div id="anchor-practical-infos" class="col-12">
+                <h4 class="title text-center background-color-yellow color-blue border-blue">
+                    /* Infos pratiques */
+                </h4>
+                <div class="container practical-info-markdown">
+                    {{ this.practical_infos }}
+                </div>
+                <hr>
+                <h5>
+                    <img src="{{ '/imgs/mn_blue.png' | url }}" alt="" height="64px"> [ Lieux ]
+                </h5>
+                <hr>
+                <div class="container">
+                    <div class="row">
+                        <!-- On récupère tous les lieux -->
+                        {% set lieux = site.query('/lieux').include_hidden(false).all() %}
+                        {% if lieux %}
+                            {% for lieu in lieux %}
+                                {% if lieu.type_location == 'Lieu normal' %}
+                                    <div class="col-12 col-sm-4 location text-center">
+                                        <!-- picture -->
+                                        {% set pictures = lieu.attachments %}
+                                        {% if pictures %}
+                                            {% set lieu_picture = pictures | first %}
+                                            <div class="location-picture" data-aos="zoom-in-down" >
+                                                <a href="{{ lieu.url_path }}">
+                                                    <img src="{{ lieu_picture | url }}" alt="" width="100%">
+                                                </a>
+                                            </div>
+                                        {% else %}
+                                            <div class="location-picture" data-aos="zoom-in-down" >
+                                                <a href="{{ lieu.url_path }}">
+                                                    <img src="{{ '/imgs/location.svg' }}" alt="">
+                                                </a>
+                                            </div>
+                                        {% endif %}
+
+                                        <!-- description -->
+                                        <h4 class="color-white p-1 mt-1 text-center" style="background-color: #5c2429;">
+                                            <strong>{{ lieu.name }}</strong>
+                                        </h4>
+                                        <p class="color-dark">{{ lieu.address }}</p>
+                                        <a href="{{ lieu.url_path }}" class="btn btn-warning">Plus d'info sur ce
+                                            lieu</a>
+                                    </div>
+                                {% endif %}
+                            {% endfor %}
+                        {% endif %}
                     </div>
-
                 </div>
+                <hr>
+                <h5>
+                    <i class="fa fa-bed" aria-hidden="true"></i> [ Hôtels ]
+                </h5>
+                <hr>
+                <div class="container">
+                    <div class="row">
+                        <!-- On récupère tous les hôtels -->
+                        {% if lieux %}
+                            {% for lieu in lieux %}
+                                {% if lieu.type_location == 'Hôtel' %}
+                                    <div class="col-12 col-sm-4 location text-center">
+                                        <!-- picture -->
+                                        {% set pictures = lieu.attachments %}
+                                        {% if pictures %}
+                                            {% set lieu_picture = pictures | first %}
+                                            <div class="location-picture" data-aos="zoom-in-down" >
+                                                <a href="{{ lieu.url_path }}">
+                                                    <img src="{{ lieu_picture | url }}" alt="" width="100%">
+                                                </a>
+                                            </div>
+                                        {% else %}
+                                            <div class="location-picture" data-aos="zoom-in-down" >
+                                                <a href="{{ lieu.url_path }}">
+                                                    <img src="{{ '/imgs/location.svg' }}" alt="">
+                                                </a>
+                                            </div>
+                                        {% endif %}
 
-                <div id="anchor-press" class="col-12">
-                    <h4 class="title text-center">{ <i class="fa fa-users" aria-hidden="true"></i>  Presse  }</h4>
+                                        <!-- description -->
+                                        <h4 class="background-color-darker-yellow color-white p-1 mt-1 text-center">
+                                            <strong>{{ lieu.name }}</strong></h4>
+                                        <p class="color-dark">{{ lieu.address }}</p>
+                                        <a href="{{ lieu.url_path }}" class="btn btn-warning">Plus d'info sur cet
+                                            hôtel</a>
+                                    </div>
+                                {% endif %}
+                            {% endfor %}
+                        {% endif %}
+                    </div>
                 </div>
+                <hr>
+                <h4 class="text-center" style='font-family: "Unica One", "Roboto Slab", serif; font-size: 2rem;'>
+                    <strong>
+                        <span style="color: black;">BRU</span>
+                        <span style="color: #d0ad00;">XEL</span>
+                        <span style="color: red;">LES</span>
+                    </strong>
+                </h4>
+                <hr>
+                <div>
+                    {{ this.practical_infos_brussels }}
+                </div>
+            </div>
+            <div id="anchor-press" class="col-12">
+                <h4 class="title text-center">{ <i class="fa fa-users" aria-hidden="true"></i> Presse }</h4>
 
                 <div id="anchor-contact" class="col-12">
-                    <h4 class="title title-left"><i class="fa fa-users" aria-hidden="true"></i>  Contact {</h4>
+                    <h4 class="title title-left"><i class="fa fa-users" aria-hidden="true"></i> Contact {</h4>
                     <div id="contacts">
                         <div class="container">
                             <div class="row">
                                 <!-- On récupère tous les contacts -->
                                 {% set contacts = site.query('/contacts').include_hidden(false).all() %}
                                 {% if contacts %}
-                                  {% for contact in contacts %}
-                                    <div class="col-12 col-sm-4 contact" data-aos="fade-up">
-                                        <h4 class="speaker-name text-center"><strong>{{ contact.name }}</strong></h4>
-                                        <p class="color-dark">{{ contact.role }}</p>
-                                        <ul>
-                                            <li><i class="fa fa-phone"></i> {{ contact.tel }}</li>
-                                            <li><i class="fa fa-envelope"></i> {{ contact.mail }}</li>
-                                        </ul>
-                                    </div>
-                                  {% endfor %}
+                                    {% for contact in contacts %}
+                                        <div class="col-12 col-sm-4 contact" data-aos="fade-up">
+                                            <h4 class="speaker-name text-center"><strong>{{ contact.name }}</strong>
+                                            </h4>
+                                            <p class="color-dark">{{ contact.role }}</p>
+                                            <ul>
+                                                <li><i class="fa fa-phone"></i> {{ contact.tel }}</li>
+                                                <li><i class="fa fa-envelope"></i> {{ contact.mail }}</li>
+                                            </ul>
+                                        </div>
+                                    {% endfor %}
                                 {% endif %}
-
-
                             </div>
                         </div>
                     </div>
@@ -154,6 +311,7 @@
             </div>
         </div>
     </div>
+</div>
 {% endblock %}
 
 
@@ -161,6 +319,39 @@
 {% block javascript %}
     <script>
         AOS.init();
+        $('#slideshow-partners').slick({
+          dots: true,
+          infinite: true,
+          speed: 1500,
+          autoplaySpeed: 300,
+          autoplay:true,
+          slidesToShow: 10,
+          slidesToScroll: 2,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
+        });
     </script>
 {% endblock %}
-

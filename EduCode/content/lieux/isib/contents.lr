@@ -10,3 +10,5 @@ directions:
 - Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.
 ---
 address: Rue royale
+---
+type_location: Lieu normal
