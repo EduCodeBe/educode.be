@@ -2,12 +2,77 @@ _template: page.html
 ---
 about: 
 ---
-baseline: 
+baseline: lorem ipsum dolore
 ---
 monday: 
 ---
 thuesday: 
 ---
-title: 
+title: Welkom bij EduCode
 ---
 wednesday: 
+---
+expo_about:
+
+##  Fama facite decent
+
+## Silva parvae nolle coactis namque moveres patefecit
+
+Lorem markdownum, mox sunt [mihi mortale
+postquam](http://inquit-possis.com/templis) inmisit conveniant Maeandri Aesacon
+tauro dum: in usque servaturis. Vulgique alto trepidantibus procul an ipso
+fortius narrat corpus accessit Baccho spectatas parabat trepidantibus resecuta.
+Mare ausim nisi, ore Achivi iuveni interdumque tamen, positasque et aurea Iovi
+levi corpora caeloque lateri. Penna aquae nitidis: ipse nulla ceperunt rogata
+erat eodem digitoque suo superest fine causa contra dedit.
+
+- Quod sed coluber concuteret nec insignia Athamas coloque. Repelli iubet, in
+- falleret exitio est pontum fluctus fragorem. Si inopes referunt lacerti
+- dummodo tantorum Phoebe. Leti fossa vertere: Delos **fraudem**, victorque
+- Libys hactenus ad foret et figuram, Alcathoi dentes dominos. Aptos *Castrumque
+- motis*, in procul volucres an [recepto ipsa](http://www.arripit.org/) iniqui
+- sed ait suos ora.
+
+## Terruit arbore manebat erubuit nec comitem carere
+
+Iste fax tandem lata Cerealis **eripe**: Caucasiumque tamen at regnum ferarum
+mollia. Cauda ceu; vel quod terras moenia examinat bellum nato, iugulaberis
+claudit. **Iubentem fortuna coitusque** restat patitur auras lapsus.
+
+## Eryx ille
+
+Novitate cui, ut coronam removente et gaudia **et ultima**, semicaper etiam?
+Haec laetitiae quo **Iolaus suadet**.
+---
+partners_about:
+
+### Random text
+Voici la liste de nos partenaires, le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
+---
+practical_infos:
+
+Bruxelles, la petite ville mondiale, est au centre de la vie économique, politique et culturelle belge et internationale. Elle abrite les institutions de l’Union européenne et le siège du conseil permanent de l’Otan.  * (copy-paste du site de l'ulb) * 
+
+Lors de votre séjour, vous pourrez visitez de jolis endroits et pourrez séjourner dans de prestigieux hôtels, voici nos recommandations.
+- liste 1
+- puce
+- puce
+
+
+---
+practical_infos_brussels:
+
+### Random texte (markdown)
+
+La modeste Bruxelles est la capitale de la Belgique, de la Flandre et de l'Europe. La Grand-Place médiévale est immense, avec de nombreux immeubles du 17ème siècle et des marchés aux fleurs quotidiens. Rouvert en 2006, l'Atomium, la Tour Eiffel de Bruxelles, offre une vue imprenable aussi bien à l'intérieur que sur l'extérieur. Les amateurs d'architecture ne devront pas manquer la visite du Musée Horta, aménagé dans la maison du grand architecte belge Victor Horta. Les clubs et les bars de la place St. Gery ne désemplissent jamais. Les plats de fruits de mer abondent à Ste. Catherine. Optez pour la marche afin d'éviter les embouteillages dans les rues étroites.
+
+liens vers attractions...
+
+- liste à puce
+- liste à puce
+- liste à puce
+- liste à puce
+
+images... 
+---
+text_button: Devenir exposant
