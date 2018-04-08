@@ -221,3 +221,4 @@ TSWLatexianTemp*
 
 # pycharm's config files (the IDE I use)
 EduCode/.idea/*
+.idea/*

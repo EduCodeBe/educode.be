@@ -8,6 +8,11 @@ $darker-yellow: #b18528;
   src: url('../fonts/UnicaOne-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Regular.ttf') format('truetype');
+}
+
 @mixin transition($params) {
   -webkit-transition: #{$params};
   -moz-transition:    #{$params};
@@ -33,6 +38,7 @@ $darker-yellow: #b18528;
   -moz-box-shadow:    #{$params};
   box-shadow:         #{$params};
 }
+
 
 @mixin border-radius($params) {
   -webkit-border-radius: #{$params};

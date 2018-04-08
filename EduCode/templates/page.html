@@ -73,17 +73,19 @@
                         {% set pictures = speaker.attachments %}
                         {% if pictures %}
                             {% set profile_picture = pictures | first %}
-                            <div class="speaker-picture">
-                                <a href="{{ speaker.url_path }}">
-                                    <img src="{{ profile_picture | url }}" alt="">
-                                </a>
+                            <div class="text-center speaker-picture-container">
+                                <div class="speaker-picture"
+                                     style="background-image: url('{{ profile_picture | url }}');">
+                                </div>
                             </div>
+
                         {% else %}
-                            <div class="speaker-picture">
-                                <a href="{{ speaker.url_path }}">
-                                    <img src="{{ '/imgs/user.png' }}" alt="">
-                                </a>
+                            <div class="text-center speaker-picture-container">
+                                <div class="speaker-picture"
+                                     style="background-image: url('{{  "/imgs/user.png" | url }}');">
+                                </div>
                             </div>
+
                         {% endif %}
                         <h4 class="speaker-name text-center">
                             <a href="{{ speaker.url_path }}">
@@ -167,9 +169,6 @@
                     {% endif %}
                 </div>
             </div>
-
-
-
 
 
             <div id="anchor-inscription" class="col-12">
