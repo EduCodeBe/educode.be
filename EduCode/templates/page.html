@@ -15,7 +15,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h4 class="title">< À propos d'EduCode /></h4>
+                <h4 class="title">< {{ this.s_about_educode }} /></h4>
                 <div class="about">
                     {{ this.about }}
                 </div>
@@ -24,37 +24,37 @@
                 <hr>
             </div>
             <div id="anchor-overview" class="col-12">
-                <h4 class="title title-left"><i class="fa fa-calendar-o" aria-hidden="true"></i> Aperçu du programme
+                <h4 class="title title-left"><i class="fa fa-calendar-o" aria-hidden="true"></i> {{ this.s_overview_program }}
                 </h4>
             </div>
 
 
             <div class="col-12 col-sm-4" data-aos="fade-down-right" data-aos-delay="100">
-                <h3 class="text-center">Lundi <span style="color: #e0a800; font-weight: 600;font-size: 1.3em;">27</span>
+                <h3 class="text-center">{{ this.s_monday }} <span style="color: #e0a800; font-weight: 600;font-size: 1.3em;">27</span>
                 </h3>
                 {{ this.monday }}
                 <div class="text-center">
-                    <a href="{{ '/lundi-27-aout' | url }}" class="btn btn-warning">Plus d'infos</a>
+                    <a href="{{ '/lundi-27-aout' | url }}" class="btn btn-warning">{{ this.s_more_infos }}</a>
                 </div>
             </div>
 
 
             <div class="col-12 col-sm-4" data-aos="fade-down" data-aos-delay="400">
-                <h3 class="text-center">Mardi <span style="color: #e0a800; font-weight: 600;font-size: 1.3em;">28</span>
+                <h3 class="text-center">{{ this.s_thuesday }} <span style="color: #e0a800; font-weight: 600;font-size: 1.3em;">28</span>
                 </h3>
                 {{ this.thuesday }}
                 <div class="text-center">
-                    <a href="{{ '/mardi-28-aout' | url }}" class="btn btn-warning">Plus d'infos</a>
+                    <a href="{{ '/mardi-28-aout' | url }}" class="btn btn-warning">{{ this.s_more_infos }}</a>
                 </div>
             </div>
 
 
             <div class="col-12 col-sm-4" data-aos="fade-down-left" data-aos-delay="200">
-                <h3 class="text-center">Mercredi <span
+                <h3 class="text-center">{{ this.s_wednesday }} <span
                         style="color: #e0a800; font-weight: 600;font-size: 1.3em;">29</span></h3>
                 {{ this.wednesday }}
                 <div class="text-center">
-                    <a href="{{ '/mercredi-29-aout' | url }}" class="btn btn-warning">Plus d'infos</a>
+                    <a href="{{ '/mercredi-29-aout' | url }}" class="btn btn-warning">{{ this.s_more_infos }}</a>
                 </div>
             </div>
             <div class="col-12">
@@ -62,7 +62,7 @@
             </div>
 
             <div id="anchor-speakers" class="col-12">
-                <h4 class="title text-center">{ <i class="fa fa-users" aria-hidden="true"></i> Intervenants }</h4>
+                <h4 class="title text-center">{ <i class="fa fa-users" aria-hidden="true"></i> {{ this.s_speakers }} }</h4>
             </div>
 
             <!-- On récupère tous les intervenants -->
@@ -78,14 +78,12 @@
                                      style="background-image: url('{{ profile_picture | url }}');">
                                 </div>
                             </div>
-
                         {% else %}
-                            <div class="text-center speaker-picture-container">
+                            <div class="text-center speaker-picture-container" onclick="location.href = '{{ speaker.url_path }}';">
                                 <div class="speaker-picture"
                                      style="background-image: url('{{  "/imgs/user.png" | url }}');">
                                 </div>
                             </div>
-
                         {% endif %}
                         <h4 class="speaker-name text-center">
                             <a href="{{ speaker.url_path }}">
@@ -100,7 +98,7 @@
     <div class="container-fluid p-0">
         <div class="row">
             <div id="anchor-expo" class="col-12">
-                <h4 class="title text-center"> ___ Expositions ___ </h4>
+                <h4 class="title text-center"> ___ {{ this.s_expo }} ___ </h4>
                 <div id="expo-about" class="container">
                     <div class="row">
                         <div class="col-12">
@@ -119,7 +117,7 @@
     <div class="container">
         <div class="row">
             <div id="anchor-partners" class="col-12">
-                <h4 class="title text-center">{ <i class="fa fa-users" aria-hidden="true"></i> Partenaires }</h4>
+                <h4 class="title text-center">{ <i class="fa fa-users" aria-hidden="true"></i> {{ this.s_partners }} }</h4>
 
                 <div>
                     {{ this.partners_about }}
@@ -127,14 +125,14 @@
                 <div class="col-12"><hr></div>
 
                 <div class="col-12 text-center">
-                    <a href="#" class="btn btn-lg btn-warning text-uppercase">Devenir partenaire</a>
+                    <a href="#" class="btn btn-lg btn-warning text-uppercase">{{ this.s_become_partner }}</a>
                 </div>
 
                 <div class="col-12">
                     <hr>
                 </div>
                 <h4 class="col-12 text-center">
-                    Nos partenaires
+                    {{ this.s_our_partners }}
                 </h4>
                 <div id="slideshow-partners" class="col-12">
                     <!-- On récupère tous les partenaires -->
@@ -172,19 +170,19 @@
 
 
             <div id="anchor-inscription" class="col-12">
-                <h4 class="title text-center">{ <i class="fa fa-users" aria-hidden="true"></i> Inscription }</h4>
+                <h4 class="title text-center">{ <i class="fa fa-users" aria-hidden="true"></i> {{ this.s_registration }} }</h4>
             </div>
 
             <div id="anchor-practical-infos" class="col-12">
                 <h4 class="title text-center background-color-yellow color-blue border-blue">
-                    /* Infos pratiques */
+                    /* {{ this.s_practical_infos }} */
                 </h4>
                 <div class="container practical-info-markdown">
                     {{ this.practical_infos }}
                 </div>
                 <hr>
                 <h5>
-                    <img src="{{ '/imgs/mn_blue.png' | url }}" alt="" height="64px"> [ Lieux ]
+                    <img src="{{ '/imgs/mn_blue.png' | url }}" alt="" height="64px"> [ {{ this.s_location }} ]
                 </h5>
                 <hr>
                 <div class="container">
@@ -217,8 +215,7 @@
                                             <strong>{{ lieu.name }}</strong>
                                         </h4>
                                         <p class="color-dark">{{ lieu.address }}</p>
-                                        <a href="{{ lieu.url_path }}" class="btn btn-warning">Plus d'info sur ce
-                                            lieu</a>
+                                        <a href="{{ lieu.url_path }}" class="btn btn-warning">{{ this.s_more_infos }}</a>
                                     </div>
                                 {% endif %}
                             {% endfor %}
@@ -227,7 +224,7 @@
                 </div>
                 <hr>
                 <h5>
-                    <i class="fa fa-bed" aria-hidden="true"></i> [ Hôtels ]
+                    <i class="fa fa-bed" aria-hidden="true"></i> [ {{ this.s_hotel }} ]
                 </h5>
                 <hr>
                 <div class="container">
@@ -258,8 +255,11 @@
                                         <h4 class="background-color-darker-yellow color-white p-1 mt-1 text-center">
                                             <strong>{{ lieu.name }}</strong></h4>
                                         <p class="color-dark">{{ lieu.address }}</p>
-                                        <a href="{{ lieu.url_path }}" class="btn btn-warning">Plus d'info sur cet
-                                            hôtel</a>
+                                        {% if lieu.code_promo %}
+                                            <a href="{{ lieu.url_path }}" class="btn btn-outline-warning"><i class="fa fa-gift"></i> CODE PROMO</a>
+                                            <br>
+                                        {% endif %}
+                                        <a href="{{ lieu.url_path }}" class="btn mt-1 btn-warning">{{ this.s_more_infos }}</a>
                                     </div>
                                 {% endif %}
                             {% endfor %}
@@ -280,10 +280,10 @@
                 </div>
             </div>
             <div id="anchor-press" class="col-12">
-                <h4 class="title text-center">{ <i class="fa fa-users" aria-hidden="true"></i> Presse }</h4>
+                <h4 class="title text-center">{ <i class="fa fa-users" aria-hidden="true"></i> {{ this.s_press }} }</h4>
 
                 <div id="anchor-contact" class="col-12">
-                    <h4 class="title title-left"><i class="fa fa-users" aria-hidden="true"></i> Contact {</h4>
+                    <h4 class="title title-left"><i class="fa fa-users" aria-hidden="true"></i> {{ this.s_contact }} {</h4>
                     <div id="contacts">
                         <div class="container">
                             <div class="row">

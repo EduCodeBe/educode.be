@@ -100,6 +100,174 @@
 .border-blue {
   border-color: #233980 !important; }
 
+#page-program {
+  margin-top: 200px; }
+  #page-program .program-description {
+    font-family: Lato, "Roboto Slab", Roboto, serif; }
+
+@font-face {
+  font-family: 'Unica One';
+  src: url("../fonts/UnicaOne-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-Regular.ttf") format("truetype"); }
+/**
+ * Dans cette feuille, il y aura toutes les fonctions/mixins
+ */
+.height-300 {
+  height: 300px; }
+
+.color-white {
+  color: white; }
+
+.color-yellow {
+  color: #e1b12c; }
+
+.color-darker-yellow {
+  color: #b18528; }
+
+.color-dark {
+  color: #2d3436; }
+
+.color-blue {
+  color: #233980; }
+
+.background-color-yellow {
+  background-color: #e1b12c; }
+
+.background-color-darker-yellow {
+  background-color: #b18528; }
+
+.background-color-dark {
+  background-color: #2d3436; }
+
+.background-color-blue {
+  background-color: #233980; }
+
+.border-yellow {
+  border-color: #e1b12c !important; }
+
+.border-darker-yellow {
+  border-color: #b18528 !important; }
+
+.border-dark {
+  border-color: #2d3436 !important; }
+
+.border-blue {
+  border-color: #233980 !important; }
+
+#page-location {
+  margin-top: 200px; }
+  #page-location .location-description {
+    font-family: Lato, "Roboto Slab", Roboto, serif; }
+
+@font-face {
+  font-family: 'Unica One';
+  src: url("../fonts/UnicaOne-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-Regular.ttf") format("truetype"); }
+/**
+ * Dans cette feuille, il y aura toutes les fonctions/mixins
+ */
+.height-300 {
+  height: 300px; }
+
+.color-white {
+  color: white; }
+
+.color-yellow {
+  color: #e1b12c; }
+
+.color-darker-yellow {
+  color: #b18528; }
+
+.color-dark {
+  color: #2d3436; }
+
+.color-blue {
+  color: #233980; }
+
+.background-color-yellow {
+  background-color: #e1b12c; }
+
+.background-color-darker-yellow {
+  background-color: #b18528; }
+
+.background-color-dark {
+  background-color: #2d3436; }
+
+.background-color-blue {
+  background-color: #233980; }
+
+.border-yellow {
+  border-color: #e1b12c !important; }
+
+.border-darker-yellow {
+  border-color: #b18528 !important; }
+
+.border-dark {
+  border-color: #2d3436 !important; }
+
+.border-blue {
+  border-color: #233980 !important; }
+
+#page-speaker {
+  margin-top: 200px; }
+  #page-speaker .speaker-description {
+    font-family: Lato, "Roboto Slab", Roboto, serif; }
+
+@font-face {
+  font-family: 'Unica One';
+  src: url("../fonts/UnicaOne-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-Regular.ttf") format("truetype"); }
+/**
+ * Dans cette feuille, il y aura toutes les fonctions/mixins
+ */
+.height-300 {
+  height: 300px; }
+
+.color-white {
+  color: white; }
+
+.color-yellow {
+  color: #e1b12c; }
+
+.color-darker-yellow {
+  color: #b18528; }
+
+.color-dark {
+  color: #2d3436; }
+
+.color-blue {
+  color: #233980; }
+
+.background-color-yellow {
+  background-color: #e1b12c; }
+
+.background-color-darker-yellow {
+  background-color: #b18528; }
+
+.background-color-dark {
+  background-color: #2d3436; }
+
+.background-color-blue {
+  background-color: #233980; }
+
+.border-yellow {
+  border-color: #e1b12c !important; }
+
+.border-darker-yellow {
+  border-color: #b18528 !important; }
+
+.border-dark {
+  border-color: #2d3436 !important; }
+
+.border-blue {
+  border-color: #233980 !important; }
+
 .main {
   height: 100vh;
   font-family: "Unica One", "Roboto Slab", serif; }
@@ -187,6 +355,10 @@
   min-height: 300px;
   cursor: pointer;
   padding: 45px !important; }
+  .speaker:hover .speaker-picture {
+    transform: scale(1.2, 1.2); }
+  .speaker:hover .speaker-name, .speaker:hover .speaker-name a {
+    color: #b18528; }
   .speaker .speaker-name {
     font-family: "Unica One", "Roboto Slab", serif;
     font-weight: 600;
@@ -207,19 +379,15 @@
       height: 150px;
       background: no-repeat center center;
       -webkit-background-size: cover;
-      background-size: cover; }
+      background-size: cover;
+      -webkit-transition: transform ease .4s;
+      -moz-transition: transform ease .4s;
+      -o-transition: transform ease .4s;
+      transition: transform ease .4s; }
       @media (max-width: 767px) {
         .speaker .speaker-picture-container .speaker-picture {
           width: 100%;
           height: 80px; } }
-      .speaker .speaker-picture-container .speaker-picture img {
-        width: 100%;
-        -webkit-transition: transform ease .4s;
-        -moz-transition: transform ease .4s;
-        -o-transition: transform ease .4s;
-        transition: transform ease .4s; }
-        .speaker .speaker-picture-container .speaker-picture img:hover {
-          transform: scale(1.2, 1.2); }
 
 body {
   background: url("../imgs/bg.jpg") repeat-x top left fixed; }

@@ -1,0 +1,60 @@
+{% extends "layout.html" %}
+{% block content %}
+    <main id="page-location" class="container">
+        <h1 class="title mb-5 text-center color-darker-yellow"><strong>{{ this.name }}</strong></h1>
+        <div class="row">
+
+            <div class="col-12 col-sm-2">
+                {% set pictures = this.attachments %}
+                {% if pictures %}
+                    {% set profile_picture = pictures | first %}
+                    <img src="{{ profile_picture | url }}" alt="" width="100%">
+                {% else %}
+                    <img src="{{  "/imgs/user.png" | url }}" alt="" width="100%">
+                {% endif %}
+            </div>
+
+            <div class="col-12 col-sm-10 border-dark">
+
+                <div>
+                    <span class="text-dark"><i class="fa fa-map-marker"></i> Address</span>
+                    <br>
+                    <strong>{{ this.address }}</strong>
+                </div>
+                {% if this.code_promo %}
+                    <hr>
+                    <div>
+                        <span class="color-darker-yellow"><strong><i class="fa fa-gift"></i> CODE PROMO</strong></span>
+                        <br>
+                        <strong>{{ this.code_promo }}</strong>
+                    </div>
+                {% endif %}
+                <hr>
+                <div>
+                    <span class="text-dark"><i class="fa fa-link"></i> URL</span>
+                    <br>
+                    <strong><a href="{{ this.url }}" target="_blank">{{ this.url }}</a></strong>
+                </div>
+                <hr>
+                <div>
+                    <span class="text-dark"><i class="fa fa-arrow-right"></i> Directions</span>
+                    <br>
+                    {{ this.directions }}
+                </div>
+                <div class="bg-light mt-2 pt-2 p-2 location-description">
+                    <span class="text-dark"><i class="fa fa-comment"></i> Description</span>
+                    <hr>
+                    {{ this.description }}
+                </div>
+                <hr>
+                <p class="text-center">
+                    <a class="btn btn-warning" href="{{ '/' | url }}">
+                        <i class="fa fa-home"></i> Back to home
+                    </a>
+                </p>
+            </div>
+
+        </div>
+    </main>
+{% endblock %}
+
