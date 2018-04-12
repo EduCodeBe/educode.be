@@ -1,0 +1,128 @@
+title: Welcome to EduCode
+---
+monday: On August 27, 2018 in Bozar, rue Ravenstein, teachers, directorates and the general public will be able to attend lectures, a round table, reflection workshops and posters during the breaks to understand this new world, its challenges and opportunities. The lectures are open to the general public. The day ends with a symphonic concert with choirs.
+---
+baseline: An international conference to inform, educate and engage the interest of all education stakeholders with the challenges of the digital revolution
+---
+thuesday: Tuesday, August 28 at the ESI, Graduate School of Computer Science and ISIB, Graduate School of Engineers of Brussels, rue Royale 67 and 150 next to the column of the Congress, teachers will be invited to 60 to 100 practical workshops during which they will be the learners, so as to find their alter-egos, develop with them content and experiences to reuse in class what they have learned. These hands-on workshops will focus on a wide variety of topics around education and the use of digital and computer thinking.
+---
+wednesday: Wednesday, August 29 at the Royal Academy, rue Ducale, those who think on the uses and seek to generalize them as much as to particularize them, researchers in education on the uses of the digital, will find themselves in a conference for exchanges of experiences and research presentations.
+---
+_template: page.html
+---
+about:
+
+27, 28 and 29 August 2018 in Brussels
+
+EduCode is the first edition of an annual international symposium dedicated to digital education, practice and research. It is the result of collaboration between different key digital players in Belgium.
+
+Digital technology is at the heart of transformations in the global society that are imposing on everyone. This is a huge challenge for our societies and we have no choice but to inform ourselves and train ourselves to respond to it. These changes inevitably involve the transformation of the school, which can only be gradual and framed, but no less determined and energetically conducted.
+
+This induces a new relationship to knowledge, which itself also has profound effects on society. In fact, knowledge is no longer only in books or brains that are difficult to access. It appears as immediately at your fingertips after searching on the mobile phone connected to the internet. It is often more accurate and up to date than the one we have in mind. In short, the ubiquitous digital induces profound changes in our lives that must at least be identified in order to hope to understand and use them wisely or criticize them.
+
+In the age of ubiquitous digital, teachers should be able to use and integrate digital technologies into their courses. Far from us the idea of ​​replacing the notebooks, pencils and pens, essential for a good training of the capacities of writing, synthesis and transposition. But it is important for children and learners in general, like their teachers, to be comfortable with digital technologies. That they can use the resources of their computers and mobile phones, that they can search with them, complete their skills, create, invent. And that they can reflect on issues, challenges, opportunities as much as limits and threats, and integrate these tools into their lives to better participate in the Society.
+
+This involves a specific education, training, an opening to digital that the conference wants to bring.
+
+The Educode.be colloquium will take place from 27 to 29 August 2018 on various sites located in Brussels.
+---
+expo_about:
+
+##  Fama facite decent
+
+## Silva parvae nolle coactis namque moveres patefecit
+
+Lorem markdownum, mox sunt [mihi mortale
+postquam](http://inquit-possis.com/templis) inmisit conveniant Maeandri Aesacon
+tauro dum: in usque servaturis. Vulgique alto trepidantibus procul an ipso
+fortius narrat corpus accessit Baccho spectatas parabat trepidantibus resecuta.
+Mare ausim nisi, ore Achivi iuveni interdumque tamen, positasque et aurea Iovi
+levi corpora caeloque lateri. Penna aquae nitidis: ipse nulla ceperunt rogata
+erat eodem digitoque suo superest fine causa contra dedit.
+
+- Quod sed coluber concuteret nec insignia Athamas coloque. Repelli iubet, in
+- falleret exitio est pontum fluctus fragorem. Si inopes referunt lacerti
+- dummodo tantorum Phoebe. Leti fossa vertere: Delos **fraudem**, victorque
+- Libys hactenus ad foret et figuram, Alcathoi dentes dominos. Aptos *Castrumque
+- motis*, in procul volucres an [recepto ipsa](http://www.arripit.org/) iniqui
+- sed ait suos ora.
+
+## Terruit arbore manebat erubuit nec comitem carere
+
+Iste fax tandem lata Cerealis **eripe**: Caucasiumque tamen at regnum ferarum
+mollia. Cauda ceu; vel quod terras moenia examinat bellum nato, iugulaberis
+claudit. **Iubentem fortuna coitusque** restat patitur auras lapsus.
+
+## Eryx ille
+
+Novitate cui, ut coronam removente et gaudia **et ultima**, semicaper etiam?
+Haec laetitiae quo **Iolaus suadet**.
+---
+text_button: Devenir exposant
+---
+practical_infos:
+
+Bruxelles, la petite ville mondiale, est au centre de la vie économique, politique et culturelle belge et internationale. Elle abrite les institutions de l’Union européenne et le siège du conseil permanent de l’Otan.  * (copy-paste du site de l'ulb) * 
+
+Lors de votre séjour, vous pourrez visitez de jolis endroits et pourrez séjourner dans de prestigieux hôtels, voici nos recommandations.
+- liste 1
+- puce
+- puce
+
+
+---
+practical_infos_brussels:
+
+### Random texte (markdown)
+
+La modeste Bruxelles est la capitale de la Belgique, de la Flandre et de l'Europe. La Grand-Place médiévale est immense, avec de nombreux immeubles du 17ème siècle et des marchés aux fleurs quotidiens. Rouvert en 2006, l'Atomium, la Tour Eiffel de Bruxelles, offre une vue imprenable aussi bien à l'intérieur que sur l'extérieur. Les amateurs d'architecture ne devront pas manquer la visite du Musée Horta, aménagé dans la maison du grand architecte belge Victor Horta. Les clubs et les bars de la place St. Gery ne désemplissent jamais. Les plats de fruits de mer abondent à Ste. Catherine. Optez pour la marche afin d'éviter les embouteillages dans les rues étroites.
+
+liens vers attractions...
+blablabla
+- liste à puce
+- liste à puce
+- liste à puce
+- liste à puce
+
+images... 
+---
+partners_about:
+
+### Random text
+Voici la liste de nos partenaires, le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
+---
+s_about_educode: About EduCode
+---
+s_become_partner: Become partner
+---
+s_contact: Contact
+---
+s_expo: Expositions
+---
+s_hotel: Hotel
+---
+s_location: Locations
+---
+s_monday: Monday
+---
+s_more_infos: More infos
+---
+s_our_partners: Our partners
+---
+s_overview_program: Overview of the program
+---
+s_partners: Partners
+---
+s_practical_infos: Practical infos
+---
+s_press: Press
+---
+s_registration: Registration
+---
+s_speakers: Speakers
+---
+s_sunday: Sunday
+---
+s_thuesday: Thuesday
+---
+s_wednesday: Wednesday

@@ -1,7 +1,6 @@
-title: Welcome to EduCode
+_template: page.html
 ---
-body:
-
+about:
 
 Les  27, 28 et 29 août 2018 à Bruxelles
 
@@ -16,34 +15,52 @@ Cela induit une nouvelle relation au savoir, qui elle-même a aussi de profonds 
 Ceci passe par une éducation spécifique, des entraînements, une ouverture au numérique que la conférence veut apporter. 
 
 Le colloque Educode.be se déroulera du 27 au 29 août 2018 sur différents sites localisés à Bruxelles.
-
-
 ---
-monday: On August 27, 2018 in Bozar, rue Ravenstein, teachers, directorates and the general public will be able to attend lectures, a round table, reflection workshops and posters during the breaks to understand this new world, its challenges and opportunities. The lectures are open to the general public. The day ends with a symphonic concert with choirs.
+baseline: Une conférence internationale pour informer, former et susciter l'intérêt de tous les acteurs de l'enseignement aux défis du numérique.
 ---
-baseline: An international conference to inform, educate and engage the interest of all education stakeholders with the challenges of the digital revolution
+monday: Lundi 27 août 2018 à Bozar, rue Ravenstein, les enseignants, directions et le grand public  pourront suivre des conférences, une table-ronde, des ateliers de réflexion et des posters durant les pauses pour appréhender ce nouveau monde, ses défis et ses opportunités. Les conférences sont ouvertes au grand public. La journée se termine par un concert symphonique avec des choeurs.
 ---
-thuesday: Tuesday, August 28 at the ESI, Graduate School of Computer Science and ISIB, Graduate School of Engineers of Brussels, rue Royale 67 and 150 next to the column of the Congress, teachers will be invited to 60 to 100 practical workshops during which they will be the learners, so as to find their alter-egos, develop with them content and experiences to reuse in class what they have learned. These hands-on workshops will focus on a wide variety of topics around education and the use of digital and computer thinking.
+thuesday: Mardi 28 août à l’ESI, École supérieure d’informatique et à l’ISIB, École supérieure d’ingénieurs de Bruxelles, rue Royale 67 et 150 à coté de la colonne du Congrès, les enseignants seront invités à 60 à 100 ateliers pratiques durant lesquels ils seront les apprenants, de manière à retrouver leurs alter-egos, développer avec eux des contenus et des expériences pour pouvoir réutiliser en classe ce qu'ils ont appris. Ces ateliers d’échanges pratiques concerneront des sujets très variés autour de l’éducation et de l’usage du numérique et de la pensée informatique.
 ---
-wednesday: Wednesday, August 29 at the Royal Academy, rue Ducale, those who think on the uses and seek to generalize them as much as to particularize them, researchers in education on the uses of the digital, will find themselves in a conference for exchanges of experiences and research presentations.
+title: Bienvenue à EduCode
 ---
-_template: page.html
+wednesday: Mercredi 29 août à l'Académie royale, rue Ducale, ceux qui réfléchissent aux usages et cherchent à les généraliser autant que les particulariser, les chercheurs en éducation sur les usages du numérique, se retrouveront dans une conférence pour des échanges d'expériences et des présentations de recherches.
 ---
-about:
-
-27, 28 and 29 August 2018 in Brussels
-
-EduCode is the first edition of an annual international symposium dedicated to digital education, practice and research. It is the result of collaboration between different key digital players in Belgium.
-
-Digital technology is at the heart of transformations in the global society that are imposing on everyone. This is a huge challenge for our societies and we have no choice but to inform ourselves and train ourselves to respond to it. These changes inevitably involve the transformation of the school, which can only be gradual and framed, but no less determined and energetically conducted.
-
-This induces a new relationship to knowledge, which itself also has profound effects on society. In fact, knowledge is no longer only in books or brains that are difficult to access. It appears as immediately at your fingertips after searching on the mobile phone connected to the internet. It is often more accurate and up to date than the one we have in mind. In short, the ubiquitous digital induces profound changes in our lives that must at least be identified in order to hope to understand and use them wisely or criticize them.
-
-In the age of ubiquitous digital, teachers should be able to use and integrate digital technologies into their courses. Far from us the idea of ​​replacing the notebooks, pencils and pens, essential for a good training of the capacities of writing, synthesis and transposition. But it is important for children and learners in general, like their teachers, to be comfortable with digital technologies. That they can use the resources of their computers and mobile phones, that they can search with them, complete their skills, create, invent. And that they can reflect on issues, challenges, opportunities as much as limits and threats, and integrate these tools into their lives to better participate in the Society.
-
-This involves a specific education, training, an opening to digital that the conference wants to bring.
-
-The Educode.be colloquium will take place from 27 to 29 August 2018 on various sites located in Brussels.
+_about_educode: About EduCode
+---
+_become_partner: Become partner
+---
+_contact: Contact
+---
+_expo: Expositions
+---
+_hotel: Hotel
+---
+_location: Locations
+---
+_monday: Monday
+---
+_more_infos: Thuesday
+---
+_our_partners: Our partners
+---
+_overview_program: Overview of the program
+---
+_partners: Partners
+---
+_practical_infos: Practical infos
+---
+_press: Press
+---
+_registration: Registration
+---
+_speakers: Speakers
+---
+_sunday: Sunday
+---
+_thuesday: Thuesday
+---
+_wednesday: Wednesday
 ---
 expo_about:
 
@@ -77,7 +94,10 @@ claudit. **Iubentem fortuna coitusque** restat patitur auras lapsus.
 Novitate cui, ut coronam removente et gaudia **et ultima**, semicaper etiam?
 Haec laetitiae quo **Iolaus suadet**.
 ---
-text_button: Devenir exposant
+partners_about:
+
+### Random text
+Voici la liste de nos partenaires, le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
 ---
 practical_infos:
 
@@ -105,43 +125,40 @@ blablabla
 
 images... 
 ---
-partners_about:
-
-### Random text
-Voici la liste de nos partenaires, le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
+text_button: Devenir exposant
 ---
-s_about_educode: About EduCode
+s_about_educode: À propos d'EduCode
 ---
-s_become_partner: Become partner
+s_become_partner: Devenez partenaire
 ---
 s_contact: Contact
 ---
 s_expo: Expositions
 ---
-s_hotel: Hotel
+s_hotel: Hôtel
 ---
-s_location: Locations
+s_location: Lieux
 ---
-s_monday: Monday
+s_monday: Lundi
 ---
-s_more_infos: More infos
+s_more_infos: Plus d'infos
 ---
-s_our_partners: Our partners
+s_our_partners: Nos partenaires
 ---
-s_overview_program: Overview of the program
+s_overview_program: Aperçu du programme
 ---
-s_partners: Partners
+s_partners: Partenaires
 ---
-s_practical_infos: Practical infos
+s_practical_infos: Infos pratiques
 ---
-s_press: Press
+s_press: Presse
 ---
-s_registration: Registration
+s_registration: Inscription
 ---
-s_speakers: Speakers
+s_speakers: Intervenants
 ---
-s_sunday: Sunday
+s_sunday: Dimanche
 ---
-s_thuesday: Thuesday
+s_thuesday: Mardi
 ---
-s_wednesday: Wednesday
+s_wednesday: Mercredi

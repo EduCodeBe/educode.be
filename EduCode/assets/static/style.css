@@ -285,6 +285,27 @@
       @media (max-width: 767px) {
         .main .overlay img {
           width: 100%; } }
+  .main .bxl-img {
+    background: no-repeat center center fixed;
+    background-size: cover;
+    height: 350px;
+    border-top: solid #e1b12c 3px;
+    border-bottom: solid #e1b12c 3px;
+    margin-top: 20px; }
+    .main .bxl-img.col-md-3 {
+      background-attachment: scroll !important;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      height: 250px; }
+      .main .bxl-img.col-md-3:nth-of-type(1) {
+        border: solid black 3px; }
+      .main .bxl-img.col-md-3:nth-of-type(2) {
+        border: solid #e1b12c 3px; }
+      .main .bxl-img.col-md-3:nth-of-type(3) {
+        border: solid darkred 3px; }
+      .main .bxl-img.col-md-3:nth-of-type(4) {
+        border: solid black 3px; }
   .main .description {
     background-color: #fff; }
     .main .description .title {

@@ -51,11 +51,11 @@
                         <a href="#anchor-contact" class="list-group-item d-inline-block collapsed">Contact</a>
                         <hr>
                         <div style="color: black;">
-                            <a style="color: black" href="{{ '/fr' }}">FR</a> |
+                            <a style="color: black" href="{{ '/' }}">FR</a> |
                             <a style="color: black" href="{{ '/nl' }}">NL</a> |
                             <a style="color: black" href="{{ '/es' }}">ES</a> |
                             <a style="color: black" href="{{ '/de' }}">DE</a> |
-                            <a style="color: black" href="{{ '/' }}">EN</a>
+                            <a style="color: black" href="{{ '/en' }}">EN</a>
                         </div>
                         <hr>
                         &copy; Copyright 2018 by Nicolas Pettiaux.
@@ -76,11 +76,11 @@
                         </a>
                         <hr>
                         <div style="color: black;">
-                            <a style="color: black" href="{{ '/fr' }}">FR</a> |
+                            <a style="color: black" href="{{ '/' }}">FR</a> |
                             <a style="color: black" href="{{ '/nl' }}">NL</a> |
                             <a style="color: black" href="{{ '/es' }}">ES</a> |
                             <a style="color: black" href="{{ '/de' }}">DE</a> |
-                            <a style="color: black" href="{{ '/' }}">EN</a>
+                            <a style="color: black" href="{{ '/en' }}">EN</a>
                         </div>
                         <hr>
                         &copy; Copyright 2018 by Nicolas Pettiaux.
@@ -102,6 +102,12 @@
 <script src="{{ '/plugins/slick/slick.min.js' | url }}"></script>
 
 <script>
+    if (getBootstrapBreakpoint() !== 'xs') {
+        $('#sidebar').addClass('show');
+    } else {
+        $('#sidebar').removeClass('show');
+    }
+
     $(function () {
         var $root = $('html, body');
 
@@ -119,12 +125,12 @@
                 $('#sidebar').removeClass('show');
             }
         });
-
-        var getBootstrapBreakpoint = function(){
-            var w = $(document).innerWidth();
-            return (w < 768) ? 'xs' : ((w < 992) ? 'sm' : ((w < 1200) ? 'md' : 'lg'));
-        }
     });
+
+    function getBootstrapBreakpoint() {
+        var w = $(document).innerWidth();
+        return (w < 768) ? 'xs' : ((w < 992) ? 'sm' : ((w < 1200) ? 'md' : 'lg'));
+    }
 
 </script>
 

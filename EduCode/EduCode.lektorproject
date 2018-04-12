@@ -1,14 +1,9 @@
 [project]
 name = EduCode
 
-[alternatives.en]
-name = Anglais (par défaut)
-primary = yes
-locale = en_US
-
 [alternatives.fr]
 name = Français
-url_prefix = /fr/
+primary = yes
 locale = fr
 
 [alternatives.nl]
@@ -26,4 +21,7 @@ name = Allemand
 url_prefix = /de/
 locale = de
 
-
+[alternatives.en]
+name = Anglais
+url_prefix = /en/
+locale = en_US
