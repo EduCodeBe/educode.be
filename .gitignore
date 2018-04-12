@@ -220,5 +220,5 @@ TSWLatexianTemp*
 *-tags.tex
 
 # pycharm's config files (the IDE I use)
-EduCode/.idea/*
+./EduCode/.idea/*
 .idea/*
