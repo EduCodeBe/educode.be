@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <main id="page-speaker" class="container">
+        <h1 class="title mb-5 text-center color-darker-yellow"><strong>{{ this.title }}</strong></h1>
+        <div class="row">
+            <div class="col-12 col-sm-2">
+                <p><strong>Contact</strong></p>
+                <p>
+                    {{ this.contact_name }}
+                    <br>
+                    {{ this.contact_tel }}
+                    <br>
+                    {{ this.contact_mail }}
+                </p>
+            </div>
+            <div class="col-12 col-sm-10 border-dark">
+                <div class="police-normal">
+                    <strong>
+                        <span class="text-dark"><i class="fa fa-align-bullhorn"></i> Abstract</span>
+                    </strong>
+
+                    <br>
+                    {{ this.abstract }}
+                    <hr>
+                </div>
+                <div class="police-normal">
+                    <strong>
+                        <span class="text-dark"><i class="fa fa-align-justify"></i> Description</span>
+                    </strong>
+
+                    <br>
+                    {{ this.description }}
+                </div>
+                <hr>
+                <p class="text-center">
+                    <a class="btn btn-warning" href="{{ '/' | url }}">
+                        <i class="fa fa-home"></i> Back to home
+                    </a>
+                </p>
+            </div>
+        </div>
+    </main>
+{% endblock %}
+

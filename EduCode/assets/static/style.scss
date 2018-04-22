@@ -5,7 +5,7 @@
 @import "home";
 
 body {
-  background: url('../imgs/bg.jpg') repeat-x top left fixed;
+
 }
 
 #sidebar {
@@ -92,6 +92,33 @@ body {
   }
 }
 
+
+.language {
+  text-align: right;
+  background-color: #446CB3;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  span {
+    margin-right: 10px;
+  }
+  .language-link {
+    padding: 10px 15px;
+    color: white;
+
+    &:hover {
+      text-decoration: none;
+      background-color: #445299;
+    }
+    &.current {
+      background-color: #445299;
+      border-bottom: solid $yellow 3px;
+    }
+  }
+}
+
+.police-normal {
+  font-family: Lato, "Roboto Slab", Serif, serif;
+}
 
 /* level 1*/
 #sidebar .list-group .collapse .list-group-item,

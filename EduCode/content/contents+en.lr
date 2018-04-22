@@ -97,7 +97,7 @@ s_become_partner: Become partner
 ---
 s_contact: Contact
 ---
-s_expo: Expositions
+s_expo: Exhibitions
 ---
 s_hotel: Hotel
 ---
@@ -105,7 +105,7 @@ s_location: Locations
 ---
 s_monday: Monday
 ---
-s_more_infos: More infos
+s_more_infos: More info
 ---
 s_our_partners: Our partners
 ---
@@ -126,3 +126,11 @@ s_sunday: Sunday
 s_thuesday: Thuesday
 ---
 s_wednesday: Wednesday
+---
+s_intro_dates: 27-29 août 2018
+---
+s_intro_location_city: Bruxelles, Belgique
+---
+s_intro_location_institutions: Bozar, ESI & ISIB
+---
+s_intro_location_institutions_2: Académie royale

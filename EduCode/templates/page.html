@@ -4,6 +4,22 @@
     <div class="container overlay">
         <img data-aos="zoom-in" data-aos-delay="500" src="{{ '/imgs/educode-logo-transparent.png' | url }}" alt="">
         <h1 data-aos="fade-down" data-aos-delay="100" class="color-dark">{{ this.title }}</h1>
+
+        <p class="color-darker-yellow ">
+            <strong>
+                {{ this.s_intro_location_city }}
+                <br>
+                {{ this.s_intro_dates }}
+            </strong>
+        </p>
+        <p>
+            <strong>
+                {{ this.s_intro_location_institutions }}
+                <br>
+                {{ this.s_intro_location_institutions_2 }}
+            </strong>
+        </p>
+
         <p data-aos="zoom-in" data-aos-delay="300" class="baseline color-darker-yellow">
             <strong>{{ this.baseline }}</strong></p>
         <hr>
@@ -95,8 +111,12 @@
             {% endif %}
         </div>
     </div>
-    <div class="container-fluid p-0">
+    <div class="container">
         <div class="row">
+            <div class="col-12">
+                <hr>
+            </div>
+
             <div id="anchor-expo" class="col-12">
                 <h4 class="title text-center"> ___ {{ this.s_expo }} ___ </h4>
                 <div id="expo-about" class="container">
@@ -107,10 +127,38 @@
                     </div>
                 </div>
                 <hr>
+                <div class="container">
+                    <div class="row">
+                        <!-- On récupère tous les partenaires -->
+                        {% set exhibitors = site.query('/exposants').include_hidden(false).all() %}
+                        {% if exhibitors %}
+                            {% for exhibitor in exhibitors %}
+                                <div class="exhibitor col-12 col-sm-4">
+                                    <small class="background-color-yellow color-white p-1">{{ exhibitor.tag }}</small>
+                                    <h4>{{ exhibitor.title }}</h4>
+                                    <p>{{ exhibitor.abstract }}</p>
+                                    {% if exhibitor.website %}
+                                        <a href="{{ exhibitor.website }}"
+                                           target="_blank"
+                                           class="btn btn-outline-warning text-uppercase">
+                                            SITE WEB
+                                        </a>
+                                    {% else %}
+                                        <a href="{{ exhibitor.url_path | url }}"
+                                           target="_blank"
+                                           class="btn btn-outline-warning text-uppercase">
+                                        {{ this.s_more_infos }}
+                                        </a>
+                                    {% endif %}
+                                </div>
+                            {% endfor %}
+                        {% endif %}
+                    </div>
+                </div>
+                <hr>
                 <p class="text-center">
                     <a class="btn btn-lg btn-primary text-uppercase" href="#">{{ this.text_button }}</a>
                 </p>
-                <hr>
             </div>
         </div>
     </div>
@@ -293,32 +341,31 @@
             </div>
             <div id="anchor-press" class="col-12">
                 <h4 class="title text-center">{ <i class="fa fa-users" aria-hidden="true"></i> {{ this.s_press }} }</h4>
-
-                <div id="anchor-contact" class="col-12">
-                    <h4 class="title title-left"><i class="fa fa-users" aria-hidden="true"></i> {{ this.s_contact }} {</h4>
-                    <div id="contacts">
-                        <div class="container">
-                            <div class="row">
-                                <!-- On récupère tous les contacts -->
-                                {% set contacts = site.query('/contacts').include_hidden(false).all() %}
-                                {% if contacts %}
-                                    {% for contact in contacts %}
-                                        <div class="col-12 col-sm-4 contact" data-aos="fade-up">
-                                            <h4 class="speaker-name text-center"><strong>{{ contact.name }}</strong>
-                                            </h4>
-                                            <p class="color-dark">{{ contact.role }}</p>
-                                            <ul>
-                                                <li><i class="fa fa-phone"></i> {{ contact.tel }}</li>
-                                                <li><i class="fa fa-envelope"></i> {{ contact.mail }}</li>
-                                            </ul>
-                                        </div>
-                                    {% endfor %}
-                                {% endif %}
-                            </div>
+            </div>
+            <div id="anchor-contact" class="col-12">
+                <h4 class="title title-left"><i class="fa fa-users" aria-hidden="true"></i> {{ this.s_contact }} {</h4>
+                <div id="contacts">
+                    <div class="container">
+                        <div class="row">
+                            <!-- On récupère tous les contacts -->
+                            {% set contacts = site.query('/contacts').include_hidden(false).all() %}
+                            {% if contacts %}
+                                {% for contact in contacts %}
+                                    <div class="col-12 col-sm-4 contact" data-aos="fade-up">
+                                        <h4 class="speaker-name text-center"><strong>{{ contact.name }}</strong>
+                                        </h4>
+                                        <p class="color-dark">{{ contact.role }}</p>
+                                        <ul>
+                                            <li><i class="fa fa-phone"></i> {{ contact.tel }}</li>
+                                            <li><i class="fa fa-envelope"></i> {{ contact.mail }}</li>
+                                        </ul>
+                                    </div>
+                                {% endfor %}
+                            {% endif %}
                         </div>
                     </div>
-                    <h4 class="title title-left">}</h4>
                 </div>
+                <h4 class="title title-left">}</h4>
             </div>
         </div>
     </div>

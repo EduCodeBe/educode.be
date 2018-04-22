@@ -1,0 +1,19 @@
+_model: exhibitor
+---
+title: Conférence
+---
+abstract:
+
+Le jour tant attendu est enfin là ! Le mercredi 25 xxxx, l'illuste professeur M; Xxxx présentera sa théorie de la gravité quantique à boucle. 
+---
+contact_mail: mathias@dubois.io
+---
+contact_name: Mathias Dubois
+---
+contact_tel: +32 484 999 999
+---
+description: Description plus fournie. (markdown possible ici)
+---
+tag: tag1
+---
+website: https://lqg.example.net

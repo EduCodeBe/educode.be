@@ -64,40 +64,15 @@ _wednesday: Wednesday
 ---
 expo_about:
 
-##  Fama facite decent
-
-## Silva parvae nolle coactis namque moveres patefecit
-
-Lorem markdownum, mox sunt [mihi mortale
-postquam](http://inquit-possis.com/templis) inmisit conveniant Maeandri Aesacon
+inmisit conveniant Maeandri Aesacon
 tauro dum: in usque servaturis. Vulgique alto trepidantibus procul an ipso
 fortius narrat corpus accessit Baccho spectatas parabat trepidantibus resecuta.
 Mare ausim nisi, ore Achivi iuveni interdumque tamen, positasque et aurea Iovi
 levi corpora caeloque lateri. Penna aquae nitidis: ipse nulla ceperunt rogata
 erat eodem digitoque suo superest fine causa contra dedit.
 
-- Quod sed coluber concuteret nec insignia Athamas coloque. Repelli iubet, in
-- falleret exitio est pontum fluctus fragorem. Si inopes referunt lacerti
-- dummodo tantorum Phoebe. Leti fossa vertere: Delos **fraudem**, victorque
-- Libys hactenus ad foret et figuram, Alcathoi dentes dominos. Aptos *Castrumque
-- motis*, in procul volucres an [recepto ipsa](http://www.arripit.org/) iniqui
-- sed ait suos ora.
-
-## Terruit arbore manebat erubuit nec comitem carere
-
-Iste fax tandem lata Cerealis **eripe**: Caucasiumque tamen at regnum ferarum
-mollia. Cauda ceu; vel quod terras moenia examinat bellum nato, iugulaberis
-claudit. **Iubentem fortuna coitusque** restat patitur auras lapsus.
-
-## Eryx ille
-
-Novitate cui, ut coronam removente et gaudia **et ultima**, semicaper etiam?
-Haec laetitiae quo **Iolaus suadet**.
 ---
-partners_about:
-
-### Random text
-Voici la liste de nos partenaires, le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
+partners_about: Voici la liste de nos partenaires, le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
 ---
 practical_infos:
 
@@ -162,3 +137,11 @@ s_sunday: Dimanche
 s_thuesday: Mardi
 ---
 s_wednesday: Mercredi
+---
+s_intro_dates: 27-29 août 2018
+---
+s_intro_location_city: Bruxelles, Belgique
+---
+s_intro_location_institutions: Bozar, ESI & ISIB
+---
+s_intro_location_institutions_2: Académie royale

@@ -2,8 +2,10 @@ _model: contact
 ---
 name: Julie Henry
 ---
-role: Responsable de la conférence scientifique
+role:
+
+Responsable de la conférence scientifique 
 ---
-mail: julie@lorem.ipsum
+mail: julie@educode.be
 ---
-tel: 25842942831
+tel: +32 xxx xxx xxx
