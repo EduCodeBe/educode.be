@@ -2,19 +2,17 @@ _template: page.html
 ---
 about:
 
-Les  27, 28 et 29 août 2018 à Bruxelles
-
-EduCode est la première édition d’un colloque annuel international dédié à l’éducation, aux pratiques et à la recherche dans les domaines liés au numérique. Il est le résultat d’une collaboration entre différents acteurs-clé du numérique en Belgique.
+EduCode est la première édition d’un colloque annuel international dédié à l’éducation, aux pratiques et à la recherche dans les domaines liés au numérique. Il est le résultat d’une collaboration entre différents acteurs-clé du numérique en Belgique et à l'étranger.
 
 Le numérique est au cœur de transformations de la société mondiale, qui s’imposent à tous. Cela constitue des défis énormes pour nos sociétés et nous n’avons d’autre choix que de nous informer et nous former pour y répondre. Ces changements passent inévitablement par la transformation de l’école, qui ne peut être que progressive et encadrée, mais non moins déterminée et énergiquement menée.
 
-Cela induit une nouvelle relation au savoir, qui elle-même a aussi de profonds effets sur la société. En effet, le savoir n’est plus seulement dans des livres ou des cerveaux difficilement accessibles. Il apparaît comme immédiatement au bout des doigts après une recherche effectuée sur le téléphone mobile relié à internet. Il est souvent plus précis et plus à jour que celui que l’on a en tête. Bref, le numérique omniprésent induit des changements profonds dans nos vies qu’il faut au moins identifier pour pouvoir espérer les comprendre et les utiliser à bon escient ou les critiquer.
+Cela induit une nouvelle relation au savoir, qui elle-même a aussi de profonds effets sur la société. En effet, le savoir n’est plus seulement dans des livres ou des cerveaux difficilement accessibles. Il apparaît comme immédiatement au bout des doigts après une recherche effectuée sur le téléphone mobile relié à internet. Il est souvent plus précis et plus à jour que celui que l’on a en tête. Avec ceci, la place et les rôles des enseignants en particulier sont bouleversés. Et ceux-ci, comme un très grand nombre de personnes auxquelles on annonce qu'il risque de perdre leurs emplois au profits de machines ou programmes informatiques prétendument « intelligents ». Ceci induit des peurs très compréhensibles qu'il convient de cerner. Bref, le numérique omniprésent induit des changements profonds dans nos vies qu’il faut au moins identifier pour pouvoir espérer les comprendre et les utiliser à bon escient ou les critiquer.
 
 À l'époque du numérique ubiquitaire, les enseignants devraient pouvoir utiliser et intégrer les technologies numériques dans leurs cours. Loin de nous l'idée de remplacer les cahiers, crayons et stylos, indispensables pour une bonne formation des capacités de rédaction, synthèse et transposition. Mais il est important que les enfants et apprenants en général, comme leurs enseignants, soient à l'aise avec les technologies numériques. Qu'ils puissent utiliser les ressources de leurs ordinateurs et téléphones portables, qu'ils puissent avec eux chercher, compléter leurs compétences, créer, inventer. Et qu'ils puissent réfléchir aux enjeux, défis, opportunités autant qu'aux limites et aux menaces, et intégrer ces outils dans leurs vies pour mieux participer à la Société.
 
 Ceci passe par une éducation spécifique, des entraînements, une ouverture au numérique que la conférence veut apporter. 
 
-Le colloque Educode.be se déroulera du 27 au 29 août 2018 sur différents sites localisés à Bruxelles.
+Le colloque Educode.be se déroulera du 27 au 29 août 2018 sur différents sites localisés à Bruxelles dans un rayon de 500 mètres autour du palais royal et du parlement fédéral.
 ---
 baseline: Une conférence internationale pour informer, former et susciter l'intérêt de tous les acteurs de l'enseignement aux défis du numérique.
 ---
@@ -64,15 +62,12 @@ _wednesday: Wednesday
 ---
 expo_about:
 
-inmisit conveniant Maeandri Aesacon
-tauro dum: in usque servaturis. Vulgique alto trepidantibus procul an ipso
-fortius narrat corpus accessit Baccho spectatas parabat trepidantibus resecuta.
-Mare ausim nisi, ore Achivi iuveni interdumque tamen, positasque et aurea Iovi
-levi corpora caeloque lateri. Penna aquae nitidis: ipse nulla ceperunt rogata
-erat eodem digitoque suo superest fine causa contra dedit.
+Durant les pauses cafés et repas, les différents acteurs notamment du numérique éducatif, en Belgique et dans les pays représentés à la conférence, c'est-à-dire les associations, écoles présenteront leurs réalisations. Ceci devrait être l'occasion pour les enseignants, leurs directions, les élus et leurs équipes, et les pouvoirs publics de prendre connaissance de la grande diversité des acteurs du numérique autour de l'école, ensembles d'acteurs qui peuvent les assister et les aider dans la complexe mission d'accompagner et former, tant les enseignants que les enfants, aux très nombreux usages du numérique.
 
 ---
-partners_about: Voici la liste de nos partenaires, le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
+partners_about:
+
+Les partenaires de la conférence sont tous les acteurs qui considèrent que la question est importante et qui souhaitent contribuer dans la mesure de leurs moyens. Les uns fournissent un indispensable soutien financier, les autres participent à la promotion et à la diffusion de l'information autour de la conférence, sont des membres du comité d'organisation de la conférence, encadrent des ateliers, participent à l'exposition ... 
 ---
 practical_infos:
 
@@ -145,3 +140,7 @@ s_intro_location_city: Bruxelles, Belgique
 s_intro_location_institutions: Bozar, ESI & ISIB
 ---
 s_intro_location_institutions_2: Académie royale
+---
+sunday:
+
+Dimanche 26 aôut 2018 à 18h à l'Académie royale, les académiciens et les pouvoirs politiques locaux reçoivent les participants à la conférence, qui peuvent aussi déjà s'enregistrer à la conférence pour être immédiatement prêt lundi matin. À l'occasion d'un cocktail dînatoire, ce sera aussi une première chance de faire connaissance. 
