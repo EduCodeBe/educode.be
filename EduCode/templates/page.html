@@ -50,17 +50,16 @@
                 </h3>
                 {{ this.monday }}
                 <div class="text-center">
-                    <a href="{{ '/lundi-27-aout' | url }}" class="btn btn-warning">{{ this.s_more_infos }}</a>
+                    <a href="{{ 'lundi-27-aout' | url }}" class="btn btn-warning">{{ this.s_more_infos }}</a>
                 </div>
             </div>
-
 
             <div class="col-12 col-sm-4" data-aos="fade-down" data-aos-delay="400">
                 <h3 class="text-center">{{ this.s_thuesday }} <span style="color: #e0a800; font-weight: 600;font-size: 1.3em;">28</span>
                 </h3>
                 {{ this.thuesday }}
                 <div class="text-center">
-                    <a href="{{ '/mardi-28-aout' | url }}" class="btn btn-warning">{{ this.s_more_infos }}</a>
+                    <a href="{{ 'mardi-28-aout' | url }}" class="btn btn-warning">{{ this.s_more_infos }}</a>
                 </div>
             </div>
 
@@ -70,7 +69,7 @@
                         style="color: #e0a800; font-weight: 600;font-size: 1.3em;">29</span></h3>
                 {{ this.wednesday }}
                 <div class="text-center">
-                    <a href="{{ '/mercredi-29-aout' | url }}" class="btn btn-warning">{{ this.s_more_infos }}</a>
+                    <a href="{{ 'mercredi-29-aout' | url }}" class="btn btn-warning">{{ this.s_more_infos }}</a>
                 </div>
             </div>
             <div class="col-12">
@@ -95,14 +94,14 @@
                                 </div>
                             </div>
                         {% else %}
-                            <div class="text-center speaker-picture-container" onclick="location.href = '{{ speaker.url_path }}';">
+                            <div class="text-center speaker-picture-container" onclick="location.href = '{{ speaker.url_path | url }}';">
                                 <div class="speaker-picture"
                                      style="background-image: url('{{  "/imgs/user.png" | url }}');">
                                 </div>
                             </div>
                         {% endif %}
                         <h4 class="speaker-name text-center">
-                            <a href="{{ speaker.url_path }}">
+                            <a href="{{ speaker.url_path | url }}">
                                 {{ speaker.title }}
                             </a>
                         </h4>
@@ -129,7 +128,7 @@
                 <hr>
                 <div class="container">
                     <div class="row">
-                        <!-- On récupère tous les partenaires -->
+                        <!-- On récupère tous les exposants -->
                         {% set exhibitors = site.query('/exposants').include_hidden(false).all() %}
                         {% if exhibitors %}
                             {% for exhibitor in exhibitors %}
@@ -246,13 +245,13 @@
                                         {% if pictures %}
                                             {% set lieu_picture = pictures | first %}
                                             <div class="location-picture" data-aos="zoom-in-down" >
-                                                <a href="{{ lieu.url_path }}">
+                                                <a href="{{ lieu.url_path | url }}">
                                                     <img src="{{ lieu_picture | url }}" alt="" width="100%">
                                                 </a>
                                             </div>
                                         {% else %}
                                             <div class="location-picture" data-aos="zoom-in-down" >
-                                                <a href="{{ lieu.url_path }}">
+                                                <a href="{{ lieu.url_path | url }}">
                                                     <img src="{{ '/imgs/location.svg' }}" alt="">
                                                 </a>
                                             </div>
@@ -263,7 +262,7 @@
                                             <strong>{{ lieu.name }}</strong>
                                         </h4>
                                         <p class="color-dark">{{ lieu.address }}</p>
-                                        <a href="{{ lieu.url_path }}" class="btn btn-warning">{{ this.s_more_infos }}</a>
+                                        <a href="{{ lieu.url_path | url }}" class="btn btn-warning">{{ this.s_more_infos }}</a>
                                     </div>
                                 {% endif %}
                             {% endfor %}
@@ -287,13 +286,13 @@
                                         {% if pictures %}
                                             {% set lieu_picture = pictures | first %}
                                             <div class="location-picture" data-aos="zoom-in-down" >
-                                                <a href="{{ lieu.url_path }}">
+                                                <a href="{{ lieu.url_path | url }}">
                                                     <img src="{{ lieu_picture | url }}" alt="" width="100%">
                                                 </a>
                                             </div>
                                         {% else %}
                                             <div class="location-picture" data-aos="zoom-in-down" >
-                                                <a href="{{ lieu.url_path }}">
+                                                <a href="{{ lieu.url_path | url }}">
                                                     <img src="{{ '/imgs/location.svg' }}" alt="">
                                                 </a>
                                             </div>
@@ -304,10 +303,10 @@
                                             <strong>{{ lieu.name }}</strong></h4>
                                         <p class="color-dark">{{ lieu.address }}</p>
                                         {% if lieu.code_promo %}
-                                            <a href="{{ lieu.url_path }}" class="btn btn-outline-warning"><i class="fa fa-gift"></i> CODE PROMO</a>
+                                            <a href="{{ lieu.url_path | url }}" class="btn btn-outline-warning"><i class="fa fa-gift"></i> CODE PROMO</a>
                                             <br>
                                         {% endif %}
-                                        <a href="{{ lieu.url_path }}" class="btn mt-1 btn-warning">{{ this.s_more_infos }}</a>
+                                        <a href="{{ lieu.url_path | url }}" class="btn mt-1 btn-warning">{{ this.s_more_infos }}</a>
                                     </div>
                                 {% endif %}
                             {% endfor %}
