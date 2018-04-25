@@ -24,6 +24,7 @@
         {% if this.url_path in root_url %}
             <div id="sidebar" class="col-md-2 float-left col-1 pl-0 pr-0 collapse width show">
                 <div class="position-fixed col-md-2">
+
                     <div class="text-center brand">
                         <a href="{{ '/' | url }}">
                             <img src="{{ '/imgs/educode-logo-transparent.png' | url }}" alt="">
@@ -34,22 +35,23 @@
                         <a href="#program"
                            class="list-group-item d-inline-block collapsed"
                            data-toggle="collapse"
-                           aria-expanded="false">Schedule</a>
+                           aria-expanded="false">Programme</a>
 
                         <div class="collapse" id="program">
-                            <a href="#anchor-overview" class="list-group-item">Overview</a>
+                            <a href="#anchor-overview" class="list-group-item">{{ this.s_overview_program }}</a>
                             <a href="{{ '/dimanche-26-aout' | url }}" class="list-group-item">Sunday 26th</a>
                             <a href="{{ '/lundi-27-aout' | url }}"    class="list-group-item">Monday 27th</a>
                             <a href="{{ '/mardi-28-aout' | url }}"    class="list-group-item">Thuesday 28th</a>
                             <a href="{{ '/mercredi-29-aout' | url }}" class="list-group-item">Wednesday 29th</a>
                         </div>
-                        <a href="#anchor-speakers" class="list-group-item d-inline-block collapsed">Speakers</a>
-                        <a href="#anchor-expo" class="list-group-item d-inline-block collapsed">Expo</a>
-                        <a href="#anchor-partners" class="list-group-item d-inline-block collapsed">Partners</a>
-                        <a href="#anchor-inscription" class="list-group-item d-inline-block collapsed">Registration</a>
-                        <a href="#anchor-practical-infos" class="list-group-item d-inline-block collapsed">Practical infos</a>
-                        <a href="#anchor-press" class="list-group-item d-inline-block collapsed">Press</a>
-                        <a href="#anchor-contact" class="list-group-item d-inline-block collapsed">Contact</a>
+                        <a href="#anchor-speakers"        class="list-group-item d-inline-block collapsed">{{ this.s_speakers }}</a>
+                        <a href="#anchor-expo"            class="list-group-item d-inline-block collapsed">{{ this.s_expo }}</a>
+                        <a href="#anchor-partners"        class="list-group-item d-inline-block collapsed">{{ this.s_partners }}</a>
+                        <a href="#anchor-inscription"     class="list-group-item d-inline-block collapsed">{{ this.s_registration }}</a>
+                        <a href="#anchor-practical-infos" class="list-group-item d-inline-block collapsed">{{ this.s_practical_infos }}</a>
+                        <a href="#anchor-submissions"     class="list-group-item d-inline-block collapsed">{{ this.s_submissions }}</a>
+                        <a href="#anchor-press"           class="list-group-item d-inline-block collapsed">{{ this.s_press }}</a>
+                        <a href="#anchor-contact"         class="list-group-item d-inline-block collapsed">{{ this.s_contact }}</a>
                         <hr>
                         &copy; Copyright 2018 by Nicolas Pettiaux.
                     </div>
@@ -67,21 +69,22 @@
                         <a href="#program"
                            class="list-group-item d-inline-block collapsed"
                            data-toggle="collapse"
-                           aria-expanded="false">Schedule</a>
+                           aria-expanded="false">Programme</a>
                         <div class="collapse" id="program">
-                            <a href="{{ '#anchor-overview' }}" class="list-group-item">Overview</a>
+                            <a href="{{ '#anchor-overview' }}" class="list-group-item">{{ this.s_overview_program }}</a>
                             <a href="{{ '/dimanche-26-aout' | url }}" class="list-group-item">Sunday 26th</a>
                             <a href="{{ '/lundi-27-aout' | url }}"    class="list-group-item">Monday 27th</a>
                             <a href="{{ '/mardi-28-aout' | url }}"    class="list-group-item">Thuesday 28th</a>
                             <a href="{{ '/mercredi-29-aout' | url }}" class="list-group-item">Wednesday 29th</a>
                         </div>
-                        <a href="{{ '/#anchor-speakers'        }}" class="list-group-item d-inline-block collapsed">Speakers</a>
-                        <a href="{{ '/#anchor-expo'            }}" class="list-group-item d-inline-block collapsed">Expo</a>
-                        <a href="{{ '/#anchor-partners'        }}" class="list-group-item d-inline-block collapsed">Partners</a>
-                        <a href="{{ '/#anchor-inscription'     }}" class="list-group-item d-inline-block collapsed">Registration</a>
-                        <a href="{{ '/#anchor-practical-infos' }}" class="list-group-item d-inline-block collapsed">Practical infos</a>
-                        <a href="{{ '/#anchor-press'           }}" class="list-group-item d-inline-block collapsed">Press</a>
-                        <a href="{{ '/#anchor-contact'         }}" class="list-group-item d-inline-block collapsed">Contact</a>
+                        <a href="{{ '/#anchor-speakers'        }}" class="list-group-item d-inline-block collapsed">{{ this.s_speakers }}</a>
+                        <a href="{{ '/#anchor-expo'            }}" class="list-group-item d-inline-block collapsed">{{ this.s_expo }}</a>
+                        <a href="{{ '/#anchor-partners'        }}" class="list-group-item d-inline-block collapsed">{{ this.s_partners }}</a>
+                        <a href="{{ '/#anchor-inscription'     }}" class="list-group-item d-inline-block collapsed">{{ this.s_registration }}</a>
+                        <a href="{{ '/#anchor-practical-infos' }}" class="list-group-item d-inline-block collapsed">{{ this.s_practical_infos }}</a>
+                        <a href="{{ '/#anchor-submissions'     }}" class="list-group-item d-inline-block collapsed">{{ this.s_submissions }}</a>
+                        <a href="{{ '/#anchor-press'           }}" class="list-group-item d-inline-block collapsed">{{ this.s_press }}</a>
+                        <a href="{{ '/#anchor-contact'         }}" class="list-group-item d-inline-block collapsed">{{ this.s_contact }}</a>
                         <hr>
 
                         &copy; Copyright 2018 by Nicolas Pettiaux.
@@ -115,6 +118,9 @@
             </div>
 
             <div style="background: url('{{ '/imgs/bg.jpg' | url }}') repeat-x top left fixed;">
+                <a id="menu-icon" href="#" data-target="#sidebar" data-toggle="collapse">
+                    <i class="fa fa-navicon d-md-none"></i>
+                </a>
                 {% block baseline %}{% endblock %}
                 {% block content %}{% endblock %}
             </div>

@@ -77,7 +77,7 @@
             </div>
 
             <div id="anchor-speakers" class="col-12">
-                <h4 class="title text-center">{ <i class="fa fa-users" aria-hidden="true"></i> {{ this.s_speakers }} }</h4>
+                <h4 class="title">{ <i class="fa fa-users" aria-hidden="true"></i> {{ this.s_speakers }} }</h4>
             </div>
 
             <!-- On récupère tous les intervenants -->
@@ -132,7 +132,7 @@
                         {% set exhibitors = site.query('/exposants').include_hidden(false).all() %}
                         {% if exhibitors %}
                             {% for exhibitor in exhibitors %}
-                                <div class="exhibitor col-12 col-sm-4">
+                                <div class="exhibitor col-12 col-sm-4" data-aos="zoom-in">
                                     <small class="background-color-yellow color-white p-1">{{ exhibitor.tag }}</small>
                                     <h4>{{ exhibitor.title }}</h4>
                                     <p>{{ exhibitor.abstract }}</p>
@@ -155,7 +155,7 @@
                     </div>
                 </div>
                 <hr>
-                <p class="text-center">
+                <p class="text-center" data-aos="zoom-in">
                     <a class="btn btn-lg btn-primary text-uppercase" href="#">{{ this.text_button }}</a>
                 </p>
             </div>
@@ -171,7 +171,7 @@
                 </div>
                 <div class="col-12"><hr></div>
 
-                <div class="col-12 text-center">
+                <div class="col-12 text-center" data-aos="zoom-in-down">
                     <a href="#" class="btn btn-lg btn-warning text-uppercase">{{ this.s_become_partner }}</a>
                 </div>
 
@@ -217,7 +217,10 @@
 
 
             <div id="anchor-inscription" class="col-12">
-                <h4 class="title text-center">{ <i class="fa fa-users" aria-hidden="true"></i> {{ this.s_registration }} }</h4>
+                <h4 class="title text-center">{ {{ this.s_registration }} }</h4>
+                <div class="alert alert-warning text-center">
+                    {{ this.registration }}
+                </div>
             </div>
 
             <div id="anchor-practical-infos" class="col-12">
@@ -338,9 +341,51 @@
                 <hr>
 
             </div>
-            <div id="anchor-press" class="col-12">
-                <h4 class="title text-center">{ <i class="fa fa-users" aria-hidden="true"></i> {{ this.s_press }} }</h4>
+            <div id="anchor-submissions" class="col-12">
+                <h4 class="title text-center background-color-yellow color-blue border-blue">
+                    /* {{ this.s_submissions }} */
+                </h4>
+                <div class="container">
+                    {{ this.submissions_text }}
+                </div>
+                <hr>
+                <p class="text-center" data-aos="zoom-in-down">
+                   <a  href="https://educode2018.sciencesconf.org/"
+                       class="btn btn-lg btn-warning text-uppercase"
+                       target="_blank">
+                           <i class="fa fa-plus"></i>
+                           {{ this.s_submit_here }}
+                   </a>
+                </p>
+                <hr>
             </div>
+        
+        </div>
+    </div>
+
+    <div class="container-fluid background-color-yellow">
+        <div class="row">
+            <div id="anchor-press" class="col-12 p-2">
+                <h4 class="title text-center">{ # {{ this.s_press }} }</h4>
+                <div data-aos="zoom-in" class="text-center" style="font-size: 3rem;">
+                    <i class="fa fa-calendar-check-o"></i><br>
+
+                    <span class="text-white" style="font-size: 1.8em; font-weight: 600;">7</span>
+                    <span class="color-dark">{{ this.s_may }}</span>
+                </div>
+                <hr>
+                <div>
+                    {{ this.press_text }}
+                </div>
+                <p class="text-center" data-aos="zoom-in">
+                    <a href="#" class="btn btn-primary btn-lg text-uppercase">{{ this.s_registration }}</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
             <div id="anchor-contact" class="col-12">
                 <h4 class="title title-left"><i class="fa fa-users" aria-hidden="true"></i> {{ this.s_contact }} {</h4>
                 <div id="contacts">
