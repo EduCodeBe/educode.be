@@ -25,3 +25,6 @@ locale = de
 name = Anglais
 url_prefix = /en/
 locale = en_US
+
+[packages]
+i18n = 0.2

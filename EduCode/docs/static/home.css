@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Unica One';
+  src: url("../fonts/UnicaOne-Regular.ttf") format("truetype"); }
+.main {
+  height: 100vh;
+  overflow-y: scroll; }
+  .main .overlay {
+    text-align: center;
+    font-family: "Unica One", "Roboto Slab", serif;
+    font-size: 1.7rem;
+    overflow: hidden; }
+    .main .overlay .darker-background {
+      width: 100%;
+      height: 100%;
+      background-color: #273c75; }
+    .main .overlay .baseline {
+      margin-top: 250px;
+      padding: 50px 30px;
+      color: #e1b12c; }
+      .main .overlay .baseline h1 {
+        color: white;
+        font-size: 3rem; }
+    .main .overlay img {
+      width: 100%; }
+
+/*# sourceMappingURL=home.css.map */
