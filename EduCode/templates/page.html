@@ -12,6 +12,7 @@
                 {{ this.s_intro_dates }}
             </strong>
         </p>
+
         <p data-aos="zoom-in" data-aos-delay="600">
             <strong>
                 {{ this.s_intro_location_institutions }}
@@ -421,6 +422,8 @@
 {% block javascript %}
     <script>
         AOS.init();
+
+
         $('#slideshow-partners').slick({
           dots: true,
           infinite: true,

@@ -1,8 +1,8 @@
-_model: details-programma
+_model: details-program
 ---
-naam: dinsdag 28 augustus
+name: dinsdag 28 augustus
 ---
-Beschrijving:
+description:
 
 #Se training
 
@@ -12,4 +12,4 @@ Deelnemers worden uitgenodigd voor 60 praktische workshops, waarin zij de studen
 
 Al het verstrekte lesmateriaal zal vrij en onmiddellijk herbruikbaar, aanpasbaar en herdistribueerbaar zijn. Ga naar https://educode2018.sciencesconf.org/ om workshops aan te bieden
 ---
-datum: dinsdag 28 augustus
+date: dinsdag 28 augustus

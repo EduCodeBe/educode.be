@@ -1,8 +1,8 @@
-_model: detalles-programa
+_model: details-program
 ---
-nombre: martes 28 de agosto
+name: martes 28 de agosto
 ---
-Descripción:
+description:
 
 #Formarse
 
@@ -12,4 +12,4 @@ Los participantes serán invitados a 60 talleres prácticos durante los cuales s
 
 Todo el material de enseñanza proporcionado será libremente e inmediatamente reutilizable, adaptable y redistribuible. Para ofrecer talleres, vaya a https://educode2018.sciencesconf.org/
 ---
-Fecha: Martes, 28 de agosto
+date: Martes, 28 de agosto

@@ -1,8 +1,10 @@
-_model: Details-Programm
+_model: details-program
 ---
-Name: Dienstag, 28. August
+name: Dienstag, 28. August
 ---
-Beschreibung:
+date: Dienstag, 28. August
+---
+description:
 
 #Se Training
 
@@ -11,5 +13,3 @@ Am Dienstag, den 28. August werden praktische Workshops, Schulungen, Austauschpr
 Die Teilnehmer werden zu 60 praktischen Workshops eingeladen, bei denen sie die Lernenden sind, um ihre Alter-Egos zu finden, mit ihnen Inhalte und Erfahrungen zu entwickeln, um das Gelernte im Unterricht wiederverwenden zu können.
 
 Das gesamte zur Verfügung gestellte Unterrichtsmaterial ist frei und sofort wiederverwendbar, anpassungsfähig und weiterverteilbar. Um Workshops anzubieten, gehen Sie zu https://educode2018.sciencesconf.org/
----
-Datum: Dienstag, 28. August
