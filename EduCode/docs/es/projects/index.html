@@ -18,10 +18,33 @@
 </head>
 <body>
 <div class="container-fluid">
+    
+    <!-- get current alternative -->
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            
+        
+    
+        
+    
+
     <div class="row d-flex d-md-block flex-nowrap wrapper">
-        <!-- On n'affiche le menu que sur la page d'accueil -->
         
-        
+            
             <div id="sidebar" class="col-md-2 float-left col-1 pl-0 pr-0 collapse width show">
                 <div class="position-fixed col-md-2">
                     <div class="text-center brand">
@@ -33,21 +56,26 @@
                         <a href="#program"
                            class="list-group-item d-inline-block collapsed"
                            data-toggle="collapse"
-                           aria-expanded="false">Schedule</a>
+                           aria-expanded="false">Programme</a>
+                        
+                                
+                            
+
                         <div class="collapse" id="program">
-                            <a href="#anchor-overview" class="list-group-item">Overview</a>
-                            <a href="../../es/dimanche-26-aout/" class="list-group-item">Sunday 26th</a>
-                            <a href="../../es/lundi-27-aout/"    class="list-group-item">Monday 27th</a>
-                            <a href="../../es/mardi-28-aout/"    class="list-group-item">Thuesday 28th</a>
-                            <a href="../../es/mercredi-29-aout/" class="list-group-item">Wednesday 29th</a>
+                            <a href="#anchor-overview" class="list-group-item">Aperçu du programme</a>
+                            <a href="/es../../es/dimanche-26-aout/" class="list-group-item">Dimanche</a>
+                            <a href="/es../../es/lundi-27-aout/" class="list-group-item">Lundi</a>
+                            <a href="/es../../es/mardi-28-aout/" class="list-group-item">Mardi</a>
+                            <a href="/es../../es/mercredi-29-aout/" class="list-group-item">Mercredi</a>
                         </div>
-                        <a href="/#anchor-speakers" class="list-group-item d-inline-block collapsed">Speakers</a>
-                        <a href="/#anchor-expo" class="list-group-item d-inline-block collapsed">Expo</a>
-                        <a href="/#anchor-partners" class="list-group-item d-inline-block collapsed">Partners</a>
-                        <a href="/#anchor-inscription" class="list-group-item d-inline-block collapsed">Registration</a>
-                        <a href="/#anchor-practical-infos" class="list-group-item d-inline-block collapsed">Practical infos</a>
-                        <a href="/#anchor-press" class="list-group-item d-inline-block collapsed">Press</a>
-                        <a href="/#anchor-contact" class="list-group-item d-inline-block collapsed">Contact</a>
+                        <a href="/es/#anchor-speakers" class="list-group-item d-inline-block collapsed">Intervenants</a>
+                        <a href="/es/#anchor-expo" class="list-group-item d-inline-block collapsed">Expositions</a>
+                        <a href="/es/#anchor-partners" class="list-group-item d-inline-block collapsed">Partenaires</a>
+                        <a href="/es/#anchor-inscription" class="list-group-item d-inline-block collapsed">Inscription</a>
+                        <a href="/es/#anchor-practical-infos" class="list-group-item d-inline-block collapsed">Infos pratiques</a>
+                        <a href="/es/#anchor-submissions" class="list-group-item d-inline-block collapsed">Appel à soumission</a>
+                        <a href="/es/#anchor-press" class="list-group-item d-inline-block collapsed">Presse</a>
+                        <a href="/es/#anchor-contact" class="list-group-item d-inline-block collapsed">Contact</a>
                         <hr>
 
                         &copy; Copyright 2018 by Nicolas Pettiaux.
@@ -61,19 +89,19 @@
                     <div class="col-12">
                         <span class="text-white">Langue</span>
 
-                        <a class="language-link " href="/">
+                        <a class="language-link " href="../../projects/">
                             <img width="16px" height="16px" src="../../imgs/fr.png" alt=""> FR
                         </a>
-                        <a class="language-link " href="/nl">
+                        <a class="language-link " href="../../nl/projects/">
                             <img width="16px" height="16px" src="../../imgs/nl.png" alt=""> NL
                         </a>
-                        <a class="language-link " href="/en">
+                        <a class="language-link " href="../../en/projects/">
                             <img width="16px" height="16px" src="../../imgs/gb.png" alt=""> EN
                         </a>
-                        <a class="language-link " href="/de">
+                        <a class="language-link " href="../../de/projects/">
                             <img width="16px" height="16px" src="../../imgs/de.png" alt=""> DE
                         </a>
-                        <a class="language-link " href="/es">
+                        <a class="language-link  current " href="../../es/projects/">
                             <img width="16px" height="16px" src="../../imgs/es.png" alt=""> ES
                         </a>
                     </div>
@@ -81,6 +109,9 @@
             </div>
 
             <div style="background: url('../../imgs/bg.jpg') repeat-x top left fixed;">
+                <a id="menu-icon" href="#" data-target="#sidebar" data-toggle="collapse">
+                    <i class="fa fa-navicon d-md-none"></i>
+                </a>
                 
     <div class="container overlay">
         <img data-aos="zoom-in" data-aos-delay="500" src="../../imgs/educode-logo-transparent.png" alt="">
@@ -93,6 +124,7 @@
                 
             </strong>
         </p>
+
         <p data-aos="zoom-in" data-aos-delay="600">
             <strong>
                 
@@ -157,7 +189,7 @@
             </div>
 
             <div id="anchor-speakers" class="col-12">
-                <h4 class="title text-center">{ <i class="fa fa-users" aria-hidden="true"></i>  }</h4>
+                <h4 class="title">{ <i class="fa fa-users" aria-hidden="true"></i>  }</h4>
             </div>
 
             <!-- On récupère tous les intervenants -->
@@ -183,55 +215,6 @@
                     <div class="col-6 col-sm-4 col-md-3 speaker" data-aos="fade-down-right" data-aos-delay="300">
                         
                         
-                            <div class="text-center speaker-picture-container" onclick="location.href = '../../es/intervenants/mathieu-hirtzig/';">
-                                <div class="speaker-picture"
-                                     style="background-image: url('../../imgs/user.png');">
-                                </div>
-                            </div>
-                        
-                        <h4 class="speaker-name text-center">
-                            <a href="../../es/intervenants/mathieu-hirtzig/">
-                                Mathieu Hirtzig
-                            </a>
-                        </h4>
-                    </div>
-                
-                    <div class="col-6 col-sm-4 col-md-3 speaker" data-aos="fade-down-right" data-aos-delay="300">
-                        
-                        
-                            
-                            <div class="text-center speaker-picture-container">
-                                <div class="speaker-picture"
-                                     style="background-image: url('../../intervenants/stephanie-pouchol/bg.jpg');">
-                                </div>
-                            </div>
-                        
-                        <h4 class="speaker-name text-center">
-                            <a href="../../es/intervenants/stephanie-pouchol/">
-                                Stéphanie Pouchol
-                            </a>
-                        </h4>
-                    </div>
-                
-                    <div class="col-6 col-sm-4 col-md-3 speaker" data-aos="fade-down-right" data-aos-delay="300">
-                        
-                        
-                            <div class="text-center speaker-picture-container" onclick="location.href = '../../es/intervenants/jithin-bp/';">
-                                <div class="speaker-picture"
-                                     style="background-image: url('../../imgs/user.png');">
-                                </div>
-                            </div>
-                        
-                        <h4 class="speaker-name text-center">
-                            <a href="../../es/intervenants/jithin-bp/">
-                                Jithin Bp
-                            </a>
-                        </h4>
-                    </div>
-                
-                    <div class="col-6 col-sm-4 col-md-3 speaker" data-aos="fade-down-right" data-aos-delay="300">
-                        
-                        
                             <div class="text-center speaker-picture-container" onclick="location.href = '../../es/intervenants/marie-duflot-kremer/';">
                                 <div class="speaker-picture"
                                      style="background-image: url('../../imgs/user.png');">
@@ -241,6 +224,22 @@
                         <h4 class="speaker-name text-center">
                             <a href="../../es/intervenants/marie-duflot-kremer/">
                                 Marie Duflot-Kremer...
+                            </a>
+                        </h4>
+                    </div>
+                
+                    <div class="col-6 col-sm-4 col-md-3 speaker" data-aos="fade-down-right" data-aos-delay="300">
+                        
+                        
+                            <div class="text-center speaker-picture-container" onclick="location.href = '../../es/intervenants/mathieu-hirtzig/';">
+                                <div class="speaker-picture"
+                                     style="background-image: url('../../imgs/user.png');">
+                                </div>
+                            </div>
+                        
+                        <h4 class="speaker-name text-center">
+                            <a href="../../es/intervenants/mathieu-hirtzig/">
+                                Mathieu Hirtzig
                             </a>
                         </h4>
                     </div>
@@ -264,22 +263,6 @@
                     <div class="col-6 col-sm-4 col-md-3 speaker" data-aos="fade-down-right" data-aos-delay="300">
                         
                         
-                            <div class="text-center speaker-picture-container" onclick="location.href = '../../es/intervenants/ivan-kalas/';">
-                                <div class="speaker-picture"
-                                     style="background-image: url('../../imgs/user.png');">
-                                </div>
-                            </div>
-                        
-                        <h4 class="speaker-name text-center">
-                            <a href="../../es/intervenants/ivan-kalas/">
-                                Ivan Kalas
-                            </a>
-                        </h4>
-                    </div>
-                
-                    <div class="col-6 col-sm-4 col-md-3 speaker" data-aos="fade-down-right" data-aos-delay="300">
-                        
-                        
                             <div class="text-center speaker-picture-container" onclick="location.href = '../../es/intervenants/francoise-elie/';">
                                 <div class="speaker-picture"
                                      style="background-image: url('../../imgs/user.png');">
@@ -296,16 +279,64 @@
                     <div class="col-6 col-sm-4 col-md-3 speaker" data-aos="fade-down-right" data-aos-delay="300">
                         
                         
-                            
-                            <div class="text-center speaker-picture-container">
+                            <div class="text-center speaker-picture-container" onclick="location.href = '../../es/intervenants/jerome-lecombe/';">
                                 <div class="speaker-picture"
-                                     style="background-image: url('../../intervenants/jerome-lecombe/user-1.jpg');">
+                                     style="background-image: url('../../imgs/user.png');">
                                 </div>
                             </div>
                         
                         <h4 class="speaker-name text-center">
                             <a href="../../es/intervenants/jerome-lecombe/">
                                 Jérome Lecombe
+                            </a>
+                        </h4>
+                    </div>
+                
+                    <div class="col-6 col-sm-4 col-md-3 speaker" data-aos="fade-down-right" data-aos-delay="300">
+                        
+                        
+                            <div class="text-center speaker-picture-container" onclick="location.href = '../../es/intervenants/ivan-kalas/';">
+                                <div class="speaker-picture"
+                                     style="background-image: url('../../imgs/user.png');">
+                                </div>
+                            </div>
+                        
+                        <h4 class="speaker-name text-center">
+                            <a href="../../es/intervenants/ivan-kalas/">
+                                Ivan Kalas
+                            </a>
+                        </h4>
+                    </div>
+                
+                    <div class="col-6 col-sm-4 col-md-3 speaker" data-aos="fade-down-right" data-aos-delay="300">
+                        
+                        
+                            <div class="text-center speaker-picture-container" onclick="location.href = '../../es/intervenants/jithin-bp/';">
+                                <div class="speaker-picture"
+                                     style="background-image: url('../../imgs/user.png');">
+                                </div>
+                            </div>
+                        
+                        <h4 class="speaker-name text-center">
+                            <a href="../../es/intervenants/jithin-bp/">
+                                Jithin Bp
+                            </a>
+                        </h4>
+                    </div>
+                
+                    <div class="col-6 col-sm-4 col-md-3 speaker" data-aos="fade-down-right" data-aos-delay="300">
+                        
+                        
+                            
+                            <div class="text-center speaker-picture-container">
+                                <div class="speaker-picture"
+                                     style="background-image: url('../../intervenants/stephanie-pouchol/bg.jpg');">
+                                </div>
+                            </div>
+                        
+                        <h4 class="speaker-name text-center">
+                            <a href="../../es/intervenants/stephanie-pouchol/">
+                                Stéphanie Pouchot
                             </a>
                         </h4>
                     </div>
@@ -335,20 +366,7 @@
                         
                         
                             
-                                <div class="exhibitor col-12 col-sm-4">
-                                    <small class="background-color-yellow color-white p-1">tag1</small>
-                                    <h4>Conférence</h4>
-                                    <p>Le jour tant attendu est enfin là ! Le mercredi 25 xxxx, l&#39;illuste professeur M; Xxxx présentera sa théorie de la gravité quantique à boucle.</p>
-                                    
-                                        <a href="https://lqg.example.net"
-                                           target="_blank"
-                                           class="btn btn-outline-warning text-uppercase">
-                                            SITE WEB
-                                        </a>
-                                    
-                                </div>
-                            
-                                <div class="exhibitor col-12 col-sm-4">
+                                <div class="exhibitor col-12 col-sm-4" data-aos="zoom-in">
                                     <small class="background-color-yellow color-white p-1">tag2</small>
                                     <h4>Exposition</h4>
                                     <p>Exposition sur le langage de lego mindstorm permettant de coder aisément des robots de la marque lego.</p>
@@ -361,11 +379,24 @@
                                     
                                 </div>
                             
+                                <div class="exhibitor col-12 col-sm-4" data-aos="zoom-in">
+                                    <small class="background-color-yellow color-white p-1">tag1</small>
+                                    <h4>Conférence</h4>
+                                    <p>Le jour tant attendu est enfin là ! Le mercredi 25 xxxx, l&#39;illuste professeur M; Xxxx présentera sa théorie de la gravité quantique à boucle.</p>
+                                    
+                                        <a href="https://lqg.example.net"
+                                           target="_blank"
+                                           class="btn btn-outline-warning text-uppercase">
+                                            SITE WEB
+                                        </a>
+                                    
+                                </div>
+                            
                         
                     </div>
                 </div>
                 <hr>
-                <p class="text-center">
+                <p class="text-center" data-aos="zoom-in">
                     <a class="btn btn-lg btn-primary text-uppercase" href="#"></a>
                 </p>
             </div>
@@ -381,7 +412,7 @@
                 </div>
                 <div class="col-12"><hr></div>
 
-                <div class="col-12 text-center">
+                <div class="col-12 text-center" data-aos="zoom-in-down">
                     <a href="#" class="btn btn-lg btn-warning text-uppercase"></a>
                 </div>
 
@@ -402,15 +433,180 @@
                                 
                                     
                                     <div class="partner-picture">
-                                        <a href="https://www.capgemini.com/" target="_blank">
-                                            <img src="../../partenaires/cap-gemini/logo-square.png" alt="" width="100%">
+                                        <a href="" target="_blank">
+                                            <img src="../../partenaires/digital-wallonia/digitalwallonia-logo-degrades-358x259-small-169.png" alt="" width="100%">
                                         </a>
                                     </div>
                                 
                                 <!-- url -->
                                 <h4 class="p-1 mt-1 text-center">
-                                    <a href="https://www.capgemini.com/" target="_blank" class="btn color-dark">
-                                        Cap gemini
+                                    <a href="" target="_blank" class="btn color-dark">
+                                        
+                                    </a>
+                                </h4>
+                            </div>
+                        
+                            <div class="partner text-center ml-2 mr-2">
+                                <!-- picture -->
+                                
+                                
+                                    
+                                    <div class="partner-picture">
+                                        <a href="" target="_blank">
+                                            <img src="../../partenaires/ifc-institut-de-formation-en-cours-de-carriere/ifc_logo.jpg" alt="" width="100%">
+                                        </a>
+                                    </div>
+                                
+                                <!-- url -->
+                                <h4 class="p-1 mt-1 text-center">
+                                    <a href="" target="_blank" class="btn color-dark">
+                                        
+                                    </a>
+                                </h4>
+                            </div>
+                        
+                            <div class="partner text-center ml-2 mr-2">
+                                <!-- picture -->
+                                
+                                
+                                    
+                                    <div class="partner-picture">
+                                        <a href="" target="_blank">
+                                            <img src="../../partenaires/unesco/unesco_logo-small-117.png" alt="" width="100%">
+                                        </a>
+                                    </div>
+                                
+                                <!-- url -->
+                                <h4 class="p-1 mt-1 text-center">
+                                    <a href="" target="_blank" class="btn color-dark">
+                                        
+                                    </a>
+                                </h4>
+                            </div>
+                        
+                            <div class="partner text-center ml-2 mr-2">
+                                <!-- picture -->
+                                
+                                
+                                    
+                                    <div class="partner-picture">
+                                        <a href="" target="_blank">
+                                            <img src="../../partenaires/academie-royale/academie-small-163.png" alt="" width="100%">
+                                        </a>
+                                    </div>
+                                
+                                <!-- url -->
+                                <h4 class="p-1 mt-1 text-center">
+                                    <a href="" target="_blank" class="btn color-dark">
+                                        
+                                    </a>
+                                </h4>
+                            </div>
+                        
+                            <div class="partner text-center ml-2 mr-2">
+                                <!-- picture -->
+                                
+                                
+                                    <div class="partner-picture">
+                                        <a href="" target="_blank">
+                                            <img src="#" alt="[icon brand]">
+                                        </a>
+                                    </div>
+                                
+                                <!-- url -->
+                                <h4 class="p-1 mt-1 text-center">
+                                    <a href="" target="_blank" class="btn color-dark">
+                                        
+                                    </a>
+                                </h4>
+                            </div>
+                        
+                            <div class="partner text-center ml-2 mr-2">
+                                <!-- picture -->
+                                
+                                
+                                    <div class="partner-picture">
+                                        <a href="" target="_blank">
+                                            <img src="#" alt="[icon brand]">
+                                        </a>
+                                    </div>
+                                
+                                <!-- url -->
+                                <h4 class="p-1 mt-1 text-center">
+                                    <a href="" target="_blank" class="btn color-dark">
+                                        
+                                    </a>
+                                </h4>
+                            </div>
+                        
+                            <div class="partner text-center ml-2 mr-2">
+                                <!-- picture -->
+                                
+                                
+                                    <div class="partner-picture">
+                                        <a href="" target="_blank">
+                                            <img src="#" alt="[icon brand]">
+                                        </a>
+                                    </div>
+                                
+                                <!-- url -->
+                                <h4 class="p-1 mt-1 text-center">
+                                    <a href="" target="_blank" class="btn color-dark">
+                                        
+                                    </a>
+                                </h4>
+                            </div>
+                        
+                            <div class="partner text-center ml-2 mr-2">
+                                <!-- picture -->
+                                
+                                
+                                    <div class="partner-picture">
+                                        <a href="" target="_blank">
+                                            <img src="#" alt="[icon brand]">
+                                        </a>
+                                    </div>
+                                
+                                <!-- url -->
+                                <h4 class="p-1 mt-1 text-center">
+                                    <a href="" target="_blank" class="btn color-dark">
+                                        
+                                    </a>
+                                </h4>
+                            </div>
+                        
+                            <div class="partner text-center ml-2 mr-2">
+                                <!-- picture -->
+                                
+                                
+                                    <div class="partner-picture">
+                                        <a href="" target="_blank">
+                                            <img src="#" alt="[icon brand]">
+                                        </a>
+                                    </div>
+                                
+                                <!-- url -->
+                                <h4 class="p-1 mt-1 text-center">
+                                    <a href="" target="_blank" class="btn color-dark">
+                                        
+                                    </a>
+                                </h4>
+                            </div>
+                        
+                            <div class="partner text-center ml-2 mr-2">
+                                <!-- picture -->
+                                
+                                
+                                    <div class="partner-picture">
+                                        <a href="" target="_blank">
+                                            <img src="#" alt="[icon brand]">
+                                        </a>
+                                    </div>
+                                
+                                <!-- url -->
+                                <h4 class="p-1 mt-1 text-center">
+                                    <a href="" target="_blank" class="btn color-dark">
+                                        
                                     </a>
                                 </h4>
                             </div>
@@ -434,13 +630,204 @@
                                 </h4>
                             </div>
                         
+                            <div class="partner text-center ml-2 mr-2">
+                                <!-- picture -->
+                                
+                                
+                                    
+                                    <div class="partner-picture">
+                                        <a href="" target="_blank">
+                                            <img src="../../partenaires/region-de-bruxelles-capitale/flag_of_the_brussels-capital_region-small-113.png" alt="" width="100%">
+                                        </a>
+                                    </div>
+                                
+                                <!-- url -->
+                                <h4 class="p-1 mt-1 text-center">
+                                    <a href="" target="_blank" class="btn color-dark">
+                                        
+                                    </a>
+                                </h4>
+                            </div>
+                        
+                            <div class="partner text-center ml-2 mr-2">
+                                <!-- picture -->
+                                
+                                
+                                    <div class="partner-picture">
+                                        <a href="" target="_blank">
+                                            <img src="#" alt="[icon brand]">
+                                        </a>
+                                    </div>
+                                
+                                <!-- url -->
+                                <h4 class="p-1 mt-1 text-center">
+                                    <a href="" target="_blank" class="btn color-dark">
+                                        
+                                    </a>
+                                </h4>
+                            </div>
+                        
+                            <div class="partner text-center ml-2 mr-2">
+                                <!-- picture -->
+                                
+                                
+                                    <div class="partner-picture">
+                                        <a href="" target="_blank">
+                                            <img src="#" alt="[icon brand]">
+                                        </a>
+                                    </div>
+                                
+                                <!-- url -->
+                                <h4 class="p-1 mt-1 text-center">
+                                    <a href="" target="_blank" class="btn color-dark">
+                                        
+                                    </a>
+                                </h4>
+                            </div>
+                        
+                            <div class="partner text-center ml-2 mr-2">
+                                <!-- picture -->
+                                
+                                
+                                    <div class="partner-picture">
+                                        <a href="" target="_blank">
+                                            <img src="#" alt="[icon brand]">
+                                        </a>
+                                    </div>
+                                
+                                <!-- url -->
+                                <h4 class="p-1 mt-1 text-center">
+                                    <a href="" target="_blank" class="btn color-dark">
+                                        
+                                    </a>
+                                </h4>
+                            </div>
+                        
+                            <div class="partner text-center ml-2 mr-2">
+                                <!-- picture -->
+                                
+                                
+                                    <div class="partner-picture">
+                                        <a href="" target="_blank">
+                                            <img src="#" alt="[icon brand]">
+                                        </a>
+                                    </div>
+                                
+                                <!-- url -->
+                                <h4 class="p-1 mt-1 text-center">
+                                    <a href="" target="_blank" class="btn color-dark">
+                                        
+                                    </a>
+                                </h4>
+                            </div>
+                        
+                            <div class="partner text-center ml-2 mr-2">
+                                <!-- picture -->
+                                
+                                
+                                    <div class="partner-picture">
+                                        <a href="" target="_blank">
+                                            <img src="#" alt="[icon brand]">
+                                        </a>
+                                    </div>
+                                
+                                <!-- url -->
+                                <h4 class="p-1 mt-1 text-center">
+                                    <a href="" target="_blank" class="btn color-dark">
+                                        
+                                    </a>
+                                </h4>
+                            </div>
+                        
+                            <div class="partner text-center ml-2 mr-2">
+                                <!-- picture -->
+                                
+                                
+                                    <div class="partner-picture">
+                                        <a href="" target="_blank">
+                                            <img src="#" alt="[icon brand]">
+                                        </a>
+                                    </div>
+                                
+                                <!-- url -->
+                                <h4 class="p-1 mt-1 text-center">
+                                    <a href="" target="_blank" class="btn color-dark">
+                                        
+                                    </a>
+                                </h4>
+                            </div>
+                        
+                            <div class="partner text-center ml-2 mr-2">
+                                <!-- picture -->
+                                
+                                
+                                    <div class="partner-picture">
+                                        <a href="" target="_blank">
+                                            <img src="#" alt="[icon brand]">
+                                        </a>
+                                    </div>
+                                
+                                <!-- url -->
+                                <h4 class="p-1 mt-1 text-center">
+                                    <a href="" target="_blank" class="btn color-dark">
+                                        
+                                    </a>
+                                </h4>
+                            </div>
+                        
+                            <div class="partner text-center ml-2 mr-2">
+                                <!-- picture -->
+                                
+                                
+                                    <div class="partner-picture">
+                                        <a href="" target="_blank">
+                                            <img src="#" alt="[icon brand]">
+                                        </a>
+                                    </div>
+                                
+                                <!-- url -->
+                                <h4 class="p-1 mt-1 text-center">
+                                    <a href="" target="_blank" class="btn color-dark">
+                                        
+                                    </a>
+                                </h4>
+                            </div>
+                        
+                            <div class="partner text-center ml-2 mr-2">
+                                <!-- picture -->
+                                
+                                
+                                    <div class="partner-picture">
+                                        <a href="" target="_blank">
+                                            <img src="#" alt="[icon brand]">
+                                        </a>
+                                    </div>
+                                
+                                <!-- url -->
+                                <h4 class="p-1 mt-1 text-center">
+                                    <a href="" target="_blank" class="btn color-dark">
+                                        
+                                    </a>
+                                </h4>
+                            </div>
+                        
                     
                 </div>
             </div>
 
 
             <div id="anchor-inscription" class="col-12">
-                <h4 class="title text-center">{ <i class="fa fa-users" aria-hidden="true"></i>  }</h4>
+                <h4 class="title text-center">{  }</h4>
+                    
+
+                    <div class="container-fluid">
+                        <div class="row">
+                            <iframe src="https://framaforms.org/preinscription-a-educode-1512709479"
+                                    style="border: solid #EEE 1px"
+                                    width="100%"
+                                    height="600"></iframe>
+                        </div>
+                    </div>
             </div>
 
             <div id="anchor-practical-infos" class="col-12">
@@ -460,8 +847,6 @@
                         <!-- On récupère tous les lieux -->
                         
                         
-                            
-                                
                             
                                 
                                     <div class="col-12 col-sm-4 location text-center">
@@ -507,6 +892,8 @@
                                     </div>
                                 
                             
+                                
+                            
                         
                     </div>
                 </div>
@@ -519,6 +906,10 @@
                     <div class="row">
                         <!-- On récupère tous les hôtels -->
                         
+                            
+                                
+                            
+                                
                             
                                 
                                     <div class="col-12 col-sm-4 location text-center">
@@ -543,10 +934,6 @@
                                         
                                         <a href="../../es/lieux/motel-one/" class="btn mt-1 btn-warning"></a>
                                     </div>
-                                
-                            
-                                
-                            
                                 
                             
                         
@@ -577,9 +964,51 @@
                 <hr>
 
             </div>
-            <div id="anchor-press" class="col-12">
-                <h4 class="title text-center">{ <i class="fa fa-users" aria-hidden="true"></i>  }</h4>
+            <div id="anchor-submissions" class="col-12">
+                <h4 class="title text-center background-color-yellow color-blue border-blue">
+                    /*  */
+                </h4>
+                <div class="container">
+                    
+                </div>
+                <hr>
+                <p class="text-center" data-aos="zoom-in-down">
+                   <a  href="https://educode2018.sciencesconf.org/"
+                       class="btn btn-lg btn-warning text-uppercase"
+                       target="_blank">
+                           <i class="fa fa-plus"></i>
+                           
+                   </a>
+                </p>
+                <hr>
             </div>
+        
+        </div>
+    </div>
+
+    <div class="container-fluid background-color-yellow">
+        <div class="row">
+            <div id="anchor-press" class="col-12 p-2">
+                <h4 class="title text-center">{ #  }</h4>
+                <div data-aos="zoom-in" class="text-center" style="font-size: 3rem;">
+                    <i class="fa fa-calendar-check-o"></i><br>
+
+                    <span class="text-white" style="font-size: 1.8em; font-weight: 600;">7</span>
+                    <span class="color-dark"></span>
+                </div>
+                <hr>
+                <div>
+                    
+                </div>
+                <p class="text-center" data-aos="zoom-in">
+                    <a href="#" class="btn btn-primary btn-lg text-uppercase"></a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
             <div id="anchor-contact" class="col-12">
                 <h4 class="title title-left"><i class="fa fa-users" aria-hidden="true"></i>  {</h4>
                 <div id="contacts">
@@ -590,42 +1019,12 @@
                             
                                 
                                     <div class="col-12 col-sm-4 contact" data-aos="fade-up">
-                                        <h4 class="speaker-name text-center"><strong>Mourad Akandouch</strong>
-                                        </h4>
-                                        <p class="color-dark">Webmaster</p>
-                                        <ul>
-                                            <li><i class="fa fa-phone"></i> +32 484 300 663</li>
-                                            <li><i class="fa fa-envelope"></i> mourad@educode.be</li>
-                                        </ul>
-                                    </div>
-                                
-                                    <div class="col-12 col-sm-4 contact" data-aos="fade-up">
                                         <h4 class="speaker-name text-center"><strong>Nicolas Pettiaux</strong>
                                         </h4>
                                         <p class="color-dark">Président de la conférence</p>
                                         <ul>
-                                            <li><i class="fa fa-phone"></i> +32 yyy xxx zzz</li>
+                                            <li><i class="fa fa-phone"></i> </li>
                                             <li><i class="fa fa-envelope"></i> nicolas@educode.be</li>
-                                        </ul>
-                                    </div>
-                                
-                                    <div class="col-12 col-sm-4 contact" data-aos="fade-up">
-                                        <h4 class="speaker-name text-center"><strong>Julie Henry</strong>
-                                        </h4>
-                                        <p class="color-dark">Responsable de la conférence scientifique</p>
-                                        <ul>
-                                            <li><i class="fa fa-phone"></i> +32 xxx xxx xxx</li>
-                                            <li><i class="fa fa-envelope"></i> julie@educode.be</li>
-                                        </ul>
-                                    </div>
-                                
-                                    <div class="col-12 col-sm-4 contact" data-aos="fade-up">
-                                        <h4 class="speaker-name text-center"><strong>Alain Gallez</strong>
-                                        </h4>
-                                        <p class="color-dark">Event manager</p>
-                                        <ul>
-                                            <li><i class="fa fa-phone"></i> +32 495 54 55 90</li>
-                                            <li><i class="fa fa-envelope"></i> alain@educode.be</li>
                                         </ul>
                                     </div>
                                 
@@ -636,6 +1035,36 @@
                                         <ul>
                                             <li><i class="fa fa-phone"></i> +32 4 229 27 52</li>
                                             <li><i class="fa fa-envelope"></i> alexandra@educode.be</li>
+                                        </ul>
+                                    </div>
+                                
+                                    <div class="col-12 col-sm-4 contact" data-aos="fade-up">
+                                        <h4 class="speaker-name text-center"><strong>Alain Gallez</strong>
+                                        </h4>
+                                        <p class="color-dark">Event manager</p>
+                                        <ul>
+                                            <li><i class="fa fa-phone"></i> </li>
+                                            <li><i class="fa fa-envelope"></i> alain@educode.be</li>
+                                        </ul>
+                                    </div>
+                                
+                                    <div class="col-12 col-sm-4 contact" data-aos="fade-up">
+                                        <h4 class="speaker-name text-center"><strong>Julie Henry</strong>
+                                        </h4>
+                                        <p class="color-dark">Responsable de la conférence scientifique</p>
+                                        <ul>
+                                            <li><i class="fa fa-phone"></i> </li>
+                                            <li><i class="fa fa-envelope"></i> julie@educode.be</li>
+                                        </ul>
+                                    </div>
+                                
+                                    <div class="col-12 col-sm-4 contact" data-aos="fade-up">
+                                        <h4 class="speaker-name text-center"><strong>Mourad Akandouch</strong>
+                                        </h4>
+                                        <p class="color-dark">Webmaster</p>
+                                        <ul>
+                                            <li><i class="fa fa-phone"></i> </li>
+                                            <li><i class="fa fa-envelope"></i> mourad@educode.be</li>
                                         </ul>
                                     </div>
                                 
@@ -669,8 +1098,7 @@
 
     $(function () {
 
-        if ($("#landing-page-content").length > 0)
-            window.history.pushState("object or string", "Welcome - EduCode", "/");
+        
 
         var $root = $('html, body');
 
@@ -700,6 +1128,8 @@
 
     <script>
         AOS.init();
+
+
         $('#slideshow-partners').slick({
           dots: true,
           infinite: true,
