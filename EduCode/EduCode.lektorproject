@@ -30,3 +30,4 @@ locale = en_US
 i18n = 0.2
 lektor-markdown-admonition = 0.1
 lektor-markdown-header-anchors = 0.2
+lektor-markdown-highlighter = 0.2
