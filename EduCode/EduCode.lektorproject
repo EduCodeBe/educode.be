@@ -28,3 +28,5 @@ locale = en_US
 
 [packages]
 i18n = 0.2
+lektor-markdown-admonition = 0.1
+lektor-markdown-header-anchors = 0.2
