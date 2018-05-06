@@ -1,43 +1,42 @@
 {% extends "layout.html" %}
 
 {% block content %}
-    <main id="page-speaker" class="container">
-        <h1 class="title mb-5 text-center color-darker-yellow"><strong>{{ this.name }}</strong></h1>
-        <div class="row">
-            <div class="col-12 col-sm-2">
-                {% set pictures = this.attachments %}
-                {% if pictures %}
-                    {% set profile_picture = pictures | first %}
-                    <img src="{{ profile_picture | url }}" alt="" width="100%">
-                {% else %}
-                    <img src="{{  "/imgs/user.png" | url }}" alt="" width="100%">
-                {% endif %}
-            </div>
-            <div class="col-12 col-sm-10 border-dark">
-                <div>
-                    <span class="text-dark"><i class="fa fa-calendar"></i> Date</span>
-                    <br>
-                    <strong>{{ this.date }}</strong>
-                    <hr>
-                </div>
-                <div>
-                    <span class="text-dark"><i class="fa fa-flag"></i> From</span>
-                    <br>
-                    <strong>{{ this.country }}</strong>
-                </div>
-                <div class="bg-light p-2 mt-2 pt-2 speaker-description">
-                    <span class="text-dark"><i class="fa fa-comment"></i> Description</span>
-                    <hr>
-                    {{ this.description }}
-                </div>
-                <hr>
-                <p class="text-center">
-                    <a class="btn btn-warning" href="{{ '/' | url }}">
-                        <i class="fa fa-home"></i> Back to home
-                    </a>
-                </p>
-            </div>
+    <main id="page-speaker" class="container police-normal">
+        <h3 class="title title-left"><strong>{{ this.s_descr_downloadable }}</strong></h3>
+        <div>
+            {{ this.body }}
         </div>
+        <div class="row">
+            {% set documents = site.query('/presse').include_hidden(false).all() %}
+            <div class="col-12 col-sm-2">
+
+            </div>
+            <div class="col-12 col-sm-10">
+                {{ this.s_description }}
+            </div>
+            <div class="col-12">
+                <hr>
+            </div>
+            {% for document in documents %}
+                <div class="col-12 col-sm-2">
+                    {% set data = document.attachments %}
+                    {% if data %}
+                        {% set data = data | first %}
+                        <div class="data-picture">
+                            <a href="{{ data | url }}" target="_blank" download>
+                                <i class="fa fa-download"></i> {{ this.s_download }}
+                            </a>
+                        </div>
+                    {% endif %}
+                </div>
+                <div class="col-12 col-sm-10">
+                    {{ document.description }}
+                </div>
+                <div class="col-12"><hr></div>
+
+            {% endfor %}
+        </div>
+
     </main>
 {% endblock %}
 
