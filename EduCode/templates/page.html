@@ -87,20 +87,16 @@
                 {% for speaker in speakers %}
                     <div class="col-6 col-sm-4 col-md-3 speaker" data-aos="fade-down-right" data-aos-delay="300">
                         {% set pictures = speaker.attachments %}
-                        {% if pictures %}
-                            {% set profile_picture = pictures | first %}
-                            <div class="text-center speaker-picture-container">
-                                <div class="speaker-picture"
-                                     style="background-image: url('{{ profile_picture | url }}');">
-                                </div>
-                            </div>
-                        {% else %}
                             <div class="text-center speaker-picture-container" onclick="location.href = '{{ speaker.url_path | url }}';">
                                 <div class="speaker-picture"
-                                     style="background-image: url('{{  "/imgs/user.png" | url }}');">
+                                {% if pictures %}
+                                    {% set profile_picture = pictures | first %}
+                                    style="background-image: url('{{ profile_picture | url }}');">
+                                {% else %}
+                                    style="background-image: url('{{  "/imgs/user.png" | url }}');">
+                                {% endif %}
                                 </div>
                             </div>
-                        {% endif %}
                         <h4 class="speaker-name text-center">
                             <a href="{{ speaker.url_path | url }}">
                                 {{ speaker.title }}
