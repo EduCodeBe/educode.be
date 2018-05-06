@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <main id="page-speaker" class="container">
+        <h1 class="title mb-5 text-center color-darker-yellow"><strong>{{ this.name }}</strong></h1>
+        <div class="row">
+            <div class="col-12 col-sm-2">
+                {% set pictures = this.attachments %}
+                {% if pictures %}
+                    {% set profile_picture = pictures | first %}
+                    <img src="{{ profile_picture | url }}" alt="" width="100%">
+                {% else %}
+                    <img src="{{  "/imgs/user.png" | url }}" alt="" width="100%">
+                {% endif %}
+            </div>
+            <div class="col-12 col-sm-10 border-dark">
+                <div>
+                    <span class="text-dark"><i class="fa fa-calendar"></i> Date</span>
+                    <br>
+                    <strong>{{ this.date }}</strong>
+                    <hr>
+                </div>
+                <div>
+                    <span class="text-dark"><i class="fa fa-flag"></i> From</span>
+                    <br>
+                    <strong>{{ this.country }}</strong>
+                </div>
+                <div class="bg-light p-2 mt-2 pt-2 speaker-description">
+                    <span class="text-dark"><i class="fa fa-comment"></i> Description</span>
+                    <hr>
+                    {{ this.description }}
+                </div>
+                <hr>
+                <p class="text-center">
+                    <a class="btn btn-warning" href="{{ '/' | url }}">
+                        <i class="fa fa-home"></i> Back to home
+                    </a>
+                </p>
+            </div>
+        </div>
+    </main>
+{% endblock %}
+
