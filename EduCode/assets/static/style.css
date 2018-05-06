@@ -411,10 +411,15 @@
   z-index: 3;
   font-family: 'Unica One', cursive !important; }
   #sidebar > .position-fixed {
-    background-color: #ffbd33; }
+    background-color: #ffbd33;
+    padding: 0; }
   #sidebar .list-group-item, #sidebar .list-group {
     background-color: #ffbd33;
     color: #2d3436 !important; }
+  #sidebar .list-group-item.selected {
+    background: #f59f24;
+    border-left: solid #b18528 10px;
+    color: white !important; }
   #sidebar .brand {
     margin-top: 100px;
     padding-bottom: 30px; }
@@ -460,6 +465,16 @@
       border-left: solid #e1b12c 10px;
       background-color: #cca228;
       color: white; }
+
+a[href="#program"]:not(.collapsed) {
+  background-color: #cca228 !important; }
+
+#program {
+  background-color: #b18528; }
+  #program .list-group-item {
+    background-color: #b18528 !important;
+    color: white !important;
+    padding-left: 15px; }
 
 .language {
   text-align: right;

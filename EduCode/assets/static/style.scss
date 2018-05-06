@@ -16,12 +16,19 @@ body {
 
   &>.position-fixed {
     background-color: #ffbd33;
+    padding: 0;
 
   }
 
   .list-group-item, .list-group {
     background-color: #ffbd33;
     color: $dark !important;
+  }
+
+  .list-group-item.selected {
+    background: #f59f24;
+    border-left: solid $darker-yellow 10px;
+    color: white !important;
   }
 
 
@@ -92,6 +99,18 @@ body {
   }
 }
 
+a[href="#program"]:not(.collapsed) {
+    background-color: #cca228 !important;
+}
+
+#program {
+  background-color: $darker-yellow;
+  .list-group-item {
+    background-color: $darker-yellow !important;
+    color: white !important;
+    padding-left: 15px;
+  }
+}
 
 .language {
   text-align: right;
@@ -160,6 +179,7 @@ body {
     transition: all 0.25s ease;
     transform: translateX(-100%);
     position: fixed;
+
 
     &.show {
       transform: translateX(0);

@@ -20,3 +20,9 @@
     </main>
 {% endblock %}
 
+{% block javascript %}
+    <script>
+    $("#content-wrapper").css("background-image", "none");
+    $("a[href='#program']").trigger("click");
+    </script>
+{% endblock %}
