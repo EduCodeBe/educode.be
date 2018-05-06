@@ -31,6 +31,7 @@ i18n = 0.2
 lektor-markdown-admonition = 0.1
 lektor-markdown-header-anchors = 0.2
 lektor-markdown-highlighter = 0.2
+lektor-disqus-comments = 0.2
 
 #[servers.production]
 #name = Production

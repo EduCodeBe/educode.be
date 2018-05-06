@@ -1,20 +1,27 @@
 {% macro render_blog_post(post, from_index=false) %}
-  <div class="blog-post">
-  {% if from_index %}
-    <h2><a href="{{ post|url }}">{{ post.title }}</a></h2>
-  {% else %}
-    <h2>{{ post.title }}</h2>
-  {% endif %}
-  <p class="meta">
-    written by
-    {% if post.twitter_handle %}
-      <a href="https://twitter.com/{{ post.twitter_handle
-        }}">{{ post.author or post.twitter_handle }}</a>
-    {% else %}
-      {{ post.author }}
-    {% endif %}
-    on {{ post.pub_date }}
-  </p>
-  {{ post.body }}
-  </div>
+    <div class="blog-post container police-normal">
+        {% if from_index %}
+            <h4><strong><a href="{{ post|url }}">{{ post.title }}</a></strong></h4>
+        {% else %}
+            <br>
+            <a href="{{ '/blog' | url }}" class="btn btn-light"><i class="fa fa-arrow-left"></i> Retour à la liste des articles</a>
+            <h2 class="title"><strong>{{ post.title }}</strong></h2>
+        {% endif %}
+
+        <small class="meta">
+            Écrit par <strong>{{ post.author }}</strong> le {{ post.pub_date }}
+        </small>
+        <hr>
+        <div {% if not from_index %} style="min-height: 300px;" {% endif %}>
+            {{ post.body }}
+        </div>
+        <hr>
+        {% if not from_index %}
+            <div class="comments">{{ render_disqus_comments() }}</div>
+        {% else %}
+            <div class="text-right">
+                <a class="btn btn-outline-warning" href="{{ post|url }}"><i class="fa fa-arrow-right"></i> Lire l'article</a>
+            </div>
+        {% endif %}
+    </div>
 {% endmacro %}
