@@ -3,15 +3,16 @@ _model: exhibitor
 title: Exposition
 ---
 abstract: Exposition sur le langage de lego mindstorm permettant de coder aisément des robots de la marque lego.
+
 ---
-contact_mail: legolas@middle.com
+contact_mail: 
 ---
-contact_name: Legolas Ermora
+contact_name: 
 ---
-contact_tel: +32 555 555 555
+contact_tel: 
 ---
-description: Markdown ici, description plus approfondie
+description: Plus d'informations à venir
 ---
-tag: tag2
+tag: 
 ---
 website: 
