@@ -2,7 +2,17 @@ _model: speaker
 ---
 title: Marie Duflot-Kremer...
 ---
-description: Bientôt plus d'information. En attendant, duckduckgo est votre ami.
+description:
+
+[Marie Duflot-Kremer](https://members.loria.fr/MDuflot/) est une informaticienne française, maître de conférences en informatique
+à l'Université de Lorraine.
+
+Depuis son arrivée à Nancy, Marie Duflot fait partie de l’équipe VERIDIS qui s’intéresse à la vérification formelle de systèmes distribués. Sa recherche concerne plus précisément la vérification de systèmes probabilistes, notamment à l’aide du model-checking statistique. 
+
+En matière d'enseignement,  Marie Duflot a été maître de conférences à l’Université Paris Est Créteil depuis 2004. Ses premières expériences d’enseignement remontent à deux années de bénévolat au sein du GENEPI et trois ans de monitorat de à l’ENS de Cachan de 2000 à 2003.
+
+Enfin, elle consacre une partie de son temps de travail (et également une partie de mon temps de « repos ») à partager l’informatique avec un public diversifié : des écoliers, des collégiens/lycéens, des non scientifiques et des professeurs du secondaire. Si vous voulez plus d’informations, savoir d’où viennent la plupart de ces activités,  ou apprendre à les faire vous-mêmes, allez donc faire un tour sur [cette page](https://members.loria.fr/MDuflot/files/med/index.html).
+
 ---
 country: France
 ---
