@@ -13,11 +13,11 @@ baseline: Une conférence internationale pour informer, former et susciter l'int
 ---
 monday: Lundi 27 août 2018 à [Bozar](https://www.openstreetmap.org/relation/3299877), les enseignants, directions et le grand public  pourront suivre des conférences, une table-ronde, un spectacle interactif pour appréhender ce nouveau monde fait de numérique, ses défis et ses opportunités. Durant les pauses, ils pourront rencontrer de très nombreux acteurs, essentiellement associatifs, qui proposent des activités liées au numérique et à la formation. Des solutions de garde d'enfants avec des activités seront organisées pour que tous les parents puissent participer.
 ---
-thuesday: Mardi 28 août à [ESI](https://www.openstreetmap.org/node/2339843466) et à [ISIB](https://www.openstreetmap.org/relation/7259430), les enseignants seront invités à de nombreux ateliers pratiques durant lesquels ils seront les apprenants, de manière à retrouver leurs alter-egos, développer avec eux des contenus et des expériences pour pouvoir réutiliser en classe ce qu'ils ont appris. Ces ateliers d’échanges pratiques concerneront des sujets très variés autour de l’éducation et de l’usage du numérique et de la pensée informatique, et de nouvelles manières de travail adaptées au numérique. Des solutions de garde d'enfants avec des activités seront organisées pour que tous les parents puissent participer.
+thuesday: Mardi 28 août à [ESI](https://www.openstreetmap.org/node/2339843466) et à [ISIB](https://www.openstreetmap.org/relation/7259430), les enseignants seront invités à de nombreux ateliers pratiques durant lesquels ils seront les apprenants, de manière à retrouver leurs alter-egos, développer avec eux des contenus et des expériences pour pouvoir réutiliser en classe ce qu'ils ont appris. Ces ateliers d’échanges pratiques concerneront des sujets très variés autour de l’éducation et de l’usage du numérique et de la pensée informatique, et de nouvelles manières de travail adaptées au numérique.
 ---
 title: Bienvenue à EduCode
 ---
-wednesday: Mercredi 29 août à l'Académie royale, ceux qui réfléchissent aux usages et cherchent à les généraliser autant que les particulariser, les chercheurs en éducation sur les usages du numérique, les enseignants qui veulent échanger sur leurs pratiques, se retrouveront dans une conférence pour des échanges d'expériences et des présentations de recherches. Des solutions de garde d'enfants avec des activités seront organisées pour que tous les parents puissent participer.
+wednesday: Mercredi 29 août à l'[Académie royale](http://academieroyale.be), ceux qui réfléchissent aux usages et cherchent à les généraliser autant que les particulariser, les chercheurs en éducation sur les usages du numérique, les enseignants qui veulent échanger sur leurs pratiques, se retrouveront dans une conférence pour des échanges d'expériences et des présentations de recherches. Des solutions de garde d'enfants avec des activités seront organisées pour que tous les parents puissent participer.
 ---
 _about_educode: About EduCode
 ---
@@ -25,15 +25,15 @@ _become_partner: Become partner
 ---
 _contact: Contact
 ---
-_expo: Expositions
+_expo: Exposition
 ---
-_hotel: Hotel
+_hotel: Hotels
 ---
 _location: Locations
 ---
 _monday: Monday
 ---
-_more_infos: Thuesday
+_more_infos: Tuesday
 ---
 _our_partners: Our partners
 ---
@@ -61,9 +61,11 @@ partners_about:
 
 Les partenaires de la conférence sont tous les acteurs qui considèrent que la question est importante et qui souhaitent contribuer dans la mesure de leurs moyens. Les uns fournissent un indispensable soutien financier, les autres participent à la promotion et à la diffusion de l'information autour de la conférence, sont des membres du comité d'organisation de la conférence, encadrent des ateliers, participent à l'exposition ... 
 ---
-practical_infos: Bruxelles, la petite ville mondiale, est au centre de la vie économique, politique et culturelle belge et internationale. Elle abrite les institutions de l’Union européenne et le siège du conseil permanent de l’Otan.  Visit.Brussels vous accueille et vous proposera de nombreuses idées de visites.
+practical_infos: 
 ---
-practical_infos_brussels: La modeste Bruxelles est la capitale de la Belgique, de la Flandre et de l'Europe. La Grand-Place médiévale est immense, avec de nombreux immeubles du 17ème siècle et des marchés aux fleurs quotidiens. Rouvert en 2006, l'Atomium, la Tour Eiffel de Bruxelles, offre une vue imprenable aussi bien à l'intérieur que sur l'extérieur. Les amateurs d'architecture ne devront pas manquer la visite du Musée Horta, aménagé dans la maison du grand architecte belge Victor Horta. Les clubs et les bars de la place St. Gery ne désemplissent jamais. Les plats de fruits de mer abondent à Ste. Catherine. Optez pour la marche afin d'éviter les embouteillages dans les rues étroites.
+practical_infos_brussels:
+
+Bruxelles est la capitale de la Belgique, de la Flandre et de l'Europe. La Grand-Place médiévale est immense, avec de nombreux immeubles du 17ème siècle et des marchés aux fleurs quotidiens. Rouvert en 2006, l'Atomium, la Tour Eiffel de Bruxelles, offre une vue imprenable aussi bien à l'intérieur que sur l'extérieur. Les amateurs d'architecture ne devront pas manquer la visite du Musée Horta, aménagé dans la maison du grand architecte belge Victor Horta. Les clubs et les bars de la place St. Gery ne désemplissent jamais. Les plats de fruits de mer abondent à Sainte Catherine. Si vous souhaitez plus d'information sur Bruxelles, cliquez [ici](http://visit.brussels) 
 ---
 text_button: Devenir exposant
 ---
@@ -73,9 +75,9 @@ s_become_partner: Devenez partenaire
 ---
 s_contact: Contact
 ---
-s_expo: Expositions
+s_expo: Exposition
 ---
-s_hotel: Hôtel
+s_hotel: Hôtels
 ---
 s_location: Lieux
 ---
@@ -115,7 +117,7 @@ sunday:
 
 Dimanche 26 aôut 2018 à 18h à l'Académie royale, les académiciens et les pouvoirs politiques locaux reçoivent les participants à la conférence, qui peuvent aussi déjà s'enregistrer pour être immédiatement prêt lundi matin. À l'occasion d'un cocktail dînatoire, ce sera aussi une première chance de faire connaissance. 
 ---
-registration: Les inscriptions définitives seront disponibles prochainement. Vous pouvez déjà vous préinscrire et nous indiquer vos souhaits via le formulaire ci-dessous.
+registration: Les inscriptions définitives seront disponibles prochainement.
 ---
 press_text: Une conférence de presse se tiendra le lundi 7 mai 2018 à 11h à l'Académie royale. Vous pouvez également télécharger des documents utiles en cliquant sur le lien ci-dessous.
 ---

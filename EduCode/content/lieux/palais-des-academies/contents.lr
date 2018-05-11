@@ -1,0 +1,9 @@
+_model: location
+---
+name: Palais des académies
+---
+address: Rue Ducale 1
+---
+type_location: Lieu normal
+---
+url: http://academieroyale.be

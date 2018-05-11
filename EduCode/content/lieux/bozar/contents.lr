@@ -1,0 +1,9 @@
+_model: location
+---
+name: Bozar
+---
+address: Rue Ravenstein 21
+---
+type_location: Lieu normal
+---
+url: http://bozar.be

@@ -1,18 +1,17 @@
 _model: exhibitor
 ---
-title: Exposition
+title: KodoWallonie
 ---
-abstract: Exposition sur le langage de lego mindstorm permettant de coder aisément des robots de la marque lego.
-
+abstract: Cette association forme des enseignants et des élèves à l'approche intégrée de la pensée informatique
 ---
-contact_mail: 
+contact_mail: info@kodowallonie.be
 ---
-contact_name: 
+contact_name: Céline Colas
 ---
 contact_tel: 
 ---
-description: Plus d'informations à venir
+description: Plus d'informations sur [KodoWallonie](http://kodowallonie.be)
 ---
-tag: 
+tag: tag1
 ---
-website: 
+website: http://kodowallonie.be
