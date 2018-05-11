@@ -63,10 +63,10 @@
 
                         <div class="collapse" id="program">
                             <a href="#anchor-overview" class="list-group-item">Aperçu du programme</a>
-                            <a href="/nl../../nl/dimanche-26-aout/" class="list-group-item">Dimanche 26</a>
-                            <a href="/nl../../nl/lundi-27-aout/" class="list-group-item">Lundi 27</a>
-                            <a href="/nl../../nl/mardi-28-aout/" class="list-group-item">Mardi 28</a>
-                            <a href="/nl../../nl/mercredi-29-aout/" class="list-group-item">Mercredi 29</a>
+                            <a href="/nl../../nl/dimanche-26-aout/" class="list-group-item"><i class="fa fa-angle-right" aria-hidden="true"></i> Dimanche 26</a>
+                            <a href="/nl../../nl/lundi-27-aout/" class="list-group-item"><i class="fa fa-angle-right" aria-hidden="true"></i> Lundi 27</a>
+                            <a href="/nl../../nl/mardi-28-aout/" class="list-group-item"><i class="fa fa-angle-right" aria-hidden="true"></i> Mardi 28</a>
+                            <a href="/nl../../nl/mercredi-29-aout/" class="list-group-item"><i class="fa fa-angle-right" aria-hidden="true"></i> Mercredi 29</a>
                         </div>
                         <a href="/nl/#anchor-speakers" class="list-group-item d-inline-block collapsed">Intervenants</a>
                         <a href="/nl/#anchor-expo" class="list-group-item d-inline-block collapsed">Expositions</a>
@@ -95,6 +95,8 @@
                         <a class="language-link  current " href="../../nl/dimanche-26-aout/">
                             <img width="16px" height="16px" src="../../imgs/nl.png" alt=""> NL
                         </a>
+
+                        <!--
                         <a class="language-link " href="../../en/dimanche-26-aout/">
                             <img width="16px" height="16px" src="../../imgs/gb.png" alt=""> EN
                         </a>
@@ -104,11 +106,12 @@
                         <a class="language-link " href="../../es/dimanche-26-aout/">
                             <img width="16px" height="16px" src="../../imgs/es.png" alt=""> ES
                         </a>
+                        -->
+
                     </div>
                 </div>
             </div>
-
-            <div style="background: url('../../imgs/bg.jpg') repeat-x top left fixed;">
+            <div id="content-wrapper">
                 <a id="menu-icon" href="#" data-target="#sidebar" data-toggle="collapse">
                     <i class="fa fa-navicon d-md-none"></i>
                 </a>
@@ -122,9 +125,9 @@
                     <span class="text-dark"><i class="fa fa-comment"></i> Description</span>
                     <hr>
                     <h1 id="accueillir">Accueillir</h1><p>Le 26 août sera consacré à l’acceuil des participants, à l'enregistrement et à une première présentation du programme des journées.</p>
-<p>Les académiciens Hugues Bersini, Benoît Macq, Pierre Wolper, fers de lance, depuis sans doute 20 ans, de la promotion de l'idée de la nécessité d'une formation au numérique et au codage pour tous, dans le tronc commun du secondaire ou plus tôt encore, au nom de l'Académie où nous serons, accueilleront les participants.</p>
-<p>Messieurs Yves Poullet et Bernard Rentier, anciens recteurs des universités de Liège et Namur, présidents d'honneur de la conférence EduCode et académiciens également, introduiront la conférence et motiveront son existence, eux qui sont impliqués depuis le début.</p>
-<p>Enfin, Nicolas Pettiaux, initiateur et coordinateur de cette première édition, exposera les idées qui l'ont motivé à conscrer autant de temps et d'énergie à cette activité, et l'ont incité à la proposer comme forum des initiatives liées au numérique dans l'enseignement et d'échanges entre les acteurs de l'enseignement, depuis les parents, les étudiantes, les directions, les  membres des administrations de l'enseignement et bien sûr les élus et ministres. Il terminera par la présentation du programme des trois journées.</p>
+<p>Des académiciens impliqués, fers de lance depuis sans doute 20 ans, de la promotion de l'idée de la nécessité d'une formation au numérique et au codage pour tous, dans le tronc commun du secondaire ou plus tôt encore, accueilleront les participants.</p>
+<p>Des invités de marque expliqueront pourquoi ils ont décidé de soutenir la conférence.</p>
+<p>Enfin, Nicolas Pettiaux, initiateur et coordinateur de cette première édition, présentera le programme des trois journées.</p>
 <p>Un cocktail dînatoire permettra ensuite, de 18h45 à 21h de faire connaissance dans un cadre propice à la culture, aux échanges et aux divagations sur l'art, les sciences et les hommes.</p>
 
                 </div>
@@ -158,16 +161,48 @@
 
     $(function () {
 
+        $(document).on("scroll", onScroll);
+
+
         
 
         var $root = $('html, body');
+        var $document = $(document);
+        var $links = $('a[href^="#anchor"]');
+        $document.on('click', 'a[href^="#anchor"]', function (e) {
+            e.preventDefault();
+            $document.off("scroll");
+            $links.removeClass("selected");
+            $(this).addClass("selected");
 
-        $(document).on('click', 'a[href^="#anchor"]', function () {
-            $root.animate({
-                scrollTop: $( $.attr(this, 'href') ).offset().top
-            }, 500);
+            var target = this.hash,
+                menu = target;
+            $target = $(target);
+
+            $root.stop().animate({
+                scrollTop: $( $.attr(this, 'href') ).offset().top + 2
+            }, 500, 'swing', function () {
+                window.location.hash = target;
+                $document.on("scroll", onScroll);
+            });
+
             return false;
         });
+
+        function onScroll(event) {
+            let scrollPos = $document.scrollTop();
+            $links.each(function () {
+                let currLink = $(this);
+                let refElement = $(currLink.attr("href"));
+                if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+                    $links.removeClass("selected");
+                    currLink.addClass("selected");
+                }
+                else{
+                    currLink.removeClass("selected");
+                }
+            });
+        }
 
         $(window).on('resize', function (e) {
             if (getBootstrapBreakpoint() !== 'xs') {
@@ -185,6 +220,10 @@
 
 </script>
 
+
+    <script>
+    $("a[href='#program']").trigger("click");
+    </script>
 
 
 </body>

@@ -268,6 +268,69 @@
 .border-blue {
   border-color: #233980 !important; }
 
+#blog-content {
+  font-family: Lato, "Roboto Slab", Serif, serif; }
+  #blog-content .blog-post {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  #blog-content a {
+    color: #2d3436; }
+
+@font-face {
+  font-family: 'Unica One';
+  src: url("../fonts/UnicaOne-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-Regular.ttf") format("truetype"); }
+/**
+ * Dans cette feuille, il y aura toutes les fonctions/mixins
+ */
+.height-300 {
+  height: 300px; }
+
+.color-white {
+  color: white; }
+
+.color-yellow {
+  color: #e1b12c; }
+
+.color-darker-yellow {
+  color: #b18528; }
+
+.color-dark {
+  color: #2d3436; }
+
+.color-blue {
+  color: #233980; }
+
+.background-color-yellow {
+  background-color: #e1b12c; }
+
+.background-color-darker-yellow {
+  background-color: #b18528; }
+
+.background-color-dark {
+  background-color: #2d3436; }
+
+.background-color-blue {
+  background-color: #233980; }
+
+.border-yellow {
+  border-color: #e1b12c !important; }
+
+.border-darker-yellow {
+  border-color: #b18528 !important; }
+
+.border-dark {
+  border-color: #2d3436 !important; }
+
+.border-blue {
+  border-color: #233980 !important; }
+
 .main {
   height: 100vh;
   font-family: "Unica One", "Roboto Slab", serif; }
@@ -411,10 +474,15 @@
   z-index: 3;
   font-family: 'Unica One', cursive !important; }
   #sidebar > .position-fixed {
-    background-color: #ffbd33; }
+    background-color: #ffbd33;
+    padding: 0; }
   #sidebar .list-group-item, #sidebar .list-group {
     background-color: #ffbd33;
     color: #2d3436 !important; }
+  #sidebar .list-group-item.selected {
+    background: #f59f24;
+    border-left: solid #b18528 10px;
+    color: white !important; }
   #sidebar .brand {
     margin-top: 100px;
     padding-bottom: 30px; }
@@ -460,6 +528,16 @@
       border-left: solid #e1b12c 10px;
       background-color: #cca228;
       color: white; }
+
+a[href="#program"]:not(.collapsed) {
+  background-color: #cca228 !important; }
+
+#program {
+  background-color: #b18528; }
+  #program .list-group-item {
+    background-color: #b18528 !important;
+    color: white !important;
+    padding-left: 15px; }
 
 .language {
   text-align: right;

@@ -61,10 +61,10 @@
 
                         <div class="collapse" id="program">
                             <a href="#anchor-overview" class="list-group-item">Aperçu du programme</a>
-                            <a href="../../dimanche-26-aout/" class="list-group-item">Dimanche 26</a>
-                            <a href="../../lundi-27-aout/" class="list-group-item">Lundi 27</a>
-                            <a href="../../mardi-28-aout/" class="list-group-item">Mardi 28</a>
-                            <a href="../../mercredi-29-aout/" class="list-group-item">Mercredi 29</a>
+                            <a href="../../dimanche-26-aout/" class="list-group-item"><i class="fa fa-angle-right" aria-hidden="true"></i> Dimanche 26</a>
+                            <a href="../../lundi-27-aout/" class="list-group-item"><i class="fa fa-angle-right" aria-hidden="true"></i> Lundi 27</a>
+                            <a href="../../mardi-28-aout/" class="list-group-item"><i class="fa fa-angle-right" aria-hidden="true"></i> Mardi 28</a>
+                            <a href="../../mercredi-29-aout/" class="list-group-item"><i class="fa fa-angle-right" aria-hidden="true"></i> Mercredi 29</a>
                         </div>
                         <a href="/#anchor-speakers" class="list-group-item d-inline-block collapsed">Intervenants</a>
                         <a href="/#anchor-expo" class="list-group-item d-inline-block collapsed">Expositions</a>
@@ -93,6 +93,8 @@
                         <a class="language-link " href="../../nl/intervenants/jithin-bp/">
                             <img width="16px" height="16px" src="../../imgs/nl.png" alt=""> NL
                         </a>
+
+                        <!--
                         <a class="language-link " href="../../en/intervenants/jithin-bp/">
                             <img width="16px" height="16px" src="../../imgs/gb.png" alt=""> EN
                         </a>
@@ -102,11 +104,12 @@
                         <a class="language-link " href="../../es/intervenants/jithin-bp/">
                             <img width="16px" height="16px" src="../../imgs/es.png" alt=""> ES
                         </a>
+                        -->
+
                     </div>
                 </div>
             </div>
-
-            <div style="background: url('../../imgs/bg.jpg') repeat-x top left fixed;">
+            <div id="content-wrapper">
                 <a id="menu-icon" href="#" data-target="#sidebar" data-toggle="collapse">
                     <i class="fa fa-navicon d-md-none"></i>
                 </a>
@@ -118,7 +121,8 @@
             <div class="col-12 col-sm-2">
                 
                 
-                    <img src="../../imgs/user.png" alt="" width="100%">
+                    
+                    <img src="../../intervenants/jithin-bp/jithinbp.jpg" alt="" width="100%">
                 
             </div>
             <div class="col-12 col-sm-10 border-dark">
@@ -136,7 +140,7 @@
                 <div class="bg-light p-2 mt-2 pt-2 speaker-description">
                     <span class="text-dark"><i class="fa fa-comment"></i> Description</span>
                     <hr>
-                    <p>Bientôt plus d'information. En attendant, duckduckgo est votre ami en cherchant expeyes et cspark.</p>
+                    <p><a href="http://jithinbp.in">Jithin BP</a> est un jeune scientifique et entrepreneur indien très actif dans le développement de ressources libres à destinations de l'enseignement scientifique et technique.</p>
 
                 </div>
                 <hr>
@@ -169,16 +173,48 @@
 
     $(function () {
 
+        $(document).on("scroll", onScroll);
+
+
         
 
         var $root = $('html, body');
+        var $document = $(document);
+        var $links = $('a[href^="#anchor"]');
+        $document.on('click', 'a[href^="#anchor"]', function (e) {
+            e.preventDefault();
+            $document.off("scroll");
+            $links.removeClass("selected");
+            $(this).addClass("selected");
 
-        $(document).on('click', 'a[href^="#anchor"]', function () {
-            $root.animate({
-                scrollTop: $( $.attr(this, 'href') ).offset().top
-            }, 500);
+            var target = this.hash,
+                menu = target;
+            $target = $(target);
+
+            $root.stop().animate({
+                scrollTop: $( $.attr(this, 'href') ).offset().top + 2
+            }, 500, 'swing', function () {
+                window.location.hash = target;
+                $document.on("scroll", onScroll);
+            });
+
             return false;
         });
+
+        function onScroll(event) {
+            let scrollPos = $document.scrollTop();
+            $links.each(function () {
+                let currLink = $(this);
+                let refElement = $(currLink.attr("href"));
+                if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+                    $links.removeClass("selected");
+                    currLink.addClass("selected");
+                }
+                else{
+                    currLink.removeClass("selected");
+                }
+            });
+        }
 
         $(window).on('resize', function (e) {
             if (getBootstrapBreakpoint() !== 'xs') {
