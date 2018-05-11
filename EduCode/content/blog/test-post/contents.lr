@@ -1,9 +1,34 @@
-title: Test post
+title: Conférence de presse du lundi 7 mai 2018
 ---
-author: Jean Marie
+author: Nicolas Pettiaux
 ---
-body: Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
+body:
+
+La première conférence de presse a eu lieu dans les locaux de l'[Académie royale](http://academieroyale.be) en présence et avec le soutien de
+* [Bernard Rentier](/intervenants/bernard-rentier)
+* [Julie Henry](/intervenants/julie-henry)
+* [Colin de la Higuera](/intervenants/colin-de-la-higuera)
+* [Françoise Bols](/intervenants/francoise-bols)
+* [Vincent Englebert](/intervenants/vincent-englebert)
+* [Thierry Massart](/intervenants/thierry-massart)
+
+Les retours dans la presse sont déjà multiples
+
+1. [RTBF](https://www.rtbf.be/info/societe/detail_educode-un-colloque-international-pour-que-les-profs-n-aient-plus-peur-de-l-informatique?id=9911814)
+2. [RTL](https://www.rtl.be/info/magazine/hi-tech/educode-un-colloque-international-pour-que-les-profs-n-aient-plus-peur-de-l-informatique-1019765.aspx)
+3. [Le Vif](http://www.levif.be/actualite/belgique/la-technologie-dans-les-ecoles-une-habitude-a-prendre-en-belgique/article-normal-836485.html) précis et assez  complet
+4. [La Libre](http://www.lalibre.be/dernieres-depeches/belga/educode-un-colloque-international-pour-que-les-profs-n-aient-plus-peur-de-l-informatique-5af04e6bcd70c60ea6da93c9)
+
+Et aussi les passages précédents
+1. [Le Soir - le code informatique pour apprendre à devenir citoyen](http://plus.lesoir.be/152037/article/2018-04-19/le-code-informatique-pour-apprendre-devenir-citoyen)
+2.  [TendancesPremière](http://lapremiere.be] avec Véronique Thyberghien, dans le [dossier du jeudi 26 avril 2018 - Enseignement & informatique](https://www.rtbf.be/auvio/detail_tendances-premiere-le-dossier?id=2341311)
+
+Une dizaine d'autres médias ont encore demandé le dossier de presse. 
+
+Nous savons à ce propos qu'il y aura un article dans le [magazine _Profs_](http://www.enseignement.be/index.php?page=27203&navi=2884) envoyé sous forme papier aux 110 000 enseignants belges francophones dans le numéro de début juin 2018.
+
+Vous aurez aussi noté l'interview de [Olivier Goletti](/intervenants/olivier-goletti), membre de SIcarré qui participe à Educode dans [Paris Match Belgique](https://parismatch.be/actualites/societe/141620/disparition-des-cours-dinformatique-le-bug-de-lenseignement-wallon). Nous espérons beaucoup que educode aidera à « fixer le bug » comme disent les informaticiens ! 
 ---
-pub_date: 2018-05-16
+pub_date: 2018-05-07
 ---
 twitter_handle: jmarie
