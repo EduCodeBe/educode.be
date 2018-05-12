@@ -32,7 +32,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h4 class="title title-left">< {{ this.s_about_educode }} /></h4>
+                <h4 class="title title-left">{{ this.s_about_educode }}</h4>
                 <div class="about">
                     {{ this.about }}
                 </div>
@@ -78,7 +78,7 @@
             </div>
 
             <div id="anchor-speakers" class="col-12">
-                <h4 class="title title-left">{ <i class="fa fa-users" aria-hidden="true"></i> {{ this.s_speakers }} }</h4>
+                <h4 class="title title-left"><i class="fa fa-users" aria-hidden="true"></i> {{ this.s_speakers }}</h4>
             </div>
 
             <!-- On récupère tous les intervenants -->
@@ -163,7 +163,7 @@
     <div class="container">
         <div class="row">
             <div id="anchor-partners" class="col-12">
-                <h4 class="title title-left">{ <i class="fa fa-users" aria-hidden="true"></i> {{ this.s_partners }} }</h4>
+                <h4 class="title title-left">{{ this.s_partners }}</h4>
 
                 <div>
                     {{ this.partners_about }}
@@ -216,7 +216,7 @@
 
 
             <div id="anchor-inscription" class="col-12">
-                <h4 class="title title-left">{ {{ this.s_registration }} }</h4>
+                <h4 class="title title-left">{{ this.s_registration }}</h4>
                     {{ this.registration }}
 
                     <div class="container-fluid">
@@ -231,14 +231,14 @@
 
             <div id="anchor-practical-infos" class="col-12">
                 <h4 class="title title-left">
-                    /* {{ this.s_practical_infos }} */
+                    {{ this.s_practical_infos }}
                 </h4>
                 <div class="container practical-info-markdown">
                     {{ this.practical_infos }}
                 </div>
                 <hr>
                 <h5>
-                    <img src="{{ '/imgs/mn_blue.png' | url }}" alt="" height="64px"> [ {{ this.s_location }} ]
+                    <img src="{{ '/imgs/mn_blue.png' | url }}" alt="" height="64px">{{ this.s_location }}
                 </h5>
                 <hr>
                 <div class="container">
@@ -283,7 +283,7 @@
                 </div>
                 <hr>
                 <h5>
-                    <i class="fa fa-bed" aria-hidden="true"></i> [ {{ this.s_hotel }} ]
+                    <i class="fa fa-bed" aria-hidden="true"></i>{{ this.s_hotel }}
                 </h5>
                 <hr>
                 <div class="container">
@@ -351,7 +351,7 @@
             </div>
             <div id="anchor-submissions" class="col-12">
                 <h4 class="title title-left">
-                    /* {{ this.s_submissions }} */
+                    {{ this.s_submissions }}
                 </h4>
                 <div class="container">
                     {{ this.submissions_text }}
@@ -374,34 +374,32 @@
             </div>
         
         </div>
-    </div>
 
-    <div class="container-fluid background-color-yellow">
         <div class="row">
             <div id="anchor-press" class="col-12 p-2">
-                <h4 class="title text-center">{ # {{ this.s_press }} }</h4>
-                <div data-aos="zoom-in" class="text-center" style="font-size: 3rem;">
-                    <i class="fa fa-calendar-check-o"></i><br>
+                <h4 class="title title-left">{{ this.s_press }}</h4>
 
-                    <span class="text-white" style="font-size: 1.8em; font-weight: 600;">7</span>
-                    <span class="color-dark">{{ this.s_may }}</span>
-                </div>
-                <hr>
                 <div class="container">
                     {{ this.press_text }}
                 </div>
+
+                <div data-aos="zoom-in" class="text-center" style="font-size: 3rem;">
+                    <i class="fa fa-calendar-check-o"></i><br>
+                    <span class="color-darker-yellow" style="font-size: 1.8em;"><strong>7</strong></span>
+                    <span class="color-dark">{{ this.s_may }}</span>
+                </div>
+                <hr>
+
                 <p class="text-center" data-aos="zoom-in">
                     <a href="#" class="btn btn-warning btn-lg text-uppercase">{{ this.s_registration }}</a>
                     <a href="{{ "/presse" | url }}" class="btn btn-warning btn-lg text-uppercase">Documents</a>
                 </p>
             </div>
         </div>
-    </div>
 
-    <div class="container">
         <div class="row">
             <div id="anchor-contact" class="col-12">
-                <h4 class="title title-left"><i class="fa fa-users" aria-hidden="true"></i> {{ this.s_contact }} {</h4>
+                <h4 class="title title-left">{{ this.s_contact }}</h4>
                 <div id="contacts">
                     <div class="container">
                         <div class="row">
@@ -423,7 +421,6 @@
                         </div>
                     </div>
                 </div>
-                <h4 class="title title-left">}</h4>
             </div>
         </div>
     </div>

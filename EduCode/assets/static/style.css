@@ -388,10 +388,7 @@
     .main .description .about {
       font-family: Lato, "Roboto Slab", Serif, serif; }
   .main #contacts {
-    border-top: solid #e1b12c 5px;
-    border-bottom: solid #b18528 5px;
     margin: 0 0 0 25px;
-    background-color: rgba(225, 177, 44, 0.34);
     padding: 20px; }
     .main #contacts .contact {
       margin-top: 15px;
@@ -402,6 +399,7 @@
       .main #contacts .contact p {
         font-weight: 600;
         text-align: center;
+        padding-top: 5px;
         border-top: solid #b18528 2px; }
 
 .location .location-picture {
