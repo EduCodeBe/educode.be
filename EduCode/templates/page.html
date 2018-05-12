@@ -152,7 +152,7 @@
                     </div>
                 </div>
                 <hr>
-                <p class="text-center" data-aos="zoom-in">
+                <p class="text-center">
                     <a class="btn btn-lg btn-warning text-uppercase"
                        target="_blank"
                        href="https://framaforms.org/je-souhaite-etre-tenu-informe-1512709479">{{ this.text_button }}</a>
@@ -170,9 +170,8 @@
                 </div>
                 <div class="col-12"><hr></div>
 
-                <div class="col-12 text-center" data-aos="zoom-in-down">
-                    <a href="#"
-                       class="btn btn-lg btn-warning text-uppercase">{{ this.s_become_partner }}</a>
+                <div class="col-12 text-center">
+                    <a href="#" class="btn btn-lg btn-warning text-uppercase">{{ this.s_become_partner }}</a>
                 </div>
 
                 <div class="col-12">
@@ -191,9 +190,9 @@
                                 {% set pictures = partner.attachments %}
                                 {% if pictures %}
                                     {% set partner_picture = pictures | first %}
-                                    <div class="partner-picture">
-                                        <a href="{{ partner.url }}" target="_blank">
-                                            <img src="{{ partner_picture | url }}" alt="" width="100%">
+                                    <div class="partner-picture" style="height: 100px;">
+                                        <a href="{{ partner.url }}" target="_blank" class="mr-2 ml-2">
+                                            <img src="{{ partner_picture | url }}" alt="" style="max-height: 72px; max-width: 72px">
                                         </a>
                                     </div>
                                 {% else %}
