@@ -136,13 +136,13 @@
                                     {% if exhibitor.website %}
                                         <a href="{{ exhibitor.website }}"
                                            target="_blank"
-                                           class="btn btn-outline-warning text-uppercase">
+                                           class="btn btn-warning text-uppercase">
                                             SITE WEB
                                         </a>
                                     {% else %}
                                         <a href="{{ exhibitor.url_path | url }}"
                                            target="_blank"
-                                           class="btn btn-outline-warning text-uppercase">
+                                           class="btn btn-warning text-uppercase">
                                         {{ this.s_more_infos }}
                                         </a>
                                     {% endif %}
@@ -153,7 +153,7 @@
                 </div>
                 <hr>
                 <p class="text-center" data-aos="zoom-in">
-                    <a class="btn btn-lg btn-primary text-uppercase"
+                    <a class="btn btn-lg btn-warning text-uppercase"
                        target="_blank"
                        href="https://framaforms.org/je-souhaite-etre-tenu-informe-1512709479">{{ this.text_button }}</a>
                 </p>
@@ -319,7 +319,7 @@
                                             <strong>{{ lieu.name }}</strong></h4>
                                         <p class="color-dark">{{ lieu.address }}</p>
                                         {% if lieu.code_promo %}
-                                            <a href="{{ lieu.url_path | url }}" class="btn btn-outline-warning"><i class="fa fa-gift"></i> CODE PROMO</a>
+                                            <a href="{{ lieu.url_path | url }}" class="btn btn-warning"><i class="fa fa-gift"></i> CODE PROMO</a>
                                             <br>
                                         {% endif %}
                                         <a href="{{ lieu.url_path | url }}" class="btn mt-1 btn-warning">{{ this.s_more_infos }}</a>
@@ -392,8 +392,8 @@
                     {{ this.press_text }}
                 </div>
                 <p class="text-center" data-aos="zoom-in">
-                    <a href="#" class="btn btn-primary btn-lg text-uppercase">{{ this.s_registration }}</a>
-                    <a href="{{ "/presse" | url }}" class="btn btn-primary btn-lg text-uppercase">Documents</a>
+                    <a href="#" class="btn btn-warning btn-lg text-uppercase">{{ this.s_registration }}</a>
+                    <a href="{{ "/presse" | url }}" class="btn btn-warning btn-lg text-uppercase">Documents</a>
                 </p>
             </div>
         </div>
