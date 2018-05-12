@@ -249,15 +249,18 @@
                         {% if lieux %}
                             {% for lieu in lieux %}
                                 {% if lieu.type_location == 'Lieu normal' %}
-                                    <div class="col-12 col-sm-4 location text-center">
+                                    <div class="col-12 col-sm-4 col-md-3 location text-center">
                                         <!-- picture -->
                                         {% set pictures = lieu.attachments %}
                                         {% if pictures %}
                                             {% set lieu_picture = pictures | first %}
-                                            <div class="location-picture" data-aos="zoom-in-down" >
-                                                <a href="{{ lieu.url_path | url }}">
-                                                    <img src="{{ lieu_picture | url }}" alt="" width="100%">
-                                                </a>
+                                            <div class="location-picture"
+                                                 data-aos="zoom-in-down"
+                                                 style="background: url('{{ lieu_picture | url }}') no-repeat center center;
+                                                        height: 150px;
+                                                        -webkit-background-size: cover;
+                                                        background-size: cover;"
+                                                        onclick="location.href = '{{ lieu.url_path | url }}'">
                                             </div>
                                         {% else %}
                                             <div class="location-picture" data-aos="zoom-in-down" >
@@ -290,15 +293,18 @@
                         {% if lieux %}
                             {% for lieu in lieux %}
                                 {% if lieu.type_location == 'Hôtel' %}
-                                    <div class="col-12 col-sm-4 location text-center">
+                                    <div class="col-12 col-sm-4 col-md-3 location text-center">
                                         <!-- picture -->
                                         {% set pictures = lieu.attachments %}
                                         {% if pictures %}
                                             {% set lieu_picture = pictures | first %}
-                                            <div class="location-picture" data-aos="zoom-in-down" >
-                                                <a href="{{ lieu.url_path | url }}">
-                                                    <img src="{{ lieu_picture | url }}" alt="" width="100%">
-                                                </a>
+                                            <div class="location-picture"
+                                                 data-aos="zoom-in-down"
+                                                 style="background: url('{{ lieu_picture | url }}') no-repeat center center;
+                                                        height: 150px;
+                                                        -webkit-background-size: cover;
+                                                        background-size: cover;"
+                                                        onclick="location.href = '{{ lieu.url_path | url }}'">
                                             </div>
                                         {% else %}
                                             <div class="location-picture" data-aos="zoom-in-down" >
