@@ -1,18 +1,19 @@
 _model: location
 ---
-name: HE2B - ESI
+name: HE2B-ESI
 ---
 address: Rue Royale 67, 1000 Bruxelles
 ---
 description:
 
-Plus d'informations à venir
+Les ateliers du mardi 28 août se tiennent ici aussi. Le repas du midi est dans le hall de HE2B-ISIB en face, au rez-de-chaussée.
 
 ---
 directions:
 
 - Prendre le métro 2 ou 6, descendre à l'arrêt Botanique et marcher en direction vers Parc.
 - Prendre le métro 1 ou 5, descendre à l'arrêt Parc et descendre la rue royale.
+- En tram 94, descendre à l'arrêt Congrès, en face de la colonne du Congrès
 ---
 type_location: Lieu normal
 ---
