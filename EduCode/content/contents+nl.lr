@@ -1,78 +1,193 @@
 _template: page.html
 ---
-about: 
+about:
+EduCode is de eerste editie van een jaarlijks internationaal symposium gewijd aan digitaal onderwijs, praktijk en onderzoek. 
+Het is het resultaat van samenwerking tussen verschillende belangrijke digitale spelers in België en in het buitenland.
+
+Digitale technologie vormt de kern van veranderingen in een globale samenleving, veranderingen die we allen moeten ondergaan.
+Dit is een enorme uitdaging voor onze samenlevingen en we hebben geen andere keuze dan als reactie daarop onszelf te informeren en onszelf bij te scholen om daarop te reageren. 
+Deze veranderingen zullen onvermijdelijk een aanpassing van het onderwijs met zich mee brengen. Die evolutie van het onderwijs moet beetje bij beetje doorgevoerd worden, maar met een duidelijk doel voor ogen
+
+
+We komen dagelijks in contact met digitale technologie, en we kunnen haast niet meer zonder vele voordelen die het ons levert.
+Het doet ons hopen, bijvoorbeeld hoop op medische behandelingen die tot nog toe buiten ons bereik waren, maar boezemt ook vrees in.
+
+Digitale technologie leidt tot een nieuwe relatie tot kennis, die zelf ook diepgaande effecten heeft op de samenleving.
+Kennis op zich is inderdaad niet langer alleen in boeken te vinden of het voorrecht van enkele ingewijden.
+Het is onmiddellijk binnen handbereik via een zoekopdracht op de online mobiele apparaten.
+Die online informatie is vaak nauwkeuriger en actueler dan de informatie dan wat we van buiten zouden geleerd hebben.
+In zo'n context is de rol van leerkrachten verandert.
+Soms wordt gevreesd dat men zijn job zal verliezen ten voordele van zogenaamde intelligente machines.
+Het is dan ook niet verwonderlijk dat vele mensen vrees koesteren jegens die technologie, angsten die ons niet mogen verlammen.
+Kortom, de alomtegenwoordige digitale technologie induceert diepgaande veranderingen in ons leven die op zijn minst geïdentificeerd moeten worden om ze te kunnen begrijpen en verstandig te gebruiken of ze te bekritiseren.
+
+
+In het tijdperk van alomtegenwoordige informatica, moeten leraren digitale technologieën kunnen gebruiken en integreren in hun cursussen.
+Begrijp ons niet verkeerd: we blijven overtuigd dat het gebruik van klassieke middelen zoals pen, papier enz. nuttig tot zelf essentiële middelen zijn tot het ontwikkelen van vaardigheden zoals het schrijven van teksten, het synthetiseren van ideeën.
+Maar het is belangrijk dat kinderen en leerlingen in het algemeen, net als hun leraren, op hun gemak zijn met digitale technologieën.
+Dat ze zich weten te redden met computers en mobiele apparaten, dat ze met die middelen kunnen zoeken, zich kunnen ontplooien, creëren, uitvinden.
+En dat ze over de beperkingen en bedreigingen kunnen nadenken maar even zeer problemen, uitdagingen, kansen en deze hulpmiddelen in hun leven integreren om beter te kunnen deelnemen aan de samenleving. 
+
+Dit wordt gerealiseerd door specifieke opleidingen, trainingen en een opening naar de digitale wereld wat een van de doelstellingen is van de conferentie.
+
+Het colloquium Educode.be vindt plaats van 27 tot 29 augustus 2018 op verschillende locaties in Brussel binnen een straal van 500 meter rond het Koninklijk Paleis en het Federaal Parlement.
+
+Wij willen iedereen er ten slotte op wijzen dat de organisatie van deze lezingen volledig het werk is van vrijwilligers. Alle hulp is welkom. 
+Uw hulp zal erg geapprecieerd worden indien je bijvoorbeeld wilt helpen met de organisatie, de vertaling van de site en documenten, de verspreiding van informatie en uitnodigingen, de organisatie of het voorstellen van de workshops op dinsdag 28 en wetenschappelijke uitwisselingen op 29 augustus.
+Uiteraard zijn alle giften ook welkom.
+Tot dan kunnen alle voorstellen voor hulp worden verzonden naar
+[jeveuxaiderATeducode.be](mailto://jeveuxaiderATeducode.be)
 ---
-baseline: 
+baseline: Een internationale conferentie om de interesse van alle belanghebbenden bij het onderwijs te informeren, te onderwijzen en te betrekken bij de digitale uitdagingen.
 ---
-monday: 
+monday: Maandag 27 augustus 2018  aan de Bozar, Ravensteinstraat: 
+docenten, directies en het grote publiek kunnen lezingen, een rondetafel, reflectieworkshops bijwonen om deze nieuwe wereld, zijn uitdagingen en kansen te begrijpen. De lezingen zijn open voor het grote publiek. De dag wordt afgesloten met een symfonisch concert.
 ---
-thuesday: 
+thuesday: Dinsdag 28 augustus op het ESI, École supérieure d’informatique en op het ISIB, École supérieure d’ingénieurs de Bruxelles, Koningsstraat 67 / 150 naast het congreskolom, waar de leerkrachten zullen worden uitgenodigd tot 60 tot 100 praktische workshops, waarin zij de leerlingen zullen zijn. 
+Tijdens die workshops hopen we dat de leerkrachten hun alterego's vinden, dat ze met hen inhoud en ervaringen ontwikkelen en dat ze in de klas zullen kunnen hergebruiken wat ze tijdens die workshops hebben geleerd.
+Deze hands-on workshops zullen zich richten op een breed scala aan onderwerpen rond onderwijs van computerwetenschappen en het gebruik van digitale technieken.
+
 ---
-title: Welkom bij EduCode
+title: Welkom tot EduCode
 ---
-wednesday: 
+wednesday: Woensdag 29 augustus op de koninklijke academie, Hertogstraat. Een conferentie wordt georganiseerd voor het uitwisselen van ervaringen en onderzoekspresentaties voor degenen die nadenken over het gebruik van onderwijstechnologie. We verwelkomen er ook graag zij die willen nagaan hoe die technologie in bredere context te verspreiden en / of die in specifieke contexten toe te passen.
+
+---
+_about_educode: About EduCode
+---
+_become_partner: Become partner
+---
+_contact: Contact
+---
+_expo: Expositions
+---
+_hotel: Hotel
+---
+_location: Locations
+---
+_monday: Monday
+---
+_more_infos: Thuesday
+---
+_our_partners: Our partners
+---
+_overview_program: Overview of the program
+---
+_partners: Partners
+---
+_practical_infos: Practical infos
+---
+_press: Press
+---
+_registration: Registration
+---
+_speakers: Speakers
+---
+_sunday: Sunday
+---
+_thuesday: Thuesday
+---
+_wednesday: Wednesday
 ---
 expo_about:
 
-##  Fama facite decent
+Tijdens de koffiepauzes en maaltijden krijgen verschillende actoren inclusief digitaal onderwijs, in België en in de landen die op de conferentie vertegenwoordigd zijn, de kans om hun realisaties voor te stellen. We denken daarbij aan verenigingen en scholen.
 
-## Silva parvae nolle coactis namque moveres patefecit
+Dit zou een gelegenheid moeten zijn voor leerkrachten, hun directies, verkozen ambtenaren en hun teams, en openbare autoriteiten om te leren over de grote diversiteit aan ICT gebruikers in de schoolcontext.
 
-Lorem markdownum, mox sunt [mihi mortale
-postquam](http://inquit-possis.com/templis) inmisit conveniant Maeandri Aesacon
-tauro dum: in usque servaturis. Vulgique alto trepidantibus procul an ipso
-fortius narrat corpus accessit Baccho spectatas parabat trepidantibus resecuta.
-Mare ausim nisi, ore Achivi iuveni interdumque tamen, positasque et aurea Iovi
-levi corpora caeloque lateri. Penna aquae nitidis: ipse nulla ceperunt rogata
-erat eodem digitoque suo superest fine causa contra dedit.
+Die ICT coördinatoren en andere belanghebbenden in ICT kunnen ondersteuning bieden in de complexe taak zowel leerkrachten als leerlingen te begeleiden, opleidingen aan te bieden tot het gebruik van ICT in het onderwijs.
 
-- Quod sed coluber concuteret nec insignia Athamas coloque. Repelli iubet, in
-- falleret exitio est pontum fluctus fragorem. Si inopes referunt lacerti
-- dummodo tantorum Phoebe. Leti fossa vertere: Delos **fraudem**, victorque
-- Libys hactenus ad foret et figuram, Alcathoi dentes dominos. Aptos *Castrumque
-- motis*, in procul volucres an [recepto ipsa](http://www.arripit.org/) iniqui
-- sed ait suos ora.
-
-## Terruit arbore manebat erubuit nec comitem carere
-
-Iste fax tandem lata Cerealis **eripe**: Caucasiumque tamen at regnum ferarum
-mollia. Cauda ceu; vel quod terras moenia examinat bellum nato, iugulaberis
-claudit. **Iubentem fortuna coitusque** restat patitur auras lapsus.
-
-## Eryx ille
-
-Novitate cui, ut coronam removente et gaudia **et ultima**, semicaper etiam?
-Haec laetitiae quo **Iolaus suadet**.
 ---
 partners_about:
 
-### Random text
-Voici la liste de nos partenaires, le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
+Mensen die meewerken tot de conferentie zijn allemaal overtuigd van het belang van de opzet van die conferentie en willen bijdragen tot het welslagen van het opzet met de middelen die ze hebben. Sommigen zullen financieel bijdragen, anderen zullen zich inzetten tot het bekend maken van de conferentie en het verspreiden van informatie omtrend de conferentie. tenslotte hebben we leden van de organisatie die de ateliers en workshops willen omkaderen en de tentoonstelling helpen realiseren... 
 ---
 practical_infos:
 
-Bruxelles, la petite ville mondiale, est au centre de la vie économique, politique et culturelle belge et internationale. Elle abrite les institutions de l’Union européenne et le siège du conseil permanent de l’Otan.  * (copy-paste du site de l'ulb) * 
+Brussel, als kleine wereldstad, is in het centrum van het culturele, economische en politieke leven van België. Ze huisvest de Europese instellingen alsook de permanente zetel van de NATO.
 
-Lors de votre séjour, vous pourrez visitez de jolis endroits et pourrez séjourner dans de prestigieux hôtels, voici nos recommandations.
-- liste 1
-- puce
-- puce
-
-
+Tijdens uw verblijf zult u enkele mooie plaatsen kunnen bezoeken en in hotels kunnen verblijven met alle faciliteiten die u wenst.
 ---
-practical_infos_brussels:
-
-### Random texte (markdown)
-
-La modeste Bruxelles est la capitale de la Belgique, de la Flandre et de l'Europe. La Grand-Place médiévale est immense, avec de nombreux immeubles du 17ème siècle et des marchés aux fleurs quotidiens. Rouvert en 2006, l'Atomium, la Tour Eiffel de Bruxelles, offre une vue imprenable aussi bien à l'intérieur que sur l'extérieur. Les amateurs d'architecture ne devront pas manquer la visite du Musée Horta, aménagé dans la maison du grand architecte belge Victor Horta. Les clubs et les bars de la place St. Gery ne désemplissent jamais. Les plats de fruits de mer abondent à Ste. Catherine. Optez pour la marche afin d'éviter les embouteillages dans les rues étroites.
-
-liens vers attractions...
-
-- liste à puce
-- liste à puce
-- liste à puce
-- liste à puce
-
-images... 
+practical_infos_brussels: 
+Brussel is niet alleen de hoofdstad van België en van Vlaanderen, maar ook dat van Europa.
+De wereldberoemde middeleeuwse marktplaats van Brussel, met haar vele voorgevels uit de zeventiende eeuw is dagelijks het toneel van een bloemenmarkt.
+In 2006 is het Atomium, na een grondige restauratie, heropend. Het Atomium, `de Brusselse Eifeltoren' biedt een spectaculair zicht op de stad.
+Liefhebbers van architectuur mogen de kans niet missen het Hortamuseum te bezoeken.
+Wie van het uitgangsleven geniet mag dan de buurt van Sint Gorix niet links laten liggen.
+De buurt van Sint Katelijne zal je verleiden met de vele visrestaurants.
+Het centrum van de stad zal je beter te voet bezoeken, of met openbaar vervoer.
 ---
-text_button: Devenir exposant
+text_button: Een poster voorstellen
+---
+s_about_educode: About d'EduCode
+---
+s_become_partner: Wordt deelnemer
+---
+s_contact: Contact
+---
+s_expo: Tentoonstellingen
+---
+s_hotel: Hotel, herberg
+---
+s_location: PLaats
+---
+s_monday: Maandag
+---
+s_more_infos: Meer info
+---
+s_our_partners: Onze partners
+---
+s_overview_program: Overzicht van het programma
+---
+s_partners: Partners
+---
+s_practical_infos: Praktische informatie
+---
+s_press: Pers
+---
+s_registration: Inschrijving
+---
+s_speakers: Deelnemers
+---
+s_sunday: Zondag
+---
+s_thuesday: Dinsdag
+---
+s_wednesday: Woensdag
+---
+s_intro_dates: 27-29 augustus 2018
+---
+s_intro_location_city: Brussel, België
+---
+s_intro_location_institutions: Bozar, ESI & ISIB
+---
+s_intro_location_institutions_2: Koninklijke academie
+---
+sunday:
+
+Op zondag 26 augustus 2018 om 18 uur aan de Koninklijke academie, zullen de leden van de academie en de lokale politiek machten de deelnemers aan de conferentie ontvangen. Tevens zal men die dag al zich kunnen inschrijven tot de conferentie. Men hoeft dus niet tot maandag te wachten om zich in te schrijven. Er is een mogelijkheid om elkaar te leren kennen op de diner cocktail. 
+---
+registration: Zich inschrijven zal zeer binnenkort beschikbaar zijn. 
+U kunt zich al aanmelden via het onderstaande formulier.
+---
+press_text: Een persconferentie wordt gehouden op maandag 7 mei 2018
+---
+s_submission: Een voorstel indienen
+---
+s_submit_here: Hier je voorstel indienen
+---
+submissions_text: Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
+---
+s_submissions: Een voorstel indienen
+---
+s_may: mei
+---
+s_monday_27: Maandag 27
+---
+s_sunday_26: Zondag 26
+---
+s_thuesday_28: Dinsdag 28
+---
+s_wednesday_29: Woensdag 29
+---
+s_program: Programma
