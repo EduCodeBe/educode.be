@@ -1,14 +1,17 @@
 _model: location
 ---
-name: ISIB
+name: HE2B-ISIB
 ---
-description: 
-
-Plus d'informations à venir
+description: Les ateliers du mardi 28 août se tiennent ici aussi, et le repas du midi est dans le hall a rez-de-chaussée.
 ---
 directions:
 
+- Prendre le métro 2 ou 6, descendre à l'arrêt Botanique et marcher en direction vers Parc.
+- Prendre le métro 1 ou 5, descendre à l'arrêt Parc et descendre la rue royale.
+- En tram 94, descendre à l'arrêt Congrès, en face de la colonne du Congrès
 ---
-address: Rue royale
+address: Rue royale 150
 ---
 type_location: Lieu normal
+---
+url: http://isib.be
