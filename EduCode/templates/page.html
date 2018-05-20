@@ -289,7 +289,11 @@
                 <hr>
                 <div class="container">
                     <div class="row">
+                        {{ this.practical_infos_hostels }}
+                    
                         <!-- On récupère tous les hôtels -->
+                        <!-- Je mets en commentaire le code ci-dessous au lieu de l'effacer
+                             au cas où je doive le réintégrer.
                         {% if lieux %}
                             {% for lieu in lieux %}
                                 {% if lieu.type_location == 'Hôtel' %}
@@ -327,6 +331,7 @@
                                 {% endif %}
                             {% endfor %}
                         {% endif %}
+                        -->
                     </div>
                 </div>
                 <hr>
