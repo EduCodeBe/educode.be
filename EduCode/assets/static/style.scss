@@ -34,8 +34,8 @@ body {
 
 
   .brand {
-    margin-top: 100px;
-    padding-bottom: 30px;
+    margin-top: 50px;
+    padding-bottom: 20px;
 
     @include responsive(xs) {
       margin-top: 20px;

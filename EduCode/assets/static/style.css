@@ -484,8 +484,8 @@
     border-left: solid #b18528 10px;
     color: white !important; }
   #sidebar .brand {
-    margin-top: 100px;
-    padding-bottom: 30px; }
+    margin-top: 50px;
+    padding-bottom: 20px; }
     @media (max-width: 767px) {
       #sidebar .brand {
         margin-top: 20px; } }
