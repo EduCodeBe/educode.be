@@ -416,6 +416,8 @@
   transition: opacity ease .4s; }
   #anchor-partners .partner .partner-picture:hover {
     opacity: 1; }
+  #anchor-partners .partner .partner-picture img {
+    display: inline-block !important; }
 
 #landing-page-content {
   font-family: Lato, "Roboto Slab", Roboto, serif; }

@@ -124,6 +124,10 @@
       &:hover {
         opacity: 1;
       }
+
+      img {
+        display: inline-block !important;
+      }
     }
   }
 }
