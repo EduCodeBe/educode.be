@@ -17,13 +17,22 @@
       <file leaf-file-name="page.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="292" selection-start-line="292" selection-end-line="292" />
+            <state relative-caret-position="405">
+              <caret line="219" column="132" selection-start-line="219" selection-start-column="132" selection-end-line="219" selection-end-column="132" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#2;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#2;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#2;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#2;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#2;n#div#1;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contents.lr" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/contents.lr">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="144" column="12" lean-forward="true" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -31,8 +40,8 @@
       <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="80" column="54" selection-start-line="80" selection-start-column="54" selection-end-line="80" selection-end-column="54" />
+            <state relative-caret-position="-542">
+              <caret line="78" column="120" selection-start-line="78" selection-start-column="120" selection-end-line="78" selection-end-column="120" />
             </state>
           </provider>
         </entry>
@@ -40,8 +49,8 @@
       <file leaf-file-name="page.ini" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/page.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="106" column="31" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="31" />
+            <state relative-caret-position="2560">
+              <caret line="128" column="22" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -49,7 +58,7 @@
       <file leaf-file-name="home.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/static/home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
+            <state relative-caret-position="1900">
               <caret line="95" column="25" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
             </state>
           </provider>
@@ -58,7 +67,7 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/static/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
+            <state relative-caret-position="780">
               <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
             </state>
           </provider>
@@ -75,17 +84,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>speaker</find>
-      <find>speak</find>
-      <find>speake</find>
-      <find>XE</find>
-      <find>nav</find>
-      <find>url_</find>
       <find>part</find>
       <find>Text</find>
       <find>menu</find>
       <find>progr</find>
-      <find>insc</find>
       <find>#program</find>
       <find>hover</find>
       <find>iframe</find>
@@ -105,6 +107,13 @@
       <find>sidebar</find>
       <find>bran</find>
       <find>practi</find>
+      <find>become</find>
+      <find>practical_infos_hostels</find>
+      <find>ifra</find>
+      <find>expos</find>
+      <find>insci</find>
+      <find>lic</find>
+      <find>insc</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -118,7 +127,6 @@
         <option value="$PROJECT_DIR$/assets/static/program.scss" />
         <option value="$PROJECT_DIR$/templates/location.html" />
         <option value="$PROJECT_DIR$/content/contents+fr.lr" />
-        <option value="$PROJECT_DIR$/content/contents.lr" />
         <option value="$PROJECT_DIR$/models/exhibitor.ini" />
         <option value="$PROJECT_DIR$/templates/exhibitor.html" />
         <option value="$PROJECT_DIR$/content/mardi-28-aout/contents+de.lr" />
@@ -139,9 +147,10 @@
         <option value="$PROJECT_DIR$/models/press.ini" />
         <option value="$PROJECT_DIR$/templates/press.html" />
         <option value="$PROJECT_DIR$/assets/static/home.scss" />
-        <option value="$PROJECT_DIR$/templates/layout.html" />
         <option value="$PROJECT_DIR$/assets/static/style.scss" />
         <option value="$PROJECT_DIR$/models/page.ini" />
+        <option value="$PROJECT_DIR$/templates/layout.html" />
+        <option value="$PROJECT_DIR$/content/contents.lr" />
         <option value="$PROJECT_DIR$/templates/page.html" />
       </list>
     </option>
@@ -180,6 +189,11 @@
               <item name="EduCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="EduCode" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EduCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EduCode" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -263,8 +277,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.3297414" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32912722" />
-      <window_info anchor="bottom" x="1046" y="604" width="367" height="406" id="Terminal" order="12" sideWeight="0.46145833" visible="true" weight="0.23238696" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13541667" />
+      <window_info active="true" anchor="bottom" x="1046" y="604" width="367" height="406" id="Terminal" order="12" sideWeight="0.46145833" visible="true" weight="0.23238696" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13541667" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="4" />
@@ -292,6 +306,20 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/assets/static/home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1900">
+          <caret line="95" column="25" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/static/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1540">
@@ -394,13 +422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/contents.lr">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3200">
-          <caret line="160" selection-start-line="160" selection-end-line="160" />
         </state>
       </provider>
     </entry>
@@ -577,15 +598,6 @@
         <state relative-caret-position="-297" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/exposants/exhibition/contents.lr">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/exposants/conference/contents.lr">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/EduCode.lektorproject">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="457">
@@ -600,42 +612,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="80" column="54" selection-start-line="80" selection-start-column="54" selection-end-line="80" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/static/home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
+        <state relative-caret-position="1900">
           <caret line="95" column="25" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/static/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="780">
           <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/content/contents+nl.lr">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3275" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/models/page.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="106" column="31" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="31" />
+        <state relative-caret-position="2560">
+          <caret line="128" column="22" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-542">
+          <caret line="78" column="120" selection-start-line="78" selection-start-column="120" selection-end-line="78" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/contents.lr">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="144" column="12" lean-forward="true" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="292" selection-start-line="292" selection-end-line="292" />
+        <state relative-caret-position="405">
+          <caret line="219" column="132" selection-start-line="219" selection-start-column="132" selection-end-line="219" selection-end-column="132" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#2;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#2;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#2;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#2;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#2;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
