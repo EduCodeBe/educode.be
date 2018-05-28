@@ -6,6 +6,12 @@ country: France
 ---
 date: Mardi 28
 ---
-description: Georges est un professeur de physique et chimie au [lycéé Jean Bart](https://www.lyceejeanbart.fr). Georges est un contributeur trés actif aux logiciels libres en sciences. En particulier il développe et maintient de nombreux paquets debian
+description:
+
+Georges est un professeur de physique, chimie  et informatique au [lycéé Jean Bart](https://www.lyceejeanbart.fr). Il a des formations en biochimie, chimie organique, informatique et science des matériaux, obtenues à l'E.N.S. rue d'Ulm (Paris), l'Université Pierre et Marie Curie (Paris), l'Université de Lorraine (Nancy), et l'Université du Littoral (Dunkerque).
+
+Georges est participe au développement de quelques logiciels libres, maintient
+quelques dizaines de [paquets Debian](https://salsa.debian.org/georgesk)/Ubuntu, et adhère à quelques
+associations de défense et promotion des logiciels libres telle que [APRIL](http://april.org).
 ---
 name: Georges Khaznadar
