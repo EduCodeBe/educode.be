@@ -56,7 +56,7 @@ _thuesday: Thuesday
 ---
 _wednesday: Wednesday
 ---
-expo_about: Durant les pauses cafés et repas, les différents acteurs notamment du numérique éducatif, en Belgique et dans les pays représentés à la conférence, principalement des associations et des écoles présenteront leurs réalisations. Ceci devrait être l'occasion pour les enseignants, leurs directions, les élus et leurs équipes, et les pouvoirs publics de prendre connaissance de la grande diversité des acteurs du numérique autour de l'école, ensembles d'acteurs qui peuvent les assister et les aider dans la complexe mission d'accompagner et former, tant les enseignants que les enfants, aux très nombreux usages du numérique.
+expo_about: Durant les pauses café et repas, les associations et les écoles dans le milieu de l’éducation numérique en Belgique et dans les pays représentés lors de la conférence, présenteront leurs réalisations dans la partie exposition.  Ce sera l’occasion pour les enseignants, leurs directions, les élus et leurs équipes, ainsi que pour les pouvoirs publics de prendre connaissance de la grande diversité des acteurs du numérique dans le domaine de l’enseignement. Ceux-ci pourront les assister et les aider dans une mission d'accompagnement et de formation aux très nombreux usages du numérique.
 ---
 partners_about:
 
@@ -70,7 +70,7 @@ practical_infos:
 ---
 practical_infos_brussels:
 
-Bruxelles est la capitale de la Belgique, de la Flandre et de l'Europe. La Grand-Place médiévale est immense, avec de nombreux immeubles du 17ème siècle et des marchés aux fleurs quotidiens. Rouvert en 2006, l'Atomium, la Tour Eiffel de Bruxelles, offre une vue imprenable aussi bien à l'intérieur que sur l'extérieur. Les amateurs d'architecture ne devront pas manquer la visite du Musée Horta, aménagé dans la maison du grand architecte belge Victor Horta. Les clubs et les bars de la place St. Gery ne désemplissent jamais. Les plats de fruits de mer abondent à Sainte Catherine. Si vous souhaitez plus d'information sur Bruxelles, cliquez [ici](http://visit.brussels) 
+Bruxelles est la capitale de la Belgique et de l'Europe. La Grand-Place médiévale est immense. Elle possède de nombreux immeubles du 17ème siècle et accueille quotidiennement des marchés aux fleurs.  Rouvert en 2006, l'Atomium, la Tour Eiffel de Bruxelles, offre une vue imprenable aussi bien à l'intérieur que sur l'extérieur. Les amateurs d'architecture ne devront pas manquer la visite du Musée Horta, aménagé dans la maison du grand architecte belge Victor Horta. Les clubs et les bars de la place St. Gery ne désemplissent jamais. Les plats de fruits de mer abondent à Sainte Catherine. Si vous souhaitez plus d'information sur Bruxelles, cliquez [ici](http://visit.brussels) 
 ---
 text_button: Devenir exposant
 ---
@@ -167,7 +167,7 @@ Aussi, vous trouvezrez ci-dessous notre grille tarifaire.
             <td class="Default" style="border-top:1px solid #000000;border-bottom:none;border-left:1px solid #000000;border-right:1px solid #000000;text-align:center;font-weight:bold;vertical-align:middle;width:22.537666mm">
 Cocktail de <br> bienvenue <br> 26 août            </td>
             <td class="Default" style="border-top:1px solid #000000;border-bottom:none;border-left:1px solid #000000;border-right:1px solid #000000;text-align:center;font-weight:bold;vertical-align:middle;width:22.537666mm">
-Conférences <br> 26 août            </td>
+Conférences <br> 27 août            </td>
             <td class="Default" colspan="4" style="border-top:1px solid #000000;border-bottom:none;border-left:1px solid #000000;border-right:1px solid #000000;text-align:center;font-weight:bold;vertical-align:middle">
 Concert <br> 27 août Bozar            </td>
             <td class="Default" style="border-top:1px solid #000000;border-bottom:none;border-left:1px solid #000000;border-right:1px solid #000000;text-align:center;font-weight:bold;vertical-align:middle;width:14.437666mm">
@@ -271,8 +271,14 @@ Après le 24 août            </td>
     </div>
   </body>
 </html>
+
+**Pour le concert [concert du 27 août](http://brussel.iticketsro.com/Bozar/nl-NL/events/concert%20par%20l%E2%80%99orchestre%20symphonique%20de%20la%20h2eb%20et%20ch%C5%93urs/2018-8-27_20.00/salle%20henry%20leboeuf%20zaal?culture=fr-FR)**
 ---
-press_text: Une conférence de presse s'est tenue le lundi 7 mai 2018 à 11h à l'Académie royale. Une autre sera organisée lundi 27 et peut-être encore troisième  peu avant la conférence. Vous pouvez également télécharger des documents utiles en cliquant sur le lien ci-dessous.
+press_text:
+
+Une conférence de presse s'est tenue le lundi 7 mai 2018 à 11h à l'Académie royale.Un point presse sera également organisé le premier jour de l’évènement, lundi 27 août vers midi. 
+
+Vous pouvez également télécharger des documents utiles en cliquant sur le lien ci-dessous.
 ---
 s_submission: Appel à soumission
 ---
