@@ -2,7 +2,42 @@ _model: speaker
 ---
 title: Ivan Kalas
 ---
-description: Bientôt plus d'information. En attendant, duckduckgo est votre ami.
+description:
+
+[Ivan Kalas](https://www.researchgate.net/profile/Ivan_Kalas) is a professor at the Comenius University in Bratislava in the  Department of Informatics Education
+
+Professor Kalas participated in the *Transformative Learning Technologies Lab @ Stanford*, a panel hosted by 
+Paulo Blikstein from Stanford University on the impact of Seymour Papert's research on the past, present, and future of child-computer interaction at [IDC 2013](http://www.idc2013.org). More information on https://tltl.stanford.edu/papert_tribute . Influential researchers, educators and entrepreneurs around the world who have worked with and learned from Seymour Papert have agreed to send videos of them talk about him, their experiences with and insights from him, and his impact in the world. The recording of Ivan Kalas is [here](https://www.youtube.com/watch?v=__q0qOrysYM)
+
+Professor Kalas gave an invited talk at [Didapro7](http://didapro.org/7/keynote-kalas/) in February 2018 in Lausanne
+
+#Programming in primary school: from Papert to the new computer science
+
+This lecture was given in English. The text below is an automatic translation of [the French text](http://didapro.org/7/keynote-kalas/)
+
+In recent years, we have witnessed an unprecedented interest in educational programming not only in high school, but also in elementary school and even pre-school. If the current trend is not the first of the "digital age", it is certainly the strongest, most complex and most substantial of all the previous ones. The "founding fathers" who, in the 70s and 80s, recognized the potential of computers for learning in children through exploration, expression and creation (see Papert, 1980, and the pioneering work of Feurzeig Kay, Clayson, Goldenberg and others) have recently been brought to the forefront and reworked through new influential publications such as, among others, Wing (2006), the revolutionary report of the British Royal Society ( 2012) and the subsequent transformation in September 2014 of the traditional "ICT education" into a new "Computing" discipline in the UK [1], supported by an ambitious national curriculum ( see DfE, 2013).
+
+Active in the field of educational programming and informatics since the mid-80s, I will try in my lecture to take advantage of my past and present experiences of developing software environments to teach programming within my group at Comenius University, my recent role in content creation for learning programming in UK primary schools (UCL ScratchMaths [2]) and my involvement at UNESCO, IFIP (International Federation for Information Processing) and Microsoft's Partners in Learning program. Starting from this multiple perspective, I will ask whether the current interest in educational programming differs from previous initiatives and, if so, I will question our chances of achieving sustainable implementation.
+
+Since we work with sometimes unclear concepts such as ICT, computing, numerical literacy or computer science [3], I will begin by defining educational programming focusing exclusively on the school environment, mainly in elementary school [4], where all subjects or almost are treated by a single generalist teacher. If this is sometimes seen as an obstacle to teaching computer science to these degrees, I will argue otherwise: the atmosphere and learning culture of elementary school offers tremendous potential to leverage IT and programming for the benefit of young learners - as a new and powerful instrument of exploration, learning, creation and communication.
+
+I will also try to formulate a conceptual framework for educational programming at the primary level as well as to identify some principles that I think should be respected if one wishes to conceive and implement in a sustainable way programming and the pedagogy that accompanies them. I will finally mention the challenges and potential risks in the near future. I will illustrate this with three projects that we have recently developed or are underway: the beginnings of programming with Thomas the Clown in primary, our last project of systematic construction of programming elements for grades 3 and 4, and our ScratchMaths curriculum for grades 5 and 6 (ages 9 to 11).
+
+**Key words**: programming at primary level, programming, computing, computing, computer thinking, development relevance
+
+##Notes
+1. From the age of 5 until the baccalaureate.
+2. See <http://ucl.ac.uk/scratchmaths>
+3. As a field of study at the primary and secondary levels.
+4. In the broader sense according to the ISCED scheme of UNESCO, with typical durations of 4 to 6 or even 7 years from the age of 5 or 6 years. 
+
+##References
+
+1. Benton, L, Saunders, P., Kalaš, I., Hoyles, C., Noss, R. (2017). Designing for learning mathematics through programming. To appear in the International Journal of Child-Computer Interaction.
+2. Blackwell, A. F. (2002). What is Programming? In 14th Workshop of the Psychology of Programming Interest Group. 204-218.
+3. DfE. (2013). Computing Programs of Study: Key Stages 1 and 2, DfE. Available online [here](https://www.gov.uk/govern ment/publications/national-curriculum-in-england-computing-programs-of-study)
+4. Gujberova, M., & Kalaš, I. (2013). Producing productive gradations of tasks in primary programming education. In Proceedings of WiPSCE 2013, 108-117. ACM Digital Library DOI 10.1145 / 2532748. 2532750.
+5. Kabatova, M., Kalaš, I., Tomcsanyiova, M. (2016). Programming in Primary Slovak Schools. Olympiads in Informatics.
 ---
 name: Ivan Kalas
 ---
