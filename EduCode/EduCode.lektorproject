@@ -38,5 +38,5 @@ lektor-creative-commons = 0.3.1
 name = Production
 enabled = yes
 default = yes
-target = ftps://ftp.domainepublic.net/docs
+target = ftps://educode.be_site:ftpeduc0de@ftp.domainepublic.net/docs
 
