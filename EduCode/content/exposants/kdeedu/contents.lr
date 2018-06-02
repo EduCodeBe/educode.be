@@ -1,0 +1,17 @@
+_model: exhibitor
+---
+title: KDEEdu
+---
+contact_mail: paul.brown@kde.org
+---
+contact_name: Paul Brown
+---
+description:
+
+[KDEEdu](https://edu.kde.org/) est le projet de développement de logiciels éducatifs du projet [KDE](https://kde.org). Il regroupe de nombreux logiciels libres d'éducation reposant sur les technologies KDE. Étudiants, parents, enfants, enseignants, adultes, vous pouvez utiliser librement nos logiciels, les copier et les modifier pour satisfaire vos besoins et mieux profiter de l'apprentissage !
+
+Veuillez consulter la [page de synthèse de nos applications](https://edu.kde.org/applications/all/) pour obtenir un rapide aperçu de nos programmes, disponibles en plus de 65 langues.
+
+Notre attention première se concentre sur les élèves de 3 à 18 ans et sur les besoins spécifiques en interface pour de jeunes utilisateurs. Malgré tout, nous avons aussi des programmes pour aider les enseignants à préparer leurs cours et d'autres pouvant intéresser les étudiants en université et tous ceux désireux d'apprendre !
+---
+website: https://edu.kde.org/

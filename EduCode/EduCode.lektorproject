@@ -34,8 +34,9 @@ lektor-markdown-highlighter = 0.2
 lektor-disqus-comments = 0.2
 lektor-creative-commons = 0.3.1
 
-#[servers.production]
-#name = Production
-#enabled = yes
-#default = yes
-#target = ftps://myuser:mypassword@ftp.example.com/var/www/example
+[servers.production]
+name = Production
+enabled = yes
+default = yes
+target = ftps://ftp.domainepublic.net/docs
+
