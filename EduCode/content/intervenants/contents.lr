@@ -1,3 +1,5 @@
-_model: page
+_model: container
 ---
-title: intervenants
+title: Intervenants
+---
+name: Intervenants

@@ -433,7 +433,7 @@
 .speaker {
   min-height: 300px;
   cursor: pointer;
-  padding: 45px !important; }
+  padding: 30px !important; }
   .speaker:hover .speaker-picture {
     transform: scale(1.2, 1.2); }
   .speaker:hover .speaker-name, .speaker:hover .speaker-name a {
