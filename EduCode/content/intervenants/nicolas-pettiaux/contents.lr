@@ -2,7 +2,7 @@ _model: speaker
 ---
 title: Nicolas Pettiaux
 ---
-country: Belgium
+country: be
 ---
 date: Lundi 27
 ---
@@ -24,11 +24,11 @@ Nicolas est un des représentants officiels de [Creative Commons](http://creativ
 ---
 name: Nicolas Pettiaux
 ---
-twitter_id: 
+twitter_id: @npettiaux
 ---
-twitter_url: 
+twitter_url: https://twitter.com/npettiaux
 ---
-riot_id: 
+riot_id: npettiaux
 ---
 riot_url: 
 ---
@@ -38,8 +38,10 @@ gnusocial_url:
 ---
 mastodon_url: 
 ---
-mastodon_id: 
+mastodon_id: npettiaux
 ---
-tel: 
+tel: +32 496 24 55 01
 ---
 website_url: 
+---
+email: nicolas@educode.be

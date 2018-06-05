@@ -1,0 +1,97 @@
+title: Inscription
+---
+body:
+
+Les réservations sont maintenant possibles pour tous les jours et toutes les activités :
+
+<style>
+table, th, td {
+    border: 1px solid black;
+}
+</style>
+
+<table>
+<tr>  
+ <td scope="row"> </td> 
+ <td  align="center"><b>Cocktail <br> de bienvenue </b> <br>  26 août  </td>
+ <td  align="center"><b>Conférences</b> <br>  27 août </td> 
+ <td  align="center"><b>Ateliers</b> <br>  28 août </td> 
+ <td  align="center"><b>Cocktail <br> dînatoire </b> <br>  28 août </td> 
+ <td  align="center"><b>Échanges & <br> mise en commun</b> <br>  29 août  </td> 
+</tr>
+<tr> 
+  <td> </td>
+  <td  align="center"> <b> Académie  </b></td>
+  <td  align="center"> <b> Bozar </b> <br> Henri Lebœuf </td>
+  <td  align="center"> <b> HE2B & <br> BeCentral </b> </td>
+  <td  align="center"> <b> Hôtel de Ville </b> <br> Salle gothique </td>
+  <td  align="center"> <b> Académie </b></td>
+</tr> 
+<tr>
+  <td> Jusqu’au 30 juin  </td>
+  <td  align="center">  20 €  </td>
+  <td  align="center">  20 €  </td>
+  <td  align="center">  20 €  </td>
+  <td  align="center">  20 €  </td>
+  <td  align="center">  80 €  </td>
+</tr> 
+<tr>
+  <td>  Du 1er juillet au 24 août </td>
+  <td  align="center">  25 €  </td>
+  <td  align="center">  25 €  </td>
+  <td  align="center">  20 €  </td>
+  <td  align="center">  25 €  </td>
+  <td  align="center">  100 € </td>
+</tr> 
+<tr>
+  <td>  Après le 24 août  </td>
+  <td  align="center">  30 €  </td>
+  <td  align="center">  30 €  </td>
+  <td  align="center">  30 €  </td>
+  <td  align="center">  30 €  </td>
+  <td  align="center">  120 € </td>
+</tr>
+</table>
+
+* Supplément Baby-Sitting + 7,5 € / ( jour * enfant )             
+
+<table>
+<tr>
+ <td> </td>
+ <td   align="center" colspan="4"><b>Concert festif <br> Bozar  </b> Henri Lebœuf </td>
+</tr>
+<tr>
+  <td>  </td>
+  <td  align="center"> Cat 1  </td>
+  <td  align="center">  Cat 2  </td>
+  <td  align="center">  Cat 3 </td>
+  <td  align="center">  Cat 4 </td>
+</tr>
+<tr>
+  <td> Jusqu’au 30 juin  </td>
+  <td  align="center">  33 €  </td>
+  <td  align="center">  27 €  </td>
+  <td  align="center">  20 €  </td>
+  <td  align="center">  13 €  </td>
+</tr>
+<tr>
+  <td>  Du 1er juillet au 24 août </td>
+  <td  align="center">  35 €  </td>
+  <td  align="center">  29 €  </td>
+  <td  align="center">  22 €  </td>
+  <td  align="center">  15 €  </td>
+</tr>
+<tr>
+  <td>  Après le 24 août  </td>
+  <td  align="center">  38 €  </td>
+  <td  align="center">  31 €  </td>
+  <td  align="center">  24 €  </td>
+  <td  align="center">  17 €  </td>
+</tr>
+</table>
+
+Pour réserver [aller ici](http://brussel.iticketsro.com/Bozar/search/EDUCODE)
+---
+author: Nicolas Pettiaux
+---
+pub_date: 2018-06-05
