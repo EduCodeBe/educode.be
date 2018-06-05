@@ -52,9 +52,10 @@ table, th, td {
   <td  align="center">  120 € </td>
 </tr>
 </table>
+<br>
 
-* Supplément Baby-Sitting + 7,5 € / ( jour * enfant )             
-
+et pour le concert 
+ 
 <table>
 <tr>
  <td> </td>
@@ -90,7 +91,9 @@ table, th, td {
 </tr>
 </table>
 
-Pour réserver [aller ici](http://brussel.iticketsro.com/Bozar/search/EDUCODE)
+<br> 
+
+ <button type="Submit" formaction="http://brussel.iticketsro.com/Bozar/search/EDUCODE">INSCRIPTION</button> 
 ---
 author: Nicolas Pettiaux
 ---

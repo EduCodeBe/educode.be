@@ -4,13 +4,11 @@ author: Nicolas Pettiaux
 ---
 body:
 
-Les plus technophiles d'entre vous (soit vous tous ;-), qui voulez apprendre et comme les apprenants de BeCentral qui le font, si mes informations sont correctes, dès les tous premiers jours de leur formation) peuvent le faire en (vous apprécierez l'algorithme, d'apprendre un peu le code et ce qui accompagne, et de pouvoir taper un peu dans un terminal ;-)
-
-Les plus technophiles d'entre vous (soit vous tous ;-), qui voulez apprendre et comme les apprenants de BeCentral qui le font, si mes informations sont correctes, dès les tous premiers jours de leur formation) peuvent le faire en (vous apprécierez l'algorithme, d'apprendre un peu le code et ce qui accompagne, et de pouvoir taper un peu dans un terminal ;-)
+Les plus technophiles d'entre vous (soit vous tous ;-), qui voulez apprendre en toutes occasions, apprécierez l'algorithme, un peu le code et ce qui accompagne, pouvoir taper dans un terminal :)
 
 *    installant sur votre machine (windows ou macos x ou gnulinux)
- *        le logiciel libre avec lequel le site est fait [Lektor](https://getlektor.org) (c'est beaucoup plus à installer facile sur une machine gnulinux que macox x ou windows, sans être difficile sur celles-ci)
- *      le logiciel libre de travail collboratif [git](https://git-scm.com/download/)
+ *   le logiciel libre avec lequel le site est fait [Lektor](https://getlektor.org) (c'est beaucoup plus à installer facile sur une machine gnulinux que macox x ou windows, sans être difficile sur celles-ci)
+ *      le logiciel libre de travail collaboratif [git](https://git-scm.com/download/)
 *    en vous créant un login sur [github.com](http://github.com)
 *    en allant sur [github.com/EduCodeBe/educode.be](https://github.com/EduCodeBe/educode.be) et en forkant le projet (en haut à droite)
 *    tapant dans le terminal (git-bash sur windows)
@@ -22,19 +20,19 @@ Les plus technophiles d'entre vous (soit vous tous ;-), qui voulez apprendre et 
       *       éditer le site avec une jolie interface graphique dans le navigateur et un petit crayon à droite qui permet d'éditer, et
       *       aller par exemple sur la page http://localhost:5000/admin/root:exposants/edit
       *       ajouter une page "exposant" en cliquant sur la première ligne sur + et en ajoutant une page dont le modèle est "Exposant"
-      *       en complétant les champs au [format markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet] assez facile
+      *       en complétant les champs au [format markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) assez facile
       *       en sauvant localement sur votre machine au bas de la page
-      *       si vous voulez aider à une traduction de n'importe quelle page, c'est ici que cela se passe en allant dans le menu à gauche de la langue. Les textes ont été traduits en espagnol déjà mais je n'ai pas eu le temps de les incorporer. Ils sont dans )
+      *       si vous voulez aider à une traduction de n'importe quelle page, c'est ici que cela se passe en allant dans le menu à gauche de la langue. Les textes ont été traduits en espagnol déjà mais je n'ai pas eu le temps de les incorporer. 
       *      arrêtant le serveur local par CONTROL-C
 *     en faisant tout remonter sur le serveur central en tapant
   *           git add *
   *          git commit -m "une description de vos modifications et ajouts"
   *          git push (vous rentrez alors vos logins et mots de passe)
   *        en me prévenant que vous voulez que nous intégrions vos modifications par mail à site@educode.be
-  *     et si possible en faisant sur github un pull request (qui simplifie les procédures 6 di-dessus et suivantes pour moi)
+  *     et si possible en faisant sur github un pull request (qui simplifie les procédures ci-dessus et suivantes pour nous)
     *         vous allez sur votre page https://github.com/<mon login>/educode.be/pulls
     *            vous cliquez à droite sur le bouton NEW PULL REQUEST et vérifiez que votre projet est bien lié à EducodeBe/educode.be (le master)
-    *            vous complétez un petit mot
+    *            vous complétez un petit mot décrivant ce que vous avez fait
     *            et envoyer
     *    j'accepte votre proposition si il n'y a pas de conflit et hop
     *     je mets en ligne dès que je peux (ou un autre membre de l'équipe le fait)

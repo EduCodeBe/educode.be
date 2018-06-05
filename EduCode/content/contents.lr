@@ -183,8 +183,6 @@ table, th, td {
 </tr>
 </table>
 
-Pour le baby-sitting, il faut payer un supplément de 7,5 € par jour et par enfant.
-
 Pour le **Concert festif** dans la salle Henri Lebœuf
 
 <table>
@@ -258,10 +256,7 @@ Réservez via le site de réservation ci-dessous ou en contactant un des agents 
   
 **ATTENTION** : les tarifs réduits expireront le lundi 16 juillet 2018.
 ---
-inscription_tarif:
-
-   
-
+inscription_tarif: Il faut envoyer un courriel à [tickets@bozar.be](mailto:tickets@bozar.be?subject=Facture) pour obtenir une facture.
 ---
 s_free_expose: Exposer gratuitement à Educode
 ---

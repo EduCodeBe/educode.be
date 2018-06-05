@@ -10,4 +10,23 @@ La garderie sera complétée d'activités telle que celles présentées durant l
 
 Elle sera organisée dans des lieux très voisins des lieux de la conférence, sinon dans ceux-ci quand c'est possible.
 
-L'inscription préalable sera obligatoire pour permettre une bonne organisation. Bien sûr, des repas, locaux de sieste et jeux seront prévus.
+L'inscription préalable est obligatoire pour permettre une bonne organisation. Bien sûr, des repas, locaux de sieste et jeux seront prévus. 
+
+Le tarif  de 7 € par heure est proche de celui recommandé par la [ligue des familles](https://www.laligue.be/Public/babysitting/Page.php?ID=35319)
+
+Merci de remplir le formulaire ci-dessous et nous l'envoyer pour nous aider à adapter l'offre à vos attentes. 
+
+**Envoyer** transmet le formulaire à votre outil de courriel où vous pouvez compléter le message avant de l'expédier.
+
+<form action="mailto:babysitting@educode.be?subject=Réservation de babysitting" method="post" enctype="text/plain">
+Prénom, NOM du parent : <input type="text" name="parentName"><br>
+E-mail : <input type="text" name="email"><br>
+souhaite réserver un baby-sitting au prix de 7 € / heure pour <br> 
+Prénom, NOM de l'enfant : <input type="text" name="childName"><br>
+Âge de l'enfant : <input type="number" name="age" value="3"><br>
+Heure d'arrivée : <input type="number" name="startHour" value="9"><br>
+Heure de départ : <input type="number" name="endHour" value="19"><br>
+Commentaires : <input type="text" name="comment" size="50"><br><br>
+<input type="submit" value="Envoyer">
+<input type="reset" value="Reset">
+</form>
