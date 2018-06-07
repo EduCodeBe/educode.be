@@ -221,7 +221,7 @@ table, th, td {
 ---
 press_text:
 
-Une conférence de presse s'est tenue le lundi 7 mai 2018 à 11h à l'Académie royale.Un point presse sera également organisé le premier jour de l’évènement, lundi 27 août vers midi. 
+Une conférence de presse s'est tenue le lundi 7 mai 2018 à 11h à l'Académie royale.Un point presse sera également organisé le premier jour de l’évènement, lundi 27 août vers 13h. 
 
 Vous pouvez également télécharger des documents utiles en cliquant sur le lien ci-dessous.
 ---
@@ -261,11 +261,11 @@ Réservez via le site de réservation ci-dessous ou en contactant un des agents 
 ---
 inscription_tarif: Il faut envoyer un courriel à [tickets@bozar.be & factures@educode.be](mailto:tickets@bozar.be,factures@educode.be?subject=Facture pour educode) pour obtenir une facture.
 ---
-s_free_expose: Exposer gratuitement à Educode
+s_free_expose: Exposer et tenir un stand
 ---
 s_propose_atelier: Proposer un atelier
 ---
-s_submit_paper: Soumettre un article scientifique
+s_submit_paper: Soumettre une communication
 ---
 contact:
 
