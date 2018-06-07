@@ -2,10 +2,11 @@ title: Inscription
 ---
 body:
 
-Les réservations sont maintenant possibles pour tous les jours et toutes les activités :
+Les inscriptions définitives sont maintenant possibles en cliquant sur le bouton ci-dessous.
 
-#Pour les journées de 27-28-29 août de 9h à 19h
+**ATTENTION** : pour des raisons d'organisation de la journée, **chaque** personne qui participe aux ateliers du mardi 28 août doit s'inscrire dans le système. Il n'est donc possible d'acheter que **un seul** ticket à la fois pour cette journée. Nous reviendrons vers vous par mail dès que la liste des nombreux ateliers sera disponible et prête aux choix.
 
+#Journées des 27-28-29 août de 9h à 19h
 <style>
 table, th, td {
     border: 1px solid black;
@@ -22,7 +23,7 @@ table, th, td {
  <td  align="center"><b>Échanges & <br> mise en commun</b> <br>  29 août  </td> 
 </tr>
 <tr> 
-  <td> </td>
+  <td> <b> Lieux </b> </td>
   <td  align="center"> <b> Académie  </b></td>
   <td  align="center"> <b> Bozar </b> <br> Henri Lebœuf </td>
   <td  align="center"> <b> HE2B & <br> BeCentral </b> </td>
@@ -54,18 +55,14 @@ table, th, td {
   <td  align="center">  120 € </td>
 </tr>
 </table>
-<br>
 
-<h1>et pour le <sl>concert festif</sl> du 27 août à 20h30</h1>
- 
+
+# Concert festif du 28 août à 20h30
+
 <table>
 <tr>
- <td> </td>
- <td   align="center" colspan="4"><b>Concert festif <br> Bozar  </b> Henri Lebœuf </td>
-</tr>
-<tr>
   <td>  </td>
-  <td  align="center"> Cat 1  </td>
+  <td  align="center">  Cat 1  </td>
   <td  align="center">  Cat 2  </td>
   <td  align="center">  Cat 3 </td>
   <td  align="center">  Cat 4 </td>
@@ -92,8 +89,6 @@ table, th, td {
   <td  align="center">  17 €  </td>
 </tr>
 </table>
-
-<br> 
 
 #rendez-vous sur [le site d'achat des tickets](http://brussel.iticketsro.com/Bozar/search/EDUCODE)
 ---
