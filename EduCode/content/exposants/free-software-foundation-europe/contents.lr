@@ -2,7 +2,9 @@ _model: exhibitor
 ---
 title: Free Software Foundation Europe
 ---
-abstract: Fondée le 10 mars 2001, la Free Software Foundation Europe (FSFE) est une organisation non gouvernementale (ONG) à but non lucratif. En tant qu'organisation-sœur distincte de la Free Software Foundation aux États-Unis, elle milite pour le logiciel libre en Europe et aux Nations unies. La FSFE fournit également un centre de compétences aux politiciens, juristes, et journalistes, dans le but d'assurer l'avenir légal, politique et social du logiciel libre.  Elle a pour président Karsten Gerloff, succédant à Georg Greve, président-fondateur.
+abstract:
+
+Fondée le 10 mars 2001, la Free Software Foundation Europe (FSFE) est une organisation non gouvernementale (ONG) à but non lucratif. 
 ---
 contact_mail: info@fsfe.org
 ---

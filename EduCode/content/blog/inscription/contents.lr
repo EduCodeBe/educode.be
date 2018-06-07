@@ -4,6 +4,8 @@ body:
 
 Les réservations sont maintenant possibles pour tous les jours et toutes les activités :
 
+#Pour les journées de 27-28-29 août de 9h à 19h
+
 <style>
 table, th, td {
     border: 1px solid black;
@@ -39,7 +41,7 @@ table, th, td {
   <td>  Du 1er juillet au 24 août </td>
   <td  align="center">  25 €  </td>
   <td  align="center">  25 €  </td>
-  <td  align="center">  20 €  </td>
+  <td  align="center">  25 €  </td>
   <td  align="center">  25 €  </td>
   <td  align="center">  100 € </td>
 </tr> 
@@ -54,7 +56,7 @@ table, th, td {
 </table>
 <br>
 
-et pour le concert 
+<h1>et pour le <sl>concert festif</sl> du 27 août à 20h30</h1>
  
 <table>
 <tr>
@@ -93,7 +95,7 @@ et pour le concert
 
 <br> 
 
- <button type="Submit" formaction="http://brussel.iticketsro.com/Bozar/search/EDUCODE">INSCRIPTION</button> 
+#rendez-vous sur [le site d'achat des tickets](http://brussel.iticketsro.com/Bozar/search/EDUCODE)
 ---
 author: Nicolas Pettiaux
 ---
