@@ -133,7 +133,7 @@ registration:
 
 Les inscriptions définitives sont maintenant possibles en cliquant sur le bouton ci-dessous.
 
-
+#Journées des 27-28-29 août de 9h à 19h
 <style>
 table, th, td {
     border: 1px solid black;
@@ -183,12 +183,12 @@ table, th, td {
 </tr>
 </table>
 
-Pour le **Concert festif** dans la salle Henri Lebœuf
+# **Concert festif** du 28 août à 20h30
 
 <table>
 <tr>
   <td>  </td>
-  <td  align="center"> Cat 1  </td>
+  <td  align="center">  Cat 1  </td>
   <td  align="center">  Cat 2  </td>
   <td  align="center">  Cat 3 </td>
   <td  align="center">  Cat 4 </td>
@@ -256,7 +256,7 @@ Réservez via le site de réservation ci-dessous ou en contactant un des agents 
   
 **ATTENTION** : les tarifs réduits expireront le lundi 16 juillet 2018.
 ---
-inscription_tarif: Il faut envoyer un courriel à [tickets@bozar.be](mailto:tickets@bozar.be?subject=Facture) pour obtenir une facture.
+inscription_tarif: Il faut envoyer un courriel à [tickets@bozar.be & factures@educode.be](mailto:tickets@bozar.be,factures@educode.be?subject=Facture pour educode) pour obtenir une facture.
 ---
 s_free_expose: Exposer gratuitement à Educode
 ---
