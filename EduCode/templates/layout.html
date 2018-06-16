@@ -131,25 +131,23 @@
                         <hr>
                         <div class="container">
                             <div class="row">
-                                <div class="col-4 text-center">
-                                    <a href="https://www.bozar.be/fr" target="_blank">
-                                        <img width="48px" src="{{ "/partenaires/bozar/image-bozar.png" | url }}" alt="">
-                                    </a>
+                                <div class="col-6 text-center mb-1">
+                                    <a href="https://www.bozar.be/fr" target="_blank"><img width="56px" src="{{ "/partenaires/bozar/image-bozar.png" | url }}" alt="Bozar"></a>
                                 </div>
-                                <div class="col-4 text-center"><a href="#" target="_blank">
-                                    <img width="48px" src="{{ "/partenaires/digital-wallonia/digitalwallonia-logo-degrades-358x259.png" | url }}" alt="Digital Wallonia">
-                                </a>
+                                <div class="col-6 text-center mb-1">
+                                    <a href="https://www.digitalwallonia.be" target="_blank"><img width="56px" src="{{ "/partenaires/digital-wallonia/digitalwallonia-logo-degrades-358x259.png" | url }}" alt="Digital Wallonia"></a>
                                 </div>
-                                <div class="col-4 text-center"><a href="#" target="_blank">
-                                    <img width="48px" src="{{ "/partenaires/region-de-bruxelles-capitale/logotype_2_rgb_72_blanc.jpg" | url }}" alt="Région de Bruxelles-Capitale">
-                                </a>
+                                <div class="col-6 text-center">
+                                    <a href="http://be.brussels" target="_blank"><img width="56px" src="{{ "/partenaires/region-de-bruxelles-capitale/logotype_2_rgb_72_blanc.jpg" | url }}" alt="Région de Bruxelles-Capitale"></a>
+                                </div>
+                                <div class="col-6 text-center">
+                                    <a href="http://www.federation-wallonie-bruxelles.be" target="_blank"><img width="72px" src="{{ "/imgs/fwb.png" | url }}" alt="Région de Bruxelles-Capitale"></a>
+                                </div>
                                 <div class="col-6 text-center">
                                     <a href="http://lapremiere.be" target="_blank"><img width="72px" src="{{ "/partenaires/la-premiere/logo_lp_2017_rvb_filet.png" | url }}" alt="La Première"></a>
                                 </div>
                                 <div class="col-6 text-center">
                                     <a href="http://rtbf.be/music3" target="_blank"><img width="72px" src="{{ "/partenaires/music3/logo_m3_rvb_15.png" | url }}" alt="Music3"></a>
-                                </div>
-
                                 </div>
                             </div>
                         </div>
@@ -206,13 +204,13 @@
 <script src="{{ '/plugins/slick/slick.min.js' | url }}"></script>
 
 <script>
-    if (getBootstrapBreakpoint() !== 'xs') {
-        $('#sidebar').addClass('show');
-    } else {
-        $('#sidebar').removeClass('show');
-    }
-
     $(function () {
+
+        if (getBootstrapBreakpoint() !== 'xs') {
+            $('#sidebar').addClass('show');
+        } else {
+            $('#sidebar').removeClass('show');
+        }
 
         $(document).on("scroll", onScroll);
 
@@ -224,6 +222,7 @@
         var $root = $('html, body');
         var $document = $(document);
         var $links = $('a[href^="#anchor"]');
+
         $document.on('click', 'a[href^="#anchor"]', function (e) {
             e.preventDefault();
             $document.off("scroll");
@@ -232,7 +231,7 @@
 
             var target = this.hash,
                 menu = target;
-            $target = $(target);
+            var $target = $(target);
 
             $root.stop().animate({
                 scrollTop: $( $.attr(this, 'href') ).offset().top + 2
