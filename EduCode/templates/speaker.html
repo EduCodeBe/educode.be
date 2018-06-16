@@ -21,6 +21,18 @@
                             <a target="_blank" href="{{ this.twitter_url }}">{{ this.twitter_id }}</a>
                         </li>
                     {% endif %}
+                    {% if this.fb_id and this.fb_url %}
+                        <li class="mb-1">
+                            <img width="24px" src="{{ "/imgs/fb.png" | url }}" alt=""/>
+                            <a target="_blank" href="{{ this.fb_url }}">{{ this.fb_id }}</a>
+                        </li>
+                    {% endif %}
+                    {% if this.linkedin_id and this.linkedin_url %}
+                        <li class="mb-1">
+                            <img width="24px" src="{{ "/imgs/linkedin.png" | url }}" alt=""/>
+                            <a target="_blank" href="{{ this.linkedin_url }}">{{ this.linkedin_id }}</a>
+                        </li>
+                    {% endif %}
                     {% if this.gnusocial_id and this.gnusocial_url %}
                         <li class="mb-1">
                             <img width="24px" src="{{ "/imgs/gnusocial.png" | url }}" alt=""/>
@@ -333,7 +345,7 @@
     "Zambia":"ZM",
     "Zimbabwe": "ZW"
 };
-    $("#flag").prepend('<img src="http://www.countryflags.io/{{ this.country }}/flat/32.png"/>');
+    $("#flag").prepend('<img src="http://www.countryflags.io/' + countries["{{ this.country }}"] + '/flat/32.png"/>');
     </script>
 {% endblock %}
 
