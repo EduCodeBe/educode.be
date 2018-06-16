@@ -178,7 +178,7 @@
                     <!-- On récupère tous les partenaires -->
                     {% set partners = site.query('/partenaires').include_hidden(false) %}
                     {% if partners %}
-                        {% for partner in partners.order_by("-priority", "name") %}
+                        {% for partner in partners.order_by("priority", "name") %}
                             <div class="partner text-center ml-2 mr-2">
                                 <!-- picture -->
                                 {% set pictures = partner.attachments %}
