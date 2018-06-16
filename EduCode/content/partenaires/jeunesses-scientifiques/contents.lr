@@ -3,3 +3,5 @@ _model: partner
 name: JSB
 ---
 url: http://www.jsb.be
+---
+priority: 1

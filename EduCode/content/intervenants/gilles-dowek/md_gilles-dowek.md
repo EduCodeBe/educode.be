@@ -13,7 +13,7 @@ if the problem persists.
 
 <div id="LSV">
 
-[About ]{}[LSV](http://www.lsv.ens-cachan.fr/ "LSV---access key 1") {#about-lsv title="LSV logo"}
+    [About ]{}[LSV](http://www.lsv.ens-cachan.fr/ "LSV---access key 1") {#about-lsv title="LSV logo"}
 -------------------------------------------------------------------
 
 -   [News](http://www.lsv.ens-cachan.fr/ "What's new at LSV---access key N")

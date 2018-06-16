@@ -82,16 +82,16 @@
             </div>
 
             <!-- On récupère tous les intervenants -->
-            {% set speakers = site.query('/intervenants').include_hidden(false).all() %}
+            {% set speakers = site.query('/intervenants').include_hidden(false) %}
             {% if speakers %}
-                {% for speaker in speakers %}
+                {% for speaker in speakers.order_by("name") %}
                     <div class="col-6 col-sm-4 col-md-3 speaker" data-aos="fade-down-right" data-aos-delay="300">
                         {% set pictures = speaker.attachments %}
                             <div class="text-center speaker-picture-container" onclick="location.href = '{{ speaker.url_path | url }}';">
                                 <div class="speaker-picture"
                                 {% if pictures %}
                                     {% set profile_picture = pictures | first %}
-                                    style="background-image: url('{{ profile_picture | url }}');">
+                                     style="background-image: url('{{ profile_picture | url }}');">
                                 {% else %}
                                     style="background-image: url('{{  "/imgs/user.png" | url }}');">
                                 {% endif %}
@@ -176,30 +176,30 @@
                 </h4>
                 <div id="slideshow-partners" class="col-12">
                     <!-- On récupère tous les partenaires -->
-                    {% set partners = site.query('/partenaires').include_hidden(false).all() %}
+                    {% set partners = site.query('/partenaires').include_hidden(false) %}
                     {% if partners %}
-                        {% for partner in partners %}
+                        {% for partner in partners.order_by("-priority", "name") %}
                             <div class="partner text-center ml-2 mr-2">
                                 <!-- picture -->
                                 {% set pictures = partner.attachments %}
                                 {% if pictures %}
                                     {% set partner_picture = pictures | first %}
-                                    <div class="partner-picture text-center" style="min-height: 90px;">
+                                    <div class="partner-picture text-center" style="min-height: 85px;">
                                         <a href="{{ partner.url }}" target="_blank" class="mr-2 ml-2 text-center">
-                                            <img src="{{ partner_picture | url }}" alt="" style="max-height: 72px; max-width: 72px">
+                                            <img src="{{ partner_picture | url }}" alt="" style="max-height: 80px; max-width: 80px;">
                                         </a>
                                     </div>
                                 {% else %}
                                     <div class="partner-picture text-center">
-                                        <a href="{{ partner.url }}" target="_blank">
-                                            <img src="{{ '#' }}" alt="[icon brand]">
+                                        <a href="{{ partner.url }}" target="_blank" class="mr-2 ml-2 text-center">
+                                            <img src="{{ '#' }}" alt="[icon brand]" style="max-height: 80px; max-width: 80px">
                                         </a>
                                     </div>
                                 {% endif %}
                                 <!-- url -->
                                 <h4 class="p-1 mt-1">
                                     <a href="{{ partner.url }}" target="_blank" class="btn color-dark">
-                                        {{ partner.name }}
+                                        <strong>{{ partner.name }}</strong>
                                     </a>
                                 </h4>
                             </div>
@@ -421,15 +421,14 @@
     <script>
         AOS.init();
 
-
         $('#slideshow-partners').slick({
           dots: true,
           infinite: true,
           speed: 1500,
           autoplaySpeed: 300,
-          autoplay:false,
-          slidesToShow: 10,
-          slidesToScroll: 2,
+          autoplay:true,
+          slidesToShow: 6,
+          slidesToScroll: 1,
           responsive: [
             {
               breakpoint: 1024,
@@ -443,14 +442,14 @@
             {
               breakpoint: 600,
               settings: {
-                slidesToShow: 2,
+                slidesToShow: 5,
                 slidesToScroll: 2
               }
             },
             {
               breakpoint: 480,
               settings: {
-                slidesToShow: 1,
+                slidesToShow: 3,
                 slidesToScroll: 1
               }
             }

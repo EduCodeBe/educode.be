@@ -3,3 +3,5 @@ _model: partner
 name: UMons
 ---
 url: http://umons.be
+---
+priority: 1

@@ -408,6 +408,9 @@
 #anchor-expo {
   margin-bottom: 50px; }
 
+table td, table th {
+  text-align: center; }
+
 #anchor-partners .partner .partner-picture {
   opacity: .33;
   -webkit-transition: opacity ease .4s;

@@ -114,7 +114,11 @@
   margin-bottom: 50px;
 }
 
-
+table {
+  td, th {
+    text-align: center;
+  }
+}
 
 #anchor-partners {
   .partner {

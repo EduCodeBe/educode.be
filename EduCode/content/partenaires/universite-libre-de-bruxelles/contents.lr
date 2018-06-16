@@ -3,3 +3,5 @@ _model: partner
 name: ULBruxelles
 ---
 url: http://ulb.ac.be
+---
+priority: 1

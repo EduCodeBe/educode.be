@@ -3,3 +3,5 @@ _model: partner
 name: IBM
 ---
 url: http://ibm.com/
+---
+priority: 1

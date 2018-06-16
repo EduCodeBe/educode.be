@@ -3,3 +3,5 @@ _model: partner
 name: La Première
 ---
 url: https://www.rtbf.be/lapremiere/
+---
+priority: 1
