@@ -124,7 +124,7 @@ s_intro_dates: 27, 28, 29 août 2018
 ---
 s_intro_location_city: Bruxelles, Belgique
 ---
-s_intro_location_institutions: Bozar, ESI & ISIB &BeCentral
+s_intro_location_institutions: Bozar, ESI & ISIB & BeCentral
 ---
 s_intro_location_institutions_2: Académie royale
 ---
@@ -190,6 +190,41 @@ Les inscriptions définitives sont maintenant possibles en cliquant sur le bouto
 
 ## Concert festif du 28 août à 20h30
 
+<table class="table table-hover table-bordered table-striped table-sm">
+<thead>
+ <tr>  
+ <th scope="col"> </td> 
+ <th scope="col">Cat 1 </td>
+ <th scope="col">Cat 2</td>
+ <th scope="col">Cat 3</td>
+ <th scope="col">Cat 4</td>
+ </tr>
+</thead>
+<tbody>
+<tr>
+  <td> Jusqu’au 30 juin  </td>
+  <td>  33 €  </td>
+  <td>  27 €  </td>
+  <td>  20 €  </td>
+  <td>  13 €  </td>
+ </tr> 
+<tr>
+  <td>  Du 1er juillet au 24 août </td>
+  <td>  35 €  </td>
+  <td>  29 €  </td>
+  <td>  22 €  </td>
+  <td>  15 €  </td>
+ </tr> 
+<tr>
+  <td>  Après le 24 août  </td>
+  <td>  38 €  </td>
+  <td>  31 €  </td>
+  <td>  24 €  </td>
+  <td>  17 €  </td>
+ </tr>
+</tbody>
+</table>
+
 ---
 press_text:
 
@@ -201,7 +236,12 @@ s_submission: Appel à soumission
 ---
 s_submit_here: Soumettez ici
 ---
-submissions_text: Faites-nous part de vos propositions de stand au sein de l'exposition pour lundi 27, d'atelier pour mardi 28 et de communication pour mercredi 29 en cliquant sur le bouton ci-dessous qui vous intéresse.
+submissions_text:
+
+Faites-nous part de vos propositions de stand au sein de l'exposition pour lundi 27 et de poster pour mercredi 29 en cliquant sur le bouton ci-dessous qui vous intéresse.
+
+Les propositions d'ateliers 28 et de communications orales pour le 29 sont maintenant cloturées. Vous trouverez bientôt la liste de ceux-ci sur ce site.
+
 ---
 s_submissions: Appel à propositions
 ---
@@ -237,7 +277,7 @@ s_free_expose: Exposer et tenir un stand
 ---
 s_propose_atelier: Proposer un atelier
 ---
-s_submit_paper: Soumettre une communication
+s_submit_paper: Soumettre un poster
 ---
 contact:
 
