@@ -142,7 +142,7 @@ años para permitir la participación de todos los padres.
 -   **20h30** **Concierto festivo** con orquesta y coros, bajo las
     direcciones de [Laurent
     Beeckmans](https://educode.be/intervenants/laurent-beeckmans) et [Romain
-    Verberen](https://educode.be/intervenants/romain-verberen)
+    Verbeeren](https://educode.be/intervenants/romain-verbeeren)
 
 \
 
