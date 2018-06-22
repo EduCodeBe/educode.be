@@ -67,8 +67,25 @@
             </div>
             <div class="col-12 col-sm-10 border-dark">
                 <div>
-                    <span class="text-dark"><i class="fa fa-calendar"></i> Date d'intervention</span>
+                    <span class="text-dark"><i class="fa fa-calendar"></i> Dates d'intervention</span>
                     <br>
+                    {% set dates = {
+                        "dimanche-26-aout": "Dimanche 26 août",
+                        "lundi-27-aout": "Lundi 27 août",
+                        "mardi-28-aout": "Mardi 28 août",
+                        "mercredi-29-aout": "Mercredi 29 août"
+                        }
+                    %}
+                    <ul>
+                        {% for date in this.dates %}
+                            <li>{{ this.datamodel.field_map['dates'].type.to_json(date) }}</li>
+                        {% endfor %}
+                    </ul>
+
+                    <ul>
+                        <li>{{ this.datamodel.field_map['dates'].options['choice_labels'] }}</li>
+                    </ul>
+
                     <strong>{{ this.date }}</strong>
                     <hr>
                 </div>
