@@ -595,10 +595,18 @@ a[href="#program"]:not(.collapsed) {
     overflow-y: auto;
     overflow-x: visible;
     transition: all 0.25s ease;
+    -ms-transform: translateX(-100%);
+    /* IE 9 */
+    -webkit-transform: translateX(-100%);
+    /* Safari */
     transform: translateX(-100%);
     position: fixed;
     /* overlay sub levels on small screens */ }
     #sidebar.show {
+      -ms-transform: translateX(0);
+      /* IE 9 */
+      -webkit-transform: translateX(0);
+      /* Safari */
       transform: translateX(0); }
     #sidebar::-webkit-scrollbar {
       width: 0; }

@@ -184,12 +184,12 @@ a[href="#program"]:not(.collapsed) {
     overflow-y: auto;
     overflow-x: visible;
     transition: all 0.25s ease;
-    transform: translateX(-100%);
+    @include translateX(-100%);
     position: fixed;
 
 
     &.show {
-      transform: translateX(0);
+      @include translateX(0);
     }
 
     &::-webkit-scrollbar{ width: 0; }

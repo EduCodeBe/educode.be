@@ -58,6 +58,12 @@ $darker-yellow: #b18528;
   transform:         rotate(#{$degrees});
 }
 
+@mixin translateX($val) {
+  -ms-transform:     translateX(#{$val}); /* IE 9 */
+  -webkit-transform: translateX(#{$val}); /* Safari */
+  transform:         translateX(#{$val});
+}
+
 
 .height-300 {  height: 300px; }
 
