@@ -10,15 +10,20 @@ body {
 }
 
 #sidebar {
-  min-height: 100vh;
-  overflow: hidden;
+  // min-height: 100vh;
+  // overflow: hidden;
   z-index: 3;
   font-family: 'Unica One', cursive !important;
+
+
+  #sidebar-wrapper {
+    height: 100vh;
+    overflow-y: scroll;
+  }
 
   &>.position-fixed {
     background-color: #ffbd33;
     padding: 0;
-
   }
 
   .list-group-item, .list-group {
@@ -48,8 +53,7 @@ body {
   }
 
   .list-group {
-    min-height: 100vh;
-
+    // min-height: 100vh;
     i {
       margin-right: 6px;
     }
@@ -115,6 +119,9 @@ a[href="#program"]:not(.collapsed) {
 
 .language {
   text-align: right;
+  @include responsive(xs) {
+    text-align: left;
+  }
   background-color: #446CB3;
   padding-top: 8px;
   padding-bottom: 10px;
@@ -144,7 +151,6 @@ a[href="#program"]:not(.collapsed) {
 #sidebar .list-group .collapse .list-group-item,
 #sidebar .list-group .collapsing .list-group-item  {
   padding-left: 40px;
-
 }
 
 /* level 2*/

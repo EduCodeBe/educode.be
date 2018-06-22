@@ -472,10 +472,11 @@ table td, table th {
           height: 80px; } }
 
 #sidebar {
-  min-height: 100vh;
-  overflow: hidden;
   z-index: 3;
   font-family: 'Unica One', cursive !important; }
+  #sidebar #sidebar-wrapper {
+    height: 100vh;
+    overflow-y: scroll; }
   #sidebar > .position-fixed {
     background-color: #ffbd33;
     padding: 0; }
@@ -494,10 +495,8 @@ table td, table th {
         margin-top: 20px; } }
     #sidebar .brand img {
       max-width: 80%; }
-  #sidebar .list-group {
-    min-height: 100vh; }
-    #sidebar .list-group i {
-      margin-right: 6px; }
+  #sidebar .list-group i {
+    margin-right: 6px; }
   #sidebar .list-group-item {
     border-radius: 0;
     color: #2d3436;
@@ -547,6 +546,9 @@ a[href="#program"]:not(.collapsed) {
   background-color: #446CB3;
   padding-top: 8px;
   padding-bottom: 10px; }
+  @media (max-width: 767px) {
+    .language {
+      text-align: left; } }
   .language span {
     margin-right: 10px; }
   .language .language-link {
