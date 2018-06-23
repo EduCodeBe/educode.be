@@ -1,0 +1,43 @@
+author: Nicolas Pettiaux
+---
+body:
+
+El más tecnófilo de ustedes (todos ustedes ;-), que quieren aprender en todas las ocasiones, aprecian el algoritmo, un pequeño código y lo que va con él, pueden escribir en una terminal :)
+
+* instalación en su máquina (windows o macos x o gnulinux)
+ * el software gratuito con el que se crea el sitio [Lektor](https://getlektor.org) (es mucho más fácil de instalar en una máquina gnulinux que macox x o windows, sin ser difícil para ellos)
+ * software gratuito de trabajo colaborativo [git](https://git-scm.com/download/)
+* creando un inicio de sesión en [github.com](http://github.com)
+* Vaya a [github.com/EduCodeBe/educode.be](https://github.com/EduCodeBe/educode.be) y bifurque el proyecto (arriba a la derecha)
+* escribiendo en la terminal (git-bash en windows)
+   * git clone https://github.com/<usuario de inicio de sesión>/educode.be
+   * cd <el directorio donde se encuentra>/educode.be/EduCode
+   * servidor de lektor
+   * firefox [http://localhost:5000/](http://localhost:5000)
+   * (puede entonces
+      * edite el sitio con una bonita interfaz gráfica en el navegador y un pequeño lápiz a la derecha que permita la edición, y
+      * vaya, por ejemplo, en la página http://localhost:5000/admin/root:expositors/edit
+      * agregue una página de "expositor" haciendo clic en la primera línea en + y agregando una página cuyo modelo es "Expositor"
+      * al completar los campos en [formato de reducción](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) lo suficientemente fácil
+      * guardando localmente en su máquina en la parte inferior de la página
+      * Si desea ayudar con una traducción de cualquier página, aquí es donde sucede yendo al menú a la izquierda del idioma. Los textos ya han sido traducidos al español, pero no he tenido tiempo de incorporarlos.
+      * deteniendo el servidor local por CONTROL-C
+* volviendo a poner todo en el servidor central escribiendo
+  * git add *
+  * git commit -m "una descripción de tus cambios y adiciones"
+  * git push (a continuación, ingrese sus inicios de sesión y contraseñas)
+  * advirtiéndome que quiere que integremos sus cambios por correo electrónico a site@educode.be
+  * y si es posible al hacer en github una solicitud de extracción (que simplifica los procedimientos anteriores y siguientes para nosotros)
+    * vas a tu página https://github.com/<my login>/educode.be/pulls
+    * haces clic derecho en el botón SOLICITAR NUEVO PEDAL y verificas que tu proyecto esté vinculado a EducodeBe/educode.be (el maestro)
+    * complete una breve nota describiendo lo que hizo
+    * y enviar
+    * Acepto tu propuesta si no hay conflicto y salto
+    * Puse en línea tan pronto como puedo (u otro miembro del equipo lo hace)
+        así, de verdad, todos juntos estamos implementando la colaboración para el sitio y todo lo demás.
+
+# ¡La aplicación práctica de teoría y digital también es para cada uno de nosotros!
+---
+pub_date: 2018-06-04
+---
+title: Contribuir a educode

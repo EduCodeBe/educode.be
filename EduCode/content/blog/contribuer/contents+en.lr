@@ -1,0 +1,43 @@
+author: Nicolas Pettiaux
+---
+body:
+
+The most technophile of you (all of you ;-), who want to learn on all occasions, appreciate the algorithms, a little code and what goes with it, can type in a terminal 
+
+* install lektor on your machine (windows or macos x or gnulinux)
+ * the free software with which the site is made [Lektor](https://getlektor.org) (it's a lot easier to install on a machine gnulinux than macox x or windows, without being difficult on them)
+ * free collaborative work software [git](https://git-scm.com/download/)
+* by creating a login on [github.com](http://github.com)
+* Go to [github.com/EduCodeBe/educode.be](https://github.com/EduCodeBe/educode.be) and fork the project (top right)
+* typing in the terminal (git-bash on windows)
+   * git clone https://github.com/<your login>/educode.be
+   * cd <the directory where you are>/educode.be/EduCode
+   * lektor server
+   * firefox [http://localhost: 5000/](http://localhost: 5000)
+   * (you can then
+      * edit the site with a nice graphical interface in the browser and a little pencil on the right that allows editing, and
+      * go for example on the page http://localhost: 5000/admin/root:exhibitors/edit
+      * add an "exhibitor" page by clicking on the first line on + and adding a page whose model is "Exhibitor"
+      * by completing the fields in [markdown format](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) easy enough
+      * by saving locally on your machine at the bottom of the page
+      * If you want to help a translation of any page, this is where it happens by going to the menu on the left of the language. The texts have been translated into Spanish already but I have not had time to incorporate them.
+      * stopping the local server by CONTROL-C
+* by putting everything back on the central server by typing
+  * git add *
+  * git commit -m "a description of your changes and additions"
+  * git push (you then enter your logins and passwords)
+  * by warning me that you want us to integrate your changes by email at site@educode.be
+  * and if possible by doing on github a pull request (which simplifies the above and following procedures for us)
+    * you go to your page https://github.com/<my login>/educode.be/pulls
+    * you right click on the NEW PULL REQUEST button and check that your project is linked to EducodeBe / educode.be (the master)
+    * fill in a short note describing what you did
+    * and send
+    * I accept your proposal if there is no conflict and hop
+    * I put online as soon as I can (or another member of the team does it)
+        like this, really, all together we are implementing the collaboration for the site and all the rest.
+
+# The practical application of theory and digital is also for each of us!
+---
+pub_date: 2018-06-04
+---
+title: Contribute to educode
