@@ -1,0 +1,39 @@
+_model: workshop
+---
+title: Initiation aux sciences informatiques et à la pensée algorithmique en primaire
+---
+abstract: Dans le cadre de notre formation de bachelier instituteur.rice primaire à la Haute école HENALLUX (Malonne), nous avons réalisé des activités dont le but est d’initier les enfants aux sciences informatiques et à la pensée algorithmique.
+---
+age: 7 à 9 ans
+---
+contact_name: Alice Balon, Mélissa Destrés, Géraldine Donnez, Lisa Hellebuyck, Mélanie Marcipont (Henallux)
+---
+description:
+
+Dans le cadre de notre formation de bachelier instituteur.rice primaire à
+la Haute école HENALLUX (Malonne), nous avons réalisé des activités dont
+le but est d’initier les enfants aux sciences informatiques et à la pensée
+algorithmique.
+
+Ces activités sont destinées à des enfants du cycle 3 ou 4, et pourraient
+être adaptées à des enfants du cycle 2. Nous les avons testées avec des
+enfants de 3e primaire. Elles sont en lien avec les Socles de Compétences
+de la Fédération Wallonie-Bruxelles et permettent de développer des
+compétences transversales : démarches mentales (résoudre, raisonner,
+argumenter) et d’attitudes relationnelles (confiance en soi, collaboration),
+mais aussi disciplinaires (Education par la technologie, Mathématiques).
+
+L’atelier se déroule en deux parties :
+- D’abord, des activités débranchées (sans matériel spécifique) qui permettent aux enfants de se familiariser avec les notions de base de l’informatique et de la
+programmation. Elles s’intitulent : 
+  * « Qu’est-ce que l’ordinateur ?», 
+  * « Découvrons les codes », 
+  * « Découvrons ce qu’est un pixel », 
+  * « Découvrons de la programmation ».
+- Nous proposons ensuite des activités branchées (avec PC, tablettes, robots) utilisant le logiciel Scratch et le robot DASH en lien avec ce qui a été travaillé précédemment.
+---
+periodes: 1 et 2
+---
+tag: primaire
+---
+language: fr
