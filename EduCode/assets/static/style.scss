@@ -9,12 +9,9 @@ body {
 
 }
 
-#sidebar {
-  // min-height: 100vh;
-  // overflow: hidden;
+#sidebar, #mobile-sidebar {
   z-index: 3;
   font-family: 'Unica One', cursive !important;
-
 
   #sidebar-wrapper {
     height: 100vh;
@@ -28,13 +25,25 @@ body {
 
   .list-group-item, .list-group {
     background-color: #ffbd33;
-    color: $dark !important;
+    color: $dark;
   }
 
   .list-group-item.selected {
     background: #f59f24;
     border-left: solid $darker-yellow 10px;
     color: white !important;
+  }
+
+  /* level 1*/
+  .list-group .collapse .list-group-item,
+  .list-group .collapsing .list-group-item  {
+    padding-left: 40px;
+  }
+
+  /* level 2*/
+  .list-group .collapse > .collapse .list-group-item,
+  .list-group .collapse > .collapsing .list-group-item {
+    padding-left: 60px;
   }
 
 
@@ -46,14 +55,12 @@ body {
       margin-top: 20px;
     }
 
-
     img {
       max-width:80%;
     }
   }
 
   .list-group {
-    // min-height: 100vh;
     i {
       margin-right: 6px;
     }
@@ -68,12 +75,15 @@ body {
     padding-top: 15px;
     padding-bottom: 15px;
     @include transition("all linear .3s");
+
     &:first-of-type {
       border-top:none;
     }
+
     &:last-of-type {
       border-bottom:none;
     }
+
     /* closed state */
     &[aria-expanded="false"]::after {
       content: " \f0d7";
@@ -81,10 +91,10 @@ body {
       display: inline;
       text-align: right;
       padding-left: 5px;
+
     }
 
     &[aria-expanded="true"] {
-
       &::after {
         content: " \f0da";
         font-family: FontAwesome, serif;
@@ -94,13 +104,10 @@ body {
       }
     }
 
-
     &:hover {
       border-left: solid $yellow 10px;
       background-color: #cca228;
-      color: white;
     }
-
   }
 }
 
@@ -108,13 +115,14 @@ a[href="#program"]:not(.collapsed) {
     background-color: #cca228 !important;
 }
 
-#program {
-  background-color: $darker-yellow;
-  .list-group-item {
-    background-color: $darker-yellow !important;
-    color: white !important;
-    padding-left: 15px;
-  }
+.menu-expandable {
+  background-color: #cca228 !important;
+}
+
+.item-expanded {
+  background-color: $darker-yellow !important;
+  color: white !important;
+  padding-left: 15px;
 }
 
 .language {
@@ -147,30 +155,14 @@ a[href="#program"]:not(.collapsed) {
   font-family: Lato, "Roboto Slab", Serif, serif;
 }
 
-/* level 1*/
-#sidebar .list-group .collapse .list-group-item,
-#sidebar .list-group .collapsing .list-group-item  {
-  padding-left: 40px;
-}
 
-/* level 2*/
-#sidebar .list-group .collapse > .collapse .list-group-item,
-#sidebar .list-group .collapse > .collapsing .list-group-item {
-  padding-left: 60px;
-}
-
-/* level 3*/
-#sidebar .list-group .collapse > .collapse > .collapse .list-group-item {
-  padding-left: 90px;
-}
 
 @include responsive(xs) {
-
   #menu-icon {
     position: fixed;
-    top: 0;
+    top: 0px;
     right: 0;
-    z-index:999;
+    z-index: 999;
     color: $blue;
     background-color: $yellow;
     height: 48px;
@@ -178,42 +170,44 @@ a[href="#program"]:not(.collapsed) {
     text-align: center;
     font-size: 2rem;
   }
+}
 
+#mobile-sidebar {
+  overflow-y: auto;
+  overflow-x: visible;
+  transition: all 0.25s ease;
+  @include translateX(-120%);
+  background-color: #ffbd33;
+  position: fixed;
+  width: 75% !important;
+  @include box-shadow("4px 0 8px -2px grey");
 
-  #sidebar {
-    overflow-y: auto;
-    overflow-x: visible;
-    transition: all 0.25s ease;
-    @include translateX(-100%);
-    position: fixed;
-
-
-    &.show {
-      @include translateX(0);
-    }
-
-    &::-webkit-scrollbar{ width: 0; }
-
-    /* overlay sub levels on small screens */
-    .list-group .collapse.show, #sidebar .list-group .collapsing {
-      position: relative;
-      z-index: 1;
-      top: 0;
-    }
+  &.show {
+    @include translateX(0);
   }
 
-  #sidebar, #sidebar .list-group {
-    min-width: 50%;
+  &::-webkit-scrollbar{ width: 0; }
+
+  /* overlay sub levels on small screens */
+  .list-group .collapse.show, #sidebar .list-group .collapsing {
+    position: relative;
+    z-index: 10;
+    top: 0;
+  }
+
+  &, & .list-group {
+    min-width: 75%;
     overflow: visible;
   }
-  #sidebar .list-group > .list-group-item {
+  & .list-group > .list-group-item {
     text-align: center;
     padding: .75rem .5rem;
   }
-  /* hide caret icons of top level when collapsed */
-  #sidebar .list-group > .list-group-item[aria-expanded="true"]::after,
-  #sidebar .list-group > .list-group-item[aria-expanded="false"]::after {
-    display:none;
+}
+
+.slick-dots {
+  @include responsive(xs) {
+    bottom: -50px!important;
   }
 }
 

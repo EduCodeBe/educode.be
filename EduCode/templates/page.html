@@ -85,7 +85,7 @@
             {% set speakers = site.query('/intervenants').include_hidden(false) %}
             {% if speakers %}
                 {% for speaker in speakers.order_by("name") %}
-                    <div class="col-6 col-sm-4 col-md-3 speaker" data-aos="fade-down-right" data-aos-delay="300">
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-3 speaker" data-aos="fade-down-right" data-aos-delay="300">
                         {% set pictures = speaker.attachments %}
                             <div class="text-center speaker-picture-container" onclick="location.href = '{{ speaker.url_path | url }}';">
                                 <div class="speaker-picture"
@@ -217,7 +217,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12 text-center mt-2 mb-2">
-                            <a href="http://brussel.iticketsro.com/Bozar/search/EDUCODE" target="_blank" class="btn btn-lg btn-warning text-uppercase">{{ this.s_registration }}</a>
+                            <a href="http://brussel.iticketsro.com/Bozar/search/EDUCODE"
+                               target="_blank"
+                               class="btn btn-lg btn-warning text-uppercase">{{ this.s_registration }}</a>
                         </div>
                     </div>
                 </div>
@@ -356,12 +358,20 @@
                     {{ this.submissions_text }}
                 </div>
                 <div class="container">
-                    <div class="row">
+                    <div class="row text-center">
                         <div class="col-12 text-center mt-1 mb-1">
-                            <a style="min-width: 50%;" href="https://framaforms.org/proposition-de-stand-a-educode-1525663809" target="_blank" class="btn btn-lg btn-warning">{{ this.s_free_expose }} - {{ this.s_monday_27 }}</a>
+                            <a href="https://framaforms.org/proposition-de-stand-a-educode-1525663809"
+                               target="_blank"
+                               class="btn btn-lg btn-warning">
+                                {{ this.s_free_expose }} - {{ this.s_monday_27 }}
+                            </a>
                         </div>
                         <div class="col-12 text-center mt-1 mb-1">
-                            <a style="min-width: 50%;" href="https://educode2018.sciencesconf.org/" target="_blank" class="btn btn-lg btn-warning">{{ this.s_submit_paper }} - {{ this.s_wednesday_29 }}</a>
+                            <a href="https://educode2018.sciencesconf.org/"
+                               target="_blank"
+                               class="btn btn-lg btn-warning">
+                                {{ this.s_submit_paper }} - {{ this.s_wednesday_29 }}
+                            </a>
                         </div>
                     </div>
                 </div>
