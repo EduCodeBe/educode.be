@@ -1,0 +1,43 @@
+author: Nicolas Pettiaux
+---
+body:
+
+De meest technofiel van jullie (jullie allemaal ;-), die bij alle gelegenheden willen leren, waarderen het algoritme, een kleine code en wat erbij hoort, kan een terminal typen
+
+* installeren op uw machine (windows of macos x of gnulinux)
+ * de gratis software waarmee de site gemaakt is [Lektor](https://getlektor.org) (het is een stuk eenvoudiger om op een machine gnulinux te installeren dan macox x of windows, zonder dat het lastig voor ze is)
+ * gratis collaborative work-software [git](https://git-scm.com/download/)
+* door een login aan te maken op [github.com](http://github.com)
+* Ga naar [github.com/EduCodeBe/educode.be](https://github.com/EduCodeBe/educode.be) en doorzoek het project (rechtsboven)
+* het typen van de terminal (git-bash op windows)
+   * git clone https://github.com/<uw login>/educode.be
+   * cd <de map waar je bent>/educode.be/EduCode
+   * lektor-server
+   * firefox [http://localhost:5000/](http://localhost:5000)
+   * (je kunt dan
+      * bewerk de site met een mooie grafische interface in de browser en een klein potlood aan de rechterkant waarmee u kunt bewerken, en
+      * ga bijvoorbeeld op de pagina http://localhost:5000/admin/root:exposanten/bewerken
+      * voeg een "exposant" -pagina toe door op de eerste regel op + te klikken en een pagina toe te voegen waarvan het model "Exposant" is
+      * door de velden in [markdown format](https://github.com/adam-p/markering-hoe/wiki/Markdown-Cheatsheet) eenvoudig in te vullen
+      * door lokaal op uw machine op te slaan onderaan de pagina
+      * Als u een vertaling van een pagina wilt helpen, dan is dit waar het gebeurt door naar het menu aan de linkerkant van de taal te gaan. De teksten zijn al in het Spaans vertaald, maar ik heb geen tijd gehad om ze op te nemen.
+      * de lokale server stoppen door CONTROL-C
+* door alles weer op de centrale server te zetten door te typen
+  * git add *
+  * git commit -m "een beschrijving van uw wijzigingen en toevoegingen"
+  * git push (u voert dan uw logins en wachtwoorden in)
+  * door mij te waarschuwen dat u wilt dat wij uw wijzigingen per e-mail integreren op site@educode.be
+  * en indien mogelijk door op github een pull-request te doen (wat de bovenstaande en volgende procedures voor ons vereenvoudigt)
+    * u gaat naar uw pagina https://github.com/<my login>/educode.be/pulls
+    * u klikt met de rechtermuisknop op de knop NEW PULL REQUEST en controleert of uw project gekoppeld is aan EducodeBe/educode.be (de master)
+    * vul een korte notitie in waarin wordt beschreven wat je hebt gedaan
+    * en verzenden
+    * Ik accepteer uw voorstel als er geen conflict en hop is
+    * Ik zet online zo snel als ik kan (of een ander lid van het team doet het)
+        zoals dit, echt, samen implementeren we de samenwerking voor de site en de rest.
+
+# De praktische toepassing van theorie en digitaal is ook voor ieder van ons !
+---
+pub_date: 2018-06-04
+---
+title: Contribuer à educode
