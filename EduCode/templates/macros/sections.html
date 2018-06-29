@@ -70,7 +70,16 @@
                 {"expandable": False, "href": alt + '/#anchor-expo',            "text": root_page.s_expo},
                 {"expandable": False, "href": alt + '/#anchor-partners',        "text": root_page.s_partners},
                 {"expandable": False, "href": alt + '/#anchor-inscription',     "text": root_page.s_registration},
-                {"expandable": False, "href": alt + '/#anchor-practical-infos', "text": root_page.s_practical_infos},
+
+                {
+                    "expandable": True,
+                    "href": alt + '/#anchor-practical-infos',
+                    "text": root_page.s_practical_infos,
+                    "children": [
+                        {"href": alt + "/garderie" | url, "text": "Garderie"},
+                    ]
+                },
+
                 {"expandable": False, "href": alt + '/#anchor-submissions',     "text": root_page.s_submissions},
                 {"expandable": False, "href": alt + '/#anchor-press',           "text": root_page.s_press},
                 {"expandable": False, "href": alt + "/dons",                    "text": "Dons"},
