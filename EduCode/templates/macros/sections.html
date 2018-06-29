@@ -23,13 +23,24 @@
                         {"href": alt + "/mercredi-29-aout" | url, "text": context.s_wednesday_29}
                     ]
                 },
+
                 {"expandable": False, "href": alt + "/concert",          "text": "Concert"},
                 {"expandable": False, "href": alt + "/blog",             "text": "Blog"},
                 {"expandable": False, "href": '#anchor-speakers',        "text": context.s_speakers},
                 {"expandable": False, "href": '#anchor-expo',            "text": context.s_expo},
                 {"expandable": False, "href": '#anchor-partners',        "text": context.s_partners},
                 {"expandable": False, "href": '#anchor-inscription',     "text": context.s_registration},
-                {"expandable": False, "href": '#anchor-practical-infos', "text": context.s_practical_infos},
+
+                {
+                    "expandable": True,
+                    "href": '#_anchor-practical-infos',
+                    "text": context.s_practical_infos,
+                    "children": [
+                        {"href": alt + "/garderie" | url, "text": "Garderie"},
+                    ]
+                },
+
+
                 {"expandable": False, "href": '#anchor-submissions',     "text": context.s_submissions},
                 {"expandable": False, "href": '#anchor-press',           "text": context.s_press},
                 {"expandable": False, "href": alt + "/dons",             "text": "Dons"},                
