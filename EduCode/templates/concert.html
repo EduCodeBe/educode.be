@@ -2,12 +2,117 @@
 
 {% block content %}
     <div style="background: url('{{ "/imgs/concert/bg.jpg" | url }}') no-repeat center center; background-size: cover;">
-        <div id="wrapper" class="container-fluid" style="width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); box-shadow:0 12px 35px 0 #1f1e1e inset">
-            <main class="container">
-                
-                {{ this.description }}
+        <div id="wrapper" class="container-fluid" style="width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); box-shadow:0 12px 35px 0 #1f1e1e inset">
+            <main id="concert" class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="text-center animated zoomIn">
+                            <img src="{{ '/imgs/bozar-og-default.png' }}" width="150px" alt="">
+                        </div>
+                        <h1 class="h1 text-center animated zoomIn" data-aos-delay=".3s">Concert festif exceptionnel</h1>
+                        <p class="text-center">
+                            Dans la belle salle Henri Lebœuf de Bozar, ce lundi 27 août 2018 à 20h30, venez au Concert festif
+                            exceptionnel.
+                        </p>
+                        <hr>
+                        <h4 class="h4 text-center">Avec</h4>
+                        <div class="text-center">
+                            <p>&#x2619; <a href="{{ '/intervenants/vox-anima' }}">Vox Anima</a>, chœur mixte <span class="flipped">&#x2619;</span></p>
+                            <p>&#x2619; <a href="{{ '/intervenants/melopee' }}">Mélopée</a>, chœur de filles <span class="flipped">&#x2619;</span></p>
+                            <p>&#x2619; <a href="{{ '/intervenants/les-petits-chanteurs-du-college-saint-pierre' }}">Les Petits Chanteurs du Collège Saint-Pierre</a> , chœur de garçons <span class="flipped">&#x2619;</span></p>
+                            <p>&#x2619; <a href="{{ '/intervenants/ensemble-orchestral-de-bruxelles' }}">L’Ensemble orchestral de Bruxelles</a> <span class="flipped">&#x2619;</span></p>
+                            <p>&#x2619; <a href="{{ 'https://www.youtube.com/watch?v=r6s36h1tEN4' }}">Grégoire Blanc</a> au <a href="{{ 'https://fr.wikipedia.org/wiki/Thérémine' }}"></a>thérémine <span class="flipped">&#x2619;</span></p>
+                            <p>&#x2619; <a href="{{ 'https://www.facebook.com/florisandtheflames/' }}">Floris and the Flames</a> <span class="flipped">&#x2619;</span></p>
+                        </div>
+
+                        <hr>
+                        <h4 class="h4 text-center">Sous la direction conjointe de</h4>
+
+                        <div class="text-center">
+                            <p>&#x2619; <a href="{{ '/intervenants/laurent-beeckmans' }}">Laurent Beeckmans</a> <span class="flipped">&#x2619;</span></p>
+                            <p>&#x2619; <a href="{{ '/intervenants/romain-verbeeren' }}">Romain Verbeeren</a> <span class="flipped">&#x2619;</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row music">
+                    <h4 class="text-center col-12 text-white">
+                        Sélection de quelques morceaux (vous trouverez une liste plus complète plus bas)
+                    </h4>
+                    <div class="col-12">
+                        <hr>
+                    </div>
+
+                    {%
+                        set musics = [
+                            {
+                                'title':'Floris and the Flames - Capriccio',
+                                'src':'/mp3/Floris and the Flames - Capriccio.mp3',
+                                'autoplay':True
+                            },
+                            {
+                                'title':'Floris Willem Nationale Finale 2012 Prinses Christina Concours',
+                                'src':'/mp3/Floris Willem Nationale Finale 2012 Prinses Christina Concours.mp3',
+                                'autoplay':False
+                            },
+                            {
+                                'title':'Vois sur ton chemin (extrait du film \'Les Choristes\') - Bruno Coulais',
+                                'src':'/mp3/Vois sur ton chemin (extrait du film \'Les Choristes\') - Bruno Coulais.mp3',
+                                'autoplay':False
+                            },
+                            {
+                                'title':'J.Halvorsen Veslemøys Sang - Floris Willem',
+                                'src':'/mp3/J.Halvorsen Veslemøys Sang - Floris Willem.mp3',
+                                'autoplay':False
+                            }
+                        ]
+                    %}
+                    {% for music in musics %}
+                        <div class="col-12">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-6 description-music">{{ music.title }}</div>
+                                    <audio class="col-6" controls {{ 'autoplay' if music.autoplay else '' }}>
+                                        <source src="{{ music.src }}">
+                                    </audio>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                    {% endfor %}
+
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <hr>
+                        <h4 class="h4">Au programme des œuvres</h4>
+                        <ul>
+                            <li>musique classique : Beethoven, Bizet, Franck, Dvořák, Gershwin …</li>
+                            <li>musique du monde : traditionnels japonais, américain, sud-africain, finlandais …</li>
+                            <li>musique de film et variété : Ennio Morricone, Freddie Mercury, Jacques Brel …</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        {{ this.description }}
+                    </div>
+                </div>
             </main>
         </div>
     </div>
 {% endblock %}
 
+
+{% block javascript %}
+    <script>
+        $(function () {
+            setTimeout(function () {
+                console.log("timed out");
+                $("audio[autoplay]").each(function(){ this.play(); });
+            }, 300);
+        });
+    </script>
+{% endblock %}

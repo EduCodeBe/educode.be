@@ -1,0 +1,48 @@
+@import "helpers";
+
+#concert {
+  padding-top: 100px;
+  color: white;
+  font-family: "Lucinda Grande", "Lucinda Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+
+  .flipped {
+    display: inline-block;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+  }
+
+  h1 {
+    font-size: 2.2em;
+    color: $yellow;
+    font-weight: 600;
+  }
+  h4 {
+    font-size: 1.4em;
+    color: $yellow;
+    font-weight: 600;
+  }
+
+  a {
+    color: $darker-yellow;
+  }
+
+  .music {
+    @include border-radius("15px");
+    padding: 20px;
+    background-color: $darker-yellow;
+    color: white;
+    max-height: 300px;
+    overflow-y: scroll;
+
+    h4 {
+      margin-bottom: 10px;
+    }
+    audio {
+      vertical-align: middle;
+    }
+
+  }
+}

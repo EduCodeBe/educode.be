@@ -127,12 +127,16 @@
             $links.each(function () {
                 let currLink = $(this);
                 let refElement = $(currLink.attr("href"));
-                if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-                    $links.removeClass("selected");
-                    currLink.addClass("selected");
-                }
-                else {
-                    currLink.removeClass("selected");
+                if (refElement.length > 0) {
+                    if (refElement.position().top <= scrollPos
+                        && refElement.position().top + refElement.height() > scrollPos)
+                    {
+                        $links.removeClass("selected");
+                        currLink.addClass("selected");
+                    }
+                    else {
+                        currLink.removeClass("selected");
+                    }
                 }
             });
         }

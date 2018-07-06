@@ -478,6 +478,92 @@ table td, table th {
           width: 100%;
           height: 105px; } }
 
+@font-face {
+  font-family: 'Unica One';
+  src: url("../fonts/UnicaOne-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-Regular.ttf") format("truetype"); }
+/**
+ * Dans cette feuille, il y aura toutes les fonctions/mixins
+ */
+.height-300 {
+  height: 300px; }
+
+.color-white {
+  color: white; }
+
+.color-yellow {
+  color: #e1b12c; }
+
+.color-darker-yellow {
+  color: #b18528; }
+
+.color-dark {
+  color: #2d3436; }
+
+.color-blue {
+  color: #233980; }
+
+.background-color-yellow {
+  background-color: #e1b12c; }
+
+.background-color-darker-yellow {
+  background-color: #b18528; }
+
+.background-color-dark {
+  background-color: #2d3436; }
+
+.background-color-blue {
+  background-color: #233980; }
+
+.border-yellow {
+  border-color: #e1b12c !important; }
+
+.border-darker-yellow {
+  border-color: #b18528 !important; }
+
+.border-dark {
+  border-color: #2d3436 !important; }
+
+.border-blue {
+  border-color: #233980 !important; }
+
+#concert {
+  padding-top: 100px;
+  color: white;
+  font-family: "Lucinda Grande", "Lucinda Sans Unicode", Helvetica, Arial, Verdana, sans-serif; }
+  #concert .flipped {
+    display: inline-block;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1); }
+  #concert h1 {
+    font-size: 2.2em;
+    color: #e1b12c;
+    font-weight: 600; }
+  #concert h4 {
+    font-size: 1.4em;
+    color: #e1b12c;
+    font-weight: 600; }
+  #concert a {
+    color: #b18528; }
+  #concert .music {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #b18528;
+    color: white;
+    max-height: 300px;
+    overflow-y: scroll; }
+    #concert .music h4 {
+      margin-bottom: 10px; }
+    #concert .music audio {
+      vertical-align: middle; }
+
 #sidebar, #mobile-sidebar {
   z-index: 3;
   font-family: 'Unica One', cursive !important;
