@@ -20,3 +20,7 @@ tag: primaire
 age: 7-12 ans
 ---
 periodes: 3 et 4
+---
+age_max: 12
+---
+age_min: 7

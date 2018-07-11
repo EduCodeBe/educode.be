@@ -37,3 +37,7 @@ periodes: 1 et 2
 tag: primaire
 ---
 language: fr
+---
+age_max: 9
+---
+age_min: 7

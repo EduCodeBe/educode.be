@@ -1,3 +1,32 @@
 _model: workshop
 ---
-title: Animer un atelier robotique en classe avec le robot Cubetto
+abstract: Cubetto est un petit robot inspiré de la « tortue logo » qui se programme simplement avec les mains, sans PC ni écran ! Il permet de s'initier à la programmation informatique
+---
+age: 5-12
+---
+contact_name: Erick Mascart et Laurence Bourguignon
+---
+description:
+
+Cubetto est un petit robot inspiré de la « tortue logo » qui se
+programme simplement avec les mains, sans PC ni écran ! Il permet
+de s'initier à la programmation informatique : comprendre que les
+machines fonctionnent avec des algorithmes et que les mouvements
+sont décidés à l’avance. C'est également un excellent outil pour
+travailler de manière ludique et attrayante les questions de
+spatialisation au sein d'une classe.
+---
+language: fr
+---
+periodes: 2
+---
+tag: primaire
+---
+title:
+
+Animer un atelier robotique en classe avec le robot Cubetto
+
+---
+age_max: 12
+---
+age_min: 5

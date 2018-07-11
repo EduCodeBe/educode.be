@@ -1,6 +1,4 @@
-_model: details-program
----
-date: Ateliers
+_model: workshops-container
 ---
 description:
 
@@ -10,4 +8,4 @@ Ces ateliers et des possibilités de choix seront annoncés ici dès que possibl
 
 Marquez la page et revenez nous voir.
 
-#Complétez les [formulaires](/#anchor-submissions) si vous voulez faire des propositions ou envoyez [un mail](mailto:ateliers@educode.be?subject=J'aimerais un atelier sur ...) si vous souhaitez qu'un atelier spécifique soit organisé
+#### Complétez les [formulaires](/#anchor-submissions) si vous voulez faire des propositions ou envoyez [un mail](mailto:ateliers@educode.be?subject=J'aimerais un atelier sur ...) si vous souhaitez qu'un atelier spécifique soit organisé

@@ -1,3 +1,7 @@
 _model: workshop
 ---
 title: Initiation à la résolution de problèmes avec Scratch
+---
+age_max: 120
+---
+age_min: 1

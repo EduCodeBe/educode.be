@@ -27,3 +27,7 @@ language: fr
 periodes: 4
 ---
 tag: primaire
+---
+age_max: 10
+---
+age_min: 2

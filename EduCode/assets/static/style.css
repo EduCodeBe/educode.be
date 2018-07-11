@@ -564,6 +564,12 @@ table td, table th {
     #concert .music audio {
       vertical-align: middle; }
 
+#workshop-containers-page a:not(.btn) {
+  color: #b18528; }
+  #workshop-containers-page a:not(.btn):hover {
+    font-weight: 600;
+    text-decoration: none; }
+
 #sidebar, #mobile-sidebar {
   z-index: 3;
   font-family: 'Unica One', cursive !important;
