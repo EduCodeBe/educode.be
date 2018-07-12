@@ -6,19 +6,21 @@ description:
 
 #Se former 
 
-Le mardi  28 août sera consacré à l’organisation d’ateliers pratiques, de formations,  d’échanges et de démonstrations à destinations des enseignants et des enfants. Les participants  seront invités à de nombreux ateliers pratiques durant lesquels ils seront les apprenants, de manière à retrouver leurs alter-egos, développer avec eux des contenus et des expériences pour pouvoir réutiliser en classe ce qu'ils ont appris. 
+Le mardi  28 août sera consacré à l’organisation d’ateliers pratiques, de formations,  d’échanges et de démonstrations à destinations des enseignants et des enfants. 
+Plus de quarante ateliers sont proposés durant lesquels les enseignants seront les apprenants, de manière à retrouver leurs alter-egos, développer avec eux des contenus et des expériences pour pouvoir réutiliser en classe ce qu'ils ont appris. 
+En parralèle à ceux-ci, des ateliers seront organisés pour occuper les enfants.
 
 L'après-midi, seront organisées des **conférences spécialement à destination des directions** qui doivent rédiger un plan de pilotage incluant le numérique. (voir ci-dessous)
 
 Tout le matériel pédagogique fourni sera librement et immédiatement réutilisable, adaptable et redistribuable. Ils seront mis sous licence [Creative Commons - citation (CC-BY)](https://creativecommons.fr/licences/) ou  [Creative Commons - citation - partage à l'identique (CC-BY-SA)](https://creativecommons.fr/licences/) 
 
-Merci de déjà vous inscrire à la conférence pour nous permettre d'évaluer la participation et savoir si il faut rajouter des sessions ou des ateliers.
+Merci de déjà vous inscrire à la conférence pour nous permettre d'évaluer la participation à cette journée et ainsi savoir si il faut doubler certains ateliers.
 
-#Planning des ateliers 
+#Ateliers pratiques
 
-Le programme complet des ateliers en version imprimable est maintenant disponible [ici](/mardi-28-aout/atelierseducodelight.pdf)
+Le programme complet des ateliers en version imprimable est disponible [ici](/mardi-28-aout/atelierseducodelight.pdf)
 
-Le formulaire de choix des ateliers sera publié ici dans les prochains jours. 
+Le formulaire d'inscription aux ateliers est disponible [ici](https://framaforms.org/inscription-aux-ateliers-1531208808). 
 
 <html><head>
 
@@ -34,76 +36,82 @@ Le formulaire de choix des ateliers sera publié ici dans les prochains jours.
 <body>
 
 <table cellspacing="0" border="0">
-	<colgroup width="107" span="6"></colgroup>
+	<colgroup width="70" span="6"></colgroup>
 	<tbody><tr>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" height="94" bgcolor="#00B0F0"><font size="3" face="Calibri" color="#FFFFFF">Primaire</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#00C400"><font size="3" face="Calibri" color="#FFFFFF">Primaire –<br>Secondaire</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#FCCF28"><font size="3" face="Calibri" color="#FFFFFF">Secondaire   inférieur</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#ED7D31"><font size="3" face="Calibri" color="#FFFFFF">Secondaire</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#C00000"><font size="3" face="Calibri" color="#FFFFFF">Secondaire<br>supérieur</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#2F5395"><font size="3" face="Calibri" color="#FFFFFF">Tous les niveaux d’enseignement</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" height="70" bgcolor="#00B0F0"><font size="2" face="Calibri" color="#FFFFFF">Primaire</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#00C400"><font size="2" face="Calibri" color="#FFFFFF">Primaire –<br>Secondaire</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#FCCF28"><font size="2" face="Calibri" color="#FFFFFF">Secondaire   inférieur</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#ED7D31"><font size="2" face="Calibri" color="#FFFFFF">Secondaire</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#C00000"><font size="2" face="Calibri" color="#FFFFFF">Secondaire<br>supérieur</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#2F5395"><font size="2" face="Calibri" color="#FFFFFF">Tous les niveaux</font></td>
 	</tr>
 </tbody></table>
 
 <table cellspacing="0" border="0">
 	<colgroup width="24"></colgroup>
 	<colgroup width="73"></colgroup>
-	<colgroup width="204" span="5"></colgroup>
+	<colgroup width="150" span="6"></colgroup>
 	<tbody>
 		<td align="center" valign="middle" height="21"><b><br></b></td>
-		<td align="center" valign="middle"><b><font size="3" face="Calibri"><br></font></b></td>
+		<td align="center" valign="middle"><b><font size="2" face="Calibri"><br></font></b></td>
 		<td align="left"><br></td>
-		<td align="center" valign="middle"><b><font size="4" face="Calibri"><br></font></b></td>
-		<td align="center" valign="middle"><b><font size="4" face="Calibri"><br></font></b></td>
-		<td align="center" valign="middle"><b><font size="4" face="Calibri"><br></font></b></td>
-		<td align="center" valign="middle"><b><font size="4" face="Calibri"><br></font></b></td>
+		<td align="center" valign="middle"><b><font size="2" face="Calibri"><br></font></b></td>
+		<td align="center" valign="middle"><b><font size="2" face="Calibri"><br></font></b></td>
+		<td align="center" valign="middle"><b><font size="2" face="Calibri"><br></font></b></td>
+		<td align="center" valign="middle"><b><font size="2" face="Calibri"><br></font></b></td>
 	</tr>
 	<tr>
-		<td align="center" valign="middle" height="43"><b><br></b></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b><font size="3" face="Calibri">Période</font></b></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b><font size="4" face="Calibri">Cyberclasse 1</font></b></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b><font size="4" face="Calibri">Cyberclasse 2</font></b></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b><font size="4" face="Calibri">Cyberclasse 3</font></b></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b><font size="4" face="Calibri">Cyberclasse 4</font></b></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b><font size="4" face="Calibri">Cyberclasse 5</font></b></td>
+		<td align="center" valign="middle" height="30"><b><br></b></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b><font size="2" face="Calibri">Période</font></b></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b><font size="2" face="Calibri">Cyberclasse 1</font></b></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b><font size="2" face="Calibri">Cyberclasse 2</font></b></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b><font size="2" face="Calibri">Cyberclasse 3</font></b></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b><font size="2" face="Calibri">Cyberclasse 4</font></b></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b><font size="2" face="Calibri">Cyberclasse 5</font></b></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b><font size="2" face="Calibri">Cyberclasse 6</font></b></td>
 	</tr>
 	<tr>
-		<td sdval="1" sdnum="2060;" align="center" valign="middle" height="87"><b>1</b></td>
+		<td sdval="1" sdnum="2060;" align="center" valign="middle" height="60"><b>1</b></td>
 		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b>9h30<br>-<br>10h15</b></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#00B0F0"><font size="4" face="Calibri" color="#FFFFFF">La robotique comme outil ludique dans l'initiation aux sciences informatiques<br>p.5</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#2F5395"><font size="4" face="Calibri" color="#FFFFFF">Le numérique au service de la langue française. Exemples de pratiques enseignantes<br>p.12</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#ED7D31"><font size="4" face="Calibri" color="#FFFFFF">fadagogo.com coder en 25 défis. En es-tu capable ?<br>p.10</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#ED7D31"><font size="4" face="Calibri" color="#FFFFFF">La data science en pratique<br>p.10</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#2F5395"><font size="4" face="Calibri" color="#FFFFFF">Learn, play and imagine with Robo Wunderkind<br>p.17</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#00B0F0"><font size="2" face="Calibri" color="#FFFFFF">La robotique comme outil ludique dans l'initiation aux sciences informatiques<br>p.5</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#2F5395"><font size="2" face="Calibri" color="#FFFFFF">Le numérique au service de la langue française. Exemples de pratiques enseignantes<br>p.12</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#ED7D31"><font size="2" face="Calibri" color="#FFFFFF">fadagogo.com coder en 25 défis. En es-tu capable ?<br>p.10</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#ED7D31"><font size="2" face="Calibri" color="#FFFFFF">La data science en pratique<br>p.10</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#2F5395"><font size="2" face="Calibri" color="#FFFFFF">Learn, play and imagine with Robo Wunderkind<br>p.17</font></td>
+<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#2F5395"><font size="2" face="Calibri" color="#FFFFFF">Aventures numériques<br>p.19</font></td>
 	</tr>
 	<tr>
-		<td sdval="2" sdnum="2060;" align="center" valign="middle" height="90"><b>2</b></td>
+		<td sdval="2" sdnum="2060;" align="center" valign="middle" height="60"><b>2</b></td>
 		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b>10h25<br>-<br>11h10</b></td>
 		</tr>
 	<tr>
-		<td sdval="3" sdnum="2060;" align="center" valign="middle" height="177"><b>3</b></td>
+		<td sdval="3" sdnum="2060;" align="center" valign="middle" height="120"><b>3</b></td>
 		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b>11h30<br>-<br>12h15</b></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#92D050"><font size="4" face="Calibri" color="#FFFFFF">Thymio ou que faire avec un robot pédagogique dans sa classe<br>p.7</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#2F5395"><font size="4" face="Calibri" color="#FFFFFF">De la tortue Logo au chat Scratch, tout un univers de formes géométriques<br>p.17</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#C00000"><font size="4" face="Calibri" color="#FFFFFF">La concurrence : l'art de programmer des actions qui ont lieu en même temps<br>p.8</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#2F5395"><font size="4" face="Calibri" color="#FFFFFF">Python for Microcontrollers – Programming with MicroPython<br>p.18</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#00B0F0"><font size="4" face="Calibri" color="#FFFFFF">Introduction à la modélisation 3D en classe<br>p.3<br></font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#92D050"><font size="2" face="Calibri" color="#FFFFFF">Thymio ou que faire avec un robot pédagogique dans sa classe<br>p.7</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#2F5395"><font size="2" face="Calibri" color="#FFFFFF">De la tortue Logo au chat Scratch, tout un univers de formes géométriques<br>p.17</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#C00000"><font size="2" face="Calibri" color="#FFFFFF">La concurrence : l'art de programmer des actions qui ont lieu en même temps<br>p.8</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#2F5395"><font size="2" face="Calibri" color="#FFFFFF">Python for Microcontrollers – Programming with MicroPython<br>p.18</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#00B0F0"><font size="2" face="Calibri" color="#FFFFFF">Introduction à la modélisation 3D en classe<br>p.3<br></font></td>
 	</tr>
 	<tr>
-		<td sdval="4" sdnum="2060;" align="center" valign="middle" height="103"><b>4</b></td>
+		<td sdval="4" sdnum="2060;" align="center" valign="middle" height="100"><b>4</b></td>
 		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b>13h30<br>-<br>14h15</b></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#00B0F0"><font size="4" face="Calibri" color="#FFFFFF">Découverte et utilisation de GCompris<br>p.4</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#ED7D31"><font size="4" face="Calibri" color="#FFFFFF">Virtual-academy pour les professeurs<br>p.10</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#ED7D31"><font size="4" face="Calibri" color="#FFFFFF">Laboratoire scientifique de poche<br>p.9</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#00B0F0"><font size="2" face="Calibri" color="#FFFFFF">Découverte et utilisation de GCompris<br>p.4</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#ED7D31"><font size="2" face="Calibri" color="#FFFFFF">Virtual-academy pour les professeurs<br>p.10</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#ED7D31"><font size="2" face="Calibri" color="#FFFFFF">Laboratoire scientifique de poche<br>p.9</font></td>
 		</tr>
 	<tr>
-		<td sdval="5" sdnum="2060;" align="center" valign="middle" height="137"><b>5</b></td>
+		<td sdval="5" sdnum="2060;" align="center" valign="middle" height="60"><b>5</b></td>
 		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b>14h25<br>-<br>15h10</b></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" bgcolor="#FFC000"><font size="4" face="Calibri" color="#FFFFFF">Quels outils pour enseigner l’informatique dans l’enseignement secondaire ordinaire ?<br>p.8</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#00B0F0"><font size="4" face="Calibri" color="#FFFFFF">Initiation à la résolution de problèmes avec Scratch<br>p.5</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#2F5395"><font size="4" face="Calibri" color="#FFFFFF">Yes, we Khan<br>p.12</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#ED7D31"><font size="4" face="Calibri" color="#FFFFFF">Mesure scientifique &amp; Informatique avec ExpEYES<br>p.9</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#2F5395"><font size="4" face="Calibri" color="#FFFFFF">Learn, play and imagine with Robo Wunderkind<br>p.17</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" bgcolor="#FFC000"><font size="2" face="Calibri" color="#FFFFFF">Quels outils pour enseigner l’informatique dans l’enseignement secondaire ordinaire ?<br>p.8</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#00B0F0"><font size="2" face="Calibri" color="#FFFFFF">Initiation à la résolution de problèmes avec Scratch<br>p.5</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#2F5395"><font size="2" face="Calibri" color="#FFFFFF">Yes, we Khan<br>p.12</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#ED7D31"><font size="2" face="Calibri" color="#FFFFFF">Mesure scientifique &amp; Informatique avec ExpEYES<br>p.9</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#2F5395"><font size="2" face="Calibri" color="#FFFFFF">Learn, play and imagine with Robo Wunderkind<br>p.17</font></td>
+	</tr>
+	<tr>
+		<td sdval="5" sdnum="2060;" align="center" valign="middle" height="60"><b>5</b></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b>15h20<br>-<br>16h05</b></td>
 	</tr>
 	<tr>
 		<td align="center" valign="middle" height="39"><b><br></b></td>
@@ -115,54 +123,58 @@ Le formulaire de choix des ateliers sera publié ici dans les prochains jours.
 		<td align="left"><br></td>
 	</tr>
 	<tr>
-		<td align="center" valign="middle" height="50"><b><br></b></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b><font size="3" face="Calibri">Période</font></b></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b><font size="4" face="Calibri">Classe 1</font></b></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b><font size="4" face="Calibri">Classe 2</font></b></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b><font size="4" face="Calibri">Classe 3</font></b></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b><font size="4" face="Calibri">Classe 4</font></b></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b><font size="4" face="Calibri">Classe 5</font></b></td>
+		<td align="center" valign="middle" height="30"><b><br></b></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b><font size="2" face="Calibri">Période</font></b></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b><font size="2" face="Calibri">Classe 1</font></b></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b><font size="2" face="Calibri">Classe 2</font></b></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b><font size="2" face="Calibri">Classe 3</font></b></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b><font size="2" face="Calibri">Classe 4</font></b></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b><font size="2" face="Calibri">Classe 5</font></b></td>
 	</tr>
 	<tr>
-		<td sdval="1" sdnum="2060;" align="center" valign="middle" height="161"><b>1</b></td>
+		<td sdval="1" sdnum="2060;" align="center" valign="middle" height="130"><b>1</b></td>
 		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b>9h30<br>-<br>10h15</b></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#92D050"><font size="4" face="Calibri" color="#FFFFFF">Trier avec un algo...quoi ? Activité débranchée pour découvrir ce qu’est un algorithme<br>p.7</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#2F5395"><font size="4" face="Calibri" color="#FFFFFF">ffDiaporama : la création facile d'un diaporama avec des photos et vidéos<br>p.14</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#00B0F0"><font size="4" face="Calibri" color="#FFFFFF">Initiation aux sciences informatiques et à la pensée algorithmique en primaire<br>p.3</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#2F5395"><font size="4" face="Calibri" color="#FFFFFF">Sciences du numérique : la cryptographie<br>p.15</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#2F5395"><font size="4" face="Calibri" color="#FFFFFF">Le numérique au service de l'apprentissage des mathématiques<br>p.12</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#92D050"><font size="2" face="Calibri" color="#FFFFFF">Trier avec un algo...quoi ? Activité débranchée pour découvrir ce qu’est un algorithme<br>p.7</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#2F5395"><font size="2" face="Calibri" color="#FFFFFF">ffDiaporama : la création facile d'un diaporama avec des photos et vidéos<br>p.14</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#00B0F0"><font size="2" face="Calibri" color="#FFFFFF">Initiation aux sciences informatiques et à la pensée algorithmique en primaire<br>p.3</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#2F5395"><font size="2" face="Calibri" color="#FFFFFF">Sciences du numérique : la cryptographie<br>p.15</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#2F5395"><font size="2" face="Calibri" color="#FFFFFF">Le numérique au service de l'apprentissage des mathématiques<br>p.12</font></td>
 	</tr>
 	<tr>
-		<td sdval="2" sdnum="2060;" align="center" valign="middle" height="121"><b>2</b></td>
+		<td sdval="2" sdnum="2060;" align="center" valign="middle" height="110"><b>2</b></td>
 		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b>10h25<br>-<br>11h10</b></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#00B0F0"><font size="4" face="Calibri" color="#FFFFFF">Animer un atelier robotique en classe avec le robot Cubetto<br>p.4</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#00B0F0"><font size="2" face="Calibri" color="#FFFFFF">Animer un atelier robotique en classe avec le robot Cubetto<br>p.4</font></td>
 		</tr>
 	<tr>
-		<td sdval="3" sdnum="2060;" align="center" valign="middle" height="205"><b>3</b></td>
+		<td sdval="3" sdnum="2060;" align="center" valign="middle" height="140"><b>3</b></td>
 		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b>11h30<br>-<br>12h15</b></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#ED7D31"><font size="4" face="Calibri" color="#FFFFFF">Programmation d'applications durables pour les appareils mobiles<br>p.11</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#2F5395"><font size="4" face="Calibri" color="#FFFFFF">Créer ses documents pour la classe avec Draw, c'est facile !<br>p.14</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#2F5395"><font size="4" face="Calibri" color="#FFFFFF">Devenez informagicien•ne!<br>p.13</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#2F5395"><font size="4" face="Calibri" color="#FFFFFF">Comment décliner la robotique et l’informatique du primaire au secondaire supérieur ?<br>p.15</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#2F5395"><font size="4" face="Calibri" color="#FFFFFF">Webetic : une rencontre pour aider à mieux gérer Internet au quotidien avec ses enfants et ses ados.<br>p.18</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#ED7D31"><font size="2" face="Calibri" color="#FFFFFF">Programmation d'applications durables pour les appareils mobiles<br>p.11</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#2F5395"><font size="2" face="Calibri" color="#FFFFFF">Créer ses documents pour la classe avec Draw, c'est facile !<br>p.14</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#2F5395"><font size="2" face="Calibri" color="#FFFFFF">Devenez informagicien•ne!<br>p.13</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#2F5395"><font size="2" face="Calibri" color="#FFFFFF">Comment décliner la robotique et l’informatique du primaire au secondaire supérieur ?<br>p.15</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#2F5395"><font size="2" face="Calibri" color="#FFFFFF">Webetic : une rencontre pour aider à mieux gérer Internet au quotidien avec ses enfants et ses ados.<br>p.18</font></td>
 	</tr>
 	<tr>
-		<td sdval="4" sdnum="2060;" align="center" valign="middle" height="169"><b>4</b></td>
+		<td sdval="4" sdnum="2060;" align="center" valign="middle" height="140"><b>4</b></td>
 		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b>13h30<br>-<br>14h15</b></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#ED7D31"><font size="4" face="Calibri" color="#FFFFFF">Réalité augmentée à la salle de classe<br>p.11</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#2F5395"><font size="4" face="Calibri" color="#FFFFFF">Venez découvrir comment je cartographie le monde !<br>p.13</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#00B0F0"><font size="4" face="Calibri" color="#FFFFFF">Les écrans à l’école – en tandem avec les parents ?<br>p.4</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#2F5395"><font size="4" face="Calibri" color="#FFFFFF">Atelier de Techno-Sciences à la Scientothèque en extrascolaire<br>p.16</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#2F5395"><font size="4" face="Calibri" color="#FFFFFF">Build your own chatbot for Facebook Messenger using IBM Watson Assistant<br>p.17</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#ED7D31"><font size="2" face="Calibri" color="#FFFFFF">Réalité augmentée à la salle de classe<br>p.11</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#2F5395"><font size="2" face="Calibri" color="#FFFFFF">Venez découvrir comment je cartographie le monde !<br>p.13</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#00B0F0"><font size="2" face="Calibri" color="#FFFFFF">Les écrans à l’école – en tandem avec les parents ?<br>p.4</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#2F5395"><font size="2" face="Calibri" color="#FFFFFF">Atelier de Techno-Sciences à la Scientothèque en extrascolaire<br>p.16</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#2F5395"><font size="2" face="Calibri" color="#FFFFFF">Build your own chatbot for Facebook Messenger using IBM Watson Assistant<br>p.17</font></td>
 	</tr>
 	<tr>
-		<td sdval="5" sdnum="2060;" align="center" valign="middle" height="170"><b>5</b></td>
+		<td sdval="5" sdnum="2060;" align="center" valign="middle" height="70"><b>5</b></td>
 		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b>14h25<br>-<br>15h10</b></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#92D050"><font size="4" face="Calibri" color="#FFFFFF">Ateliers déconnectés <br>p.6</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#2F5395"><font size="4" face="Calibri" color="#FFFFFF">Découvrir Open-Sankoré &amp; OpenBoard pour le TBI/TNI<br>p.14</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#2F5395"><font size="4" face="Calibri" color="#FFFFFF">Algorithmique sans ordinateur dès le primaire<br>p.13</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#92D050"><font size="4" face="Calibri" color="#FFFFFF">Une Smart City, c’est quoi ? Une initiation ludique pour l'expliquer à mes élèves<br>p.6</font></td>
-		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#92D050"><font size="4" face="Calibri" color="#FFFFFF">Découverte des réseaux informatiques de façon débranchée<br>p.7</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#92D050"><font size="2" face="Calibri" color="#FFFFFF">Ateliers déconnectés <br>p.6</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#2F5395"><font size="2" face="Calibri" color="#FFFFFF">Découvrir Open-Sankoré &amp; OpenBoard pour le TBI/TNI<br>p.14</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#2F5395"><font size="2" face="Calibri" color="#FFFFFF">Algorithmique sans ordinateur dès le primaire<br>p.13</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#92D050"><font size="2" face="Calibri" color="#FFFFFF">Une Smart City, c’est quoi ? Une initiation ludique pour l'expliquer à mes élèves<br>p.6</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#92D050"><font size="2" face="Calibri" color="#FFFFFF">Découverte des réseaux informatiques de façon débranchée<br>p.7</font></td>
+	</tr>
+	<tr>
+		<td sdval="5" sdnum="2060;" align="center" valign="middle" height="70"><b>5</b></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b>15h20<br>-<br>16h05</b></td>
 	</tr>
 </tbody></table>
 <!-- ************************************************************************** -->
@@ -179,7 +191,7 @@ Les présentations incluent des temps de discussion. Le planning est fourni à t
 - **14h00** **DigComp, DigcompEdu, Selfie : le répertoire européen des compétences numériques : comment les utiliser à l'école et dans les classes** 
 <br> <span style="margin-right:50px;"> </span> 
 par [Yves Punie](/intervenants/yves-punie/) (Joint Research Center of the European Commission, Belgique)  
-- **15h00** **Utiliser PIX, un outil de suivi de la mise en œuvres des compétences numérique**
+- **15h00** **Utiliser PIX, un outil de suivi de la mise en œuvres des compétences numériques**
 <br> <span style="margin-right:50px;"> </span>
 par  [Benjamin Marteau](/intervenants/benjamin-marteau) & [Françoise Tort](/intervenants/francoise-tort) (Start-up d'état Pix & ENS-Cachan, France)
 - **15h30** **Pause-café**
