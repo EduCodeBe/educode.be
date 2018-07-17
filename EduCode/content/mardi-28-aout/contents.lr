@@ -18,23 +18,21 @@ Merci de déjà vous inscrire à la conférence pour nous permettre d'évaluer l
 
 #Ateliers pratiques
 
-<<<<<<< HEAD
 Le programme complet des ateliers en version imprimable est maintenant **[disponible ici](/mardi-28-aout/AteliersEduCode-1.compressed.pdf)**
-=======
-Le programme complet des ateliers en version imprimable est disponible [ici](/mardi-28-aout/AteliersEduCode-1.compressed.pdf)
->>>>>>> f8dfdb5eee59013629aff40197c7326d51e5772f
 
 Le formulaire d'inscription aux ateliers est disponible [ici](https://framaforms.org/inscription-aux-ateliers-1531208808). 
 
 <html><head>
 
+<!--
 	<style type="text/css">
-		body,div,table,thead,tbody,tfoot,tr,th,td,p { font-family:"Liberation Sans"; font-size:x-small }
+		body,div,table,thead,tbody,tfoot,tr,th,td,p { font-family:"Liberation Sans";}
 		a.comment-indicator:hover + comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em;  } 
 		a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em;  } 
 		comment { display:none;  } 
 	</style>
-	
+-->
+
 </head>
 
 <body>
@@ -75,11 +73,7 @@ Le formulaire d'inscription aux ateliers est disponible [ici](https://framaforms
 		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b><font size="2" face="Calibri">Cyberclasse 6</font></b></td>
 	</tr>
 	<tr>
-<<<<<<< HEAD
-		<td sdval="1" sdnum="2060;" align="center" valign="middle" height="100"><b>1</b></td>
-=======
 		<td sdval="1" sdnum="2060;" align="center" valign="middle" height="60"><b>1</b></td>
->>>>>>> f8dfdb5eee59013629aff40197c7326d51e5772f
 		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b>9h30<br>-<br>10h15</b></td>
 		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#00B0F0"><font size="2" face="Calibri" color="#FFFFFF">La robotique comme outil ludique dans l'initiation aux sciences informatiques<br>p.5</font></td>
 		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#2F5395"><font size="2" face="Calibri" color="#FFFFFF">Le numérique au service de la langue française. Exemples de pratiques enseignantes<br>p.12</font></td>
@@ -100,6 +94,8 @@ Le formulaire d'inscription aux ateliers est disponible [ici](https://framaforms
 		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#C00000"><font size="2" face="Calibri" color="#FFFFFF">La concurrence : l'art de programmer des actions qui ont lieu en même temps<br>p.8</font></td>
 		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#2F5395"><font size="2" face="Calibri" color="#FFFFFF">Python for Microcontrollers – Programming with MicroPython<br>p.18</font></td>
 		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#00B0F0"><font size="2" face="Calibri" color="#FFFFFF">Introduction à la modélisation 3D en classe<br>p.3<br></font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#ED7D31"><font size="2" face="Calibri" color="#FFFFFF">Des outils pratiques pour sensibiliser les élèves aux technologies <br/>p.11<br></font></td>
+		
 	</tr>
 	<tr>
 		<td sdval="4" sdnum="2060;" align="center" valign="middle" height="100"><b>4</b></td>
@@ -107,6 +103,7 @@ Le formulaire d'inscription aux ateliers est disponible [ici](https://framaforms
 		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#00B0F0"><font size="2" face="Calibri" color="#FFFFFF">Découverte et utilisation de GCompris<br>p.4</font></td>
 		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#ED7D31"><font size="2" face="Calibri" color="#FFFFFF">Virtual-academy pour les professeurs<br>p.10</font></td>
 		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#ED7D31"><font size="2" face="Calibri" color="#FFFFFF">Laboratoire scientifique de poche<br>p.9</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle" bgcolor="#ED7D31"><font size="2" face="Calibri" color="#FFFFFF">Des outils pratiques pour sensibiliser les élèves aux technologies <br>p.11</font></td>
 		</tr>
 	<tr>
 		<td sdval="5" sdnum="2060;" align="center" valign="middle" height="60"><b>5</b></td>
@@ -116,9 +113,10 @@ Le formulaire d'inscription aux ateliers est disponible [ici](https://framaforms
 		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#2F5395"><font size="2" face="Calibri" color="#FFFFFF">Yes, we Khan<br>p.12</font></td>
 		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#ED7D31"><font size="2" face="Calibri" color="#FFFFFF">Mesure scientifique &amp; Informatique avec ExpEYES<br>p.9</font></td>
 		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#2F5395"><font size="2" face="Calibri" color="#FFFFFF">Learn, play and imagine with Robo Wunderkind<br>p.17</font></td>
+		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" rowspan="2" align="center" valign="middle" bgcolor="#2F5395"><font size="2" face="Calibri" color="#FFFFFF">Escape game, Scratch et App-inventor : des outils pour croiser les disciplines<br>p.19</font></td>
 	</tr>
 	<tr>
-		<td sdval="5" sdnum="2060;" align="center" valign="middle" height="60"><b>6</b></td>
+		<td sdval="6" sdnum="2060;" align="center" valign="middle" height="60"><b>6</b></td>
 		<td style="border-top: 1px solid #00000a; border-bottom: 1px solid #00000a; border-left: 1px solid #00000a; border-right: 1px solid #00000a" align="center" valign="middle"><b>15h20<br>-<br>16h05</b></td>
 	</tr>
 	<tr>
