@@ -1,0 +1,32 @@
+000 Connecting to server ...
+220 ProFTPD 1.3.4a Server (Domaine Public) [79.99.203.50]
+230 User educode.be_site logged in
+000 Using passive mode: yes
+250 CWD command successful
+000 Connected!
+000 Reading server state ...
+000 Begin sync ...
+000 Updating mp3/La Quête - Jacques Brel (arr. J. C. Oudot C. Bisaillon).mp3
+'ascii' codec can't encode character u'\xea' in position 15: ordinal not in range(128)
+550 mp3/.La Quête - Jacques Brel (arr. J. C. Oudot C. Bisaillon).mp3.tmp: No such file or directory
+550 mp3/La Quête - Jacques Brel (arr. J. C. Oudot C. Bisaillon).mp3: No such file or directory
+550 mp3/.La Quête - Jacques Brel (arr. J. C. Oudot C. Bisaillon).mp3.tmp: No such file or directory
+000 Updating mp3/Thérémin Debussy Clair de Lune.mp3
+'ascii' codec can't encode character u'\xe9' in position 12: ordinal not in range(128)
+550 mp3/.Thérémin Debussy Clair de Lune.mp3.tmp: No such file or directory
+550 mp3/Thérémin Debussy Clair de Lune.mp3: No such file or directory
+550 mp3/.Thérémin Debussy Clair de Lune.mp3.tmp: No such file or directory
+000 Updating mp3/J.Halvorsen Veslemøys Sang - Floris Willem.mp3
+'ascii' codec can't encode character u'\xf8' in position 28: ordinal not in range(128)
+550 mp3/.J.Halvorsen Veslemøys Sang - Floris Willem.mp3.tmp: No such file or directory
+550 mp3/J.Halvorsen Veslemøys Sang - Floris Willem.mp3: No such file or directory
+550 mp3/.J.Halvorsen Veslemøys Sang - Floris Willem.mp3.tmp: No such file or directory
+000 Sync done!
+000 Consolidating server state ...
+000 Deleting mp3/La Quête - Jacques Brel (arr. J. C. Oudot C. Bisaillon).mp3
+550 mp3/La Quête - Jacques Brel (arr. J. C. Oudot C. Bisaillon).mp3: No such file or directory
+000 Deleting mp3/J.Halvorsen Veslemøys Sang - Floris Willem.mp3
+550 mp3/J.Halvorsen Veslemøys Sang - Floris Willem.mp3: No such file or directory
+000 Deleting mp3/Thérémin Debussy Clair de Lune.mp3
+550 mp3/Thérémin Debussy Clair de Lune.mp3: No such file or directory
+000 All done!
