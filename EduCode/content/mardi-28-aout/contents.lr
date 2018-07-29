@@ -185,20 +185,20 @@ Si vous souhaitez participer aux ateliers, merci de suivre la procédure décrit
 </body></html>
 
 #Ateliers codage pour enfants
-Des ateliers seront proposés pour les enfants à partir de 7ans. Ceux-ci auront lieu dans les mêmes bâtiments ou dans des bâtiments proches.
-Les enfants qui souhaitent participer doivent être inscrits auprès de [Julie Henry](julie.henry@unamur.be). Les collations et repas ne sont pas pris en charge par les organisateurs.
+Des ateliers seront proposés pour les enfants à partir de 7 ans. Ceux-ci auront lieu dans les mêmes bâtiments ou dans des bâtiments proches.
+Les enfants qui souhaitent participer doivent être inscrits auprès de [Julie Henry](mailto:julie@educode.be?Inscription aux ateliers enfants de educode). Les collations et repas ne sont pas pris en charge par les organisateurs.
 
 Programme envisagé :
-**9h00** **Accueil des enfants** 
-**9h30** **Atelier 1 - L'informatique de manière ludique avec [Ozobot](https://ozobot.com/)** (Laurence Warnant de [CodeNPlay](https://www.codenplay.be/))
-**10h30** Pause
-**11h00** **Atelier 2** ([We Are Coders](https://www.wearecoders.org/))
-**12h00** Repas
-**13h00** **Ateliers 3 et 4 (en petits groupes)** (Jonathan Smets de [LudiLab](www.ludilab.eu)) & (UNamur, à confirmer)
-**14h00** Pause
-**14h15** **Ateliers 3 et 4 (en petits groupes)** (UNamur, à confirmer) & (Jonathan Smets de [LudiLab](www.ludilab.eu))
-**15h15** Pause
-**15h30** **Atelier 5 - Programme tes héros avec [Scratch](https://scratch.mit.edu/)** ([Le Pass](http://pass.be/))
+* **9h00** **Accueil des enfants** 
+* **9h30** **Atelier 1 - L'informatique de manière ludique avec [Ozobot](https://ozobot.com/)** (Laurence Warnant de [CodeNPlay](https://www.codenplay.be/))
+* **10h30** Pause
+*  **11h00** **Atelier 2** ([We Are Coders](https://www.wearecoders.org/))
+* **12h00** Repas
+* **13h00** **Ateliers 3 et 4 (en petits groupes)** (Jonathan Smets de [LudiLab](www.ludilab.eu)) & (UNamur, à confirmer)
+* **14h00** Pause
+* **14h15** **Ateliers 3 et 4 (en petits groupes)** (UNamur, à confirmer) & (Jonathan Smets de [LudiLab](www.ludilab.eu))
+* **15h15** Pause
+* **15h30** **Atelier 5 - Programme tes héros avec [Scratch](https://scratch.mit.edu/)** ([Le Pass](http://pass.be/))
 
 
 #Après-midi pour les Directions
@@ -209,6 +209,28 @@ L'objectif de ces conférences est de fournir de l'aide aux directions, des exem
 
 Les présentations incluent des temps de discussion. Le planning est fourni à titre indicatif et les contenus peuvent encore changer.
 
+**Inscription** : en complétant le formulaire ci-dessous qui sera envoyé par email
+
+<form action="mailto:journeedirections@educode.be" method="post" enctype="text/plain">
+<h2>Inscription à la journée des directions du mardi 28 août</h2>
+<br>
+Nom et Prénom :<br>
+<input type="text" name="nom"><br>
+Email:<br>
+<input type="text" name="email"><br>
+Institution / école : 
+<input type="text" name="ecole " size="50"><br>
+Attentes :
+<input type="text" name="attente" size="50"><br>
+<br>
+
+<input type="submit" value="Envoyer">
+<input type="reset" value="Reset">
+</form>
+
+<br><br>
+
+##Programme 
 - **13h30** **DigComp, DigcompEdu, Selfie : le répertoire européen des compétences numériques : comment les utiliser à l'école et dans les classes** 
 <br> <span style="margin-right:50px;"> </span> 
 par [Yves Punie](/intervenants/yves-punie/) (Joint Research Center of the European Commission, Belgique)  
