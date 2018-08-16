@@ -14,23 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="workshops-container.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="workshops-container.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/workshops-container.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="53" column="67" lean-forward="true" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="67" />
-              <folding>
-                <element signature="e#2781#2802#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workshop.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/workshop.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1000">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="440">
+              <caret line="64" column="34" lean-forward="true" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -38,17 +26,20 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/static/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="620">
+              <caret line="252" selection-start-line="252" selection-end-line="252" />
+              <folding>
+                <element signature="e#317#2095#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workshop.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="workshop.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/workshop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+            <state relative-caret-position="487">
+              <caret line="85" column="50" selection-start-line="85" selection-start-column="50" selection-end-line="85" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -156,12 +147,12 @@
         <option value="$PROJECT_DIR$/content/concert-bozar/contents.lr" />
         <option value="$PROJECT_DIR$/content/concert/contents.lr" />
         <option value="$PROJECT_DIR$/content/ateliers/animer-un-atelier-robotique-en-classe-avec-le-robot-cubetto/contents.lr" />
-        <option value="$PROJECT_DIR$/templates/workshop.html" />
         <option value="$PROJECT_DIR$/content/ateliers/contents.lr" />
         <option value="$PROJECT_DIR$/models/workshops-container.ini" />
-        <option value="$PROJECT_DIR$/assets/static/style.scss" />
         <option value="$PROJECT_DIR$/models/workshop.ini" />
         <option value="$PROJECT_DIR$/templates/workshops-container.html" />
+        <option value="$PROJECT_DIR$/assets/static/style.scss" />
+        <option value="$PROJECT_DIR$/templates/workshop.html" />
       </list>
     </option>
   </component>
@@ -188,40 +179,6 @@
             <path>
               <item name="EduCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="EduCode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EduCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EduCode" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EduCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EduCode" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EduCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EduCode" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EduCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EduCode" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="ateliers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EduCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EduCode" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="ateliers" type="462c0819:PsiDirectoryNode" />
-              <item name="animer-un-atelier-robotique-en-classe-avec-le-robot-cubetto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EduCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EduCode" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EduCode" type="b2602c69:ProjectViewProjectNode" />
@@ -312,8 +269,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.3297414" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32912722" />
-      <window_info active="true" anchor="bottom" x="1046" y="604" width="367" height="406" id="Terminal" order="12" sideWeight="0.46145833" visible="true" weight="0.30704522" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1984375" />
+      <window_info anchor="bottom" x="1046" y="604" width="367" height="406" id="Terminal" order="12" sideWeight="0.46145833" visible="true" weight="0.18506835" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1984375" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="4" />
@@ -346,13 +303,52 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/models/workshops-container.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/workshops-container.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1060">
+          <caret line="53" column="67" lean-forward="true" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/workshop.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/static/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/workshop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/workshops-container.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/workshops-container.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
-          <folding>
-            <element signature="e#2781#2802#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -595,13 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/static/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/ateliers/initiation-aux-sciences-informatiques-et-a-la-pensee-algorithmique-en-primaire/contents.lr">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -623,13 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/workshop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/ateliers/animer-un-atelier-robotique-en-classe-avec-le-robot-cubetto/contents.lr">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -639,7 +621,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/workshop.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
+        <state relative-caret-position="710">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
@@ -651,13 +633,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/static/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="252" selection-start-line="252" selection-end-line="252" />
+          <folding>
+            <element signature="e#317#2095#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/workshops-container.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="53" column="67" lean-forward="true" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="67" />
-          <folding>
-            <element signature="e#2781#2802#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="440">
+          <caret line="64" column="34" lean-forward="true" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/workshop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="85" column="50" selection-start-line="85" selection-start-column="50" selection-end-line="85" selection-end-column="50" />
         </state>
       </provider>
     </entry>

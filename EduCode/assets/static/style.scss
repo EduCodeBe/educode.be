@@ -243,3 +243,12 @@ a[href="#program"]:not(.collapsed) {
     transition-timing-function: ease-out;
   }
 }
+
+#workshop-containers-page {
+  .card {
+    background-color: #fff9f2!important;
+  }
+  .card-footer {
+    border-top: none;
+  }
+}

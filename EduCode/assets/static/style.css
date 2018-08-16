@@ -742,4 +742,9 @@ a[href="#program"]:not(.collapsed) {
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out; }
 
+#workshop-containers-page .card {
+  background-color: #fff9f2 !important; }
+#workshop-containers-page .card-footer {
+  border-top: none; }
+
 /*# sourceMappingURL=style.css.map */

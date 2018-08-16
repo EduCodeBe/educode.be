@@ -28,7 +28,7 @@
                         </select>
                     </div>
                     <div class="form-group col-md-6">
-                        <label class="d-inline-block w-100 text-center"><i class="fa fa-child"></i> Tranche d'âge</label>
+                        <label class="d-inline-block w-100"><i class="fa fa-child"></i> Tranche d'âge</label>
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <input type="number" min="1" max="120" class="form-control" id="input-min-age" placeholder="âge minimum">
@@ -38,12 +38,13 @@
                             </div>
                         </div>
                     </div>
-
-                    <button id="reset-filters" class="btn btn-warning">Réinitialiser les filtres</button>
+                    <p class="col-12 text-center">
+                            <button id="reset-filters" class="btn btn-warning"><i class="fa fa-undo"></i> Réinitialiser les filtres</button>
+                    </p>
                 </div>
             </form>
 
-            <hr>
+            <hr/>
 
             <div class="row">
                 {% for workshop in workshops %}
@@ -61,9 +62,10 @@
                                     <strong>Résumé</strong><br>
                                     {{ workshop.abstract }}
                                 </div>
-                                <footer class="text-right"><i class="fa fa-tag"></i> {{ workshop.tag }}</footer>
                             </div>
                             <div class="card-footer">
+                                <p class="text-right"><i class="fa fa-tag"></i> {{ workshop.tag }}</p>
+                                <hr>
                                 <a href="{{ workshop.url_path }}" class="btn btn-sm btn-primary btn-block color-dark">
                                     En savoir plus
                                 </a>
@@ -94,13 +96,13 @@
             let inputAgeMin = $("#input-min-age");
             let inputAgeMax = $("#input-max-age");
             let filterWorkshops = function () {
-                cards.removeClass('d-none');
+                cards.parent().removeClass('d-none');
 
                 // category
                 if (constraints.category != null) {
                     if (constraints.category !== "tous") {
                         cards.filter('[data-category!="' + constraints.category + '"]')
-                             .addClass('d-none');
+                             .parent().addClass('d-none');
                     }
                 }
 
@@ -108,14 +110,14 @@
                 if (constraints.ageMin != null) {
                     cards.filter(function() {
                       return $(this).attr("data-age-min") < constraints.ageMin;
-                    }).addClass('d-none');
+                    }).parent().addClass('d-none');
                 }
 
                 // ageMax
                 if (constraints.ageMax != null) {
                     cards.filter(function() {
                       return $(this).attr("data-age-max") > constraints.ageMax;
-                    }).addClass('d-none');
+                    }).parent().addClass('d-none');
                 }
             };
 
