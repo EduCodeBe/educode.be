@@ -45,6 +45,7 @@
                     "text": root_page.s_program,
                     "children": [
                         {"href": "#anchor-overview",              "text": root_page.s_overview_program},
+                        {"href": alt + "/dimanche-26-aout" | url, "text": root_page.s_sunday_26},
                         {"href": alt + "/lundi-27-aout"    | url, "text": root_page.s_monday_27},
                         {"href": alt + "/mardi-28-aout"    | url, "text": root_page.s_thuesday_28},
                         {"href": alt + "/mercredi-29-aout" | url, "text": root_page.s_wednesday_29}
