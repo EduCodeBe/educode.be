@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <main id="page-speaker" class="container police-normal">
+        <h3 class="title title-left"><strong>{{ this.s_descr_downloadable }}</strong></h3>
+        <div>
+            {{ this.body }}
+        </div>
+        <div class="row">
+            {% set documents = site.query('/presse').include_hidden(false).all() %}
+            <div class="col-12 col-sm-2">
+
+            </div>
+            <div class="col-12 col-sm-10">
+                {{ this.s_description }}
+            </div>
+            <div class="col-12">
+                <hr>
+            </div>
+            {% for document in documents %}
+                <div class="col-12 col-sm-2">
+                    {% set data = document.attachments %}
+                    {% if data %}
+                        {% set data = data | first %}
+                        <div class="data-picture">
+                            <a href="{{ data | url }}" target="_blank" download>
+                                <i class="fa fa-download"></i> {{ this.s_download }}
+                            </a>
+                        </div>
+                    {% endif %}
+                </div>
+                <div class="col-12 col-sm-10">
+                    {{ document.description }}
+                </div>
+                <div class="col-12"><hr></div>
+
+            {% endfor %}
+        </div>
+
+    </main>
+{% endblock %}
+

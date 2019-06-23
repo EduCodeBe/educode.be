@@ -1,0 +1,16 @@
+@import "helpers";
+
+#blog-content {
+  font-family: Lato, "Roboto Slab", Serif, serif;
+
+  .blog-post {
+    @include border-radius("3px");
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  a {
+    color: $dark;
+  }
+}

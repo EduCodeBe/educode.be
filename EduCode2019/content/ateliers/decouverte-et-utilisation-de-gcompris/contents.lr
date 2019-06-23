@@ -1,0 +1,33 @@
+_model: workshop
+---
+title: Découverte et utilisation de GCompris
+---
+abstract: GCompris est un logiciel éducatif riche, comprenant plus d'un cent activités destinées aux enfants de 2 à 12 ans. Ces activités sont ludiques, mais toujours éducatives. Cet atelier vous permettra de vous familiariser avec toutes les options disponibles, qui vous permettent d'adapter le logiciel à différents types d'utilisateurs.
+---
+age: 2-10
+---
+contact_name: Timothée Giet
+---
+description:
+
+GCompris est un logiciel éducatif riche, comprenant plus d'un
+cent activités destinées aux enfants de 2 à 12 ans.
+Ces activités sont ludiques, mais toujours éducatives. Les sujets
+comprendre la lecture et la dactylographie, l'arithmétique, la géographie, les sciences,
+et d'autres sujets. Cet atelier vous permettra de vous familiariser
+avec toutes les options disponibles, qui vous permettent d'adapter le
+logiciel à différents types d'utilisateurs.
+Nous ferons ensuite un tour des principales activités pour présenter leur
+contenu. Enfin, nous parlerons des fonctionnalités de work-in-progress
+fait spécialement pour les enseignants et les écoles, et donne quelques conseils
+pour les personnes qui veulent s'impliquer dans le projet.
+---
+language: fr
+---
+periodes: 4
+---
+tag: primaire
+---
+age_max: 10
+---
+age_min: 2

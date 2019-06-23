@@ -1,0 +1,157 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <main id="workshop-containers-page" class="police-normal">
+        <div class="container">
+            <div class="row">
+                <h1 class="col-12 title mt-5 mb-5 text-center color-darker-yellow">
+                    <strong>Présentation des ateliers</strong>
+                </h1>
+                <div class="col-12">
+                    {{ this.description }}
+                </div>
+            </div>
+            {% set workshops = site.query('/ateliers').include_hidden(false).all() %}
+
+            <form class="p-3" style="background-color: #e1b12c42">
+                <div class="form-row">
+                    <h5 class="col-12">Rechercher parmi les ateliers</h5>
+                    <div class="col-12">
+                        <hr>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="select-filter-category"><i class="fa fa-tag"></i> Afficher que la catégorie</label>
+                        <select name="filter-category" id="select-filter-category" class="custom-select form-control">
+                            <option value="tous" selected>Toutes les catégories</option>
+                            <option value="primaire">Primaire</option>
+                            <option value="secondaire">Secondaire</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label class="d-inline-block w-100"><i class="fa fa-child"></i> Tranche d'âge</label>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input type="number" min="1" max="120" class="form-control" id="input-min-age" placeholder="âge minimum">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="number" min="1" max="120" class="form-control" id="input-max-age" placeholder="âge maximum">
+                            </div>
+                        </div>
+                    </div>
+                    <p class="col-12 text-center">
+                            <button id="reset-filters" class="btn btn-warning"><i class="fa fa-undo"></i> Réinitialiser les filtres</button>
+                    </p>
+                </div>
+            </form>
+
+            <hr/>
+
+            <div class="row">
+                {% for workshop in workshops %}
+                    <div class="col-12 col-md-4 mb-1 p-1 police-normal">
+                        <div class="card"
+                             data-category="{{ workshop.tag }}"
+                             data-age-min="{{ workshop.age_min }}"
+                             data-age-max="{{ workshop.age_max }}">
+                            <div class="card-body" style="min-height: 375px;">
+                                <h5 class="card-title text-center">
+                                    <a class="color-darker-yellow" href="{{ workshop.url_path }}">{{ workshop.title }}</a>
+                                </h5>
+                                <hr>
+                                <div class="card-text">
+                                    <strong>Résumé</strong><br>
+                                    {{ workshop.abstract }}
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <p class="text-right"><i class="fa fa-tag"></i> {{ workshop.tag }}</p>
+                                <hr>
+                                <a href="{{ workshop.url_path }}" class="btn btn-sm btn-primary btn-block color-dark">
+                                    En savoir plus
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+            {% endfor %}
+            </div>
+        </div>
+    </main>
+{% endblock %}
+
+{% block javascript %}
+    <script>
+
+        $(function () {
+            let constraints = {
+                category: null,
+                ageMin:   null,
+                ageMax:   null,
+                language: null,
+                location: null,
+            };
+
+            let cards = $('#workshop-containers-page .card');
+            let filterByCategory = $('#select-filter-category');
+            let btnResetFilters = $("#reset-filters");
+            let inputAgeMin = $("#input-min-age");
+            let inputAgeMax = $("#input-max-age");
+            let filterWorkshops = function () {
+                cards.parent().removeClass('d-none');
+
+                // category
+                if (constraints.category != null) {
+                    if (constraints.category !== "tous") {
+                        cards.filter('[data-category!="' + constraints.category + '"]')
+                             .parent().addClass('d-none');
+                    }
+                }
+
+                // ageMin
+                if (constraints.ageMin != null) {
+                    cards.filter(function() {
+                      return $(this).attr("data-age-min") < constraints.ageMin;
+                    }).parent().addClass('d-none');
+                }
+
+                // ageMax
+                if (constraints.ageMax != null) {
+                    cards.filter(function() {
+                      return $(this).attr("data-age-max") > constraints.ageMax;
+                    }).parent().addClass('d-none');
+                }
+            };
+
+            inputAgeMin.on('keyup mouseup change', function (e) {
+                e.preventDefault();
+                let x = parseInt($(this).val(), 10);
+                constraints.ageMin = isNaN(x) ? null : x;
+                filterWorkshops();
+            });
+
+            inputAgeMax.on('keyup mouseup change', function (e) {
+                e.preventDefault();
+                let x = parseInt($(this).val(), 10);
+                constraints.ageMax = isNaN(x) ? null : x;
+                filterWorkshops();
+            });
+
+            filterByCategory.on('change', function (e) {
+                e.preventDefault();
+                constraints.category = $(this).val();
+                filterWorkshops();
+            });
+
+            btnResetFilters.on("click", function () {
+                constraints = {
+                    category: null,
+                    ageMin:   null,
+                    ageMax:   null,
+                    language: null,
+                    location: null,
+                };
+            });
+
+
+        });
+    </script>
+{% endblock %}

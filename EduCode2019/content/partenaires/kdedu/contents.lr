@@ -1,0 +1,7 @@
+_model: partner
+---
+name: KDEdu
+---
+url: https://edu.kde.org/
+---
+priority: 1

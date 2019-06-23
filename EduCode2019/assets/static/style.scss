@@ -1,0 +1,254 @@
+@import "helpers";
+@import "program";
+@import "location";
+@import "speaker";
+@import "blog";
+@import "home";
+@import "concert";
+
+body {
+
+}
+
+#workshop-containers-page {
+  a:not(.btn) {
+    color: $darker-yellow;
+    &:hover {
+      font-weight: 600;
+      text-decoration: none;
+    }
+  }
+}
+
+#sidebar, #mobile-sidebar {
+  z-index: 3;
+  font-family: 'Unica One', cursive !important;
+
+  #sidebar-wrapper {
+    height: 100vh;
+    overflow-y: scroll;
+  }
+
+  &>.position-fixed {
+    background-color: #ffbd33;
+    padding: 0;
+  }
+
+  .list-group-item, .list-group {
+    background-color: #ffbd33;
+    color: $dark;
+  }
+
+  .list-group-item.selected {
+    background: #f59f24;
+    border-left: solid $darker-yellow 10px;
+    color: white !important;
+  }
+
+  /* level 1*/
+  .list-group .collapse .list-group-item,
+  .list-group .collapsing .list-group-item  {
+    padding-left: 40px;
+  }
+
+  /* level 2*/
+  .list-group .collapse > .collapse .list-group-item,
+  .list-group .collapse > .collapsing .list-group-item {
+    padding-left: 60px;
+  }
+
+
+  .brand {
+    margin-top: 50px;
+    padding-bottom: 20px;
+
+    @include responsive(xs) {
+      margin-top: 20px;
+    }
+
+    img {
+      max-width:80%;
+    }
+  }
+
+  .list-group {
+    i {
+      margin-right: 6px;
+    }
+  }
+
+  .list-group-item {
+    border-radius: 0;
+    color: $dark;
+    border-left: 0;
+    border-right: 0;
+    white-space: nowrap;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    @include transition("all linear .3s");
+
+    &:first-of-type {
+      border-top:none;
+    }
+
+    &:last-of-type {
+      border-bottom:none;
+    }
+
+    /* closed state */
+    &[aria-expanded="false"]::after {
+      content: " \f0d7";
+      font-family: FontAwesome, serif;
+      display: inline;
+      text-align: right;
+      padding-left: 5px;
+
+    }
+
+    &[aria-expanded="true"] {
+      &::after {
+        content: " \f0da";
+        font-family: FontAwesome, serif;
+        display: inline;
+        text-align: right;
+        padding-left: 5px;
+      }
+    }
+
+    &:hover {
+      border-left: solid $yellow 10px;
+      background-color: #cca228;
+    }
+  }
+}
+
+a[href="#program"]:not(.collapsed) {
+    background-color: #cca228 !important;
+}
+
+.menu-expandable {
+  background-color: #cca228 !important;
+}
+
+.item-expanded {
+  background-color: $darker-yellow !important;
+  color: white !important;
+  padding-left: 15px;
+}
+
+.language {
+  text-align: right;
+  @include responsive(xs) {
+    text-align: left;
+  }
+  background-color: #446CB3;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  span {
+    margin-right: 10px;
+  }
+  .language-link {
+    padding: 10px 15px;
+    color: white;
+
+    &:hover {
+      text-decoration: none;
+      background-color: #445299;
+    }
+    &.current {
+      background-color: #445299;
+      border-bottom: solid $yellow 3px;
+    }
+  }
+}
+
+.police-normal {
+  font-family: Lato, "Roboto Slab", Serif, serif;
+}
+
+
+
+@include responsive(xs) {
+  #menu-icon {
+    position: fixed;
+    top: 0px;
+    right: 0;
+    z-index: 999;
+    color: $blue;
+    background-color: $yellow;
+    height: 48px;
+    width: 56px;
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+
+#mobile-sidebar {
+  overflow-y: auto;
+  overflow-x: visible;
+  transition: all 0.25s ease;
+  @include translateX(-120%);
+  background-color: #ffbd33;
+  position: fixed;
+  width: 75% !important;
+  @include box-shadow("4px 0 8px -2px grey");
+
+  &.show {
+    @include translateX(0);
+  }
+
+  &::-webkit-scrollbar{ width: 0; }
+
+  /* overlay sub levels on small screens */
+  .list-group .collapse.show, #sidebar .list-group .collapsing {
+    position: relative;
+    z-index: 10;
+    top: 0;
+  }
+
+  &, & .list-group {
+    min-width: 75%;
+    overflow: visible;
+  }
+  & .list-group > .list-group-item {
+    text-align: center;
+    padding: .75rem .5rem;
+  }
+}
+
+.slick-dots {
+  @include responsive(xs) {
+    bottom: -50px!important;
+  }
+}
+
+.collapse.show {
+  visibility: visible;
+}
+
+.collapsing {
+  visibility: visible;
+  height: 0;
+  -webkit-transition-property: height, visibility;
+  transition-property: height, visibility;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+
+  &.width {
+    -webkit-transition-property: width, visibility;
+    transition-property: width, visibility;
+    width: 0;
+    height: 100%;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+}
+
+#workshop-containers-page {
+  .card {
+    background-color: #fff9f2!important;
+  }
+  .card-footer {
+    border-top: none;
+  }
+}

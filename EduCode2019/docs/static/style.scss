@@ -1,0 +1,234 @@
+@import "helpers";
+@import "program";
+@import "location";
+@import "speaker";
+@import "blog";
+@import "home";
+
+body {
+
+}
+
+#sidebar {
+  min-height: 100vh;
+  overflow: hidden;
+  z-index: 3;
+  font-family: 'Unica One', cursive !important;
+
+  &>.position-fixed {
+    background-color: #ffbd33;
+    padding: 0;
+
+  }
+
+  .list-group-item, .list-group {
+    background-color: #ffbd33;
+    color: $dark !important;
+  }
+
+  .list-group-item.selected {
+    background: #f59f24;
+    border-left: solid $darker-yellow 10px;
+    color: white !important;
+  }
+
+
+  .brand {
+    margin-top: 100px;
+    padding-bottom: 30px;
+
+    @include responsive(xs) {
+      margin-top: 20px;
+    }
+
+
+    img {
+      max-width:80%;
+    }
+  }
+
+  .list-group {
+    min-height: 100vh;
+
+    i {
+      margin-right: 6px;
+    }
+  }
+
+  .list-group-item {
+    border-radius: 0;
+    color: $dark;
+    border-left: 0;
+    border-right: 0;
+    white-space: nowrap;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    @include transition("all linear .3s");
+    &:first-of-type {
+      border-top:none;
+    }
+    &:last-of-type {
+      border-bottom:none;
+    }
+    /* closed state */
+    &[aria-expanded="false"]::after {
+      content: " \f0d7";
+      font-family: FontAwesome, serif;
+      display: inline;
+      text-align: right;
+      padding-left: 5px;
+    }
+
+    &[aria-expanded="true"] {
+
+      &::after {
+        content: " \f0da";
+        font-family: FontAwesome, serif;
+        display: inline;
+        text-align: right;
+        padding-left: 5px;
+      }
+    }
+
+
+    &:hover {
+      border-left: solid $yellow 10px;
+      background-color: #cca228;
+      color: white;
+    }
+
+  }
+}
+
+a[href="#program"]:not(.collapsed) {
+    background-color: #cca228 !important;
+}
+
+#program {
+  background-color: $darker-yellow;
+  .list-group-item {
+    background-color: $darker-yellow !important;
+    color: white !important;
+    padding-left: 15px;
+  }
+}
+
+.language {
+  text-align: right;
+  background-color: #446CB3;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  span {
+    margin-right: 10px;
+  }
+  .language-link {
+    padding: 10px 15px;
+    color: white;
+
+    &:hover {
+      text-decoration: none;
+      background-color: #445299;
+    }
+    &.current {
+      background-color: #445299;
+      border-bottom: solid $yellow 3px;
+    }
+  }
+}
+
+.police-normal {
+  font-family: Lato, "Roboto Slab", Serif, serif;
+}
+
+/* level 1*/
+#sidebar .list-group .collapse .list-group-item,
+#sidebar .list-group .collapsing .list-group-item  {
+  padding-left: 40px;
+
+}
+
+/* level 2*/
+#sidebar .list-group .collapse > .collapse .list-group-item,
+#sidebar .list-group .collapse > .collapsing .list-group-item {
+  padding-left: 60px;
+}
+
+/* level 3*/
+#sidebar .list-group .collapse > .collapse > .collapse .list-group-item {
+  padding-left: 90px;
+}
+
+@include responsive(xs) {
+
+  #menu-icon {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index:999;
+    color: $blue;
+    background-color: $yellow;
+    height: 48px;
+    width: 56px;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+
+  #sidebar {
+    overflow-y: auto;
+    overflow-x: visible;
+    transition: all 0.25s ease;
+    transform: translateX(-100%);
+    position: fixed;
+
+
+    &.show {
+      transform: translateX(0);
+    }
+
+    &::-webkit-scrollbar{ width: 0; }
+
+    /* overlay sub levels on small screens */
+    .list-group .collapse.show, #sidebar .list-group .collapsing {
+      position: relative;
+      z-index: 1;
+      top: 0;
+    }
+  }
+
+  #sidebar, #sidebar .list-group {
+    min-width: 50%;
+    overflow: visible;
+  }
+  #sidebar .list-group > .list-group-item {
+    text-align: center;
+    padding: .75rem .5rem;
+  }
+  /* hide caret icons of top level when collapsed */
+  #sidebar .list-group > .list-group-item[aria-expanded="true"]::after,
+  #sidebar .list-group > .list-group-item[aria-expanded="false"]::after {
+    display:none;
+  }
+}
+
+.collapse.show {
+  visibility: visible;
+}
+
+.collapsing {
+  visibility: visible;
+  height: 0;
+  -webkit-transition-property: height, visibility;
+  transition-property: height, visibility;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+
+  &.width {
+    -webkit-transition-property: width, visibility;
+    transition-property: width, visibility;
+    width: 0;
+    height: 100%;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+}

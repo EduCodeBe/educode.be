@@ -1,0 +1,35 @@
+_model: speaker
+---
+title: Bibiana Boccolini
+---
+country: Argentina
+---
+date: Lundi 27
+---
+dates: lundi-27-aout
+---
+name: Bibiana Boccolini
+---
+description:
+
+Bibiana Boccolini est analyste universitaire de systèmes, diplômée de l’Université technologique nationale, de la Faculté régional de Rosario (1987) Santa Fe, Argentine. Elle est spécialiste universitaire en consultation didactique et à l’intervention éducative, diplômée de l’UNED (Université nationale d’éducation à distance, Madrid, Espagne, 2001), et maître en informatique éducative, diplômée de l’UTEM (Université technologique métropolitaine, Santiago, Chili, 2005). Elle est professeur à l’Université Nationale de Rosario (Faculté des Humanités, dès 2010), à l’Université du Salvador (siège Rosario, dès 2006) et au Niveau Supérieur du Collège Supérieur _F. Ameghino_ (Cañada de Gómez, dès 1987). Dès le 2010 elle se développe comme Consultante d’Education Supérieure pour le Ministère d’Education de la Province de Santa Fe. Elle exerce comme coordinatrice de la Formation des Courses Techniques de niveau supérieur. Dans ces fonctions, elle coordonne la Formation Initiale pour des Professeurs d’Éducation Technique et coordonne aussi le Programme de Centres d’Actualisation et d’Innovation Éducative. Elle collabore avec le Projet Gleducar (Projet pour la diffusion et utilisation du logiciel libre dans le domaine éducatif), en formant des professeurs et des étudiants dans le dessin et l’usage de recours libres et dans la construction collaborative de connaissances. Elle est Directrice Associée du Centre d’Étude Canadienne de Rosario. Elle est boursière du Gouvernement Canadien (dès 2009), comme investigatrice du Modèle Pédagogique de l’Education à Distance et du Télétravail qui s’applique dans ce pays.
+
+#Résumé de l'intervention
+
+Une communication sur ce sujet a déjà été faite à [Bruxelles](http://visit.brussels) dans le cadre des [Rencontres mondiales des logiciels libres en 2013](https://schedule2013.rmll.info/programme/sciences-et-formation/enseignement-primaire-et-education/article/le-logiciel-libre-comme-moteur-des)
+
+Dès 2010, le Ministère de l’Éducation de la République Argentine, met en application le programme CONECTAR IGUALDAD (CONNECTER L’ÉGALITÉ) qui a comme objectif de récupérer et de valoriser l’école publique, en réduisant les fractures numériques, éducatives et sociales. Il est focalisé sur les écoles de niveau secondaire, sur les écoles d’éducation spéciale et sur les institutions qui forment les professeurs.
+
+Il consiste à distribuer 3 millions de netbooks aux étudiants et aux professeurs ; des serveurs et des routeurs aux institutions éducatives ; et former les professeurs.
+
+Depuis l’annonce du programme, l’élection du système d’exploitation a semblé très polémique. Dans les premières livraisons, les systèmes ont utilisé un double boot (avec des distributions GNU/Linux tels que Pixart et Ubuntu), mais à partir de cette année, les netbooks démarreront avec Linux par défaut, avec Huayra, une métadistribution de système d’exploitation libre basée sur Debian, mais avec une identité nationale. Ils incluront aussi un dispositif interne de décodage qui permettra l’accès direct au système de télévision numérique ouverte.
+
+Les serveurs disposent d’une dotation initiale de contenus didactiques numériques, gratuits et libres, qui sera augmentée dans chaque institution, par la création et la publication que font les professeurs et les élèves de leurs propres contenus.
+
+La propriété personnelle du matériel, par les étudiants et les professeurs (le modèle 1 à 1) renforce les opportunités d’améliorer la distribution sociale de l’information. Le développement du modèle est basé sur l’idée de la portabilité facile de l’équipement de telle façon que les ressources puissent être utilisées chez soi et aider dans les tâches extrascolaires.
+
+Que les applications soient en logiciel libre contribue à former des sujets responsables, critiques et libres, capables d’utiliser la connaissance comme outil pour comprendre et pour transformer constructivement leur environnement social, économique et culturel, et de se situer comme acteurs participants dans un monde de changement permanent. Cela leur garantit l’accès aux ressources variées et au développement de capacités pour le travail autonome et coopératif.
+
+Dans ce scenario, pour l’apprentissage du contenu éducatif, chaque enseignant met ses propositions didactiques dans les portefeuilles numériques respectifs, situés dans le serveur institutionnel. Après, chaque étudiant construit son apprentissage dans son portefeuille didactique, en travaillant d’une manière autonome ou dans des groupes collaboratifs, tant d’une manière présentielle que depuis sa maison.
+
+La présence des netbooks provoque un changement éminent de paradigme éducatif (paradigme d’immersion) qui par la disponibilité exclusive de matériels libres facilite tant pour l’école que pour les professeurs un apprentissage critique, au lieu du paradigme basé sur l’acquisition d’information et de savoirs préétablis, comme cela se faisait jusqu’à présent. Dans ces nouveaux scénarios, des professeurs et des élèves apprennent en faisant. Et les élèves, apprennent à apprendre avec les autres, tant pour la résolution des consignes d’apprentissage que pour la conception d’applications propres basées sur des développements libres.

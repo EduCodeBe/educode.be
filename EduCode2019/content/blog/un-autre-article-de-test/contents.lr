@@ -1,0 +1,17 @@
+title: Un autre article de test
+---
+author: Manuel
+---
+body:
+
+When the same comment thread appears on multiple pages, this is normally due to multiple thread identifiers being assigned to the same thread whenever the thread was initially created.
+
+Resolving identifier conflict
+Identifier conflict can be resolved by verifying that a unique URL is being set and then assigning a unique identifier. This will create a new thread on pages which were previously displaying the same thread. Note that thread identifiers and URLs are set using our embed Javascript Variables.
+
+You can also check if identifiers are being assigned to the same thread using our API console.
+
+Prevention
+To prevent this from happening, you'll need to ensure that both the identifier and thread are unique when creating new threads.
+---
+pub_date: 2018-05-25

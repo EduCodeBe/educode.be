@@ -1,0 +1,161 @@
+{% from "macros/sections.html" import render_sidebar %}
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="{{ '/static/style.css' | url }}">
+    <link rel="stylesheet" href="{{ '/plugins/bootstrap/bootstrap.min.css' | url }}">
+    <link rel="stylesheet" href="{{ '/plugins/font-awesome-4.7.0/css/font-awesome.min.css' | url }}">
+    <link rel="stylesheet" href="{{ '/plugins/aos/dist/aos.css' | url }}">
+    <link rel="stylesheet" href="{{ '/plugins/slick/slick.css' | url }}">
+    <link rel="stylesheet" href="{{ '/plugins/slick/slick-theme.css' | url }}">
+
+    <link rel="icon" type="image/png" href="{{ '/imgs/educode-logo-transparent-cropped.png' | url }}"/>
+
+    <title>{% block title %}Welcome{% endblock %} — EduCode</title>
+</head>
+<body>
+<div class="container-fluid">
+    {% set root_url = ['', '/', '/fr/', '/en/', '/nl/', '/es/', '/de/'] %}
+    <!-- get current alternative -->
+    {% for alternatives in root_url %}
+        {% if alternatives in this.url_path %}
+            {% set alt = alternatives %}
+        {% endif %}
+    {% endfor %}
+
+    <div class="row wrapper">
+        <!-- we render the sidebar -->
+        {{ render_sidebar(this, alt, root_url) }}
+
+        <main class="col col-sm-8 col-md-9 col-lg-10 float-left p-0 main">
+            <div class="container-fluid">
+                <div class="language row">
+                    <div class="col-12">
+                        <span class="text-white">Langue</span>
+
+                        <a class="language-link {% if this.url_path == '/' %} {{ 'current' }} {% endif %}"
+                           href="{{ this.path | url(alt='fr') }}">
+                            <img width="16px" height="16px" src="{{ '/imgs/fr.png' | url }}" alt=""> FR
+                        </a>
+                        <a class="language-link {% if '/nl/' in this.url_path %} {{ 'current' }} {% endif %}"
+                           href="{{ this.path | url(alt='nl') }}">
+                            <img width="16px" height="16px" src="{{ '/imgs/nl.png' | url }}" alt=""> NL
+                        </a>
+
+                        <!--
+                        <a class="language-link {% if '/en/' in this.url_path  %} {{ 'current' }}
+                             {% endif %}" href="{{ this.path | url(alt='en') }}">
+                            <img width="16px" height="16px" src="{{ '/imgs/gb.png' | url }}" alt=""> EN
+                        </a>
+                        <a class="language-link {% if '/de/' in this.url_path  %} {{ 'current' }}
+                             {% endif %}" href="{{ this.path | url(alt='de') }}">
+                            <img width="16px" height="16px" src="{{ '/imgs/de.png' | url }}" alt=""> DE
+                        </a>
+                        <a class="language-link {% if '/es/' in this.url_path  %} {{ 'current' }}
+                             {% endif %}" href="{{ this.path | url(alt='es') }}">
+                            <img width="16px" height="16px" src="{{ '/imgs/es.png' | url }}" alt=""> ES
+                        </a>
+                        -->
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="content-wrapper">
+
+                <a id="menu-icon" href="#" data-target="#sidebar" class="d-block d-sm-none">
+                    <i class="fa fa-navicon"></i>
+                </a>
+
+                {% block baseline %}{% endblock %}
+                {% block content %}{% endblock %}
+            </div>
+
+        </main>
+    </div>
+</div>
+
+<script src="{{ '/plugins/jquery.min.js' | url }}"></script>
+<script src="{{ '/plugins/bootstrap/bootstrap.min.js' | url }}"></script>
+<script src="{{ '/plugins/aos/dist/aos.js' | url }}"></script>
+<script src="{{ '/plugins/slick/slick.min.js' | url }}"></script>
+
+<script>
+    $(function () {
+        $(document).on("scroll", onScroll);
+
+        {% if this == site.get_root() %}
+            window.history.pushState("object or string", "Welcome - EduCode", "{{ this.path | url(alt=alt) }}");
+        {% endif %}
+
+        var $root = $('html, body');
+        var $document = $(document);
+        var $links = $('a[href^="#anchor"]');
+
+        $document.on('click', 'a[href^="#anchor"]', function (e) {
+            e.preventDefault();
+            $document.off("scroll");
+            $links.removeClass("selected");
+            $(this).addClass("selected");
+
+            var target = this.hash;
+            var menu = target;
+            var $target = $(target);
+
+            $root.stop().animate({
+                scrollTop: $($.attr(this, 'href')).offset().top + 2
+            }, 500, 'swing', function () {
+                window.location.hash = target;
+                $document.on("scroll", onScroll);
+            });
+
+            return false;
+        });
+
+        $(window).resize( function (event) {
+            console.log(getBootstrapBreakpoint());
+        });
+
+        function onScroll(event) {
+            let scrollPos = $document.scrollTop();
+            $links.each(function () {
+                let currLink = $(this);
+                let refElement = $(currLink.attr("href"));
+                if (refElement.length > 0) {
+                    if (refElement.position().top <= scrollPos
+                        && refElement.position().top + refElement.height() > scrollPos)
+                    {
+                        $links.removeClass("selected");
+                        currLink.addClass("selected");
+                    }
+                    else {
+                        currLink.removeClass("selected");
+                    }
+                }
+            });
+        }
+
+        $("#menu-icon").on("click", function (event) {
+            event.preventDefault();
+            $("#mobile-sidebar").toggleClass("show");
+        })
+    });
+
+    function getBootstrapBreakpoint() {
+        var w = $(document).innerWidth();
+        return (w < 575.98) ? 'xs' : ((w < 767.98) ? 'sm' : ((w < 991.98) ? 'md' : 'lg'));
+    }
+
+</script>
+
+{% block javascript %}{% endblock %}
+
+</body>
+</html>
+

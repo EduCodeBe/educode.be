@@ -1,0 +1,43 @@
+author: Nicolas Pettiaux
+---
+body:
+
+Der technophilste von euch (alle von euch ;-), die bei allen Gelegenheiten lernen wollen, schätzen den Algorithmus, ein wenig Code und was damit geht, kann ein Terminal eingeben :)
+
+* Installation auf Ihrer Maschine (Windows oder Macos X oder Gnulinux)
+ * Freie Software, mit der die Website tut [Lektor](https://getlektor.org) (es ist viel einfacher, auf einem Rechner zu installieren GNULinux macox x oder Fenster, ohne hart zu ihnen zu sein)
+ * kostenlose kollaborative Arbeitssoftware [git](https://git-scm.com/download/)
+* durch Erstellen eines Logins auf [github.com](http://github.com)
+* Indem Sie auf [github.com/EduCodeBe/educode.be](https://github.com/EduCodeBe/educode.be) und Forking das Projekt (oben rechts)
+* Eingabe im Terminal (Git-Bash auf Windows)
+   * Git Klon https://github.com/<Ihr Login>/educode.be
+   * cd <das Verzeichnis, in dem Sie sich befinden>/educode.be/EduCode
+   * lektor Server
+   * firefox [http://localhost:5000/](http://localhost:5000)
+   * (Sie können dann
+      * Bearbeiten Sie die Website mit einer schönen grafischen Benutzeroberfläche im Browser und einem kleinen Stift auf der rechten Seite, die Bearbeitung ermöglicht, und
+      * Gehen Sie zum Beispiel auf der Seite http://localhost:5000/admin/root:aussteller/bearbeiten
+      * Fügen Sie eine "Aussteller" -Seite hinzu, indem Sie auf die erste Zeile auf + klicken und eine Seite hinzufügen, deren Modell "Aussteller" ist.
+      * In den Bereichen [Abschlag size](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) recht einfach Durch das Ausfüllen
+      * indem Sie lokal auf Ihrem Computer unten auf der Seite speichern
+      * Wenn Sie eine Übersetzung von einer Seite helfen möchten, ist dies der Fall, indem Sie zum Menü auf der linken Seite der Sprache gehen. Die Texte wurden bereits ins Spanische übersetzt, aber ich hatte keine Zeit, sie zu übernehmen.
+      * Stoppen des lokalen Servers durch CONTROL-C
+* indem Sie alles durch Eingabe auf den zentralen Server zurücksetzen
+  * git add *
+  * git commit -m "eine Beschreibung Ihrer Änderungen und Ergänzungen"
+  * git push (Sie geben dann Ihre Logins und Passwörter ein)
+  * indem Sie mich warnen, dass Sie möchten, dass wir Ihre Änderungen per E-Mail an site@educode.be integrieren
+  * und wenn möglich auf github eine Pull-Anfrage machen (was die obigen und folgenden Prozeduren für uns vereinfacht)
+    * Sie gehen auf Ihre Seite https://github.com/<meines Login>/educode.be/pulls
+    * Klicken Sie mit der rechten Maustaste auf die Schaltfläche NEW PULL REQUEST, und prüfen Sie, ob Ihr Projekt mit EducodeBe/educode.be (dem Master) verknüpft ist.
+    * fülle eine kurze Notiz aus, die beschreibt, was du getan hast
+    * und senden
+    * Ich akzeptiere deinen Vorschlag, wenn es keinen Konflikt gibt und hüpfe
+    * Ich stelle online, sobald ich kann (oder ein anderes Mitglied des Teams tut es)
+        So, wirklich, alles zusammen implementieren wir die Zusammenarbeit für die Website und den ganzen Rest.
+
+# Die praktische Anwendung von Theorie und Digital ist auch für jeden von uns !
+---
+pub_date: 2018-06-04
+---
+title: Beitrag zu educode

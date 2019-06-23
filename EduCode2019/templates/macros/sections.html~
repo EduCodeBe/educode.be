@@ -1,0 +1,267 @@
+{% macro render_sidebar(context, alt, root_url) %}
+    {% if alt == 'fr' %}
+        {% set alt = '' %}
+    {% else %}
+        {% set alt = '/' + alt %}
+    {% endif %}
+
+    <!-- Here I define the menu when we are in the home page -->
+    <!-- I don't see how to create a submenu under practical infos and group there
+    /garderie and other infos to come -->
+    {% if context.url_path in root_url %}
+        {%
+            set menu = [
+                {
+                    "expandable": True,
+                    "href": "#program",
+                    "text": context.s_program,
+                    "children": [
+                        {"href": "#anchor-overview",  "text": context.s_overview_program},
+                        {"href": alt + "/lundi-27-aout"    | url, "text": context.s_monday_27},
+                        {"href": alt + "/mardi-28-aout"    | url, "text": context.s_thuesday_28},
+                        {"href": alt + "/mercredi-29-aout" | url, "text": context.s_wednesday_29}
+                    ]
+                },
+
+                {"expandable": False, "href": alt + "/concert",          "text": "Concert"},
+                {"expandable": False, "href": alt + "/blog",             "text": "Blog"},
+                {"expandable": False, "href": '#anchor-speakers',        "text": context.s_speakers},
+                {"expandable": False, "href": '#anchor-expo',            "text": context.s_expo},
+                {"expandable": False, "href": '#anchor-partners',        "text": context.s_partners},
+                {"expandable": False, "href": '#anchor-inscription',     "text": context.s_registration},
+                {"expandable": False, "href": '#anchor-practical-infos',     "text": "Info pratiques"},
+                {"expandable": False, "href": '#anchor-press',           "text": context.s_press},
+                {"expandable": False, "href": alt + "/dons",             "text": "Dons"},                
+                {"expandable": False, "href": '#anchor-contact',         "text": context.s_contact},
+            ]
+        %}
+    {% else %}
+        {% set root_page = site.get_root(alt=alt) %}
+        {%
+            set menu = [
+                {
+                    "expandable": True,
+                    "href": "#program",
+                    "text": root_page.s_program,
+                    "children": [
+                        {"href": "#anchor-overview",              "text": root_page.s_overview_program},
+                        {"href": alt + "/dimanche-26-aout" | url, "text": root_page.s_sunday_26},
+                        {"href": alt + "/lundi-27-aout"    | url, "text": root_page.s_monday_27},
+                        {"href": alt + "/mardi-28-aout"    | url, "text": root_page.s_thuesday_28},
+                        {"href": alt + "/mercredi-29-aout" | url, "text": root_page.s_wednesday_29}
+                    ]
+                },
+                {"expandable": False, "href": alt + "/concert",                 "text": "Concert"},
+                {"expandable": False, "href": alt + "/blog",                    "text": "Blog"},
+                {"expandable": False, "href": alt + '/#anchor-speakers',        "text": root_page.s_speakers},
+                {"expandable": False, "href": alt + '/#anchor-expo',            "text": root_page.s_expo},
+                {"expandable": False, "href": alt + '/#anchor-partners',        "text": root_page.s_partners},
+                {"expandable": False, "href": alt + '/#anchor-inscription',     "text": root_page.s_registration},
+                {"expandable": False, "href": alt + '/#anchor-practical-infos',     "text": "Info pratiques"},
+                {"expandable": False, "href": alt + '/#anchor-press',           "text": root_page.s_press},
+                {"expandable": False, "href": alt + "/dons",                    "text": "Dons"},
+                {"expandable": False, "href": alt + '/#anchor-contact',         "text": root_page.s_contact},
+            ]
+        %}
+    {% endif %}
+
+    <div id="sidebar" class="d-none d-sm-block col-sm-4 col-md-3 col-lg-2 float-left pl-0 pr-0">
+        <div class="position-fixed d-none d-sm-block col-sm-4 col-md-3 col-lg-2 float-left pl-0 pr-0">
+            <div id="sidebar-wrapper">
+                <div class="text-center brand">
+                    <a href="{{ '/' | url }}">
+                        <img src="{{ '/imgs/educode-logo-transparent.png' | url }}" alt="">
+                    </a>
+                </div>
+                <div class="list-group border-0 card">
+                    <!-- we create the menu -->
+                    {% for item in menu %}
+                        <!-- if the current item contains children -->
+                        {% if item.expandable %}
+                            <a href="{{ item.href }}"
+                               class="list-group-item d-inline-block collapsed menu-expandable"
+                               data-toggle="collapse"
+                               aria-expanded="false">{{ item.text }}</a>
+
+                            <div class="collapse" id="{{ item.href[1:] }}">
+                                {% for subitem in item.children %}
+                                    <a href="{{ subitem.href }}" class="list-group-item item-expanded">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        {{ subitem.text }}
+                                    </a>
+                                {% endfor %}
+                            </div>
+
+                        {% else %}
+                            <a href="{{ item.href }}" class="list-group-item d-inline-block">{{ item.text }}</a>
+                        {% endif %}
+                    {% endfor %}
+                    <hr>
+                    {%
+                        set icons = [
+                            {
+                                "image": "/partenaires/la-premiere/logo_lp_2017_rvb_filet.png" | url,
+                                "link":  "http://lapremiere.be",
+                                "title": "La Première",
+                                "width": "75px"
+                            },
+                            {
+                                "image": "/partenaires/musiq3/logo_m3_rvb_filet_15.png" | url,
+                                "link":  "http://rtbf.be/musiq3",
+                                "title": "Musiq'3",
+                                "width": "72px"
+                            },
+                            {
+                                "image": "/partenaires/bozar/image-bozar.png" | url,
+                                "link":  "https://www.bozar.be/fr",
+                                "title": "Bozar",
+                                "width": "56px"
+                            },
+                            {
+                                "image": "/partenaires/digital-wallonia/digitalwallonia-logo-degrades-358x259.png" | url,
+                                "link": "https://www.digitalwallonia.be",
+                                "title": "Digital Wallonia",
+                                "width": "56px"
+                            },
+                            {
+                                "image": "/partenaires/region-de-bruxelles-capitale/logotype_2_rgb_72_blanc.jpg" | url,
+                                "link": "http://be.brussels",
+                                "title": "Région de Bruxelles-Capitale",
+                                "width": "56px"
+                            },
+
+
+                            {
+                                "image": "/imgs/fwb.png" | url,
+                                "link": "http://www.federation-wallonie-bruxelles.be",
+                                "title": "Fédération Wallonie Bruxelles",
+                                "width": "72px"
+                            },
+                            {
+                                "image": "/partenaires/unesco/unesco_logo-small-117.png" | url,
+                                "link": "http://unesco.org",
+                                "title": "Unesco",
+                                "width": "72px"
+                            }
+                        ]
+                    %}
+                    <div class="container">
+                        <div class="row">
+                            {% for icon in icons %}
+                                <div class="col-6 text-center mb-1">
+                                    <a href="{{ icon.link }}" target="_blank">
+                                        <img width="{{ icon.width }}" src="{{ icon.image }}" alt="{{ icon.title }}">
+                                    </a>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="license text-center police-normal small p-2">
+                        {{ render_cc_license("by-sa", "normal") }}
+                    </div>
+                    <!-- &copy; Copyleft 2018 by Nicolas Pettiaux. -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="mobile-sidebar" class="d-block d-sm-none">
+        <div id="sidebar-wrapper">
+            <div class="text-center brand">
+                <a href="{{ '/' | url }}">
+                    <img src="{{ '/imgs/educode-logo-transparent.png' | url }}" alt="">
+                </a>
+            </div>
+            <div class="list-group border-0 card">
+                    <!-- we create the menu -->
+                    {% for item in menu %}
+                        <!-- if the current item contains children -->
+                        {% if item.expandable %}
+                            <a href="{{ item.href + "--mobile" }}"
+                               class="list-group-item d-inline-block collapsed menu-expandable"
+                               data-toggle="collapse"
+                               aria-expanded="false">{{ item.text }}</a>
+
+                            <div class="collapse" id="{{ item.href[1:] + "--mobile" }}">
+                                {% for subitem in item.children %}
+                                    <a href="{{ subitem.href }}" class="list-group-item item-expanded">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        {{ subitem.text }}
+                                    </a>
+                                {% endfor %}
+                            </div>
+
+                        {% else %}
+                            <a href="{{ item.href }}" class="list-group-item d-inline-block">{{ item.text }}</a>
+                        {% endif %}
+                    {% endfor %}
+                    <hr>
+                    {%
+                        set icons = [
+                            {
+                                "image": "/partenaires/la-premiere/logo_lp_2017_rvb_filet.png" | url,
+                                "link":  "http://lapremiere.be",
+                                "title": "La Première",
+                                "width": "75px"
+                            },
+                            {
+                                "image": "/partenaires/musiq3/logo_m3_rvb_filet_15.png" | url,
+                                "link":  "http://rtbf.be/musiq3",
+                                "title": "Musiq'3",
+                                "width": "72px"
+                            },
+                            {
+                                "image": "/partenaires/bozar/image-bozar.png" | url,
+                                "link":  "https://www.bozar.be/fr",
+                                "title": "Bozar",
+                                "width": "56px"
+                            },
+                            {
+                                "image": "/partenaires/digital-wallonia/digitalwallonia-logo-degrades-358x259.png" | url,
+                                "link": "https://www.digitalwallonia.be",
+                                "title": "Digital Wallonia",
+                                "width": "56px"
+                            },
+                            {
+                                "image": "/partenaires/region-de-bruxelles-capitale/logotype_2_rgb_72_blanc.jpg" | url,
+                                "link": "http://be.brussels",
+                                "title": "Région de Bruxelles-Capitale",
+                                "width": "56px"
+                            },
+
+
+                            {
+                                "image": "/imgs/fwb.png" | url,
+                                "link": "http://www.federation-wallonie-bruxelles.be",
+                                "title": "Fédération Wallonie Bruxelles",
+                                "width": "72px"
+                            },
+                            {
+                                "image": "/partenaires/unesco/unesco_logo-small-117.png" | url,
+                                "link": "http://unesco.org",
+                                "title": "Unesco",
+                                "width": "72px"
+                            }
+                        ]
+                    %}
+                    <div class="container">
+                        <div class="row">
+                            {% for icon in icons %}
+                                <div class="col-6 text-center mb-1">
+                                    <a href="{{ icon.link }}" target="_blank">
+                                        <img width="{{ icon.width }}" src="{{ icon.image }}" alt="{{ icon.title }}">
+                                    </a>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="license text-center police-normal small p-2">
+                        {{ render_cc_license("by-sa", "normal") }}
+                    </div>
+                    <!-- &copy; Copyleft 2018 by Nicolas Pettiaux. -->
+                </div>
+        </div>
+    </div>
+{% endmacro %}

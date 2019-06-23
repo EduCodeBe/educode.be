@@ -1,0 +1,86 @@
+$blue: #233980;
+$dark: #2d3436;
+$yellow: #e1b12c;
+$darker-yellow: #b18528;
+
+@font-face {
+  font-family: 'Unica One';
+  src: url('../fonts/UnicaOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Regular.ttf') format('truetype');
+}
+
+@mixin transition($params) {
+  -webkit-transition: #{$params};
+  -moz-transition:    #{$params};
+  -o-transition:      #{$params};
+  transition:         #{$params};
+}
+
+
+@mixin responsive($class) {
+  @if $class == xs { @media (max-width: 767px) { @content; } }
+  @else if $class == sm { @media (min-width: 768px) { @content; } }
+  @else if $class == md { @media (min-width: 992px) { @content; } }
+  @else if $class == lg { @media (min-width: 1200px) { @content; } }
+  @else { @warn "Breakpoint mixin supports: xs, sm, md, lg"; }
+}
+
+/**
+ * Dans cette feuille, il y aura toutes les fonctions/mixins
+ */
+
+@mixin box-shadow($params) {
+  -webkit-box-shadow: #{$params};
+  -moz-box-shadow:    #{$params};
+  box-shadow:         #{$params};
+}
+
+
+@mixin border-radius($params) {
+  -webkit-border-radius: #{$params};
+  -moz-border-radius:    #{$params};
+  border-radius:         #{$params};
+}
+
+@mixin scale($w, $h) {
+  -ms-transform:     scale($w, $h); /* IE 9 */
+  -webkit-transform: scale($w, $h); /* Safari */
+  transform:         scale($w, $h);
+}
+
+@mixin rotate($degrees) {
+  -ms-transform:     rotate(#{$degrees}); /* IE 9 */
+  -webkit-transform: rotate(#{$degrees}); /* Safari */
+  transform:         rotate(#{$degrees});
+}
+
+@mixin translateX($val) {
+  -ms-transform:     translateX(#{$val}); /* IE 9 */
+  -webkit-transform: translateX(#{$val}); /* Safari */
+  transform:         translateX(#{$val});
+}
+
+
+.height-300 {  height: 300px; }
+
+.color-white { color: white; }
+.color-yellow { color: $yellow; }
+.color-darker-yellow { color: $darker-yellow; }
+.color-dark { color: $dark; }
+.color-blue { color: $blue; }
+
+.background-color-yellow { background-color: $yellow; }
+.background-color-darker-yellow { background-color: $darker-yellow; }
+.background-color-dark   { background-color: $dark; }
+.background-color-blue   { background-color: $blue; }
+
+.border-yellow        { border-color: $yellow !important; }
+.border-darker-yellow { border-color: $darker-yellow !important; }
+.border-dark          { border-color: $dark !important; }
+.border-blue          { border-color: $blue !important; }
+
+

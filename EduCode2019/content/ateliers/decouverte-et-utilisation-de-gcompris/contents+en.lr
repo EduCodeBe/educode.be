@@ -1,0 +1,29 @@
+abstract: GCompris is a rich educational software, including more than a hundred activities aimed at children from 2 to 12 years old. This workshop will allow you to get familiar with all the options available, that allow you to adapt the software to different kinds of users.
+---
+age: 2-10
+---
+contact_name: Timothée Giet
+---
+description:
+
+GCompris is a rich educational software, including more than a
+hundred activities aimed at children from 2 to 12 years old.
+
+Those activities are playful, but always educational. The topics
+include reading and typing, arithmetics, geography, sciences,
+and other topics. This workshop will allow you to get familiar
+with all the options available, that allow you to adapt the
+software to different kinds of users.
+
+We will then make a tour of the main activities to present their
+content. Finally, we will talk about the work-in-progress features
+made especially for teachers and schools, and give some hints
+for people who want to get involved in the project.
+---
+language: en
+---
+periodes: 4
+---
+tag: primaire
+---
+title: Discover and use GCompris
