@@ -1,0 +1,7 @@
+_model: partner
+---
+name: Visit.Brussels
+---
+url: http://visit.brussels
+---
+priority: 1

@@ -11,19 +11,7 @@
     {% if context.url_path in root_url %}
         {%
             set menu = [
-                {
-                    "expandable": True,
-                    "href": "#program",
-                    "text": context.s_program,
-                    "children": [
-                        {"href": "#anchor-overview",  "text": context.s_overview_program},
-                        {"href": alt + "/lundi-27-aout"    | url, "text": context.s_monday_27},
-                        {"href": alt + "/mardi-28-aout"    | url, "text": context.s_thuesday_28},
-                        {"href": alt + "/mercredi-29-aout" | url, "text": context.s_wednesday_29}
-                    ]
-                },
-
-                {"expandable": False, "href": alt + "/concert",          "text": "Concert"},
+                {"expandable": False, "href": "#program", "text": context.s_program},
                 {"expandable": False, "href": alt + "/blog",             "text": "Blog"},
                 {"expandable": False, "href": '#anchor-speakers',        "text": context.s_speakers},
                 {"expandable": False, "href": '#anchor-expo',            "text": context.s_expo},
@@ -39,18 +27,7 @@
         {% set root_page = site.get_root(alt=alt) %}
         {%
             set menu = [
-                {
-                    "expandable": True,
-                    "href": "#program",
-                    "text": root_page.s_program,
-                    "children": [
-                        {"href": "#anchor-overview",              "text": root_page.s_overview_program},
-                        {"href": alt + "/lundi-27-aout"    | url, "text": root_page.s_monday_27},
-                        {"href": alt + "/mardi-28-aout"    | url, "text": root_page.s_thuesday_28},
-                        {"href": alt + "/mercredi-29-aout" | url, "text": root_page.s_wednesday_29}
-                    ]
-                },
-                {"expandable": False, "href": alt + "/concert",                 "text": "Concert"},
+                {"expandable": False, "href": "#program", "text": root_page.s_program},
                 {"expandable": False, "href": alt + "/blog",                    "text": "Blog"},
                 {"expandable": False, "href": alt + '/#anchor-speakers',        "text": root_page.s_speakers},
                 {"expandable": False, "href": alt + '/#anchor-expo',            "text": root_page.s_expo},
