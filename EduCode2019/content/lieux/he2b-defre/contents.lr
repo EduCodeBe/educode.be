@@ -4,20 +4,8 @@ name: HE2B-Defré
 ---
 address: Avenue Defré 62 à 1180 Bruxelles (Uccle)
 ---
-directions:
-
-L'école est aisément accessible en 
-* Bus 38 et 43, arrêt STATUAIRES
-* Bus 98, Tram 4 et 92, arrêt HÉROS
-* Bus 41 et 60, arrêt HOUZEAU
-* Tram 4, arrêt MARLOW
-* Tram XX, arrêt GLOBE
-* Tram 3 et 7, arrêt CHURCHILL
-mais aussi en train 
-* depuis la gare du Midi, et prendre le tram 4,
-à vélo et en voiture
-* sortir du ring à DROGENBOS
+directions: Plus tard
 ---
 type_location: Lieu normal
 ---
-url: http://www.defre.be/
+url: http://defre.be

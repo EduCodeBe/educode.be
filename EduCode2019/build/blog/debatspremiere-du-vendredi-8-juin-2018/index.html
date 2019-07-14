@@ -1,0 +1,536 @@
+
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="../../static/style.css">
+    <link rel="stylesheet" href="../../plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../../plugins/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../plugins/aos/dist/aos.css">
+    <link rel="stylesheet" href="../../plugins/slick/slick.css">
+    <link rel="stylesheet" href="../../plugins/slick/slick-theme.css">
+
+    <link rel="icon" type="image/png" href="../../imgs/educode-logo-transparent-cropped.png"/>
+
+    <title>DébatsPremière du vendredi 8 juin 2018 — EduCode</title>
+</head>
+<body>
+<div class="container-fluid">
+    
+    <!-- get current alternative -->
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+    <div class="row wrapper">
+        <!-- we render the sidebar -->
+        
+    
+        
+    
+
+    <!-- Here I define the menu when we are in the home page -->
+    <!-- I don't see how to create a submenu under practical infos and group there
+    /garderie and other infos to come -->
+    
+        
+        
+    
+
+    <div id="sidebar" class="d-none d-sm-block col-sm-4 col-md-3 col-lg-2 float-left pl-0 pr-0">
+        <div class="position-fixed d-none d-sm-block col-sm-4 col-md-3 col-lg-2 float-left pl-0 pr-0">
+            <div id="sidebar-wrapper">
+                <div class="text-center brand">
+                    <a href="../../">
+                        <img src="../../imgs/educode-logo-transparent.png" alt="">
+                    </a>
+                </div>
+                <div class="list-group border-0 card">
+                    <!-- we create the menu -->
+                    
+                        <!-- if the current item contains children -->
+                        
+                            <a href="#program"
+                               class="list-group-item d-inline-block collapsed menu-expandable"
+                               data-toggle="collapse"
+                               aria-expanded="false">Programme</a>
+
+                            <div class="collapse" id="program">
+                                
+                                    <a href="#anchor-overview" class="list-group-item item-expanded">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        Aperçu du programme
+                                    </a>
+                                
+                                    <a href="../../lundi-27-aout" class="list-group-item item-expanded">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        Lundi 27
+                                    </a>
+                                
+                                    <a href="../../mardi-28-aout" class="list-group-item item-expanded">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        Mardi 28
+                                    </a>
+                                
+                                    <a href="../../mercredi-29-aout" class="list-group-item item-expanded">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        Mercredi 29
+                                    </a>
+                                
+                            </div>
+
+                        
+                    
+                        <!-- if the current item contains children -->
+                        
+                            <a href="/concert" class="list-group-item d-inline-block">Concert</a>
+                        
+                    
+                        <!-- if the current item contains children -->
+                        
+                            <a href="/blog" class="list-group-item d-inline-block">Blog</a>
+                        
+                    
+                        <!-- if the current item contains children -->
+                        
+                            <a href="/#anchor-speakers" class="list-group-item d-inline-block">Intervenants</a>
+                        
+                    
+                        <!-- if the current item contains children -->
+                        
+                            <a href="/#anchor-expo" class="list-group-item d-inline-block">Exposition</a>
+                        
+                    
+                        <!-- if the current item contains children -->
+                        
+                            <a href="/#anchor-partners" class="list-group-item d-inline-block">Partenaires</a>
+                        
+                    
+                        <!-- if the current item contains children -->
+                        
+                            <a href="/#anchor-inscription" class="list-group-item d-inline-block">Inscription</a>
+                        
+                    
+                        <!-- if the current item contains children -->
+                        
+                            <a href="/#anchor-practical-infos" class="list-group-item d-inline-block">Info pratiques</a>
+                        
+                    
+                        <!-- if the current item contains children -->
+                        
+                            <a href="/#anchor-press" class="list-group-item d-inline-block">Presse</a>
+                        
+                    
+                        <!-- if the current item contains children -->
+                        
+                            <a href="/dons" class="list-group-item d-inline-block">Dons</a>
+                        
+                    
+                        <!-- if the current item contains children -->
+                        
+                            <a href="/#anchor-contact" class="list-group-item d-inline-block">Contact</a>
+                        
+                    
+                    <hr>
+                    
+                    <div class="container">
+                        <div class="row">
+                            
+                                <div class="col-6 text-center mb-1">
+                                    <a href="http://lapremiere.be" target="_blank">
+                                        <img width="75px" src="../../partenaires/la-premiere/logo_lp_2017_rvb_filet.png" alt="La Première">
+                                    </a>
+                                </div>
+                            
+                                <div class="col-6 text-center mb-1">
+                                    <a href="http://rtbf.be/musiq3" target="_blank">
+                                        <img width="72px" src="../../partenaires/musiq3/logo_m3_rvb_filet_15.png" alt="Musiq&#39;3">
+                                    </a>
+                                </div>
+                            
+                                <div class="col-6 text-center mb-1">
+                                    <a href="https://www.bozar.be/fr" target="_blank">
+                                        <img width="56px" src="../../partenaires/bozar/image-bozar.png" alt="Bozar">
+                                    </a>
+                                </div>
+                            
+                                <div class="col-6 text-center mb-1">
+                                    <a href="https://www.digitalwallonia.be" target="_blank">
+                                        <img width="56px" src="../../partenaires/digital-wallonia/digitalwallonia-logo-degrades-358x259.png" alt="Digital Wallonia">
+                                    </a>
+                                </div>
+                            
+                                <div class="col-6 text-center mb-1">
+                                    <a href="http://be.brussels" target="_blank">
+                                        <img width="56px" src="../../partenaires/region-de-bruxelles-capitale/logotype_2_rgb_72_blanc.jpg" alt="Région de Bruxelles-Capitale">
+                                    </a>
+                                </div>
+                            
+                                <div class="col-6 text-center mb-1">
+                                    <a href="http://www.federation-wallonie-bruxelles.be" target="_blank">
+                                        <img width="72px" src="../../imgs/fwb.png" alt="Fédération Wallonie Bruxelles">
+                                    </a>
+                                </div>
+                            
+                                <div class="col-6 text-center mb-1">
+                                    <a href="http://unesco.org" target="_blank">
+                                        <img width="72px" src="../../partenaires/unesco/unesco_logo-small-117.png" alt="Unesco">
+                                    </a>
+                                </div>
+                            
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="license text-center police-normal small p-2">
+                        <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US"><img alt="Creative Commons by-sa" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+                    </div>
+                    <!-- &copy; Copyleft 2018 by Nicolas Pettiaux. -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="mobile-sidebar" class="d-block d-sm-none">
+        <div id="sidebar-wrapper">
+            <div class="text-center brand">
+                <a href="../../">
+                    <img src="../../imgs/educode-logo-transparent.png" alt="">
+                </a>
+            </div>
+            <div class="list-group border-0 card">
+                    <!-- we create the menu -->
+                    
+                        <!-- if the current item contains children -->
+                        
+                            <a href="#program--mobile"
+                               class="list-group-item d-inline-block collapsed menu-expandable"
+                               data-toggle="collapse"
+                               aria-expanded="false">Programme</a>
+
+                            <div class="collapse" id="program--mobile">
+                                
+                                    <a href="#anchor-overview" class="list-group-item item-expanded">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        Aperçu du programme
+                                    </a>
+                                
+                                    <a href="../../lundi-27-aout" class="list-group-item item-expanded">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        Lundi 27
+                                    </a>
+                                
+                                    <a href="../../mardi-28-aout" class="list-group-item item-expanded">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        Mardi 28
+                                    </a>
+                                
+                                    <a href="../../mercredi-29-aout" class="list-group-item item-expanded">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        Mercredi 29
+                                    </a>
+                                
+                            </div>
+
+                        
+                    
+                        <!-- if the current item contains children -->
+                        
+                            <a href="/concert" class="list-group-item d-inline-block">Concert</a>
+                        
+                    
+                        <!-- if the current item contains children -->
+                        
+                            <a href="/blog" class="list-group-item d-inline-block">Blog</a>
+                        
+                    
+                        <!-- if the current item contains children -->
+                        
+                            <a href="/#anchor-speakers" class="list-group-item d-inline-block">Intervenants</a>
+                        
+                    
+                        <!-- if the current item contains children -->
+                        
+                            <a href="/#anchor-expo" class="list-group-item d-inline-block">Exposition</a>
+                        
+                    
+                        <!-- if the current item contains children -->
+                        
+                            <a href="/#anchor-partners" class="list-group-item d-inline-block">Partenaires</a>
+                        
+                    
+                        <!-- if the current item contains children -->
+                        
+                            <a href="/#anchor-inscription" class="list-group-item d-inline-block">Inscription</a>
+                        
+                    
+                        <!-- if the current item contains children -->
+                        
+                            <a href="/#anchor-practical-infos" class="list-group-item d-inline-block">Info pratiques</a>
+                        
+                    
+                        <!-- if the current item contains children -->
+                        
+                            <a href="/#anchor-press" class="list-group-item d-inline-block">Presse</a>
+                        
+                    
+                        <!-- if the current item contains children -->
+                        
+                            <a href="/dons" class="list-group-item d-inline-block">Dons</a>
+                        
+                    
+                        <!-- if the current item contains children -->
+                        
+                            <a href="/#anchor-contact" class="list-group-item d-inline-block">Contact</a>
+                        
+                    
+                    <hr>
+                    
+                    <div class="container">
+                        <div class="row">
+                            
+                                <div class="col-6 text-center mb-1">
+                                    <a href="http://lapremiere.be" target="_blank">
+                                        <img width="75px" src="../../partenaires/la-premiere/logo_lp_2017_rvb_filet.png" alt="La Première">
+                                    </a>
+                                </div>
+                            
+                                <div class="col-6 text-center mb-1">
+                                    <a href="http://rtbf.be/musiq3" target="_blank">
+                                        <img width="72px" src="../../partenaires/musiq3/logo_m3_rvb_filet_15.png" alt="Musiq&#39;3">
+                                    </a>
+                                </div>
+                            
+                                <div class="col-6 text-center mb-1">
+                                    <a href="https://www.bozar.be/fr" target="_blank">
+                                        <img width="56px" src="../../partenaires/bozar/image-bozar.png" alt="Bozar">
+                                    </a>
+                                </div>
+                            
+                                <div class="col-6 text-center mb-1">
+                                    <a href="https://www.digitalwallonia.be" target="_blank">
+                                        <img width="56px" src="../../partenaires/digital-wallonia/digitalwallonia-logo-degrades-358x259.png" alt="Digital Wallonia">
+                                    </a>
+                                </div>
+                            
+                                <div class="col-6 text-center mb-1">
+                                    <a href="http://be.brussels" target="_blank">
+                                        <img width="56px" src="../../partenaires/region-de-bruxelles-capitale/logotype_2_rgb_72_blanc.jpg" alt="Région de Bruxelles-Capitale">
+                                    </a>
+                                </div>
+                            
+                                <div class="col-6 text-center mb-1">
+                                    <a href="http://www.federation-wallonie-bruxelles.be" target="_blank">
+                                        <img width="72px" src="../../imgs/fwb.png" alt="Fédération Wallonie Bruxelles">
+                                    </a>
+                                </div>
+                            
+                                <div class="col-6 text-center mb-1">
+                                    <a href="http://unesco.org" target="_blank">
+                                        <img width="72px" src="../../partenaires/unesco/unesco_logo-small-117.png" alt="Unesco">
+                                    </a>
+                                </div>
+                            
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="license text-center police-normal small p-2">
+                        <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US"><img alt="Creative Commons by-sa" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+                    </div>
+                    <!-- &copy; Copyleft 2018 by Nicolas Pettiaux. -->
+                </div>
+        </div>
+    </div>
+
+
+        <main class="col col-sm-8 col-md-9 col-lg-10 float-left p-0 main">
+            <div class="container-fluid">
+                <div class="language row">
+                    <div class="col-12">
+                        <span class="text-white">Langue</span>
+
+                        <a class="language-link "
+                           href="../../blog/debatspremiere-du-vendredi-8-juin-2018/">
+                            <img width="16px" height="16px" src="../../imgs/fr.png" alt=""> FR
+                        </a>
+                        <a class="language-link "
+                           href="../../nl/blog/debatspremiere-du-vendredi-8-juin-2018/">
+                            <img width="16px" height="16px" src="../../imgs/nl.png" alt=""> NL
+                        </a>
+
+                        <!--
+                        <a class="language-link " href="../../en/blog/debatspremiere-du-vendredi-8-juin-2018/">
+                            <img width="16px" height="16px" src="../../imgs/gb.png" alt=""> EN
+                        </a>
+                        <a class="language-link " href="../../de/blog/debatspremiere-du-vendredi-8-juin-2018/">
+                            <img width="16px" height="16px" src="../../imgs/de.png" alt=""> DE
+                        </a>
+                        <a class="language-link " href="../../es/blog/debatspremiere-du-vendredi-8-juin-2018/">
+                            <img width="16px" height="16px" src="../../imgs/es.png" alt=""> ES
+                        </a>
+                        -->
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="content-wrapper">
+
+                <a id="menu-icon" href="#" data-target="#sidebar" class="d-block d-sm-none">
+                    <i class="fa fa-navicon"></i>
+                </a>
+
+                
+                
+    
+    <div class="blog-post container police-normal">
+        
+            <br>
+            <a href="../../blog/" class="btn btn-light"><i class="fa fa-arrow-left"></i> Retour à la liste des articles</a>
+            <h2 class="title"><strong>DébatsPremière du vendredi 8 juin 2018</strong></h2>
+        
+
+        <small class="meta">
+            Écrit par <strong>Comm</strong> le 2018-06-08
+        </small>
+        <hr>
+        <div  style="min-height: 300px;" >
+            <p><a href="../../intervenants/nicolas-pettiaux">Nicolas Pettiaux</a> est invité à participer à l'émission <a href="https://www.rtbf.be/auvio/emissions/detail_debats-premiere?id=11173">Débats Première</a> de ce vendredi 8 juin 2018 vers 12h, qui concernera l'éducation et le numérique.  Plus d'info dès que possible.</p>
+<p>Nicolas est déjà passé plusieurs fois dans l'émission <a href="https://www.rtbf.be/lapremiere/emissions/detail_tendances-premiere?programId=11090">Tendances Premières</a> avec Véronique Thyberghien, les</p>
+<ul>
+<li>26 avril 2018</li>
+<li>14 mai 2018 avec <a href="../../intervenants/erick-mascart">Erick Mascart</a> de l'asbl <a href="http://forsud.be">Forsud</a> </li>
+<li>1 juin 2018 avec <a href="../../intervenants/marie-duplot-kremer">Marie Duplot-Kremer</a></li>
+</ul>
+<p>Il a aussi été interviewé par Simon Bourgeois le 6 juin 2018 pour LaPremière à l'occasion de l'annonce du rachat de <a href="http://github.com">Github</a> par <a href="http://microsoft.com">Microsoft</a> et est passé dans l'émission de Arnaud Ryussen.</p>
+<p>Il est prévu qu'il passe encore dans <a href="https://www.rtbf.be/lapremiere/emissions/detail_tendances-premiere?programId=11090">Tendances Premières</a> les</p>
+<ul>
+<li>15 juin 2018 avec <a href="../../intervenants/georges-khzanadar">Georges Khaznadar</a></li>
+<li>29 juin 2018 avec <a href="../../intervenants/gilles-dowek">Gilles Dowek</a></li>
+</ul>
+
+        </div>
+        <hr>
+        
+            <div class="comments">
+<div id="disqus_thread"></div>
+<script>
+  var disqus_config = function() { this.page.identifier = "/blog/debatspremiere-du-vendredi-8-juin-2018"; };
+  (function() {
+    var d = document, s = d.createElement('script');
+    s.src = '//educode2018.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>
+  Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript"
+    rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+</div>
+        
+    </div>
+
+
+            </div>
+
+        </main>
+    </div>
+</div>
+
+<script src="../../plugins/jquery.min.js"></script>
+<script src="../../plugins/bootstrap/bootstrap.min.js"></script>
+<script src="../../plugins/aos/dist/aos.js"></script>
+<script src="../../plugins/slick/slick.min.js"></script>
+
+<script>
+    $(function () {
+        $(document).on("scroll", onScroll);
+
+        
+
+        var $root = $('html, body');
+        var $document = $(document);
+        var $links = $('a[href^="#anchor"]');
+
+        $document.on('click', 'a[href^="#anchor"]', function (e) {
+            e.preventDefault();
+            $document.off("scroll");
+            $links.removeClass("selected");
+            $(this).addClass("selected");
+
+            var target = this.hash;
+            var menu = target;
+            var $target = $(target);
+
+            $root.stop().animate({
+                scrollTop: $($.attr(this, 'href')).offset().top + 2
+            }, 500, 'swing', function () {
+                window.location.hash = target;
+                $document.on("scroll", onScroll);
+            });
+
+            return false;
+        });
+
+        $(window).resize( function (event) {
+            console.log(getBootstrapBreakpoint());
+        });
+
+        function onScroll(event) {
+            let scrollPos = $document.scrollTop();
+            $links.each(function () {
+                let currLink = $(this);
+                let refElement = $(currLink.attr("href"));
+                if (refElement.length > 0) {
+                    if (refElement.position().top <= scrollPos
+                        && refElement.position().top + refElement.height() > scrollPos)
+                    {
+                        $links.removeClass("selected");
+                        currLink.addClass("selected");
+                    }
+                    else {
+                        currLink.removeClass("selected");
+                    }
+                }
+            });
+        }
+
+        $("#menu-icon").on("click", function (event) {
+            event.preventDefault();
+            $("#mobile-sidebar").toggleClass("show");
+        })
+    });
+
+    function getBootstrapBreakpoint() {
+        var w = $(document).innerWidth();
+        return (w < 575.98) ? 'xs' : ((w < 767.98) ? 'sm' : ((w < 991.98) ? 'md' : 'lg'));
+    }
+
+</script>
+
+
+
+</body>
+</html>
+

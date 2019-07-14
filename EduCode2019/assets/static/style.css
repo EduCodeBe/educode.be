@@ -433,6 +433,9 @@ table td, table th {
     border-right: solid #e1b12c 15px;
     border-left: solid #e1b12c 15px; }
 
+h1, h2 {
+  font-family: "Unica One", "Roboto Slab", serif !important; }
+
 .speaker {
   min-height: 300px;
   cursor: pointer;

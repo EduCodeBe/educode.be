@@ -1,0 +1,211 @@
+@import "helpers";
+
+.main {
+  height: 100vh;
+  font-family:"Unica One", "Roboto Slab", serif;
+
+  .overlay {
+    padding-top: 150px;
+    text-align: center;
+    font-size:1.7rem;
+    .baseline {
+      font-size: 2.7rem;
+      @include responsive(xs) {
+        font-size:1.8rem;
+      }
+    }
+
+    img {
+      width: 600px;
+
+      @include responsive(xs) {
+        width: 100%;
+      }
+    }
+  }
+
+  .bxl-img {
+    background: no-repeat center center fixed;
+    background-size: cover;
+    height: 350px;
+    border-top: solid $yellow 3px;
+    border-bottom: solid $yellow 3px;
+    margin-top: 20px;
+    &.col-md-3 {
+      background-attachment: scroll !important;
+      @include border-radius("50%");
+      height: 250px;
+      &:nth-of-type(1) {
+        border: solid black 3px;
+      }
+      &:nth-of-type(2) {
+        border: solid $yellow 3px;
+      }
+      &:nth-of-type(3) {
+        border: solid darkred 3px;
+      }
+      &:nth-of-type(4) {
+        border: solid black 3px;
+      }
+
+    }
+  }
+
+
+
+  .description {
+    background-color: #fff;
+
+    .title {
+      margin-top: 15px;
+      font-size: 3rem;
+      color: $blue;
+      border-right: solid $yellow 15px;
+      text-align: right;
+      padding: 10px;
+
+      @include responsive(xs) {
+        font-size:1.6rem;
+      }
+    }
+
+    .title-left {
+      text-align: left;
+      border-left: solid $yellow 15px;
+      border-right: none;
+    }
+
+    .about {
+      font-family: Lato, "Roboto Slab", Serif, serif;
+    }
+  }
+
+  #contacts {
+    margin: 0 0 0 25px;
+    padding: 20px;
+    .contact {
+      margin-top: 15px;
+      margin-bottom: 15px;
+      h4 {
+        margin: 0;
+        color: $blue;
+      }
+      p {
+        font-weight: 600;
+        text-align: center;
+        padding-top: 5px;
+        border-top: solid $darker-yellow 2px;
+      }
+    }
+
+  }
+}
+
+
+
+.location {
+  .location-picture {
+    min-height: 200px;
+  }
+}
+
+
+#anchor-expo {
+  margin-bottom: 50px;
+}
+
+table {
+  td, th {
+    text-align: center;
+  }
+}
+
+#anchor-partners {
+  .partner {
+    .partner-picture {
+      opacity: .33;
+      @include transition("opacity ease .4s");
+      &:hover {
+        opacity: 1;
+      }
+
+      img {
+        display: inline-block !important;
+      }
+    }
+  }
+}
+
+#landing-page-content {
+  font-family: Lato, "Roboto Slab", Roboto, serif;
+}
+
+.title {
+  font-family:"Unica One", "Roboto Slab", serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  &.text-center {
+    border-right: solid $yellow 15px;
+    border-left: solid $yellow 15px;
+  }
+}
+
+.speaker {
+  min-height: 300px;
+  cursor: pointer;
+  padding: 30px !important;
+  @include responsive(xs) {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+  &:hover {
+    .speaker-picture {
+      transform: scale(1.2, 1.2);
+    }
+    .speaker-name, .speaker-name a {
+      color: $darker-yellow;
+    }
+  }
+
+  .speaker-name {
+    font-family:"Unica One", "Roboto Slab", serif;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    @include responsive(xs) {
+      font-size: 16px;
+    }
+
+    a {
+      color: $dark;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .speaker-picture-container {
+    width: 100%;
+    text-align: center;
+
+
+    .speaker-picture {
+      display: inline-block;
+      overflow: hidden;
+      border-radius:50%;
+      width: 150px;
+      height: 150px;
+
+      background: no-repeat center center;
+      -webkit-background-size: cover;
+      background-size: cover;
+      @include transition("transform ease .4s");
+
+      @include responsive(xs) {
+        width: 100%;
+        height: 105px ;
+      }
+    }
+  }
+}

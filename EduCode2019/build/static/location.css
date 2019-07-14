@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Unica One';
+  src: url("../fonts/UnicaOne-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-Regular.ttf") format("truetype"); }
+/**
+ * Dans cette feuille, il y aura toutes les fonctions/mixins
+ */
+.height-300 {
+  height: 300px; }
+
+.color-white {
+  color: white; }
+
+.color-yellow {
+  color: #e1b12c; }
+
+.color-darker-yellow {
+  color: #b18528; }
+
+.color-dark {
+  color: #2d3436; }
+
+.color-blue {
+  color: #233980; }
+
+.background-color-yellow {
+  background-color: #e1b12c; }
+
+.background-color-darker-yellow {
+  background-color: #b18528; }
+
+.background-color-dark {
+  background-color: #2d3436; }
+
+.background-color-blue {
+  background-color: #233980; }
+
+.border-yellow {
+  border-color: #e1b12c !important; }
+
+.border-darker-yellow {
+  border-color: #b18528 !important; }
+
+.border-dark {
+  border-color: #2d3436 !important; }
+
+.border-blue {
+  border-color: #233980 !important; }
+
+#page-location {
+  margin-top: 200px; }
+  #page-location .location-description {
+    font-family: Lato, "Roboto Slab", Roboto, serif; }
+
+/*# sourceMappingURL=location.css.map */
